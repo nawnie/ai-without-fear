@@ -1,5 +1,9 @@
 # AIWF Research Atlas
 
+<p align="center">
+  <img src="AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/torchie_callouts/torchie_hero_reference.png" alt="Torchie, AI Without Fear mascot" width="160"/>
+</p>
+
 Status: v3.3 research preview. See `KNOWN_GAPS.md`, `LEARNING_PASS_REVIEW.md`, and the Vol. 2 queue files before treating this as a finished corpus.
 
 AIWF Research Atlas is a GitHub-ready research and retrieval corpus for AI Without Fear work. The original Atlas v3.3 folder, Gradio 6 handbook archive, and older drop-in package have been merged into one Atlas tree so downstream tools see them as one evolving knowledge base rather than three separate corpora.
