@@ -67,3 +67,10 @@ This repository is strongest for:
 ## GitHub Notes
 
 The repository intentionally keeps the main Atlas folder name so existing internal references remain meaningful. The Gradio archive and packaged drop-in are now incorporated inside the Atlas tree as update/history material instead of standing beside it as separate corpora.
+
+## Support
+
+Support AI Without Fear project development, testing, guides, tools, and local AI experiments:
+
+- [Support on Venmo](https://venmo.com/code?user_id=4526061123536861189&created=1779356130)
+- [Support policy and reusable copy](SUPPORT.md)
