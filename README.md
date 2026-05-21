@@ -1,7 +1,7 @@
 # AIWF Research Atlas
 
 <p align="center">
-  <img src="AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/torchie_callouts/torchie_hero_reference.png" alt="Torchie, AI Without Fear mascot" width="160"/>
+  <img src="AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/torchie_callouts/Aiwf%20logo.png" alt="AI Without Fear logo" width="220"/>
 </p>
 
 Status: v3.3 research preview. See `KNOWN_GAPS.md`, `LEARNING_PASS_REVIEW.md`, and the Vol. 2 queue files before treating this as a finished corpus.
