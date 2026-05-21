@@ -1,0 +1,6 @@
+vram_tier,llm_text,vlm,image_lora,video_lora,asr,notes
+8GB,tiny/small LoRA; careful QLoRA,mostly avoid or tiny only,SD1.5 LoRA possible,avoid except toy,small ASR possible,prioritize smoke tests and low resolution/context
+12GB,0.5B-7B QLoRA constrained,small VLM LoRA at low image size,SDXL possible; Flux edge cases,very constrained,Whisper small/medium feasible,watch sequence length and eval spikes
+16GB,7B QLoRA comfortable; 13B constrained,small VLM LoRA possible,SDXL/Flux more realistic,short/low-res experiments,ASR feasible,good AIWF target tier
+24GB,7B/13B QLoRA strong,VLM LoRA more realistic,modern image LoRA strong,short video LoRA realistic,ASR large easier,best single consumer tier
+2x24GB+,larger/distributed experiments,serious VLM experiments,heavy training,more realistic video,large ASR,requires FSDP/DeepSpeed skill

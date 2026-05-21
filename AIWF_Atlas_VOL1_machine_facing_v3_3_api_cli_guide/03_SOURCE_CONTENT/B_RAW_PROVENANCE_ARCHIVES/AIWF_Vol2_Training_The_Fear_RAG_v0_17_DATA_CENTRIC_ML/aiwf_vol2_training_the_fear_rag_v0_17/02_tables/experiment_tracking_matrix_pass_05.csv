@@ -1,0 +1,6 @@
+tracking_method,best_for,local_or_cloud,minimum_aiwf_capture,notes
+plain_markdown_csv,beginner reproducibility and RAG ingestion,local,run card|metrics.csv|config|samples,AIWF default fallback
+TensorBoard,loss curves and visual metrics,local,logdir plus run card,good with PyTorch and many trainers
+Weights_and_Biases,hosted experiment tracking/artifacts/sweeps,cloud by default,run URL plus exported config,excellent but requires account/network
+MLflow,experiment lifecycle and model registry,local or server,run ID plus artifacts,good for serious reproducibility
+trainer_native_logs,basic debugging,local,raw train.log and warnings,always preserve even when using another tracker

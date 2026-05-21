@@ -1,0 +1,10 @@
+area,jurisdiction_or_framework,source,aiwf_training_relevance,status_note
+copyright training,U.S.,U.S. Copyright Office AI Part 3,training on copyrighted material remains fact-specific and legally contested,track active cases and final report
+GPAI compliance,EU,EU AI Act / GPAI Code of Practice,model documentation transparency copyright policy and safety obligations shape best practices,code published 2025 as voluntary compliance path
+voice cloning,U.S. FTC,FTC voice cloning challenge/article,deceptive AI voice uses create consumer harm and enforcement risk,high priority for voice chapter
+synthetic media governance,PAI,Responsible Practices for Synthetic Media,consent disclosure transparency framework maps to AIWF rules,use as teaching framework
+provenance,C2PA/Content Credentials,content provenance standards,metadata can record origin and edit history but may be stripped by platforms,use as best practice not sole disclosure
+AI risk,NIST AI RMF,NIST AI RMF + GenAI Profile,govern map measure manage risk vocabulary,use to structure AIWF risk checklists
+model documentation,Hugging Face / Model Cards,model cards docs and paper,intended use limits data evals required for responsible release,make model-card builder
+NLP data documentation,Data Statements,ACL/TACL paper,documents population language context bias and transfer limits,extend to multimodal datasets
+dataset documentation,Datasheets for Datasets,arXiv paper,dataset motivation composition collection preprocessing use limits,make dataset-card builder

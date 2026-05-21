@@ -1,0 +1,8 @@
+split_type,use_when,prevents,warning
+random,iid rows genuinely independent,basic overfit estimate,unsafe for grouped/time/person data
+stratified,class imbalance matters,class ratio distortion,does not solve leakage
+group,same person/user/document/source repeats,identity/source leakage,needs correct group key
+time,future prediction or changing systems,time leakage,can expose drift harshly
+document/topic,RAG or corpus training,same-document contamination,requires chunk ancestry
+scene/video,video frames/clips from same scene,frame/scene leakage,split by source scene not frame
+identity,face/voice/person training,same identity leakage in eval,must respect consent boundaries

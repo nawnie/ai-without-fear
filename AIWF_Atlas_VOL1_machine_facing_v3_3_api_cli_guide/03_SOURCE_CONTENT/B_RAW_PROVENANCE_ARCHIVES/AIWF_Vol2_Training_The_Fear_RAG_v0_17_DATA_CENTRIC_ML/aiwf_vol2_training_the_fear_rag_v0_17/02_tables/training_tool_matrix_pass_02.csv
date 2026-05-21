@@ -1,0 +1,15 @@
+id,tool,domain,priority,consumer_feasibility,best_first_use,primary_outputs,aiwf_action,source_url
+015,Unsloth,LLM/chatbot fine-tuning,P0,High for small/7B QLoRA; medium for 14B; low for 30B+ on 16GB,SFT/QLoRA starter bot,"LoRA/QLoRA adapters, merged models",preset generator + eval harness,https://github.com/unslothai/unsloth
+016,LLaMA-Factory,LLM/VLM unified fine-tuning,P0,High for small/7B QLoRA; method-dependent beyond that,method comparison and GUI/YAML training,"adapters, checkpoints",method wizard + YAML helper,https://github.com/hiyouga/LLaMA-Factory
+017,Axolotl,advanced LLM training,P0/P1,Medium; strong but config-heavy,reproducible YAML training,adapters/checkpoints,advanced config explainer,https://github.com/axolotl-ai-cloud/axolotl
+017,TRL,LLM post-training theory/scripts,P1,Method-dependent; advanced for preference/RL,DPO/PPO/SFT theory labs,trained models/adapters,theory and scripts,https://github.com/huggingface/trl
+017,torchtune,PyTorch-native LLM recipes,P1,Medium/high for recipe-based single-GPU LoRA/QLoRA,clean recipe labs,adapters/checkpoints,recipe teaching path,https://github.com/pytorch/torchtune
+018,Sentence Transformers,embedding/reranker training,P0,High for small embedding models; medium for rerankers,RAG retrieval fine-tune,embedding/reranker model,RAG dataset/eval harness,https://sbert.net/
+018,FlagEmbedding/BGE,embedding/reranker training,P0,Medium/high depending model size,BGE hard-negative retrieval tuning,embedding/reranker model,hard-negative miner,https://github.com/FlagOpen/FlagEmbedding
+019,SimpleTuner,modern diffusion training,P0,High for SDXL LoRA; medium/heavy for Flux/video,SDXL/Flux LoRA with serious control,LoRA/checkpoints,dataset bucket inspector + presets,https://github.com/bghira/SimpleTuner
+020,AI Toolkit,modern image/video diffusion training,P0,Medium; model-dependent; good GUI/CLI target,Flux/Z-Image/Wan LoRA experiments,LoRA/adapters,one-click backend candidate,https://github.com/ostris/ai-toolkit
+021,OneTrainer,GUI diffusion training,P1,High for SD 1.5/SDXL; variable for modern models,visual LoRA teaching,LoRA/checkpoints,visual beginner option,https://github.com/Nerogar/OneTrainer
+022,musubi-tuner,Wan/Hunyuan/video LoRA,P0,Medium-low on 16GB; better 24GB+; cloud for serious runs,Wan/Hunyuan video LoRA research,LoRA adapters,video dataset doctor + presets,https://github.com/kohya-ss/musubi-tuner
+023,LTX/LTX-2 trainer,video LoRA/full/IC-LoRA,P0/P1,Experimental on consumer; advanced for full/IC-LoRA,LTX video LoRA lab,LoRA/full fine-tunes/IC-LoRA,video training chapter,https://docs.ltx.video/open-source-model/ltx-2-trainer/ltx-2-training
+024,GPT-SoVITS,voice/TTS training,P0,High for zero/few-shot; verify version requirements,consented voice adaptation,voice model/adapters,consent-gated voice lab,https://github.com/RVC-Boss/GPT-SoVITS
+025,AIWF Dataset Doctor,dataset QA,P0,High; local utility,preflight validation,reports/presets/model cards,build this first,local spec

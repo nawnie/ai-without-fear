@@ -1,0 +1,24 @@
+{
+  "version": "v1.5",
+  "scope": "Topics 20-25 bibliography verification",
+  "status_meanings": {
+    "verified_primary": "Official/academic primary source found and claim broadly supported.",
+    "verified_industry": "Reputable industry source found; use for trend/practice framing, not immutable fact.",
+    "partially_verified": "A related source was verified, but some specific claims need tighter sourcing.",
+    "verified_secondary": "Secondary source found; prefer official vendor/paper if available.",
+    "needs_exact_url": "Source family is plausible but exact URL/citation still needs pinning.",
+    "needs_stronger_source": "Claim is plausible but not sufficiently backed by the current source set.",
+    "not_found_high_risk": "Could not locate the named source; do not cite as fact until found.",
+    "verified_but_year_corrected": "Source exists but the archive/year label should be corrected.",
+    "verified_primary_with_date_correction": "Source exists but release/report date differs from notes.",
+    "verified_primary_with_nuance": "Source exists but claim needs exact wording/qualification."
+  },
+  "high_priority_corrections": [
+    "Remove or replace NVIDIA PersonaPlex unless an official source is found.",
+    "Correct ACL synthetic data tutorial year from 2026 to 2025.",
+    "Correct Qwen3-VL technical report date to late 2025 when referencing the paper.",
+    "Prefer Google Cloud 2.7x TPU 8t price-performance over the source-list 2.8x unless another official Google page supports 2.8x.",
+    "Treat 30-70% frontier synthetic-data share and 30-50% electricity TCO as volatile estimates until stronger named sources are added.",
+    "Pin exact official URLs for Feast, Gradio audio/WebRTC, LangSmith, Phoenix, Helicone, and ARES."
+  ]
+}

@@ -1,0 +1,9 @@
+problem_type,default_bad_metric,better_metric,when_to_use,watch_out
+Balanced classification,Accuracy,Accuracy + confusion matrix,classes balanced and costs similar,accuracy hides class-specific failure
+Imbalanced classification,Accuracy,"PR-AUC, recall, precision, macro F1",rare positive class or uneven classes,ROC-AUC may look inflated
+Multiclass classification,Single accuracy,Macro F1 + per-class recall,minority classes matter,micro metrics can hide ignored classes
+Regression with outliers,MSE only,MAE or Huber + residual plots,noisy extreme values,robust losses may underweight important rare extremes
+Ranking/retrieval,Final answer vibes,"Recall@k, MRR, nDCG",RAG and search systems,right answer may be impossible if retrieval fails
+Generative image/video,Training loss only,held-out prompt grids + failure taxonomy,LoRA/video adapters,loss may not track visual quality
+Chatbot behavior,One demo chat,private eval set + regression tests,SFT/adapters/system prompts,style improvement may hide factual regression
+Calibration,Accuracy,Brier score + reliability bins,probability outputs used for decisions,LLM confidence is not calibrated by default

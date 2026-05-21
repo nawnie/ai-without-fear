@@ -1,0 +1,23 @@
+{
+  "pass_id": "PASS_02D",
+  "archive_type": "markdown_csv_node_research_only",
+  "source_folder": "/mnt/data/aiwf_node_research_pass02C_a_tier_expansion_mds_v0_3",
+  "rows_before": 225,
+  "new_rows_this_pass": 229,
+  "pass02_rows_total": 454,
+  "schema_confirmed_rows": 165,
+  "mapping_confirmed_rows": 257,
+  "module_inventory_rows": 32,
+  "safe_to_generate_rows": 35,
+  "local_test_required_rows": 382,
+  "do_not_generate_rows": 245,
+  "original_list_rows": 291,
+  "original_list_covered": 30,
+  "original_list_remaining": 261,
+  "a_tier_total": 24,
+  "a_tier_covered": 24,
+  "a_tier_remaining": 0,
+  "unique_repo_urls_total": 282,
+  "unique_repo_urls_covered": 30,
+  "unique_repo_urls_remaining": 252
+}

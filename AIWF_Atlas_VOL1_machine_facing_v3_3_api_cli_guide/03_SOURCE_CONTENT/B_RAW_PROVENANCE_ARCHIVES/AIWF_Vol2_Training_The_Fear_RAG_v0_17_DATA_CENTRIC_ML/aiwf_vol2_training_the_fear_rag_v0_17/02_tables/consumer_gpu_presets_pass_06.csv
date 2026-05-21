@@ -1,0 +1,8 @@
+vram,task,method,starting_model_size,first_settings,avoid_first
+12GB,LLM behavior,QLoRA,1B-8B,"rank 8-16, seq 1024-2048, batch 1, grad accum 4-16",14B high context/full fine-tune
+12GB,RAG retriever,embedding/reranker fine-tune,small-medium,"AdamW, hard negatives, Recall@k eval",LLM SFT for pure retrieval failure
+12GB,image LoRA,LoRA,SD1.5/SDXL depending trainer,"rank 8-32, conservative resolution",video LoRA without proven preset
+16GB,LLM behavior,QLoRA,3B-14B,"rank 16-32, seq 2048 first",long context before smoke test
+16GB,image LoRA,LoRA/DoRA if supported,SDXL/Flux-class constrained,"rank 16-64, sample checkpoints",unvalidated high LR
+24GB,LLM behavior,LoRA/QLoRA,7B-14B comfortable,"rank 16-64, seq 2048-4096+ after test",assuming bigger is better
+24GB,video LoRA,trainer-specific LoRA,Wan/LTX/Hunyuan constrained,"short clips, low frame counts first",large clips without eval

@@ -1,0 +1,21 @@
+# RAG Nodepack 026 — UltimateSDUpscale — Pass 02D
+
+Repo: `ssitu/ComfyUI_UltimateSDUpscale`
+
+Rows: **3**
+Schema-confirmed: **3**
+Mapping-confirmed: **0**
+Module inventory: **0**
+Local-test required: **3**
+
+## AIWF usage
+
+UltimateSDUpscale is a strong tiled upscale/refine candidate but wraps A1111 Ultimate SD Upscale internals; local testing is required.
+
+## CSV preview
+
+| pass_id   |   pack_number | pack_name         | repo                            | node_id_class_type            | display_name                  | category        | schema_level     | status   | input_summary                                                                                                                                 | output_summary   | primary_use                                               | models_or_dependencies                          | workflow_generation_policy        | portable_default_candidate   | requires_local_test   | risk_tags                                | source_refs               | notes                                                                                           |
+|:----------|--------------:|:------------------|:--------------------------------|:------------------------------|:------------------------------|:----------------|:-----------------|:---------|:----------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|:----------------------------------------------------------|:------------------------------------------------|:----------------------------------|:-----------------------------|:----------------------|:-----------------------------------------|:--------------------------|:------------------------------------------------------------------------------------------------|
+| PASS_02D  |            26 | UltimateSDUpscale | ssitu/ComfyUI_UltimateSDUpscale | UltimateSDUpscale             | UltimateSDUpscale             | image/upscaling | schema_confirmed | active   | image, model, positive, negative, vae, upscale_by, seed, steps, cfg, sampler_name, scheduler, denoise, upscale_model, tile/seam/batch options | IMAGE            | Upscale image and run img2img per tile.                   | Upscale model; wraps original A1111 USDU script | guarded_generate_after_local_test | no                           | yes                   | upscale,tiled,A1111_wrapper,global_state | turn183file0;turn184file0 | Uses patched A1111 script/shared state; requires local install test before publishing workflow. |
+| PASS_02D  |            26 | UltimateSDUpscale | ssitu/ComfyUI_UltimateSDUpscale | UltimateSDUpscaleNoUpscale    | UltimateSDUpscaleNoUpscale    | image/upscaling | schema_confirmed | active   | upscaled_image, model, positive, negative, vae, seed, steps, cfg, sampler/scheduler/denoise, tile/seam/batch options                          | IMAGE            | Run tiled img2img refinement without separate upscaler.   | Upscale model; wraps original A1111 USDU script | guarded_generate_after_local_test | no                           | yes                   | upscale,tiled,A1111_wrapper,global_state | turn183file0;turn184file0 | Uses patched A1111 script/shared state; requires local install test before publishing workflow. |
+| PASS_02D  |            26 | UltimateSDUpscale | ssitu/ComfyUI_UltimateSDUpscale | UltimateSDUpscaleCustomSample | UltimateSDUpscaleCustomSample | image/upscaling | schema_confirmed | active   | image, model, conditioning, vae, upscale_by, seed, steps, cfg, sampler/scheduler, optional upscaler/custom_sampler/custom_sigmas              | IMAGE            | Tiled upscale/refine with optional custom sampler/sigmas. | Upscale model; wraps original A1111 USDU script | guarded_generate_after_local_test | no                           | yes                   | upscale,tiled,A1111_wrapper,global_state | turn183file0;turn184file0 | Uses patched A1111 script/shared state; requires local install test before publishing workflow. |

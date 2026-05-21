@@ -1,0 +1,20 @@
+{
+  "pass": "PASS_02G",
+  "date": "2026-05-19",
+  "mode": "light_coverage",
+  "source_base": "PASS_02F v0.6",
+  "csv_rows_total": 581,
+  "new_rows": 36,
+  "covered_original_rows": 79,
+  "remaining_original_rows": 209,
+  "needs_retry_or_stale": 3,
+  "files": [
+    "PASS_02_NODE_INDEX.csv",
+    "ORIGINAL_COVERAGE_LEDGER.csv",
+    "NODEPACK_SUMMARY.csv",
+    "PASS_02G_INDEX.md",
+    "PASS_02G_COVERAGE_STATUS.md",
+    "PASS_02G_WORKFLOW_POLICY.md",
+    "RAG_PASS02G_VIDEO_LAYER_IDENTITY_LIGHT.md"
+  ]
+}

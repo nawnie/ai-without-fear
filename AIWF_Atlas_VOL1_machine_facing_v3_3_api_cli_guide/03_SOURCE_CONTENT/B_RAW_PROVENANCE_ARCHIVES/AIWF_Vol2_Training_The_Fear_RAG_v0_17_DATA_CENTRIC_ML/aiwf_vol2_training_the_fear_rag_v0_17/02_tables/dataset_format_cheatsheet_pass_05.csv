@@ -1,0 +1,10 @@
+format,modality,typical_fields,best_for,watch_out,example_trainers
+raw_text,text,text,continued pretraining/domain adaptation,does not create chat behavior by itself,TRL/Axolotl/torchtune/custom HF scripts
+prompt_completion,text,prompt|completion,single-turn task behavior,weak for multi-turn chat if flattened,TRL/Axolotl
+alpaca,text,instruction|input|output,beginner SFT and task tuning,input field optional but schema must be consistent,LLaMA-Factory/Axolotl
+sharegpt_messages,text,messages or conversations,multi-turn assistant/persona behavior,chat template mismatch,LLaMA-Factory/Axolotl/TRL
+preference_pair,text,prompt|chosen|rejected,DPO/ORPO/KTO style preference tuning,chosen/rejected must not be identical or trivial,TRL/LLaMA-Factory/Axolotl
+image_sidecar,image,image file|txt caption,SD/SDXL/Flux/Qwen image LoRA,caption quality controls concept binding,SimpleTuner/AI-Toolkit/OneTrainer/kohya
+video_sidecar,video,video file|txt caption|metadata,motion/style/video LoRA,frame count and scene cuts matter,musubi-tuner/SimpleTuner/LTX Trainer/DiffSynth
+vlm_messages,image+text,image|messages,visual instruction and screenshot QA,answer must be grounded in image,TRL VLM/Qwen/LLaVA style trainers
+voice_transcript,audio,audio file|transcript|speaker,voice/TTS/ASR adaptation,consent and transcript accuracy are blockers,GPT-SoVITS/Whisper/Wav2Vec2 workflows

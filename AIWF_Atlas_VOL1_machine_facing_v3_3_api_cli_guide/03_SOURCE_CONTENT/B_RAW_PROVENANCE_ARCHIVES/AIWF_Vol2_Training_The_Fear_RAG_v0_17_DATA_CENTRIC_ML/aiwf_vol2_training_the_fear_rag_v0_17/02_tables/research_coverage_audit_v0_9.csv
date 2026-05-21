@@ -1,0 +1,14 @@
+domain,status,current_strength,main_gap,next_action,priority
+LLM/Bot training,usable_seed,multiple trainers and methods mapped,install/run-pack evidence,create tool-by-tool run cards,P0
+PEFT adapters,usable_seed,LoRA/QLoRA/DoRA/rsLoRA covered,image-specific LyCORIS depth,deep adapter family pass,P0
+Dataset construction,strong_seed,"schemas, cleaning, PII, preference data covered",actual Dataset Doctor implementation schema,build tool spec into file formats,P0
+RAG/retriever training,partial,retriever/reranker direction mapped,hard-negative examples and eval sets,create RAG training examples,P1
+Image training,partial,major tools mapped,family-specific LoRA methods and presets,next deep pass,P0
+Video training,early,Wan/LTX/musubi direction mapped,frame/clip/bucket specifics and tested presets,deep video pass,P0
+Voice/audio training,early,GPT-SoVITS/RVC/F5-TTS direction mapped,law/consent and workflow detail,deep voice pass,P1
+VLM/multimodal,early,Qwen/LLaVA direction mapped,dataset examples and eval,deep VLM pass,P1
+Evaluation,partial,frameworks and gates mapped,concrete benchmark packs,build AIWF Training Judge examples,P0
+Law/rights/consent,partial,US/EU/consent baseline,jurisdiction and use-case depth,deep law passes,P0
+Deployment/export,partial,GGUF/GPTQ/AWQ/bnb mapped,exact export recipes,run-pack examples,P1
+AIWF tooling specs,strong_direction,Dataset Doctor/Preset Builder/Judge mapped,implementation detail,prototype specs and schemas,P0
+Image LoRA families,strong,Pass 09 adds SDXL/SD3/FLUX/Qwen/Z-Image model-family separation and trainer routing

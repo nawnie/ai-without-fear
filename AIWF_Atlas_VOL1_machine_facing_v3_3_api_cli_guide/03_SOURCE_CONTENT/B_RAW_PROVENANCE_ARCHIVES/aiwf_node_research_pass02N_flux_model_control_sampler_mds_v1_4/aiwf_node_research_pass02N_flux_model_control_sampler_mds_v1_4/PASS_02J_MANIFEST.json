@@ -1,0 +1,25 @@
+{
+  "pass": "02J",
+  "date": "2026-05-19",
+  "mode": "field_report_overlay_and_decision_layer",
+  "archive_policy": "markdown_csv_json_only_node_research_no_full_project_archive",
+  "base_pass": "02I",
+  "base_rows": 632,
+  "added_node_rows": 11,
+  "total_node_rows": 643,
+  "decision_layer_rows": 10,
+  "source_added": "ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md",
+  "remaining_original_rows_left": 189,
+  "remaining_retry_stale_rows": 2,
+  "new_files": [
+    "NODE_INDEX_990_ComfyUI_Core_Native_Wan22.csv",
+    "AIWF_MODERN_TIER_DECISION_LAYER_PASS02J.csv",
+    "RAG_FIELD_REPORT_2026_MODERN_TIER_PASS02J.md",
+    "PASS_02J_FIELD_REPORT_ANALYSIS.md",
+    "PASS_02J_WORKFLOW_POLICY.md",
+    "PASS_02J_COVERAGE_STATUS.md",
+    "PASS_02J_INDEX.md",
+    "PASS_02J_CHANGELOG.md",
+    "PASS_02J_MANIFEST.json"
+  ]
+}

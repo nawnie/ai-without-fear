@@ -1,0 +1,43 @@
+{
+  "project": "AI Without Fear",
+  "archive_version": "0.1",
+  "created_day": "2026-05-19",
+  "concepts": [
+    {
+      "id": "compatibility_matrix",
+      "title": "AIWF Compatibility Matrix RAG",
+      "summary": "A practical compatibility knowledge base for model families, file types, loaders, node support, VRAM tiers, conversion paths, and common mismatch failures.",
+      "status": "proposed",
+      "priority": "high",
+      "type": "bridge_rag",
+      "file": "rag_concepts/01_aiwf_compatibility_matrix_rag.md"
+    },
+    {
+      "id": "failure_signature_atlas",
+      "title": "AIWF Failure Signature Atlas RAG",
+      "summary": "A symptom-first troubleshooting RAG organized by visible failure patterns, log signatures, probable causes, and fix order.",
+      "status": "proposed",
+      "priority": "critical",
+      "type": "diagnostic_rag",
+      "file": "rag_concepts/02_aiwf_failure_signature_atlas_rag.md"
+    },
+    {
+      "id": "workflow_pattern_library",
+      "title": "AIWF Workflow Pattern Library RAG",
+      "summary": "A reusable workflow-structure RAG that stores patterns under JSON workflows so AIWF can build, explain, repair, and teach workflows.",
+      "status": "proposed",
+      "priority": "critical",
+      "type": "workflow_architecture_rag",
+      "file": "rag_concepts/03_aiwf_workflow_pattern_library_rag.md"
+    },
+    {
+      "id": "source_ledger_evidence",
+      "title": "AIWF Source Ledger / Evidence RAG",
+      "summary": "An evidence-tracking RAG for where every claim, recommendation, workflow idea, compatibility note, and user test result came from.",
+      "status": "proposed",
+      "priority": "critical",
+      "type": "evidence_rag",
+      "file": "rag_concepts/04_aiwf_source_ledger_evidence_rag.md"
+    }
+  ]
+}

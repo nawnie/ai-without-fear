@@ -1,0 +1,9 @@
+method,dataset_shape,consumer_gpu_viability,best_use,primary_risk,aiwf_beginner_rank,source_anchor
+SFT,prompt-output or chat messages,high on 1B-14B adapters,teach task format and domain behavior,overfit or memorization,1,https://huggingface.co/docs/trl/en/index
+DPO,prompt chosen rejected,medium-high on small/mid QLoRA,prefer better answer over worse answer,bad preference pairs teach bad taste,2,https://huggingface.co/docs/trl/en/dpo_trainer
+ORPO,chosen rejected preference data,medium,compact alignment/post-training,harder debugging than SFT,3,https://huggingface.co/docs/trl/en/index
+KTO,desirable undesirable labels,medium,thumbs-up/down style preference data,label ambiguity,4,https://huggingface.co/docs/trl/en/index
+GRPO,prompt plus verifiable rewards,medium on small models,math code structured extraction reasoning rewards,reward hacking,5,https://huggingface.co/docs/trl/en/grpo_trainer
+PPO/RLHF,rollouts reward model policy reference,low on consumer hardware,advanced alignment research,instability and high memory,advanced only,https://github.com/huggingface/trl
+RLAIF,AI-generated preference labels,medium as dataset creation method,bootstrap preference data,judge model bias and hallucinated labels,advanced-audited,https://huggingface.co/docs/trl/en/index
+Reward model training,prompt responses rankings,medium for small models,learn preference scorer,reward model overfit,advanced,https://github.com/huggingface/trl

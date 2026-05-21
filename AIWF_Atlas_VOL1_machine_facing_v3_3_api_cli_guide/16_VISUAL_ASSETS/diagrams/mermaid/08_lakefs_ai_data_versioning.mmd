@@ -1,0 +1,15 @@
+flowchart LR
+  main["main branch"]
+  branch["experiment branch"]
+  pipeline["ETL / Embeddings"]
+  validate["Quality Gates"]
+  commit["Commit"]
+  merge["Merge"]
+  rollback["Rollback"]
+  main -- "branch" --> branch
+  branch -- "run" --> pipeline
+  pipeline -- "check" --> validate
+  validate -- "pass" --> commit
+  commit -- "promote" --> merge
+  merge -- "if bad" --> rollback
+  rollback -- "recover" --> main

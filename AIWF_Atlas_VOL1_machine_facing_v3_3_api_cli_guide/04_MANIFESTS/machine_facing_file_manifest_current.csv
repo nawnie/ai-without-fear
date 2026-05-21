@@ -1,0 +1,2 @@
+manifest_role,canonical_path,note
+current_file_manifest_pointer,04_MANIFESTS/current_file_manifest.csv,Canonical file manifest is current_file_manifest.csv; this pointer prevents duplicate active files.

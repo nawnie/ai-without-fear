@@ -1,0 +1,14 @@
+{
+  "release": "v1.7",
+  "tracked_packages": 238,
+  "full_package_cards": 238,
+  "stub_research_cards": 0,
+  "missing_package_card_paths": [],
+  "duplicate_package_ids": false,
+  "duplicate_pip_names": false,
+  "unique_source_urls": 407,
+  "source_domains": 114,
+  "package_source_links": 557,
+  "focus": "source provenance registry, package-to-source joins, chat source review, source quality policy, source refresh queue",
+  "generated_day": "2026-05-19"
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aiwf.local/schemas/retrieval_card_current_actual.schema.json",
+  "title": "AIWF Atlas Retrieval Card - Current Actual Shape",
+  "description": "Schema matching the current RETRIEVAL_CARDS.jsonl and CANONICAL_RETRIEVAL_CARDS_CURRENT.jsonl records. This file documents the observed card shape; retrieval_card_schema.json remains the aspirational migration target.",
+  "type": "object",
+  "required": [
+    "card_id",
+    "lane_id",
+    "lane_title",
+    "card_type",
+    "title",
+    "summary",
+    "use_when",
+    "chunking_hint",
+    "source_folders",
+    "confidence"
+  ],
+  "properties": {
+    "card_id": {
+      "type": "string",
+      "description": "Stable card identifier, usually lane-prefixed."
+    },
+    "lane_id": {
+      "type": "string",
+      "description": "Atlas lane identifier."
+    },
+    "lane_title": {
+      "type": "string",
+      "description": "Human-readable lane title."
+    },
+    "card_type": {
+      "type": "string",
+      "description": "Retrieval card type label."
+    },
+    "title": {
+      "type": "string",
+      "description": "Short concept or routing title."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short routing summary. In the current corpus many summaries are templated and should be expanded in a future content pass."
+    },
+    "use_when": {
+      "type": "string",
+      "description": "Question pattern or retrieval condition where this card applies."
+    },
+    "chunking_hint": {
+      "type": "string",
+      "description": "Chunking and metadata advice for the relevant material."
+    },
+    "source_folders": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Relevant source folders or source-pack names."
+    },
+    "confidence": {
+      "type": "string",
+      "description": "Confidence/source status label."
+    },
+    "source_file": {
+      "type": "string",
+      "description": "Optional path back to the lane-level retrieval card source. Present in the global canonical retrieval card index."
+    }
+  },
+  "additionalProperties": true
+}

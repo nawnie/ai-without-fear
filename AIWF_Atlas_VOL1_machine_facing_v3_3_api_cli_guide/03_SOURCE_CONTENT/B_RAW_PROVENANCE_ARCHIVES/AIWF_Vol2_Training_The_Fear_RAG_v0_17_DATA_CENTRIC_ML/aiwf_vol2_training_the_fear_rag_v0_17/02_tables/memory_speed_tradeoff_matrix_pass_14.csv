@@ -1,0 +1,9 @@
+technique,saves_vram,cost,best_use,caution
+lower_microbatch,high,more noisy updates unless accumulation used,first OOM response,log effective batch
+gradient_accumulation,moderate_to_high,slower optimizer updates,simulate larger batch,not identical to bigger hardware
+mixed_precision_fp16,moderate_to_high,possible overflow/underflow,speed and memory on supported GPUs,watch NaNs/loss scaling
+bf16,moderate,requires hardware support,stable lower precision,not all GPUs/ops equal
+gradient_checkpointing,high,slower compute,fit larger context/resolution,not a speedup
+8bit_optimizer,moderate,backend dependency,LLM adapters on limited VRAM,validate quality/stability
+quantized_base_qlora,very_high,quantization constraints,larger LLM adapters,not for every model/task
+offload,high,slow CPU/PCIe bottleneck,last resort fit,can become painfully slow

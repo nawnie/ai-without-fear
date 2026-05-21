@@ -1,0 +1,18 @@
+training_target,16gb_consumer_verdict,rough_vram_class,likely_tools,aiwf_note
+LLM 0.5B–3B SFT,Very realistic,8–12GB,"Unsloth, TRL, LLaMA-Factory",Best first bot-training lab
+LLM 7B QLoRA/SFT,Realistic,12–16GB,"Unsloth, LLaMA-Factory, Axolotl",Good default for AIWF bot chapter
+LLM 14B QLoRA,Possible but tight,16–24GB,"LLaMA-Factory, Axolotl, Unsloth","Use short context, small batch, gradient accumulation"
+LLM 30B+ QLoRA,Possible only with compromises,24GB+ or multi-GPU/cloud,"LLaMA-Factory, Axolotl",Not beginner local baseline
+Full LLM fine-tune 7B+,Not consumer practical,60GB+ for 7B-class in 16-bit estimates,LLaMA-Factory/Axolotl,Teach why adapters exist
+Embedding/reranker fine-tune,Very realistic,6–12GB or CPU for small jobs,"Sentence Transformers, FlagEmbedding",High ROI for RAG; must include
+SD 1.5 LoRA,Very realistic,6–8GB+,"kohya_ss, OneTrainer, AI-Toolkit",Classic first image-training lab
+SDXL LoRA,Realistic,8–16GB+,"SimpleTuner, OneTrainer, kohya_ss, AI-Toolkit",Best modern beginner image lab
+Flux.1 LoRA,"Possible, heavier",16–24GB+,"SimpleTuner, AI-Toolkit, OneTrainer, Diffusers",Good intermediate lab; settings matter
+Flux.2 Klein / Z-Image LoRA,"Possible, model-dependent",16–24GB+,"AI-Toolkit, SimpleTuner, musubi-tuner, OneTrainer",Likely better local modern path than huge models
+Qwen Image LoRA,Difficult locally,24–40GB+ depending settings,"AI-Toolkit, SimpleTuner, musubi-tuner",Cloud/4090+ chapter unless tiny/quantized path proves stable
+Flux.2 Dev LoRA,Mostly cloud/pro GPU,32–80GB reported by community testing,"AI-Toolkit, SimpleTuner, musubi-tuner",Not beginner local baseline
+Wan 1.3B / lightweight video LoRA,Possible but slow,12–24GB depending trainer/settings,"musubi-tuner, SimpleTuner, AI-Toolkit",First video lab candidate
+Wan 14B / HunyuanVideo LoRA,Advanced/tight,16–24GB possible only with compromises; cloud preferred,"musubi-tuner, DiffSynth, SimpleTuner",Needs honest warnings
+LTX video LoRA,Research target,16–24GB+ likely model-specific,"SimpleTuner, LTX-Video-Trainer",Good dedicated card needed
+GPT-SoVITS voice fine-tune,Realistic with clean data,8–16GB+,GPT-SoVITS WebUI,Consent-first voice lab candidate
+RVC voice conversion,Very realistic,6–12GB+,RVC WebUI,Older but still practical; safety guardrails

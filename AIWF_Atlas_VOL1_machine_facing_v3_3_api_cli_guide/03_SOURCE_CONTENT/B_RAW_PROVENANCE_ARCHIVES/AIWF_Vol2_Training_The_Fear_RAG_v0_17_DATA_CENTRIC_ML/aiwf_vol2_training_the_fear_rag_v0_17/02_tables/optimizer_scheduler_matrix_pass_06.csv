@@ -1,0 +1,11 @@
+optimizer_or_scheduler,type,use_when,watch_out
+AdamW,optimizer,baseline for most training,uses more memory than 8-bit variants
+AdamW 8-bit,optimizer,VRAM-limited fine-tuning,library/backend compatibility
+Paged AdamW 8-bit,optimizer,QLoRA and memory spikes,may trade speed/offload behavior
+Adafactor,optimizer,memory-conscious transformer recipes,not universal default
+Prodigy,optimizer,some diffusion LoRA recipes,trainer-specific LR conventions
+Constant,scheduler,short stable runs,can burn late if LR high
+Constant with warmup,scheduler,unstable early phase,too much warmup delays learning
+Cosine,scheduler,longer runs needing decay,may undertrain if total steps too low
+Linear,scheduler,predictable decay,can decay too quickly
+Cosine with warmup,scheduler,strong general longer-run candidate,warmup ratio needs logging

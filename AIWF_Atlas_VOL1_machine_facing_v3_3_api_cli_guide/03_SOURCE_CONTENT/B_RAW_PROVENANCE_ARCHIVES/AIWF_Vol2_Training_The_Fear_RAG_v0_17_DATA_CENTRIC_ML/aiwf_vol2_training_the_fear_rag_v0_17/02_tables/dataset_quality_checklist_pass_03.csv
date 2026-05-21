@@ -1,0 +1,16 @@
+check,applies_to,why_it_matters,fail_if,aiwf_action
+rights/provenance,all,legal and trust baseline,source or license unknown,block release training
+consent,voice/face/identity/private person,personhood risk,no explicit permission,block or private-only review
+deduplication,all,prevents memorization and false evals,high duplicate rate,remove or intentionally weight
+train/eval split,all,measures generalization,no held-out set,create holdout before training
+caption quality,image/video,defines controllability,captions bind background to subject,recaption/review
+transcript accuracy,audio/chat,prevents wrong labels,transcript mismatch high,correct before training
+format validation,text/preferences,prevents trainer breakage,malformed roles or missing fields,convert/repair
+length distribution,text/audio,prevents truncation and bias,outliers dominate batches,bucket/filter
+resolution/aspect distribution,image/video,affects bucketing and memory,uncontrolled tiny/huge mix,normalize/bucket
+motion metadata,video,separates action/camera/subject,motion unlabeled,add labels before video LoRA
+hard negatives,RAG/embedding,teaches retrieval discrimination,only easy negatives,mine hard negatives
+PII/secrets,text/audio/video,prevents memorized private data,secrets present,redact/remove
+synthetic data labeling,all,prevents contamination,synthetic unlabeled,quarantine and tag
+watermark/logo check,image/video,prevents artifact learning,unwanted watermarks,remove images or mask/crop
+model card readiness,all,release documentation,no intended use/limits/evals,generate card before sharing

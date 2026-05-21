@@ -1,0 +1,25 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+
+# Python/cache noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local logs
+*.log
+
+# Keep packaged Atlas zip unless intentionally removed.
+!AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/06_CHANGE_HISTORY/packaged_releases/AIWF_Atlas_repo_dropin_v2_3/atlas/atlas_layer/AIWF_Atlas_VOL1_v3_3.zip

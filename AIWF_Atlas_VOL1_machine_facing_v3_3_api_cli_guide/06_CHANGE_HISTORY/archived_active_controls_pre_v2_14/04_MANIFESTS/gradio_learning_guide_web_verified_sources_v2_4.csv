@@ -1,0 +1,11 @@
+source_id,claim,url,verification_status
+gradio_official_home,Gradio builds ML/web apps in Python and can deploy/share apps.,https://gradio.app/,official_verified
+gradio_5_release,Gradio 5 stable release positioned Gradio for production-ready ML web applications.,https://huggingface.co/blog/gradio-5,official_blog_verified
+gradio_mount_fastapi_ssr,gr.mount_gradio_app supports FastAPI mounting and ssr_mode.,https://www.gradio.app/docs/gradio/mount_gradio_app,official_docs_verified
+gradio_blocks,"Blocks supports app layout, events, queueing, and components for complex applications.",https://www.gradio.app/docs/gradio/blocks,official_docs_verified
+gradio_state_in_blocks,"Gradio distinguishes global, session, and browser state.",https://www.gradio.app/guides/state-in-blocks,official_docs_verified
+gradio_chatinterface,ChatInterface is the high-level abstraction for chatbot UIs.,https://www.gradio.app/docs/gradio/chatinterface,official_docs_verified
+gradio_custom_components,Gradio supports custom components that can be published as Python packages.,https://www.gradio.app/guides/custom-components-in-five-minutes,official_docs_verified
+gradio_mcp_server,Gradio apps can expose functions as MCP tools via mcp_server launch behavior.,https://www.gradio.app/guides/sharing-your-app,official_docs_verified
+lakefs_dvc_acquisition,"lakeFS acquired/took stewardship of DVC in 2025, keeping DVC open-source.",https://dvc.org/blog/dvc-joins-lakefs-your-questions-answered/,official_project_verified
+lakefs_dvc_celebration,lakeFS and DVC together cover petabyte-scale enterprise data and data-science workflow versioning.,https://lakefs.io/blog/celebration-shared-vision-lakefs-dvc/,official_project_verified

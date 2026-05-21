@@ -1,0 +1,177 @@
+[
+  {
+    "lane_id": "01_source_ledger_evidence",
+    "title": "Source Ledger Evidence",
+    "path": "01_CANONICAL_RESEARCH_LANES/01_source_ledger_evidence/"
+  },
+  {
+    "lane_id": "02_atlas_architecture_chunking_embedding",
+    "title": "Rag Architecture Chunking Embedding",
+    "path": "01_CANONICAL_RESEARCH_LANES/02_atlas_architecture_chunking_embedding/"
+  },
+  {
+    "lane_id": "03_comfyui_core_api_subgraph",
+    "title": "Comfyui Core Api Subgraph",
+    "path": "01_CANONICAL_RESEARCH_LANES/03_comfyui_core_api_subgraph/"
+  },
+  {
+    "lane_id": "04_comfyui_custom_node_ecosystem",
+    "title": "Comfyui Custom Node Ecosystem",
+    "path": "01_CANONICAL_RESEARCH_LANES/04_comfyui_custom_node_ecosystem/"
+  },
+  {
+    "lane_id": "05_pip_runtime_dependency_knowledge",
+    "title": "Pip Runtime Dependency Knowledge",
+    "path": "01_CANONICAL_RESEARCH_LANES/05_pip_runtime_dependency_knowledge/"
+  },
+  {
+    "lane_id": "06_training_data_centric_ml_vol2",
+    "title": "Training Data Centric Ml Vol2",
+    "path": "01_CANONICAL_RESEARCH_LANES/06_training_data_centric_ml_vol2/"
+  },
+  {
+    "lane_id": "07_cfg_denoise_inpaint_theory",
+    "title": "Cfg Denoise Inpaint Theory",
+    "path": "01_CANONICAL_RESEARCH_LANES/07_cfg_denoise_inpaint_theory/"
+  },
+  {
+    "lane_id": "08_compatibility_matrix_atlas",
+    "title": "Compatibility Matrix Rag",
+    "path": "01_CANONICAL_RESEARCH_LANES/08_compatibility_matrix_atlas/"
+  },
+  {
+    "lane_id": "09_failure_signature_atlas",
+    "title": "Failure Signature Atlas Rag",
+    "path": "01_CANONICAL_RESEARCH_LANES/09_failure_signature_atlas/"
+  },
+  {
+    "lane_id": "10_workflow_pattern_atlas_library",
+    "title": "Workflow Pattern Library Rag",
+    "path": "01_CANONICAL_RESEARCH_LANES/10_workflow_pattern_atlas_library/"
+  },
+  {
+    "lane_id": "11_gradio_ui_research",
+    "title": "Gradio Ui Research",
+    "path": "01_CANONICAL_RESEARCH_LANES/11_gradio_ui_research/"
+  },
+  {
+    "lane_id": "12_llm_fundamentals",
+    "title": "Llm Fundamentals",
+    "path": "01_CANONICAL_RESEARCH_LANES/12_llm_fundamentals/"
+  },
+  {
+    "lane_id": "13_agent_tool_use_mcp",
+    "title": "Agent Tool Use Mcp",
+    "path": "01_CANONICAL_RESEARCH_LANES/13_agent_tool_use_mcp/"
+  },
+  {
+    "lane_id": "14_evaluation_observability",
+    "title": "Evaluation Observability",
+    "path": "01_CANONICAL_RESEARCH_LANES/14_evaluation_observability/"
+  },
+  {
+    "lane_id": "15_safety_security_red_team",
+    "title": "Safety Security Red Team",
+    "path": "01_CANONICAL_RESEARCH_LANES/15_safety_security_red_team/"
+  },
+  {
+    "lane_id": "16_governance_licensing_ethics",
+    "title": "Governance Licensing Ethics",
+    "path": "01_CANONICAL_RESEARCH_LANES/16_governance_licensing_ethics/"
+  },
+  {
+    "lane_id": "17_model_serving_deployment",
+    "title": "Model Serving Deployment",
+    "path": "01_CANONICAL_RESEARCH_LANES/17_model_serving_deployment/"
+  },
+  {
+    "lane_id": "18_mlops_llmops_release_management",
+    "title": "Mlops Llmops Release Management",
+    "path": "01_CANONICAL_RESEARCH_LANES/18_mlops_llmops_release_management/"
+  },
+  {
+    "lane_id": "19_math_for_ai_practitioners",
+    "title": "Math For Ai Practitioners",
+    "path": "01_CANONICAL_RESEARCH_LANES/19_math_for_ai_practitioners/"
+  },
+  {
+    "lane_id": "20_data_engineering_for_ai",
+    "title": "Data Engineering For Ai",
+    "path": "01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/"
+  },
+  {
+    "lane_id": "21_audio_speech_music_ai",
+    "title": "Audio Speech Music Ai",
+    "path": "01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/"
+  },
+  {
+    "lane_id": "22_vision_language_ocr_document_ai",
+    "title": "Vision Language Ocr Document Ai",
+    "path": "01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/"
+  },
+  {
+    "lane_id": "23_synthetic_data_dataset_creation",
+    "title": "Synthetic Data Dataset Creation",
+    "path": "01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/"
+  },
+  {
+    "lane_id": "24_ai_application_architecture",
+    "title": "Ai Application Architecture",
+    "path": "01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/"
+  },
+  {
+    "lane_id": "25_hardware_cost_performance_planning",
+    "title": "Hardware Cost Performance Planning",
+    "path": "01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/"
+  },
+  {
+    "lane_id": "26_comfyui_advanced_node_io_datatypes",
+    "title": "ComfyUI Advanced Node I/O, Datatypes, and Socket Contracts",
+    "path": "01_CANONICAL_RESEARCH_LANES/26_comfyui_advanced_node_io_datatypes/"
+  },
+  {
+    "lane_id": "27_comfyui_custom_node_development_patterns",
+    "title": "ComfyUI Custom Node Development Patterns",
+    "path": "01_CANONICAL_RESEARCH_LANES/27_comfyui_custom_node_development_patterns/"
+  },
+  {
+    "lane_id": "28_comfyui_workflow_api_graph_subgraph_advanced",
+    "title": "ComfyUI Workflow API, Graph, and Subgraph Advanced Patterns",
+    "path": "01_CANONICAL_RESEARCH_LANES/28_comfyui_workflow_api_graph_subgraph_advanced/"
+  },
+  {
+    "lane_id": "29_comfyui_frontend_extensions_ui_controls",
+    "title": "ComfyUI Frontend Extensions and UI Control Patterns",
+    "path": "01_CANONICAL_RESEARCH_LANES/29_comfyui_frontend_extensions_ui_controls/"
+  },
+  {
+    "lane_id": "30_comfyui_troubleshooting_migration_packaging",
+    "title": "ComfyUI Troubleshooting, Migration, and Packaging Safety",
+    "path": "01_CANONICAL_RESEARCH_LANES/30_comfyui_troubleshooting_migration_packaging/"
+  },
+  {
+    "lane_id": "31_comfyui_datatype_conversion_boundaries",
+    "title": "ComfyUI Datatype Conversion and Boundary Design",
+    "path": "01_CANONICAL_RESEARCH_LANES/31_comfyui_datatype_conversion_boundaries/"
+  },
+  {
+    "lane_id": "32_comfyui_workflow_api_automation_gradio_bridge",
+    "title": "ComfyUI Workflow API Automation and Gradio Bridge Patterns",
+    "path": "01_CANONICAL_RESEARCH_LANES/32_comfyui_workflow_api_automation_gradio_bridge/"
+  },
+  {
+    "lane_id": "33_comfyui_advanced_workflow_design_patterns",
+    "title": "ComfyUI Advanced Workflow Design Patterns",
+    "path": "01_CANONICAL_RESEARCH_LANES/33_comfyui_advanced_workflow_design_patterns/"
+  },
+  {
+    "lane_id": "34_aiwf_gradio_topics20_25_learning_guide",
+    "title": "AIWF Gradio + Topics 20-25 Learning Guide Integration",
+    "path": "01_CANONICAL_RESEARCH_LANES/34_aiwf_gradio_topics20_25_learning_guide/"
+  },
+  {
+    "lane_id": "35_atlas_evaluation_benchmarking",
+    "title": "Adapter Evaluation and Proof Testing",
+    "path": "01_CANONICAL_RESEARCH_LANES/35_atlas_evaluation_benchmarking/"
+  }
+]

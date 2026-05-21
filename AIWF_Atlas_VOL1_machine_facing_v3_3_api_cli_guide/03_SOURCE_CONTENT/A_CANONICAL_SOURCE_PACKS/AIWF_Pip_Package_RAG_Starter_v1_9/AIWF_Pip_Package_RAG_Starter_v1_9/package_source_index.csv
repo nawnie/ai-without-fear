@@ -1,0 +1,247 @@
+package_id,pip_name,source_urls
+PIP-0001,torch,https://pytorch.org/get-started/locally/ | https://pytorch.org/
+PIP-0002,torchvision,https://pytorch.org/get-started/locally/
+PIP-0003,torchaudio,https://pytorch.org/get-started/locally/
+PIP-0004,xformers,https://github.com/facebookresearch/xformers | https://huggingface.co/docs/diffusers/en/optimization/xformers
+PIP-0005,triton,https://triton-lang.org/ | https://pytorch.org/
+PIP-0006,diffusers,https://huggingface.co/docs/diffusers/index | https://huggingface.co/docs/diffusers/en/optimization/xformers | https://huggingface.co/docs/diffusers/main/en/using-diffusers/using_safetensors
+PIP-0007,transformers,https://huggingface.co/docs/transformers/en/installation | https://huggingface.co/docs/transformers/en/index | https://huggingface.co/docs/transformers/en/pipeline_tutorial
+PIP-0008,accelerate,https://huggingface.co/docs/accelerate/en/index | https://huggingface.co/docs/accelerate/package_reference/accelerator | https://huggingface.co/docs/accelerate/en/basic_tutorials/install
+PIP-0009,safetensors,https://huggingface.co/docs/safetensors/index | https://github.com/safetensors/safetensors | https://huggingface.co/docs/diffusers/main/en/using-diffusers/using_safetensors
+PIP-0010,huggingface_hub,https://huggingface.co/docs/huggingface_hub/en/guides/download | https://huggingface.co/docs/huggingface_hub/en/package_reference/environment_variables
+PIP-0011,datasets,https://huggingface.co/docs/datasets/index | https://huggingface.co/docs/datasets/installation
+PIP-0012,bitsandbytes,https://huggingface.co/docs/bitsandbytes/en/installation | https://huggingface.co/docs/bitsandbytes/index
+PIP-0013,lion-pytorch,https://pypi.org/project/lion-pytorch/
+PIP-0014,omegaconf,https://omegaconf.readthedocs.io/en/2.3_branch/ | https://omegaconf.readthedocs.io/en/2.3_branch/usage.html
+PIP-0015,gradio,https://www.gradio.app/guides/quickstart | https://www.gradio.app/docs | https://www.gradio.app/docs/gradio/mount_gradio_app
+PIP-0016,fastapi,https://fastapi.tiangolo.com/tutorial/ | https://fastapi.tiangolo.com/deployment/versions/ | https://fastapi.tiangolo.com/deployment/manually/
+PIP-0017,anyio,https://anyio.readthedocs.io/ | https://fastapi.tiangolo.com/
+PIP-0018,pandas,https://pandas.pydata.org/ | https://pandas.pydata.org/docs/getting_started/install.html
+PIP-0019,regex,https://pypi.org/project/regex/
+PIP-0020,ipywidgets,https://ipywidgets.readthedocs.io/en/latest/user_install.html | https://pypi.org/project/ipywidgets/
+PIP-0021,scipy,https://scipy.org/ | https://scipy.org/install/ | https://docs.scipy.org/doc/scipy/reference/
+PIP-0022,ftfy,https://ftfy.readthedocs.io/ | https://pypi.org/project/ftfy/
+PIP-0023,Pillow,https://pillow.readthedocs.io/ | https://pypi.org/project/pillow/ | https://github.com/python-pillow/Pillow
+PIP-0024,controlnet-aux,https://github.com/huggingface/controlnet_aux | https://github.com/Fannovel16/comfyui_controlnet_aux | https://github.com/comfyorg/comfyui-controlnet-aux
+PIP-0025,psutil,https://psutil.readthedocs.io/ | https://psutil.readthedocs.io/latest/install.html | https://pypi.org/project/psutil/ | https://github.com/giampaolo/psutil
+PIP-0026,open-webui,https://docs.openwebui.com/ | https://docs.openwebui.com/getting-started/ | https://github.com/open-webui/open-webui
+PIP-0027,gfpgan,https://github.com/TencentARC/GFPGAN | https://pypi.org/project/gfpgan/
+PIP-0028,dlib,https://pypi.org/project/dlib/ | http://dlib.net/
+PIP-0029,cmake,https://cmake.org/documentation/ | https://pypi.org/project/cmake/ | https://scikit-build-core.readthedocs.io/en/latest/guide/getting_started.html
+PIP-0030,k-diffusion,https://github.com/crowsonkb/k-diffusion | https://pypi.org/project/k-diffusion/
+PIP-0031,numpy,https://numpy.org/install/ | https://numpy.org/devdocs/numpy_2_0_migration_guide.html | https://numpy.org/doc/2.0/dev/depending_on_numpy.html | https://pypi.org/project/numpy/
+PIP-0032,opencv-python,https://pypi.org/project/opencv-python/ | https://github.com/opencv/opencv-python | https://docs.opencv.org/
+PIP-0033,opencv-python-headless,https://pypi.org/project/opencv-python/
+PIP-0034,tqdm,https://tqdm.github.io/ | https://pypi.org/project/tqdm/
+PIP-0035,requests,https://requests.readthedocs.io/ | https://requests.readthedocs.io/en/latest/user/install/ | https://pypi.org/project/requests/
+PIP-0036,PyYAML,https://pyyaml.org/wiki/PyYAMLDocumentation | https://pypi.org/project/PyYAML/
+PIP-0037,einops,https://einops.rocks/ | https://einops.rocks/1-einops-basics/
+PIP-0038,kornia,https://kornia.readthedocs.io/en/latest/get-started/installation.html | https://pypi.org/project/kornia/
+PIP-0039,spandrel,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://github.com/chaiNNer-org/spandrel | https://pypi.org/project/spandrel/
+PIP-0040,timm,https://huggingface.co/docs/timm/index | https://huggingface.co/timm | https://pypi.org/project/timm/
+PIP-0041,tokenizers,https://huggingface.co/docs/tokenizers/installation | https://huggingface.co/docs/tokenizers/index
+PIP-0042,sentencepiece,https://github.com/google/sentencepiece | https://pypi.org/project/sentencepiece/
+PIP-0043,protobuf,https://github.com/protocolbuffers/protobuf/blob/main/python/README.md | https://pypi.org/project/protobuf/
+PIP-0044,pydantic,https://pydantic.dev/docs/validation/latest/get-started/ | https://pypi.org/project/pydantic/
+PIP-0045,starlette,https://starlette.dev/ | https://fastapi.tiangolo.com/deployment/versions/
+PIP-0046,uvicorn,https://uvicorn.dev/ | https://pypi.org/project/uvicorn/ | https://fastapi.tiangolo.com/deployment/manually/
+PIP-0047,basicsr,https://github.com/XPixelGroup/BasicSR | https://basicsr.readthedocs.io/ | https://pypi.org/project/basicsr/ | https://github.com/xinntao/Real-ESRGAN/issues/768
+PIP-0048,realesrgan,https://github.com/xinntao/Real-ESRGAN | https://pypi.org/project/realesrgan/ | https://github.com/xinntao/Real-ESRGAN/issues/768
+PIP-0049,facexlib,https://github.com/xinntao/facexlib | https://pypi.org/project/facexlib/
+PIP-0050,insightface,https://github.com/deepinsight/insightface/tree/master/python-package | https://pypi.org/project/insightface/ | https://github.com/deepinsight/insightface
+PIP-0051,onnxruntime,https://onnxruntime.ai/docs/install/ | https://onnxruntime.ai/docs/get-started/with-python.html | https://pypi.org/project/onnxruntime/
+PIP-0052,onnxruntime-gpu,https://onnxruntime.ai/docs/install/ | https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html | https://pypi.org/project/onnxruntime-gpu/
+PIP-0053,onnx,https://onnx.ai/onnx/ | https://github.com/onnx/onnx/blob/main/INSTALL.md | https://pypi.org/project/onnx/
+PIP-0054,ultralytics,https://docs.ultralytics.com/ | https://docs.ultralytics.com/quickstart/ | https://docs.ultralytics.com/usage/python/ | https://pypi.org/project/ultralytics/
+PIP-0055,segment-anything,https://github.com/facebookresearch/segment-anything | https://segment-anything.com/
+PIP-0056,SAM-2 / editable sam2 repo,https://github.com/facebookresearch/sam2 | https://github.com/facebookresearch/sam2/blob/main/INSTALL.md
+PIP-0057,groundingdino,https://huggingface.co/docs/transformers/en/model_doc/grounding-dino | https://huggingface.co/docs/transformers/en/tasks/zero_shot_object_detection | https://pypi.org/project/groundingdino-py/
+PIP-0058,rembg,https://github.com/danielgatis/rembg | https://pypi.org/project/rembg/2.0.28/
+PIP-0059,transparent-background,https://pypi.org/project/transparent-background/ | https://pypi.org/project/transparent-background/1.1.2/
+PIP-0060,scikit-image,https://scikit-image.org/ | https://scikit-image.org/docs/stable/user_guide/install.html | https://pypi.org/project/scikit-image/
+PIP-0061,imageio,https://imageio.readthedocs.io/ | https://imageio.readthedocs.io/en/v2.34.2/_autosummary/imageio.plugins.ffmpeg.html | https://imageio.readthedocs.io/en/stable/_autosummary/imageio.plugins.pyav.html
+PIP-0062,imageio-ffmpeg,https://github.com/imageio/imageio-ffmpeg | https://pypi.org/project/imageio-ffmpeg/ | https://imageio.readthedocs.io/en/v2.34.2/_autosummary/imageio.plugins.ffmpeg.html
+PIP-0063,ffmpeg-python,https://kkroening.github.io/ffmpeg-python/ | https://github.com/kkroening/ffmpeg-python | https://ffmpeg.org/ffmpeg.html
+PIP-0064,av,https://pyav.org/docs/develop/overview/installation.html | https://pyav.basswood-io.com/docs/stable/ | https://pypi.org/project/av/
+PIP-0065,decord,https://github.com/dmlc/decord | https://pypi.org/project/decord/ | https://cv.gluon.ai/build/examples_action_recognition/decord_loader.html
+PIP-0066,chromadb,https://docs.trychroma.com/docs/overview/getting-started | https://pypi.org/project/chromadb/
+PIP-0067,lancedb,https://docs.lancedb.com/quickstart | https://lancedb.github.io/lancedb/python/python/
+PIP-0068,sentence-transformers,https://sbert.net/docs/installation.html | https://sbert.net/
+PIP-0069,FlagEmbedding,https://github.com/FlagOpen/FlagEmbedding | https://bge-model.com/Introduction/installation.html
+PIP-0070,nomic,https://pypi.org/project/nomic/ | https://docs.nomic.ai/atlas/python-api/generate-embeddings
+PIP-0071,llama-index,https://developers.llamaindex.ai/python/framework/ | https://developers.llamaindex.ai/python/framework/getting_started/installation/ | https://pypi.org/project/llama-index/
+PIP-0072,langchain,https://docs.langchain.com/oss/python/langchain/install | https://docs.langchain.com/oss/python/integrations/providers/overview | https://pypi.org/project/langchain/
+PIP-0073,griptape,https://docs.griptape.ai/stable/griptape-framework/ | https://github.com/griptape-ai/griptape
+PIP-0074,ollama,https://github.com/ollama/ollama-python | https://ollama.com/blog/functions-as-tools
+PIP-0075,llama-cpp-python,https://github.com/abetlen/llama-cpp-python | https://llama-cpp-python.readthedocs.io/en/latest/api-reference/
+PIP-0076,packaging,https://packaging.pypa.io/ | https://pypi.org/project/packaging/
+PIP-0077,rich,https://rich.readthedocs.io/ | https://rich.readthedocs.io/en/latest/introduction.html | https://github.com/Textualize/rich
+PIP-0078,typer,https://typer.tiangolo.com/ | https://typer.tiangolo.com/tutorial/package/ | https://github.com/fastapi/typer
+PIP-0079,GitPython,https://gitpython.readthedocs.io/ | https://github.com/gitpython-developers/GitPython | https://pypi.org/project/GitPython/
+PIP-0080,tomli,https://pypi.org/project/tomli/
+PIP-0081,tomli-w,https://pypi.org/project/tomli-w/ | https://github.com/hukkin/tomli-w
+PIP-0082,pytest,https://docs.pytest.org/en/stable/getting-started.html | https://pypi.org/project/pytest/
+PIP-0083,ruff,https://docs.astral.sh/ruff/ | https://docs.astral.sh/ruff/installation/
+PIP-0084,black,https://black.readthedocs.io/en/stable/getting_started.html | https://pypi.org/project/black/
+PIP-0085,pyinstaller,https://www.pyinstaller.org/
+PIP-0086,faiss-cpu,https://github.com/facebookresearch/faiss/blob/main/INSTALL.md | https://pypi.org/project/faiss-cpu/
+PIP-0087,openai,https://developers.openai.com/api/docs/libraries | https://pypi.org/project/openai/
+PIP-0088,tiktoken,https://github.com/openai/tiktoken | https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb
+PIP-0089,spacy,https://spacy.io/usage | https://spacy.io/usage/models
+PIP-0090,pytesseract,https://pypi.org/project/pytesseract/ | https://github.com/madmaze/pytesseract
+PIP-0091,easyocr,https://github.com/JaidedAI/EasyOCR | https://www.jaided.ai/easyocr/
+PIP-0092,onnxruntime-directml,https://onnxruntime.ai/docs/execution-providers/DirectML-ExecutionProvider.html | https://pypi.org/project/onnxruntime-directml/ | https://onnxruntime.ai/docs/install/
+PIP-0093,moviepy,https://zulko.github.io/moviepy/ | https://zulko.github.io/moviepy/getting_started/install.html | https://github.com/Zulko/moviepy
+PIP-0094,librosa,https://librosa.org/doc/latest/install.html | https://librosa.org/doc/ | https://librosa.org/doc/0.11.0/ioformats.html
+PIP-0095,soundfile,https://python-soundfile.readthedocs.io/ | https://pypi.org/project/soundfile/ | https://librosa.org/doc/0.11.0/ioformats.html
+PIP-0096,matplotlib,https://matplotlib.org/stable/ | https://matplotlib.org/stable/users/installing/index.html | https://pypi.org/project/matplotlib/
+PIP-0097,click,https://click.palletsprojects.com/ | https://pypi.org/project/click/
+PIP-0098,setuptools,https://setuptools.pypa.io/ | https://packaging.python.org/en/latest/tutorials/packaging-projects/ | https://pypi.org/project/setuptools/
+PIP-0099,wheel,https://wheel.readthedocs.io/ | https://pypi.org/project/wheel/ | https://pythonwheels.com/
+PIP-0100,ninja,https://ninja-build.org/ | https://pypi.org/project/ninja/
+PIP-0101,pybind11,https://pybind11.readthedocs.io/en/stable/installing.html | https://pybind11.readthedocs.io/en/stable/compiling.html | https://pypi.org/project/pybind11/
+PIP-0102,comfyui-frontend-package,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/comfyui-frontend-package/
+PIP-0103,comfyui-workflow-templates,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/comfyui-workflow-templates/
+PIP-0104,comfyui-embedded-docs,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/comfyui-embedded-docs/
+PIP-0105,torchsde,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://github.com/google-research/torchsde | https://pypi.org/project/torchsde/
+PIP-0106,aiohttp,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://docs.aiohttp.org/ | https://pypi.org/project/aiohttp/
+PIP-0107,yarl,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/yarl/
+PIP-0108,alembic,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://alembic.sqlalchemy.org/ | https://pypi.org/project/alembic/
+PIP-0109,SQLAlchemy,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://www.sqlalchemy.org/ | https://pypi.org/project/SQLAlchemy/
+PIP-0110,filelock,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://py-filelock.readthedocs.io/ | https://pypi.org/project/filelock/
+PIP-0111,comfy-kitchen,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/comfy-kitchen/
+PIP-0112,comfy-aimdo,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/comfy-aimdo/
+PIP-0113,simpleeval,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/simpleeval/
+PIP-0114,blake3,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/blake3/ | https://github.com/oconnor663/blake3-py
+PIP-0115,pydantic-settings,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://docs.pydantic.dev/latest/concepts/pydantic_settings/ | https://pypi.org/project/pydantic-settings/
+PIP-0116,PyOpenGL,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/PyOpenGL/
+PIP-0117,glfw,https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt | https://pypi.org/project/glfw/ | https://www.glfw.org/
+PIP-0118,comfyui_manager,https://github.com/Comfy-Org/ComfyUI/blob/master/manager_requirements.txt | https://pypi.org/project/comfyui-manager/
+PIP-0119,mediapipe,https://pypi.org/project/mediapipe/ | https://ai.google.dev/edge/mediapipe/solutions/setup_python
+PIP-0120,albumentations,https://albumentations.ai/docs/1-introduction/installation/ | https://pypi.org/project/albumentations/
+PIP-0121,supervision,https://supervision.roboflow.com/ | https://github.com/roboflow/supervision
+PIP-0122,pycocotools,https://pypi.org/project/pycocotools/ | https://github.com/ppwwyyxx/cocoapi
+PIP-0123,groundingdino-py,https://pypi.org/project/groundingdino-py/ | https://huggingface.co/docs/transformers/en/model_doc/grounding-dino
+PIP-0124,open-clip-torch,https://pypi.org/project/open-clip-torch/ | https://github.com/mlfoundations/open_clip
+PIP-0125,clip-interrogator,https://github.com/pharmapsychotic/clip-interrogator | https://pypi.org/project/pytorch-clip-interrogator/
+PIP-0126,lpips,https://github.com/richzhang/PerceptualSimilarity | https://lightning.ai/docs/torchmetrics/stable//image/learned_perceptual_image_patch_similarity.html
+PIP-0127,peft,https://huggingface.co/docs/peft/en/index | https://huggingface.co/docs/peft/en/install
+PIP-0128,wandb,https://docs.wandb.ai/models/quickstart | https://pypi.org/project/wandb/
+PIP-0129,tensorboard,https://www.tensorflow.org/tensorboard/get_started | https://docs.pytorch.org/tutorials/beginner/introyt/tensorboardyt_tutorial.html | https://pypi.org/project/tensorboard/
+PIP-0130,httpx,https://www.python-httpx.org/ | https://pypi.org/project/httpx/
+PIP-0131,websockets,https://websockets.readthedocs.io/en/stable/intro/index.html | https://pypi.org/project/websockets/
+PIP-0132,orjson,https://pypi.org/project/orjson/ | https://github.com/ijl/orjson/releases
+PIP-0133,watchdog,https://github.com/gorakhargosh/watchdog | https://pypi.org/project/watchdog/
+PIP-0134,build,https://packaging.python.org/en/latest/guides/writing-pyproject-toml/ | https://pypi.org/project/build/
+PIP-0135,pyproject-hooks,https://pypi.org/project/pyproject-hooks/ | https://pip.pypa.io/en/stable/reference/build-system/
+PIP-0136,scikit-build-core,https://scikit-build-core.readthedocs.io/en/latest/
+PIP-0137,meson-python,https://mesonbuild.com/meson-python/
+PIP-0138,maturin,https://www.maturin.rs/
+PIP-0139,setuptools-scm,https://setuptools-scm.readthedocs.io/ | https://pypi.org/project/setuptools-scm/
+PIP-0140,cibuildwheel,https://cibuildwheel.pypa.io/
+PIP-0141,auditwheel,https://github.com/pypa/auditwheel
+PIP-0142,delvewheel,https://github.com/adang1345/delvewheel
+PIP-0143,pip-tools,https://pip-tools.readthedocs.io/en/latest/
+PIP-0144,pipdeptree,https://github.com/tox-dev/pipdeptree | https://pypi.org/project/pipdeptree/
+PIP-0145,uv,https://docs.astral.sh/uv/
+PIP-0146,nvidia-pyindex,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0147,nvidia-cuda-runtime-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0148,nvidia-cuda-runtime-cu13,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0149,nvidia-cuda-nvcc-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0150,nvidia-cuda-nvrtc-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0151,nvidia-nvjitlink-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0152,nvidia-cublas-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0153,nvidia-cudnn-cu12,https://docs.nvidia.com/deeplearning/cudnn/installation/latest/windows.html | https://pypi.org/project/nvidia-cudnn-cu12/ | https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html | https://docs.nvidia.com/deeplearning/cudnn/backend/latest/api/overview.html
+PIP-0154,nvidia-cudnn-cu13,https://docs.nvidia.com/deeplearning/cudnn/installation/latest/windows.html | https://pypi.nvidia.com/ | https://developer.nvidia.com/cudnn-downloads | https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html
+PIP-0155,nvidia-cufft-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0156,nvidia-curand-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0157,nvidia-cusolver-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0158,nvidia-cusparse-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0159,nvidia-npp-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0160,nvidia-nvjpeg-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0161,nvidia-nvtx-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0162,nvidia-cuda-cupti-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0163,nvidia-cuda-sanitizer-api-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0164,nvidia-nvml-dev-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0165,nvidia-cuda-cccl-cu12,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0166,nvidia-cutlass,https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/ | https://pypi.nvidia.com/ | https://developer.nvidia.com/cuda-downloads
+PIP-0167,nvidia-cudnn-cu11,https://pypi.nvidia.com/ | https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html | https://docs.nvidia.com/deeplearning/cudnn/installation/latest/index.html
+PIP-0168,nvidia-cudnn,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/cudnn/installation/latest/index.html
+PIP-0169,nvidia-cudnn-frontend,https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/index.html | https://docs.nvidia.com/deeplearning/cudnn/installation/latest/python-frontend-install.html | https://docs.nvidia.com/deeplearning/cudnn/installation/latest/cpp-frontend-install.html | https://pypi.org/project/nvidia-cudnn-frontend/
+PIP-0170,nvidia-cudnn-jit-cu12,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/cudnn/backend/latest/api/overview.html | https://docs.nvidia.com/deeplearning/cudnn/installation/latest/windows.html
+PIP-0171,nvidia-cudnn-jit-cu13,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/cudnn/backend/latest/api/overview.html | https://docs.nvidia.com/deeplearning/cudnn/installation/latest/windows.html
+PIP-0172,cuda-python,https://developer.nvidia.com/cuda/python | https://pypi.org/project/cuda-python/ | https://nvidia.github.io/cuda-python/cuda-bindings/latest/install.html
+PIP-0173,cuda-toolkit,https://pypi.org/project/cuda-toolkit/ | https://nvidia.github.io/cuda-python/cuda-bindings/latest/install.html
+PIP-0174,cuda-bindings,https://pypi.org/project/cuda-python/ | https://nvidia.github.io/cuda-python/cuda-bindings/latest/install.html | https://developer.nvidia.com/cuda/python
+PIP-0175,cuda-core,https://pypi.org/project/cuda-python/ | https://developer.nvidia.com/cuda/python
+PIP-0176,cuda-pathfinder,https://pypi.org/project/cuda-python/ | https://nvidia.github.io/cuda-python/cuda-bindings/latest/install.html
+PIP-0177,tensorrt,https://docs.nvidia.com/deeplearning/tensorrt/latest/installing-tensorrt/installing.html | https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html | https://pypi.nvidia.com/ | https://pypi.org/project/tensorrt/
+PIP-0178,tensorrt-cu11,https://pypi.org/project/tensorrt-cu11/ | https://docs.nvidia.com/deeplearning/tensorrt/latest/installing-tensorrt/installing.html | https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html | https://pypi.nvidia.com/ | https://pypi.org/project/tensorrt/
+PIP-0179,tensorrt-cu12,https://pypi.org/project/tensorrt-cu12/ | https://docs.nvidia.com/deeplearning/tensorrt/latest/installing-tensorrt/installing.html | https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html | https://pypi.nvidia.com/ | https://pypi.org/project/tensorrt/
+PIP-0180,tensorrt-cu13,https://pypi.org/project/tensorrt-cu13/ | https://pypi.nvidia.com/tensorrt-cu13/ | https://docs.nvidia.com/deeplearning/tensorrt/latest/installing-tensorrt/installing.html | https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html | https://pypi.nvidia.com/ | https://pypi.org/project/tensorrt/
+PIP-0181,tensorrt-libs,https://pypi.nvidia.com/ | https://pypi.org/project/tensorrt/
+PIP-0182,tensorrt-cu12-bindings,https://pypi.org/project/tensorrt-cu12-bindings/ | https://pypi.nvidia.com/
+PIP-0183,tensorrt-cu12-libs,https://pypi.nvidia.com/ | https://pypi.org/project/tensorrt-cu12/
+PIP-0184,tensorrt-cu13-bindings,https://pypi.org/project/tensorrt-cu13-bindings/ | https://pypi.nvidia.com/
+PIP-0185,tensorrt-cu13-libs,https://pypi.org/project/tensorrt-cu13-libs/ | https://pypi.nvidia.com/
+PIP-0186,tensorrt-lean,https://pypi.nvidia.com/
+PIP-0187,tensorrt-lean-cu12,https://pypi.nvidia.com/
+PIP-0188,tensorrt-lean-cu13,https://pypi.nvidia.com/
+PIP-0189,tensorrt-rtx,https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html | https://pypi.nvidia.com/
+PIP-0190,tensorrt-rtx-cu12,https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html | https://pypi.nvidia.com/
+PIP-0191,tensorrt-rtx-cu13,https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html | https://pypi.nvidia.com/
+PIP-0192,tensorrt-rtx-cu12-bindings,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html
+PIP-0193,tensorrt-rtx-cu12-libs,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html
+PIP-0194,tensorrt-rtx-cu13-bindings,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html
+PIP-0195,tensorrt-rtx-cu13-libs,https://pypi.nvidia.com/ | https://docs.nvidia.com/deeplearning/tensorrt-rtx/latest/installing-tensorrt-rtx/installing.html
+PIP-0196,tensorrt-llm,https://docs.nvidia.com/tensorrt-llm/index.html | https://nvidia.github.io/TensorRT-LLM/installation/linux.html | https://pypi.org/project/tensorrt-llm/
+PIP-0197,torch-tensorrt,https://pypi.org/project/torch-tensorrt/ | https://github.com/pytorch/TensorRT/releases | https://docs.pytorch.org/TensorRT/
+PIP-0198,onnx-graphsurgeon,https://docs.nvidia.com/deeplearning/tensorrt/latest/api/onnx-graphsurgeon-api.html | https://pypi.nvidia.com/
+PIP-0199,polygraphy,https://docs.nvidia.com/deeplearning/tensorrt/latest/api/polygraphy-api.html | https://pypi.nvidia.com/
+PIP-0200,onnxslim,https://pypi.org/project/onnxslim/
+PIP-0201,nvidia-modelopt,https://pypi.nvidia.com/ | https://developer.nvidia.com/tensorrt
+PIP-0202,tritonclient,https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/client/README.html | https://pypi.org/project/tritonclient/
+PIP-0203,pytriton,https://triton-inference-server.github.io/pytriton/ | https://docs.nvidia.com/deeplearning/triton-inference-server/
+PIP-0204,triton-model-analyzer,https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/model_analyzer.html | https://pypi.org/project/triton-model-analyzer/
+PIP-0205,triton-model-navigator,https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/model_navigator/README.html | https://pypi.org/project/triton-model-navigator/
+PIP-0206,prometheus-client,https://prometheus.github.io/client_python/ | https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html
+PIP-0207,grpcio,https://grpc.io/docs/languages/python/quickstart/ | https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/client/README.html
+PIP-0208,grpcio-tools,https://grpc.io/docs/languages/python/basics/
+PIP-0209,geventhttpclient,https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/client/README.html | https://pypi.org/project/geventhttpclient/
+PIP-0210,nvidia-ml-py,https://pypi.org/project/nvidia-ml-py/ | https://developer.nvidia.com/management-library-nvml
+PIP-0211,kubernetes,https://github.com/kubernetes-client/python | https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/customization_guide/deploy.html
+PIP-0212,vllm,https://docs.vllm.ai/en/stable/getting_started/installation/gpu/ | https://docs.vllm.ai/en/latest/getting_started/quickstart/ | https://docs.vllm.ai/en/latest/serving/openai_compatible_server/ | https://docs.vllm.ai/en/latest/configuration/engine_args/ | https://docs.vllm.ai/en/stable/usage/metrics/
+PIP-0213,flash-attn,https://github.com/Dao-AILab/flash-attention | https://docs.vllm.ai/en/stable/getting_started/installation/gpu/
+PIP-0214,flashinfer-python,https://docs.flashinfer.ai/installation.html | https://docs.vllm.ai/en/latest/features/quantization/
+PIP-0215,flashinfer-cubin,https://docs.flashinfer.ai/installation.html
+PIP-0216,flashinfer-jit-cache,https://docs.flashinfer.ai/installation.html
+PIP-0217,sglang,https://docs.sglang.io/
+PIP-0218,sgl-kernel,https://docs.sglang.io/ | https://pypi.org/project/sgl-kernel/
+PIP-0219,text-generation,https://huggingface.co/docs/text-generation-inference/index | https://huggingface.co/docs/text-generation-inference/en/messages_api
+PIP-0220,litellm,https://docs.litellm.ai/docs/
+PIP-0221,ray,https://docs.ray.io/en/latest/serve/llm/user-guides/vllm-compatibility.html
+PIP-0222,xgrammar,https://xgrammar.mlc.ai/ | https://docs.vllm.ai/en/latest/features/structured_outputs/
+PIP-0223,outlines,https://dottxt-ai.github.io/outlines/latest/ | https://docs.vllm.ai/en/latest/features/structured_outputs/ | https://huggingface.co/docs/text-generation-inference/index
+PIP-0224,lm-format-enforcer,https://pypi.org/project/lm-format-enforcer/ | https://docs.vllm.ai/en/latest/features/structured_outputs/
+PIP-0225,guidance,https://docs.vllm.ai/en/latest/features/structured_outputs/ | https://huggingface.co/docs/text-generation-inference/index
+PIP-0226,compressed-tensors,https://docs.vllm.ai/en/latest/features/quantization/ | https://github.com/vllm-project/llm-compressor
+PIP-0227,llmcompressor,https://docs.vllm.ai/en/latest/features/quantization/ | https://github.com/vllm-project/llm-compressor
+PIP-0228,gptqmodel,https://docs.vllm.ai/en/latest/features/quantization/gptqmodel/ | https://github.com/ModelCloud/GPTQModel
+PIP-0229,autoawq,https://docs.vllm.ai/en/latest/quantization/auto_awq.html | https://github.com/casper-hansen/AutoAWQ
+PIP-0230,auto-gptq,https://docs.vllm.ai/en/latest/features/quantization/ | https://github.com/AutoGPTQ/AutoGPTQ
+PIP-0231,torchao,https://docs.vllm.ai/en/latest/features/quantization/ | https://github.com/pytorch/ao
+PIP-0232,mistral-common,https://github.com/mistralai/mistral-common | https://pypi.org/project/mistral-common/
+PIP-0233,msgspec,https://jcristharif.com/msgspec/ | https://pypi.org/project/msgspec/
+PIP-0234,uvloop,https://github.com/MagicStack/uvloop | https://pypi.org/project/uvloop/
+PIP-0235,httptools,https://github.com/MagicStack/httptools | https://pypi.org/project/httptools/
+PIP-0236,h11,https://h11.readthedocs.io/ | https://pypi.org/project/h11/
+PIP-0237,sse-starlette,https://github.com/sysid/sse-starlette | https://pypi.org/project/sse-starlette/
+PIP-0238,watchfiles,https://watchfiles.helpmanual.io/ | https://pypi.org/project/watchfiles/
+PIP-0239,gguf,https://github.com/ggml-org/llama.cpp/blob/master/gguf-py/README.md | https://github.com/ggml-org/llama.cpp
+PIP-0240,exllamav2,https://github.com/turboderp-org/exllamav2 | https://pypi.org/project/exllamav2/
+PIP-0241,lmstudio,https://lmstudio.ai/docs/python | https://lmstudio.ai/docs/developer/core/server | https://lmstudio.ai/docs/developer/openai-compat
+PIP-0242,tabbyAPI,https://github.com/theroyallab/tabbyAPI/ | https://github.com/theroyallab/tabbyAPI/wiki/01.-Getting-Started
+PIP-0243,llama.cpp,https://github.com/ggml-org/llama.cpp | https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md
+PIP-0244,koboldcpp,https://github.com/LostRuins/koboldcpp | https://github.com/LostRuins/koboldcpp/wiki
+PIP-0245,jinja2,https://jinja.palletsprojects.com/ | https://jinja.palletsprojects.com/en/stable/templates/
+PIP-0246,hf-transfer,https://github.com/huggingface/hf_transfer | https://huggingface.co/docs/huggingface_hub/en/guides/download

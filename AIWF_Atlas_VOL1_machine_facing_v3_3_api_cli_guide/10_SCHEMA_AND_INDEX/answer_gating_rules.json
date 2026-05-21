@@ -1,0 +1,21 @@
+{
+  "adapter_version": "v1.7",
+  "purpose": "Machine-readable answer gates created after Topics 20-25 source verification.",
+  "global_rules": [
+    "Prefer canonical lane files over raw notes, but apply v1.7 claim status overrides before answering.",
+    "Do not present not_verified_as_hard_fact claims as hard facts.",
+    "For volatile model, hardware, benchmark, and percentage claims, either cite the verified source or qualify the statement.",
+    "Raw user-expanded notes remain provenance; corrected overlays govern current answer phrasing.",
+    "When a source date was corrected, preserve the source but use the corrected year/date label."
+  ],
+  "status_behaviors": {
+    "verified_primary": "Safe to use with citation.",
+    "verified_official": "Safe to use with citation; prefer over secondary sources.",
+    "verified_primary_with_date_correction": "Use the claim but correct the date/version label.",
+    "verified_primary_with_nuance": "Use only scoped wording; avoid broad extrapolation.",
+    "verified_secondary": "Use as secondary support only; qualify if official source is absent.",
+    "not_verified_as_hard_fact": "Do not present as fact; mark as estimate, hypothesis, or unresolved.",
+    "needs_correction": "Replace older phrasing with corrected wording."
+  },
+  "override_file": "10_SCHEMA_AND_INDEX/topics_20_25_claim_status_overrides_v1_7.jsonl"
+}

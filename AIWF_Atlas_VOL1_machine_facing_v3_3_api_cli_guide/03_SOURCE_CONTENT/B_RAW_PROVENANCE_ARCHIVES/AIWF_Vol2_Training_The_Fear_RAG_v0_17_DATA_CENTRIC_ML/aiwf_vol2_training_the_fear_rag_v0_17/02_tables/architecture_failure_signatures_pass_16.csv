@@ -1,0 +1,9 @@
+symptom,likely_layer,probable_causes,first_checks,possible_fix
+train loss falls validation stalls,generalization,"overfit, leakage, wrong split","check split, duplicates, baseline","regularize, more data, better split"
+image details blurry,latent/decoder/U-Net,"VAE compression, low resolution, poor captions","inspect VAE, crops, captions",better resolution/captions/VAE family
+LoRA learns trigger but loses identity,adapter/objective,"too high LR/rank, weak dataset variety",sample grid across weights,"lower LR/rank, add varied captions"
+model repeats phrases,sequence objective/data,"duplicates, bad template, decoding issue","dedupe, inspect chat template","clean data, fix template, adjust decoding"
+long context misses facts,attention/retrieval,"chunk order, context overload, eval mismatch",inspect retrieved chunks and positions,"rerank, shorter chunks, summary memory"
+video flickers,temporal architecture/data,"frame inconsistency, weak temporal objective",check clip prep/frame rate,better clip sampling/temporal conditioning
+training OOM at first step,hardware/activation memory,batch/resolution/context too high,estimate params+activations,"gradient checkpointing, smaller batch/resolution"
+NaN loss,optimization/precision,"LR too high, fp16 instability, bad data","check LR, scaler, data values","lower LR, bf16/fp32, clip gradients"

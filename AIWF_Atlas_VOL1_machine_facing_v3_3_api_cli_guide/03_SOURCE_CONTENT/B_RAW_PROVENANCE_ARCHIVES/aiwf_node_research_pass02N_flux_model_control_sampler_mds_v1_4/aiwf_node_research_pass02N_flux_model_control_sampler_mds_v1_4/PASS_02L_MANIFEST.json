@@ -1,0 +1,18 @@
+{
+  "pass_id": "PASS_02L",
+  "date": "2026-05-19",
+  "mode": "light research plus targeted schema sampling",
+  "base": "PASS_02K",
+  "new_rows": 26,
+  "total_rows": 669,
+  "covered_original_rows": 111,
+  "remaining_original_rows": 174,
+  "retry_stale_rows": 6,
+  "new_files": [
+    "PASS_02L_INDEX.md",
+    "PASS_02L_COVERAGE_STATUS.md",
+    "PASS_02L_SOURCE_ADDITIONS.csv",
+    "RAG_NODEPACK_BLOCK_02L_VIDEO_RESTORATION_MOTION.md",
+    "PASS_02L_WORKFLOW_POLICY.md"
+  ]
+}

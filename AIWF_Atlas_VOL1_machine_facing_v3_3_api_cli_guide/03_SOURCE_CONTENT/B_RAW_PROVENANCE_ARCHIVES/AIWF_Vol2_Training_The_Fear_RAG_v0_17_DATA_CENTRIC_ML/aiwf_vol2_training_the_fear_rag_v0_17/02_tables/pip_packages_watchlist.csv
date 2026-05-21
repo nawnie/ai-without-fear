@@ -1,0 +1,21 @@
+package,role,domains,notes
+torch,Core tensor/CUDA runtime,All training,Version must match CUDA; isolate venvs
+torchvision,Vision utilities,Image/video,Torch-version coupled
+torchaudio,Audio utilities,Voice/audio,Torch-version coupled
+transformers,Model loading/training backbone,LLM/VLM/audio,Fast-moving; version-sensitive
+datasets,Dataset loading/processing,LLM/RAG/audio/image,Use for local and HF datasets
+accelerate,Device and distributed launcher,LLM/diffusion,Common dependency in diffusers/TRL
+peft,Adapters: LoRA/QLoRA/etc.,LLM/diffusion,Core adapter abstraction
+trl,SFT/DPO/GRPO/RM trainers,LLM bots,Key for post-training chapter
+bitsandbytes,Quantization and 8-bit optimizers,LLM QLoRA,NVIDIA-centric; Windows can be fragile
+xformers,Memory-efficient attention,Diffusion/LLM sometimes,Version fragile
+flash-attn,Fast attention,LLM,Often hard on Windows; optional
+deepspeed,ZeRO/offload/distributed,LLM advanced,Not beginner Windows friendly
+wandb,Experiment tracking,All,Optional cloud
+tensorboard,Local tracking,All,Good local-first default
+safetensors,Model/adaptor file format,All,Preferred safe weights format
+diffusers,Diffusion pipelines and training examples,Image/video,Canonical HF stack
+sentence-transformers,Embedding/reranker fine-tune,RAG,High-value consumer training
+gradio,Trainer UIs,All,Common local UI layer
+opencv-python,Video/image preprocessing,Video/image,Common preprocessing dependency
+librosa,Audio preprocessing,Voice/audio,Common audio dependency

@@ -1,0 +1,7 @@
+tool_or_model,caption_style,best_use,consumer_hardware_note,risks
+BLIP/LAVIS,natural language,general image caption drafts,runs locally depending on model size,can be generic or miss training-critical identity details
+BLIP-2,natural language/VQA,stronger image understanding and caption drafts,larger variants may be heavy,may hallucinate details
+Florence-2,prompt-based caption/detection/OCR/segmentation,dataset QA and richer caption assistance,small/base variants can be practical,auto output still needs review
+WD14/SmilingWolf,tags/anime tags,anime/danbooru-style LoRA captions,fast and practical,taxonomy may not match photo/Flux style needs
+Qwen-VL style VLM,natural language and visual QA,screenshot/document/caption auditing,depends on model size and quantization,answers may over-interpret unseen details
+Human review,curated captions,final quality gate for small LoRA datasets,time cost but highest reliability,inconsistent reviewers need a rubric

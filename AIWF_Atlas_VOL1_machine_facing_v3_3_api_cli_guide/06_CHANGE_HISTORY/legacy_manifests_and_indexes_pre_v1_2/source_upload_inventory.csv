@@ -1,0 +1,10 @@
+source_file,source_path,exists,source_type,files_seen,unique_files_kept,exact_duplicates_skipped,bytes_seen,sha256_source_file
+AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip,/mnt/data/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip,True,zip,453,450,3,1466410,6cb3683de41a414f371a0b3021622deb001222f768e47f96bacec2a9507c199b
+AIWF_RAG_Concept_Additions_v0_1.zip,/mnt/data/AIWF_RAG_Concept_Additions_v0_1.zip,True,zip,8,8,0,15179,a37102d3197a2ac67664747ae5901f2dd4c8ff6c4992c3e52cef7ff279446ecb
+AIWF_Pip_Package_RAG_Starter_v1_9.zip,/mnt/data/AIWF_Pip_Package_RAG_Starter_v1_9.zip,True,zip,438,438,0,1587987,07fb3da5bb1fe1ff886f346d59420308efb28ead99e746935f536df8d938a5c9
+AIWF_Pip_Package_RAG_Starter_v1_5.zip,/mnt/data/AIWF_Pip_Package_RAG_Starter_v1_5.zip,True,zip,326,18,308,947399,cb9e06070e0033b5dec7f1944e5c818abd0c9b92c41fc53d9ebc75b856c37ff0
+aiwf_node_research_pass02N_flux_model_control_sampler_mds_v1_4.zip,/mnt/data/aiwf_node_research_pass02N_flux_model_control_sampler_mds_v1_4.zip,True,zip,246,246,0,1243529,913fb54762cd874afee20339c11847990bc70caa999319900a49a4f3377456c4
+AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip,/mnt/data/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip,True,zip,62,57,5,230678,e467d4280ce5b63bac05a5e54d704bcbb65d571a74861cab4c6a554b15cbb4d3
+AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip,/mnt/data/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip,True,zip,33,17,16,93043,e893fb36080710370547bc4653a5199859bf14cedd3922d9e3c0176c8c85a8fc
+AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip,/mnt/data/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip,True,zip,30,14,16,83425,4531360a625c0ccc96c4a64eed57ecb2679465a4f33a735b8aa599f01f86ca6a
+ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md,/mnt/data/ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md,True,md,1,0,1,44882,a97cd9b4e0f5dd9936bb15c45bca958f09f87b53e3d0624ad3d567e44df3a09f

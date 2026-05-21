@@ -1,0 +1,8 @@
+pattern,vol1_use,vol2_upgrade
+first win,first successful image,first clean tiny training run
+decision tree,setup/image/video routing,training method/eval/legal routing
+common problems fixes,ComfyUI/image/video issues,data/loss/metric/adapter failures
+practice ladder,beginner to serious generation,intuition to research/release competence
+atlas,sampler/failure signatures,loss/eval/dataset/model behavior atlas
+model stack,recommended local models,recommended trainer+dataset+eval stack
+field note,operator shortcut,research caution or lab habit

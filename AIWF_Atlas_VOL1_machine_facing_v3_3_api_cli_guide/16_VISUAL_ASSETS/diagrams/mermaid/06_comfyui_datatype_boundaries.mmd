@@ -1,0 +1,15 @@
+flowchart LR
+  image["IMAGE"]
+  vaeenc["VAE Encode"]
+  latent["LATENT"]
+  ksampler["KSampler"]
+  mask["MASK"]
+  cond["CONDITIONING"]
+  vaedec["VAE Decode"]
+  output["IMAGE Output"]
+  image --> vaeenc
+  vaeenc --> latent
+  latent --> ksampler
+  mask -- "guides" --> cond
+  ksampler --> vaedec
+  vaedec --> output

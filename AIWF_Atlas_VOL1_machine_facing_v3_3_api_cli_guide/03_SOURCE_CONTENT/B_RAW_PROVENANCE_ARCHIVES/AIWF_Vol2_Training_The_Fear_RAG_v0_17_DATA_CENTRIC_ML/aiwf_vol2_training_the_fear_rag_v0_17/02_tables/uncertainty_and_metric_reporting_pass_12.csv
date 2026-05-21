@@ -1,0 +1,8 @@
+metric_type,report_with,why
+accuracy,sample_size_and_confidence_interval,point estimates hide uncertainty
+f1,class_support_and_threshold,f1 changes with prevalence and threshold
+auc,confidence_interval_and_curve,ranking not threshold behavior
+retrieval_hit_rate,query_count_mrr_ndcg,top1 alone hides ranking quality
+human_preference,rater_count_prompt_count_ci,preference ratings are noisy
+calibration,reliability_diagram_brier_score,confidence must match frequency
+loss,eval_set_identity_and_size,loss is not comparable across objectives

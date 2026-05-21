@@ -1,0 +1,25 @@
+{
+  "query_type": "rag_chunking_embedding_design",
+  "first_lanes": [
+    "02_atlas_architecture_chunking_embedding",
+    "01_source_ledger_evidence",
+    "08_compatibility_matrix_atlas"
+  ],
+  "expand_terms": [
+    "typed chunks",
+    "metadata",
+    "source ledger",
+    "hybrid retrieval",
+    "rerank",
+    "evaluation"
+  ],
+  "must_return": [
+    "recommended chunk types",
+    "metadata fields",
+    "what not to embed directly",
+    "evaluation plan"
+  ],
+  "avoid": [
+    "single fixed chunk size for mixed technical corpus"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "aiwf_brand_consistency_rules_v2_7",
+  "display_name": "AIWF Atlas Vol. 1",
+  "parent_project": "AI Without Fear",
+  "human_layer": "AI Without Fear Field Guide",
+  "machine_layer": "AIWF Atlas Vol. 1",
+  "core_principle": "Master principles, not platforms. Tools change. Principles transfer.",
+  "voice": [
+    "beginner-safe by default",
+    "force-multiplier oriented",
+    "honest about uncertainty",
+    "human-in-control",
+    "implementation-oriented",
+    "lightly humorous when it helps learning",
+    "panic-to-participation framing",
+    "practical",
+    "source-grounded",
+    "systems-aware"
+  ],
+  "preferred_description": "machine-facing domain memory layer for AI Without Fear assistants, local Atlas systems, agents, workflow copilots, Gradio apps, and ComfyUI helper layers",
+  "do_not_describe_as": [
+    "trained model",
+    "fine-tune",
+    "replacement for official docs",
+    "complete AI encyclopedia",
+    "casual human textbook",
+    "permanently validated"
+  ],
+  "allowed_future_work_location": "07_EXPANSION_QUEUE",
+  "source_policy": "Preserve source payloads as provenance; prefer canonical lanes and current source gates for answers.",
+  "web_verification_policy": "Required for current/volatile tool, model, benchmark, hardware, license, API, and package-status claims unless explicitly opted out by the user.",
+  "adapter_version": "v2.7_brand_voice_humor",
+  "humor_rules": {
+    "style": "dry practical field-manual wit with broad sci-fi survival-guide absurdity",
+    "allowed_contexts": [
+      "examples",
+      "labs",
+      "callouts",
+      "failure explanations",
+      "beginner reassurance",
+      "Torchie mascot notes"
+    ],
+    "forbidden_contexts": [
+      "source verification",
+      "license warnings",
+      "consent warnings",
+      "dangerous commands",
+      "security warnings",
+      "medical/legal/financial risk"
+    ],
+    "copyright_safety": "Do not copy distinctive protected phrasing or scenes; use broad inspired-by tonal energy only.",
+    "accuracy_rule": "Humor never overrides source discipline or technical clarity."
+  },
+  "force_multiplier_positioning": {
+    "summary": "AI as leverage, not replacement; one person can reach farther while retaining judgment and final decision authority.",
+    "preferred_phrases": [
+      "force multiplier",
+      "AI as leverage, not replacement",
+      "panic to participation",
+      "learn the pattern, fix what breaks, keep going"
+    ],
+    "avoid": [
+      "automation replaces responsibility",
+      "the model decides what matters",
+      "the adapter is a trained model"
+    ]
+  }
+}

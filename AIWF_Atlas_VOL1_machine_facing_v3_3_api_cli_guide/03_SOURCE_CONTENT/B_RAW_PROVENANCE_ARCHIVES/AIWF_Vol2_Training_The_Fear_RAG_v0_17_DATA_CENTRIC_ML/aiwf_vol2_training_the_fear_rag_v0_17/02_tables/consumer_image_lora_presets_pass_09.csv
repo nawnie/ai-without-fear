@@ -1,0 +1,6 @@
+gpu_tier,safe_default,possible_with_care,avoid_as_default,aiwf_ui_wording
+8GB,SD1.5 LoRA,tiny SDXL,FLUX/Qwen/video,learning tier
+12GB,SDXL safe preset,FLUX.1 aggressive quant/offload,Qwen/FLUX.2 dev,entry consumer tier
+16GB,"SDXL, Z-Image/Klein experiments",FLUX.1 with RAM warning,"Qwen default, FLUX.2 dev",serious consumer tier
+24GB,SDXL/FLUX/SD3.5/Z-Image,Qwen attempts depending backend,large dev-class full training,advanced consumer tier
+32GB+ / cloud,"Qwen, FLUX.2 dev, heavier fine-tunes",video LoRAs/fine-tunes,"none, but cost risk",cloud/lab tier

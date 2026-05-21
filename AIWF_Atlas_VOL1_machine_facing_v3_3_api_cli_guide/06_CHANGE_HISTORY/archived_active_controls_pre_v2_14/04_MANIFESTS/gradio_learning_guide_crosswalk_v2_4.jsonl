@@ -1,0 +1,19 @@
+{"source_file": "Expanded_Gradio_Section_v2.md", "lane_id": "11_gradio_ui_research", "machine_use": "Gradio full architecture, Blocks, events, state, custom components, production deployment, security, and integration patterns"}
+{"source_file": "lakeFS_Versioning_Deep_Dive.md", "lane_id": "20_data_engineering_for_ai", "machine_use": "lakeFS branch/commit/merge/time-travel model, reproducible training data, AI data pipeline versioning"}
+{"source_file": "00_Master_Section_1_Gradio_Topics20-21_Expanded.md", "lane_id": "11_gradio_ui_research", "machine_use": "Gradio mini-course and production UI learning path"}
+{"source_file": "00_Master_Section_1_Gradio_Topics20-21_Expanded.md", "lane_id": "20_data_engineering_for_ai", "machine_use": "Data engineering control-plane UI patterns"}
+{"source_file": "00_Master_Section_1_Gradio_Topics20-21_Expanded.md", "lane_id": "21_audio_speech_music_ai", "machine_use": "Voice agent studio and audio UI patterns"}
+{"source_file": "Expanded_Section2_Topics22-23_v2.md", "lane_id": "22_vision_language_ocr_document_ai", "machine_use": "Document AI architecture, VLM extraction, confidence heatmaps, document agents"}
+{"source_file": "Expanded_Section2_Topics22-23_v2.md", "lane_id": "23_synthetic_data_dataset_creation", "machine_use": "Synthetic-data pipeline, curation, risk mitigation, synthetic data studio"}
+{"source_file": "Expanded_Section3_Topics24-25_v2.md", "lane_id": "24_ai_application_architecture", "machine_use": "AI app architecture, agentic RAG, multi-agent orchestration, observability"}
+{"source_file": "Expanded_Section3_Topics24-25_v2.md", "lane_id": "25_hardware_cost_performance_planning", "machine_use": "Cost/performance dashboard patterns, model routing, TCO framing"}
+{"source_file": "02_Section_3_Topics24-25_Labs_Capstone2.md", "lane_id": "24_ai_application_architecture", "machine_use": "Lab and capstone scaffold for multi-agent research platform"}
+{"source_file": "02_Section_3_Topics24-25_Labs_Capstone2.md", "lane_id": "25_hardware_cost_performance_planning", "machine_use": "Cost command center lab and cost-aware routing patterns"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "11_gradio_ui_research", "machine_use": "Glossary/index/diagram references for Gradio learning guide"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "20_data_engineering_for_ai", "machine_use": "Glossary/index/diagram references for data engineering and lakehouse concepts"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "21_audio_speech_music_ai", "machine_use": "Glossary/index/diagram references for voice agents"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "22_vision_language_ocr_document_ai", "machine_use": "Glossary/index/diagram references for document AI"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "23_synthetic_data_dataset_creation", "machine_use": "Glossary/index/diagram references for synthetic data flywheel"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "24_ai_application_architecture", "machine_use": "Glossary/index/diagram references for multi-agent systems"}
+{"source_file": "03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md", "lane_id": "25_hardware_cost_performance_planning", "machine_use": "Glossary/index/diagram references for cost and hardware planning"}
+{"source_file": "04_Final_Section_Glossary_Index_Capstones_Diagrams.md", "lane_id": "11_gradio_ui_research", "machine_use": "Expanded glossary/index/capstone/diagram source for Gradio + Topics 20–25 master set"}

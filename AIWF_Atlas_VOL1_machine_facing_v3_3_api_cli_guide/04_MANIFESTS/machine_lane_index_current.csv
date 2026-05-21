@@ -1,0 +1,2 @@
+manifest_role,canonical_path,note
+current_lane_index_pointer,02_RETRIEVAL_INDEX/machine_lane_index.csv,Canonical lane index lives in retrieval index; this manifest pointer prevents duplicate active files.

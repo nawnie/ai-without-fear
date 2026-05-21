@@ -1,0 +1,11 @@
+{
+  "release": "v1.7",
+  "tracked_packages": 238,
+  "missing_package_card_paths": [],
+  "duplicate_package_ids": [],
+  "duplicate_pip_names": [],
+  "unique_source_urls": 407,
+  "source_domains": 114,
+  "package_source_links": 557,
+  "source_registry_rows_match": true
+}

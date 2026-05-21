@@ -1,0 +1,16 @@
+{
+  "id": "api_cli_usage_policy_current",
+  "purpose": "Route API and CLI questions to the human-facing Field Guide insert and official source pinset.",
+  "human_facing_primary": "17_FIELD_GUIDE_INSERTS/API_AND_CLI_USAGE_FIELD_GUIDE_INSERT.md",
+  "quick_reference": "17_FIELD_GUIDE_INSERTS/API_CLI_QUICK_REFERENCE.md",
+  "prefer_official_docs": true,
+  "security_rules": [
+    "never hardcode API keys",
+    "default local servers to 127.0.0.1",
+    "warn before 0.0.0.0/public exposure",
+    "disable streaming for first debug pass",
+    "treat OpenAI-compatible as compatibility not feature parity"
+  ],
+  "power_shell_preference": true,
+  "source_pinset": "04_MANIFESTS/api_cli_source_pinset_current.jsonl"
+}

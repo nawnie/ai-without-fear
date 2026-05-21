@@ -1,0 +1,11 @@
+architecture_family,best_for,built_in_bias,main_training_bottleneck,consumer_gpu_notes,common_failure,first_baseline
+MLP,tabular/low-dimensional features,weak; generic function approximation,overfit/feature quality,CPU or any GPU for small nets,memorizes without useful representation,linear/logistic regression
+CNN,images/local spatial patterns,locality/translation weight sharing,resolution/activation memory,easy on consumer GPUs for small models,misses global context or small details after downsampling,small CNN
+ResNet,deep vision/backbone features,residual update around identity,depth + batchnorm behavior,good teaching backbone,plain deep nets degrade while residuals train,shallow CNN
+U-Net,segmentation/restoration/diffusion denoising,multi-scale local-global reconstruction,resolution + skip activations,core image/video training concept,blurry/local mismatch if bottleneck/skip poor,simple encoder-decoder
+RNN/LSTM/GRU,streaming sequence/time series,state over time/order,sequential training/inference,small models practical,forgets long dependencies,n-gram/linear time-series
+Transformer,LLM/VLM/attention over tokens,flexible token relation modeling,attention memory and context length,QLoRA/adapters feasible; full pretraining not,long-context illusion/attention cost,bag-of-words or RNN baseline
+ViT,large-scale vision/image-text models,patch token global attention,patch count/resolution,moderate only if small/frozen/adapters,needs enough data; weak local bias,CNN baseline
+Diffusion U-Net/DiT,image/video generation,denoising/trajectory learning,activation memory/resolution/frames,LoRA feasible; full training rarely,"concept overfit, style bleed, bad captions",captioned retrieval + baseline generation
+Flow/Rectified Flow,modern generative image/video,vector-field path learning,objective/trainer compatibility,adapter training feasible when tool supports family,wrong trainer objective for base model,family-specific inference check
+SSM/Mamba,long sequences/audio/genomics/streaming,state evolution with efficient long context,kernel/backend support,watchlist; depends on implementation,weaker random access than attention,RNN/transformer comparison

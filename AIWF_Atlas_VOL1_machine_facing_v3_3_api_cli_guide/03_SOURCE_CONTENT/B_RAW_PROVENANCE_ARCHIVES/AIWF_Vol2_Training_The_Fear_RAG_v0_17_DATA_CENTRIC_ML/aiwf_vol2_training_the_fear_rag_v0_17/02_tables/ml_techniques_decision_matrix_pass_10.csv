@@ -1,0 +1,11 @@
+technique,when_to_use,do_not_use_when,required_eval
+linear/logistic regression,baseline; interpretable; small/medium data,nonlinear high-complexity task without features,holdout metrics calibration
+tree ensemble,tabular data; mixed features,needs smooth extrapolation or sequence generation,group/time split feature audit
+SVM/kernel,small high-dimensional datasets,huge datasets without approximation,validation margin/error
+MLP,structured numeric/image/text features after preprocessing,baseline not beaten,loss curves ablation
+transformer finetune/LoRA,language or sequence adaptation,knowledge lookup solved by RAG,base-vs-adapter eval
+RAG retriever training,retrieval misses due to embedding mismatch,model needs new behavior not sources,recall@k MRR hard negatives
+diffusion LoRA,style/concept/identity adaptation,full new domain without enough images/rights,prompt matrix overfit checks
+preference optimization,behavior ranking data exists,preference data noisy or ambiguous,pairwise eval regression suite
+distillation,smaller/faster model needed,teacher behavior is bad or unsafe,teacher-student task eval
+quantization,deployment memory/latency constraint,quality loss unacceptable,post-quant behavior diff

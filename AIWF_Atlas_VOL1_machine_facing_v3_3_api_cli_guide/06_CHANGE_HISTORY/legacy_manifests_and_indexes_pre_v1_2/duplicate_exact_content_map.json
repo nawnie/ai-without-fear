@@ -1,0 +1,2445 @@
+[
+  {
+    "duplicate_source_archive": "AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip",
+    "duplicate_internal_path": "aiwf_vol2_training_the_fear_rag_v0_17/05_specs/AIWF_Image_LoRA_Preset_Builder_v0_1.md",
+    "duplicate_size_bytes": 1848,
+    "sha256": "5dad56d2af2d480fa6753709544452964dd8955d46ab6960f1cecafbfa2b4590",
+    "kept_as": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/01_research_cards/099_aiwf_image_lora_preset_builder_spec.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip",
+    "duplicate_internal_path": "aiwf_vol2_training_the_fear_rag_v0_17/07_theory_law_rules/LEGAL_RIGHTS_CONSENT_BASELINE.md",
+    "duplicate_size_bytes": 4637,
+    "sha256": "e89eee14ec889ba046f4bc093f0e848e462537d8381ab3abab50df121f9e3ec4",
+    "kept_as": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/01_research_cards/026_training_law_rights_consent_baseline.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip",
+    "duplicate_internal_path": "aiwf_vol2_training_the_fear_rag_v0_17/07_theory_law_rules/TRAINING_THEORY_CORE_LAWS.md",
+    "duplicate_size_bytes": 4112,
+    "sha256": "8a832366472bb0fb37e2de2ac4322d04c976f13505fa7bd126d4434149fea394",
+    "kept_as": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/01_research_cards/027_training_theory_core_laws.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/ENVIRONMENT_AUDIT_GUIDE.md",
+    "duplicate_size_bytes": 1293,
+    "sha256": "b6b62a9d0e984438d3369d677d35337d045803fe833809179fb65c3b209ca8be",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/ENVIRONMENT_AUDIT_GUIDE.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/torch.md",
+    "duplicate_size_bytes": 1815,
+    "sha256": "1b5ef004687f1067b5bbc72b128a75520d9c8faeb630fed8ba1ad99d08e883fc",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/torch.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/torchvision.md",
+    "duplicate_size_bytes": 1297,
+    "sha256": "39632b3a352b9296f6013470ce0c6e87d6bb20bd5a84068c4a55461f03b51f10",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/torchvision.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/torchaudio.md",
+    "duplicate_size_bytes": 1275,
+    "sha256": "db0449f3f0ee028c55f737349021b6a2b44e135c90eed3c14d06600be966a6d7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/torchaudio.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/xformers.md",
+    "duplicate_size_bytes": 1598,
+    "sha256": "170cf375322b3e0c80ffe889ac0f437eb44c85c12a25c0c67d01389d3d531c80",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/xformers.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/triton.md",
+    "duplicate_size_bytes": 1229,
+    "sha256": "fa493483742346456e14def2488033355a50d87fa37f614543cab4f69cfacb3f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/triton.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/diffusers.md",
+    "duplicate_size_bytes": 1529,
+    "sha256": "9e65e7deb33af63af30ec14a0ea79e0210e60fec91e2fedf546cda07ba83f6c5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/diffusers.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/accelerate.md",
+    "duplicate_size_bytes": 1359,
+    "sha256": "c459921f8af5a59146378a8bc7426719e361b77190bf6a401328779257300c6b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/accelerate.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/gradio.md",
+    "duplicate_size_bytes": 1375,
+    "sha256": "81f67c9af60487d904ddd7fc60bac69cdb4906cde3f52891d58a333269befc7d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/gradio.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/fastapi.md",
+    "duplicate_size_bytes": 1338,
+    "sha256": "4362e0f4adde852ac2433047f637e33709a0b61b64552ab27990ec533d182e3e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/fastapi.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pydantic.md",
+    "duplicate_size_bytes": 1192,
+    "sha256": "95d507bcf2d3d6236c616aa19012dfa2785d8d51d01dc26600202cbf94ac2a27",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pydantic.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/starlette.md",
+    "duplicate_size_bytes": 1141,
+    "sha256": "887ed3c17c99480085587ef5db1ed1e2eaaf7bc354f8cdf2854589533167bf18",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/starlette.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/uvicorn.md",
+    "duplicate_size_bytes": 1242,
+    "sha256": "9d5118442418ac1b5cfc021e6fc43cf418064ff19a36a848e5de7419800bbb74",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/uvicorn.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/anyio.md",
+    "duplicate_size_bytes": 1104,
+    "sha256": "d27f3ee7cfd692237dd8e82589add9d72748eae14faaa6c99407032dcea19b25",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/anyio.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/README.md",
+    "duplicate_size_bytes": 459,
+    "sha256": "4cbba5dc9f69a9dbd4a6538359262f9dc7e50e8c8f4c2808cf3569a363796e3e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/README.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pillow.md",
+    "duplicate_size_bytes": 1492,
+    "sha256": "3900fee166094a4c3fc1b6bfa932874caa8015dcca8701a712e1dd8e93a2a180",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pillow.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/numpy.md",
+    "duplicate_size_bytes": 1625,
+    "sha256": "4cc22227c068bd97c8556932ce2fc3e89b5e188251ad97a1622fb514b8a37c3b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/numpy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/opencv-python.md",
+    "duplicate_size_bytes": 1541,
+    "sha256": "c2a291a4c4968656771e28c160052ed4d90f6f3aac2296db3595e47fc7162686",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/opencv-python.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/controlnet-aux.md",
+    "duplicate_size_bytes": 1752,
+    "sha256": "b14d9926e2912969c045194e4bb7af1a5a71a848a68b3d8229bd223fef0df214",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/controlnet-aux.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/psutil.md",
+    "duplicate_size_bytes": 1519,
+    "sha256": "dff07501b9ab2529386a0ffd90c9288b091d955b0a3575faca2fc936a198119e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/psutil.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/gfpgan.md",
+    "duplicate_size_bytes": 1472,
+    "sha256": "a61b219172ad20d739db109ca2f9bef2428630f67ad82ae84d7e50c432b7910f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/gfpgan.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/basicsr.md",
+    "duplicate_size_bytes": 1562,
+    "sha256": "da36f82a3f4ff8ac294df3da59fd5faec7b8ade9004b829e427e0eea86cce920",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/basicsr.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/realesrgan.md",
+    "duplicate_size_bytes": 1389,
+    "sha256": "48db8e8373babfb6735cf3d840c841cd0a51dd625cc16d6ae48103d088299fea",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/realesrgan.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/facexlib.md",
+    "duplicate_size_bytes": 1426,
+    "sha256": "a409fd84f15e84b5551da64ac057ad75d4a4404cc91d904a8a3e28efe59fc94c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/facexlib.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/insightface.md",
+    "duplicate_size_bytes": 1776,
+    "sha256": "328f68a199d208d2a317c8424d97f43ec2c48c8db012dff68540ab97aa938abf",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/insightface.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/onnxruntime.md",
+    "duplicate_size_bytes": 1515,
+    "sha256": "304293e36b9a32d92951af583e551cc411a3c27aee6f8899df00703c1bdfa7e1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/onnxruntime.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/onnxruntime-gpu.md",
+    "duplicate_size_bytes": 1594,
+    "sha256": "0f06584d8cb98cf850bcb3d24d7561b06c97087a8e5f5fccd03df608a5cfae00",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/onnxruntime-gpu.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/onnx.md",
+    "duplicate_size_bytes": 1372,
+    "sha256": "bc7404d34a900b5b3b3f7cff2b098ad71b4a8a38497ce50632340805a7203bdc",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/onnx.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/ultralytics.md",
+    "duplicate_size_bytes": 1443,
+    "sha256": "0d6831f001d45ff4d708a766a96ef1e4a6f42d157a6cd09a45a923a726ab4e63",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ultralytics.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/segment-anything.md",
+    "duplicate_size_bytes": 1572,
+    "sha256": "abf267d458a259b4ad09265fa008090c7966fba6106c999a4c53ee42a1024b9b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/segment-anything.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/sam2.md",
+    "duplicate_size_bytes": 1959,
+    "sha256": "0766ae4ef5edab93de2d799754f7f5e05badae727cbcedfd88ba1969aff9c59e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/sam2.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/scikit-image.md",
+    "duplicate_size_bytes": 1582,
+    "sha256": "fd714d450069d2d8b6905f6eb36bcc38f6e2fabaabf8f49369ce3b6fd7107990",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/scikit-image.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/sentence-transformers.md",
+    "duplicate_size_bytes": 1486,
+    "sha256": "949ed82963c6454d13d0ff9e909fd9bed18dbb16617f97019a1fe845555e3c1b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/sentence-transformers.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/chromadb.md",
+    "duplicate_size_bytes": 1305,
+    "sha256": "302dfcf560629395602315dad7c1b07739fb5bd0a4aeadfabd661f3760240b28",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/chromadb.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/lancedb.md",
+    "duplicate_size_bytes": 1301,
+    "sha256": "894565cdfe462e3acea4248a6f6427a4916aaa14f823180aa4081706dca5f3fb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/lancedb.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/faiss-cpu.md",
+    "duplicate_size_bytes": 1271,
+    "sha256": "ad008e6ce8eff553130e970ea819c49963deeb0a3665d7935438dedc2a508ac7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/faiss-cpu.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/openai.md",
+    "duplicate_size_bytes": 1216,
+    "sha256": "71c7c04adba10612053fd324d3de5406a16ccd380c3e37ebc0337a8303e4383b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/openai.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tiktoken.md",
+    "duplicate_size_bytes": 1315,
+    "sha256": "09cb355fea0d6708a3718077271a6efeb2c16d1346c14eaade2779f363a6946e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tiktoken.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tokenizers.md",
+    "duplicate_size_bytes": 1245,
+    "sha256": "1adea562d7df6211e3f7a4d60163b7727b2a1f5053c19f04613d4bb8b61ebaba",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tokenizers.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/spacy.md",
+    "duplicate_size_bytes": 1227,
+    "sha256": "c7135eac92d73e7ac280385505c39e35137a596d966a1970db5b83d9b57f8540",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/spacy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pytesseract.md",
+    "duplicate_size_bytes": 1361,
+    "sha256": "30c4154c01d7663e21bd44fd54b9bc8d7309e356b6393ae416039a4019c6e1d7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pytesseract.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/easyocr.md",
+    "duplicate_size_bytes": 1128,
+    "sha256": "f4e347362af42d69011447ba3b5ebdc4cfd44f56dc1f0a7073ba2e7809f334f4",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/easyocr.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/rembg.md",
+    "duplicate_size_bytes": 1142,
+    "sha256": "245954ab33df87275f01b8ae07302c20f16da6450e9882fbca549e2baeafe220",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/rembg.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/transparent-background.md",
+    "duplicate_size_bytes": 1293,
+    "sha256": "df6d6a05b1bc2d734901978a8097045bb1df6fafd05bcbd136d72914b40f3e2c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/transparent-background.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/onnxruntime-directml.md",
+    "duplicate_size_bytes": 1405,
+    "sha256": "1e38640f27e3d07e6bc3220b2e4c74c647b8cfb9ce070c4635e36b4de2650538",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/onnxruntime-directml.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/protobuf.md",
+    "duplicate_size_bytes": 1288,
+    "sha256": "409f5dfc8eb2c337974b32ad48fbae2e571418c401da1e41f9851bd81f4212ea",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/protobuf.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pyyaml.md",
+    "duplicate_size_bytes": 1124,
+    "sha256": "90166a6e7a27acb9f7b939737279dabd6a218959d56f85d9fdc2ee67ccfa6168",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pyyaml.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/datasets.md",
+    "duplicate_size_bytes": 1352,
+    "sha256": "e419efffdf77fe3ce4f0c00b9e94d2189593d713f0d25fc940b4bc206b20097e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/datasets.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/bitsandbytes.md",
+    "duplicate_size_bytes": 1285,
+    "sha256": "1d715e164f74023dec07d4781854244a2991ba2712a10470d25d622d05bb6bc5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/bitsandbytes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/omegaconf.md",
+    "duplicate_size_bytes": 1161,
+    "sha256": "6ed8e3bb0e340eb3ea565b899e4e6fed3e0d4d2ffa25ce20610c3f416e3c7e6e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/omegaconf.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pandas.md",
+    "duplicate_size_bytes": 1161,
+    "sha256": "5eded2c09996e0d0901f4fce200d76f360d111e7ea15a0e92da11e02d14ccd81",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pandas.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/regex.md",
+    "duplicate_size_bytes": 1039,
+    "sha256": "0ae5f38a0a9381b74903349c9e364d5c565259c7e7d5e8efeaafe8374992b1bd",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/regex.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/scipy.md",
+    "duplicate_size_bytes": 1086,
+    "sha256": "a7d69297e9666dd7019c55df509134783b5a2f45b70dc58a664cbfe9afabac9e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/scipy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/ftfy.md",
+    "duplicate_size_bytes": 1048,
+    "sha256": "853c74e654557d47d978f9a1ec7c6dda37be02b880c6886d58577971b5d31790",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ftfy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tqdm.md",
+    "duplicate_size_bytes": 1028,
+    "sha256": "5336876880b0100f4a9059bd95d278bd3e4f441c09dc3f3035b4f8a802e3a90b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tqdm.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/requests.md",
+    "duplicate_size_bytes": 1112,
+    "sha256": "6b19efdb097ae18626529e4b5917a5807a6101becc1e30fa6538ef4d6cb044e4",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/requests.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/einops.md",
+    "duplicate_size_bytes": 1103,
+    "sha256": "bb5fe80db6bc99b4d66db50454ed5a121698a82d99f06e9b72aac760f3893ed1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/einops.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/kornia.md",
+    "duplicate_size_bytes": 1082,
+    "sha256": "e1c07f08f7cb521e73947c7b7a98720624ac4cc4b466dabdf612609f2d0b6366",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/kornia.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/timm.md",
+    "duplicate_size_bytes": 1185,
+    "sha256": "dc69602413f3263f21d0c4b974be50256847217f45450ea1fe4420496604884c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/timm.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/sentencepiece.md",
+    "duplicate_size_bytes": 1149,
+    "sha256": "d88855b9f15dc2da0f0f1b3e61ebb20875ccff6e58c46b4b538bfafe6ab356db",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/sentencepiece.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/open-webui.md",
+    "duplicate_size_bytes": 1170,
+    "sha256": "a16a4e0770b7d385214a1e08a18e8ea8686c74f5199b216a433d923e8c537285",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/open-webui.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/llama-index.md",
+    "duplicate_size_bytes": 1385,
+    "sha256": "4ea5ed3aa9af2479e003e3e43ffe019e1150c19aa5e99f4c0a464d745b57a6f9",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/llama-index.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/langchain.md",
+    "duplicate_size_bytes": 1329,
+    "sha256": "defe037470d314e11f56d5ac506245c8971f6261c602771524a2ee8745140e6d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/langchain.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/av.md",
+    "duplicate_size_bytes": 1660,
+    "sha256": "d5568d4044efd2b089cc739ec4dde9c73400362be46cf46e9bf3430e3a0f7dd6",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/av.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/imageio.md",
+    "duplicate_size_bytes": 1508,
+    "sha256": "e53c219e93ce9dfb440c465bffcfaa8afbe47d0bacb03c1a686056062b9b47c8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/imageio.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/imageio-ffmpeg.md",
+    "duplicate_size_bytes": 1475,
+    "sha256": "a88d966eb6e6ee71ecee101be2dae770782c7cdc0dd96d8fcbda0b278e09d845",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/imageio-ffmpeg.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/moviepy.md",
+    "duplicate_size_bytes": 1483,
+    "sha256": "ba5b8880451ea9d1b5e233c322f374130878d37d235aef43dc4f58bdb258383a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/moviepy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/decord.md",
+    "duplicate_size_bytes": 1442,
+    "sha256": "0c3dffadb1266cc79f76eee667abd540f66aa7f1d9040cd0b2d801bde649fcce",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/decord.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/librosa.md",
+    "duplicate_size_bytes": 1370,
+    "sha256": "1ae2e582fe8c964654706b28da7ee87196c80925025daa1dfa57769c4513ccbb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/librosa.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/soundfile.md",
+    "duplicate_size_bytes": 1262,
+    "sha256": "1e1d3336b550cc240a096f8c3a64d1079055356e151a9a45a7f5a38473af4212",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/soundfile.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/ffmpeg-python.md",
+    "duplicate_size_bytes": 1380,
+    "sha256": "4586668baaf9f209929a62c9400465a8053529c65eb6772d028dcc76226d5164",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ffmpeg-python.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/matplotlib.md",
+    "duplicate_size_bytes": 1305,
+    "sha256": "5e4ebab9df58e0288798ac16c39ec372ec8e7aacdf9dcb7c1199dce4139900d7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/matplotlib.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/rich.md",
+    "duplicate_size_bytes": 1234,
+    "sha256": "964a66fd9acb778db0fa6fbf8c406c4f14c786aad6bb9ccb10a9d8a140b20ff2",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/rich.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/typer.md",
+    "duplicate_size_bytes": 1244,
+    "sha256": "8b5a5e8eca393dfc785e5fbbee5f04d140c9f9967907455fdf549c08015cf4c0",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/typer.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/click.md",
+    "duplicate_size_bytes": 1160,
+    "sha256": "3e39e6c526188d19febad36fb0a43d616a15b07eeba111c4e1f3b1db7ff323a8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/click.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/gitpython.md",
+    "duplicate_size_bytes": 1317,
+    "sha256": "4caed57e5a4874787325e6cdc17d93d079eea8437ad15e1d5dc1c7f4d7d19e6d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/gitpython.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/packaging.md",
+    "duplicate_size_bytes": 1209,
+    "sha256": "588defd97363cd23e9fd3b8949f3b5cf1a0ad7de9417ee439bd2e30a029c8d9e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/packaging.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/setuptools.md",
+    "duplicate_size_bytes": 1289,
+    "sha256": "01fac29c2af7b14c0c75ed9dde2249177df9c619b4859eb56f79144959fd7890",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/setuptools.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/wheel.md",
+    "duplicate_size_bytes": 1190,
+    "sha256": "2ac0ccd6089c72116adce502a12e70359056ef57d766f26460f3a9afacf00059",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/wheel.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/ninja.md",
+    "duplicate_size_bytes": 1243,
+    "sha256": "b0068658bc43f37ae6a8b1affc35562525341bb9f0e03e7d28a7082f02094def",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ninja.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cmake.md",
+    "duplicate_size_bytes": 1349,
+    "sha256": "ed445129533e0a45fed3f2eb76b2c0c06ca0820f0d449b695e297aca65f2d1a6",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cmake.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pybind11.md",
+    "duplicate_size_bytes": 1382,
+    "sha256": "934f987e036321f15f1cc6ee79a8a176fbdaaa93298b9989c40d96969162d504",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pybind11.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/comfyui-frontend-package.md",
+    "duplicate_size_bytes": 1393,
+    "sha256": "c5aecc2da2fff8801583d28b89fe9c330611a29548961d2beb6ddf3a26cc81b6",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/comfyui-frontend-package.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/comfyui-workflow-templates.md",
+    "duplicate_size_bytes": 1345,
+    "sha256": "cef2485d61c72aefd9570139cbec1e449003181871eb103727682e4b41087f9e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/comfyui-workflow-templates.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/comfyui-embedded-docs.md",
+    "duplicate_size_bytes": 1322,
+    "sha256": "9db4fd76d7f6329666cafcce97f7c6673baf20133a5024d6f24173f4d13ce71c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/comfyui-embedded-docs.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/torchsde.md",
+    "duplicate_size_bytes": 1350,
+    "sha256": "293b5b67abec2423a344ad4137053758762324d06b7d5e5970f8848bf26f12f1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/torchsde.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/aiohttp.md",
+    "duplicate_size_bytes": 1259,
+    "sha256": "321bc5c1893dbe40d75438c29e93cb1225d488a9c374212aea7f47fb97f4d935",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/aiohttp.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/yarl.md",
+    "duplicate_size_bytes": 1243,
+    "sha256": "c0feca22bdd3fc55ac5e8882f5f5449a0be5b23cd42570a8c721c517ceea1182",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/yarl.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/alembic.md",
+    "duplicate_size_bytes": 1299,
+    "sha256": "aab7c734a9f1457dc4f7310e47ef0bc78697ea7ebedb9effe9fc21dd11bc385f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/alembic.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/sqlalchemy.md",
+    "duplicate_size_bytes": 1307,
+    "sha256": "429518fe6a0132856f75a7f61b19c8ea2e824e04544b4d9a3f0b2951d0a0f0dd",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/sqlalchemy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/filelock.md",
+    "duplicate_size_bytes": 1283,
+    "sha256": "e4bf172840a553a245dd5efb3c2d84f7197fbb8b92fa74b3c9ffd6ae8af5deb1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/filelock.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/comfy-kitchen.md",
+    "duplicate_size_bytes": 1240,
+    "sha256": "0938364afa1a36d4a6eaaa69eda50666e7bde8643c4d67a96d23b35720f012a8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/comfy-kitchen.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/comfy-aimdo.md",
+    "duplicate_size_bytes": 1225,
+    "sha256": "4a71b9a4c7eef53279ac9fa358c904dcc9e549b7f4958b1cc8c8042b553eab1e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/comfy-aimdo.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/simpleeval.md",
+    "duplicate_size_bytes": 1250,
+    "sha256": "1716b806662c1fe339da03af90934b73ec47f82a0175d2696594bd3d16fa94f3",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/simpleeval.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/blake3.md",
+    "duplicate_size_bytes": 1296,
+    "sha256": "f67a348ca6ca0e39d112ae558cae293b9b4e55dbccb4169c7c81b907bb574df5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/blake3.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/spandrel.md",
+    "duplicate_size_bytes": 1393,
+    "sha256": "86efa7afe5407234828137f9e248261239b9eef8359970dabdabcd11a38f2b5b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/spandrel.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pydantic-settings.md",
+    "duplicate_size_bytes": 1360,
+    "sha256": "ce6d5105de7dbc43d443e20be6123084f3717a71b249129e9974ea50e9f5ce1b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pydantic-settings.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pyopengl.md",
+    "duplicate_size_bytes": 1248,
+    "sha256": "4f35661287e85e73f0de65ad7920a0df96608fdd364757e755709c9a7a09ceba",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pyopengl.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/glfw.md",
+    "duplicate_size_bytes": 1248,
+    "sha256": "221e24d22bd3c3448e8247bee88f249a5979961e2bc90c1ac92709f05c2821cb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/glfw.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/comfyui-manager.md",
+    "duplicate_size_bytes": 1310,
+    "sha256": "038d76a5cc2799abc68f9b4198626788f0a0be9c56481f746185182a539fd2cb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/comfyui-manager.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/lion-pytorch.md",
+    "duplicate_size_bytes": 1432,
+    "sha256": "12a8f26854662e62230edacda9e48fa66526a4c478bf7d3558066e98afb5cc50",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/lion-pytorch.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/ipywidgets.md",
+    "duplicate_size_bytes": 1489,
+    "sha256": "8d78a3a8f8e090f14c61f6e2a3a586908861eff9cae4b3b78573369bdb21394b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ipywidgets.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/dlib.md",
+    "duplicate_size_bytes": 1439,
+    "sha256": "b4e5abf46ed77426873a050af0bc4a597d22e925878f0b1220b4235542864baf",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/dlib.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/k-diffusion.md",
+    "duplicate_size_bytes": 1490,
+    "sha256": "f8a6888a50dca8e2bd069a1748895dfbc83b128912d26c34ec5bc53e805ea955",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/k-diffusion.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/opencv-python-headless.md",
+    "duplicate_size_bytes": 1413,
+    "sha256": "f719e672cb2425c0cb8af10c77868bea6e000d6836ba418d3ce79774f32a8cbd",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/opencv-python-headless.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/groundingdino.md",
+    "duplicate_size_bytes": 1665,
+    "sha256": "6a4ac0bc469fc5bc4d03ade7eb72282217706fc37ea3327f917aa9a4b600f640",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/groundingdino.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/flagembedding.md",
+    "duplicate_size_bytes": 1509,
+    "sha256": "46acd642a6160d4972b0dea782a97e25119463f94bdb4a393df1f5ce6fc0a391",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/flagembedding.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nomic.md",
+    "duplicate_size_bytes": 1436,
+    "sha256": "be1427304eaea6de67138e667fc21b885d52ed4818c6bd908889e4cb57c473e2",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nomic.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/griptape.md",
+    "duplicate_size_bytes": 1493,
+    "sha256": "fcae30d302ecb50875221ed042e5ceaf46b39e782dd4f19c25fefff5c66568c0",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/griptape.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tomli.md",
+    "duplicate_size_bytes": 1348,
+    "sha256": "6cd3bcdc06aeea63c7dd40989a12fc23494b3589736f1e59d73e2bec07bcd87b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tomli.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tomli-w.md",
+    "duplicate_size_bytes": 1420,
+    "sha256": "d137047bb78041f27ed221f91f44ad004446e1321210c973498d609ca620e8b7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tomli-w.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pytest.md",
+    "duplicate_size_bytes": 1440,
+    "sha256": "4383ed2db560144e2ab83018cbd35bef540abbe328b2c39216e300caadf19ca7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pytest.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/ruff.md",
+    "duplicate_size_bytes": 1409,
+    "sha256": "e1e6c3923949eda6092eaf45e7969330eb337335d2b6d973cb6ef8d43024d38a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ruff.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/black.md",
+    "duplicate_size_bytes": 1440,
+    "sha256": "7070e5f2291a8a50c7515e422bf95b7f9b282ceb7a091708722719e49515fcee",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/black.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pyinstaller.md",
+    "duplicate_size_bytes": 1428,
+    "sha256": "4078d167f4de4e0944449789adfaa133faa68e0771716b16f64338c7eba50cc1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pyinstaller.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/mediapipe.md",
+    "duplicate_size_bytes": 1528,
+    "sha256": "70242476b0da43652caa2936784b1ab9de49568ebdb1247629afa57f3733a667",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/mediapipe.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/albumentations.md",
+    "duplicate_size_bytes": 1558,
+    "sha256": "162c46242d205df7b866126620dd20f921ed7514827e60015357bac2c5013dde",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/albumentations.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/supervision.md",
+    "duplicate_size_bytes": 1526,
+    "sha256": "c17d10afcffcafa874b8f4c0b47979af596fe0a49fa353204b11877870a74a20",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/supervision.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pycocotools.md",
+    "duplicate_size_bytes": 1510,
+    "sha256": "c3af4e1931240187d2828e06bd724c6d6eb487cd3b0ea54cc6e80a2fed767460",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pycocotools.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/groundingdino-py.md",
+    "duplicate_size_bytes": 1581,
+    "sha256": "67beb0cc7255dcb630e1c1b7e1a6f8c3267b5eeb0645c3afb9d10dccb0c68667",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/groundingdino-py.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/open-clip-torch.md",
+    "duplicate_size_bytes": 1512,
+    "sha256": "e8ffd090d8f1b285135485599cdaa65b8497915d2b6c601137c8bde8bb2354db",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/open-clip-torch.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/clip-interrogator.md",
+    "duplicate_size_bytes": 1586,
+    "sha256": "a7cb6ebf15a8fdcd4a08fc19b44429935f8b3c5757b1dc0a72649c90875f473a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/clip-interrogator.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/lpips.md",
+    "duplicate_size_bytes": 1541,
+    "sha256": "b5a0ad65226c19c7d2689d90372baac5cce9572cc9ab61328c6a2c56f3a4cf71",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/lpips.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/peft.md",
+    "duplicate_size_bytes": 1516,
+    "sha256": "80dbf5a391711334715a6530eba1af105be29394c644ba839c2b9e30d5b2a3b8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/peft.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/wandb.md",
+    "duplicate_size_bytes": 1463,
+    "sha256": "8920e9fa409dbc22d02c8385fabedfd12b900d80d69b318129ab8f870595d283",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/wandb.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorboard.md",
+    "duplicate_size_bytes": 1574,
+    "sha256": "c0ab97f2dc6313457026b0bf2253643b27a7b2c6f8116cffca572f221288aa38",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorboard.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/httpx.md",
+    "duplicate_size_bytes": 1434,
+    "sha256": "538c15158c5c0b331152371f0a720a8f584b22e8ce3d8ff13384f430601b16a1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/httpx.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/websockets.md",
+    "duplicate_size_bytes": 1520,
+    "sha256": "eebf240bbce5b7c177f71321421c81990b746ecaacabbb8d0227e0d393bb14e4",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/websockets.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/orjson.md",
+    "duplicate_size_bytes": 1500,
+    "sha256": "dde4bc03d132506acfe54dd8951eb3147d3cefbae763cff65959b938fd964cee",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/orjson.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/watchdog.md",
+    "duplicate_size_bytes": 1480,
+    "sha256": "15664b2cfe3e5e28d48b123b87de62ebe67993b47f31dcbda6781b4cf4a148d5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/watchdog.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/build.md",
+    "duplicate_size_bytes": 1938,
+    "sha256": "22142d04cc01e3b42c5cd5e52f3678f7e038e3a020fe032437aa3a649221c8ec",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/build.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pyproject-hooks.md",
+    "duplicate_size_bytes": 2000,
+    "sha256": "970f3e09ab3a031398d752639b14462ecf983e0ff2be74748d5d1a295a4cc054",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pyproject-hooks.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/scikit-build-core.md",
+    "duplicate_size_bytes": 1944,
+    "sha256": "2f68a09e0d12e784be542a0e19a591188512862054e415c11e55879ac00d20a3",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/scikit-build-core.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/meson-python.md",
+    "duplicate_size_bytes": 1892,
+    "sha256": "b38c3f260c6d1746669214928cd07a7ffd9f1c4eb7d58d2b2d2363c6dfc445ba",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/meson-python.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/maturin.md",
+    "duplicate_size_bytes": 1898,
+    "sha256": "afc235e328b342e4c784662cfc478ece5e75db6e7eaf94ba2d484deae9383347",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/maturin.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/setuptools-scm.md",
+    "duplicate_size_bytes": 2033,
+    "sha256": "cdd28b1bd0a733463c1c820db9d5887dac691abae3d045d5dd9ca9332de860ef",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/setuptools-scm.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cibuildwheel.md",
+    "duplicate_size_bytes": 1960,
+    "sha256": "ce526e3adc9c417a634063dba77490f5bbbb90bb36fdb5258601e73bdab4eae2",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cibuildwheel.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/auditwheel.md",
+    "duplicate_size_bytes": 1863,
+    "sha256": "312dd65e93966daaa145e9c3ab9e95e92a5402b735e5f5ffb626c17e7ecaab4f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/auditwheel.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/delvewheel.md",
+    "duplicate_size_bytes": 1905,
+    "sha256": "47c36b1e61452f4fa090fdc7e52f85decc057001718295ab04a63a9a1124d7ae",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/delvewheel.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pip-tools.md",
+    "duplicate_size_bytes": 1949,
+    "sha256": "4f740c041e8b9e6b17266cc367fcd52dc90494941520c6bb0029ccf70f23ce00",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pip-tools.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pipdeptree.md",
+    "duplicate_size_bytes": 1936,
+    "sha256": "c9143779862ad2e29226fc9b2b03447e01d471f26c6c46bca2b4c7675c033093",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pipdeptree.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/uv.md",
+    "duplicate_size_bytes": 1904,
+    "sha256": "9a941a0ac3b31b1b6dcf5f0bea903832bd3e6e2f013246a2e2170465fa843d5f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/uv.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-pyindex.md",
+    "duplicate_size_bytes": 2140,
+    "sha256": "ddab7c31970aaac3529a422ff6faa204e59de1efc1003d9594877334aec5aae6",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-pyindex.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-runtime-cu12.md",
+    "duplicate_size_bytes": 2166,
+    "sha256": "e8c7fef1b8b433069ba398fce80cf74e562f0416a11d446e291325d31c9fb886",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-runtime-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-runtime-cu13.md",
+    "duplicate_size_bytes": 2176,
+    "sha256": "bcd7936dcc35c438a84e3a5ce99b434a35d9d213a5d9510817781cb474cfec34",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-runtime-cu13.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-nvcc-cu12.md",
+    "duplicate_size_bytes": 2175,
+    "sha256": "6b0157c525817dc9f92061ee85fdd3d90da05808ed13049e9891adfb88d10d3c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-nvcc-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-nvrtc-cu12.md",
+    "duplicate_size_bytes": 2170,
+    "sha256": "c82feeaca73661ec43475a6214ebefd149693a982481f3d0c75deb0710161401",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-nvrtc-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-nvjitlink-cu12.md",
+    "duplicate_size_bytes": 2119,
+    "sha256": "fb28b0ece41ebf97085facb32361cbac9b5759e3809f0610d98dfdee7da8bacb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-nvjitlink-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cublas-cu12.md",
+    "duplicate_size_bytes": 2130,
+    "sha256": "8b0717a6489263ba9f8f78665c10298fcf1b91a68a5dc06e67fc3aec47c87c06",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cublas-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn-cu12.md",
+    "duplicate_size_bytes": 3416,
+    "sha256": "23ea1f4ad3eede3a8eccc520c4cdf2afa96e0b570355e63244e75b9c0523d7a0",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn-cu13.md",
+    "duplicate_size_bytes": 3333,
+    "sha256": "35235d06807b60f7bfa1938b62b57b6e922712a788128719722aa68c07b1906d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn-cu13.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cufft-cu12.md",
+    "duplicate_size_bytes": 2085,
+    "sha256": "742af13010749e2cd229c5bccf3c2dc89926d50809e1b8d7f3631290a7c0fe78",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cufft-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-curand-cu12.md",
+    "duplicate_size_bytes": 2093,
+    "sha256": "f30283b3f5bfda5de8dfbe28ff4233647f58785a078d4fc70f8c9b3aa53c1ae0",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-curand-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cusolver-cu12.md",
+    "duplicate_size_bytes": 2100,
+    "sha256": "8b474e63f91b7ec3f85d3c56d43a03d860164b2443846862f9aad7481fd9d5de",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cusolver-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cusparse-cu12.md",
+    "duplicate_size_bytes": 2068,
+    "sha256": "23f4c56cd71f1d62f1abd580cd9d831d97b1ccaaa11ab20973f9a265ae2e2dc8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cusparse-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-npp-cu12.md",
+    "duplicate_size_bytes": 2151,
+    "sha256": "74cf5170892c5e4af8d55812c18783b4c9546ff26d64a78852acacea4f72cffb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-npp-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-nvjpeg-cu12.md",
+    "duplicate_size_bytes": 2102,
+    "sha256": "bf0bf55cac70fcf9fc094955e02515c0474b6810832944a1aa25c0abe5161b06",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-nvjpeg-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-nvtx-cu12.md",
+    "duplicate_size_bytes": 2045,
+    "sha256": "fc1c7856b9069ff754e7eb7d3829e1e2cabe02136d096a2f6e70f03bc5fa4fef",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-nvtx-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-cupti-cu12.md",
+    "duplicate_size_bytes": 2087,
+    "sha256": "80872575d468486b34f243a1181727f383b67671f46aa90e9266c4d84abae7ab",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-cupti-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-sanitizer-api-cu12.md",
+    "duplicate_size_bytes": 2118,
+    "sha256": "c31d63eed1fd545629a58046656abd92777eadb9087ef56e93adbdce04e610e5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-sanitizer-api-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-nvml-dev-cu12.md",
+    "duplicate_size_bytes": 2126,
+    "sha256": "b78ba99246de2e70a6415097f0c5a7e2a9c455574f69a0cf5a38090d2a18d661",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-nvml-dev-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cuda-cccl-cu12.md",
+    "duplicate_size_bytes": 2128,
+    "sha256": "2cf548d3356632abbd9402598fb804bd4c553f8152d9b8b6d850c9a96cf5bc77",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cuda-cccl-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cutlass.md",
+    "duplicate_size_bytes": 2136,
+    "sha256": "449c649aa00e31db288f9babc13a6b305d084951578fabd396d67e94d2a19429",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cutlass.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn-cu11.md",
+    "duplicate_size_bytes": 3226,
+    "sha256": "e0e9141a76e52a6a9adb719a305c3982869f669373fd1607801937cb960c2b55",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn-cu11.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn.md",
+    "duplicate_size_bytes": 3124,
+    "sha256": "853821005c6f1f7efce869ce905eee93189c2c6845ff50b21c81e49942df6fef",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn-frontend.md",
+    "duplicate_size_bytes": 3450,
+    "sha256": "ab14a8a74065c7c8f11bd7767e740cfc67e8838b3af1cb2d4aa8a858b73b964e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn-frontend.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn-jit-cu12.md",
+    "duplicate_size_bytes": 3184,
+    "sha256": "ceb241b8c9000381948fea4532f187e9df8d53251626613c65eeb51abe4055f1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn-jit-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-cudnn-jit-cu13.md",
+    "duplicate_size_bytes": 3118,
+    "sha256": "9d27ab16dab256e69821c527751fad8d368e0b214f9116c13da96bc8b112506b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-cudnn-jit-cu13.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cuda-python.md",
+    "duplicate_size_bytes": 3134,
+    "sha256": "c45be3f1cc172e53f43ccc8387845fb24e3d1c51bc979e8bedc912a4aa495b84",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cuda-python.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cuda-toolkit.md",
+    "duplicate_size_bytes": 3225,
+    "sha256": "f27dfb7622684874e065ee7c63b0596063bf683cc4adab141e54ef5e5b8933a4",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cuda-toolkit.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cuda-bindings.md",
+    "duplicate_size_bytes": 3029,
+    "sha256": "25aa43a048032f484af6265f4a007d178771c0558ec7e5fabbfd9972cf0b9f7d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cuda-bindings.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cuda-core.md",
+    "duplicate_size_bytes": 2957,
+    "sha256": "3993f21462ed2e4593859eeb61662e7ef5946b424b2c2178d903b05065214dbe",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cuda-core.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/cuda-pathfinder.md",
+    "duplicate_size_bytes": 3071,
+    "sha256": "020318d1d80181bb07208fab2b3d4163b19a01fa485cd6209b8e810dd3db9b22",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/cuda-pathfinder.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt.md",
+    "duplicate_size_bytes": 2805,
+    "sha256": "9b8ecc92b77d6ac290383f2207947217c05a5e1683dbb077ea692f258e31b3ba",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu11.md",
+    "duplicate_size_bytes": 2846,
+    "sha256": "ffca5170cafa3732f21459bc1b1e8dde9425d7f439cc87871e9da292ffc09739",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu11.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu12.md",
+    "duplicate_size_bytes": 2868,
+    "sha256": "33bc7ba72b6d6fddf0c05fd33488cdc4cb17dee305afa7b50c8c5ca3dade9a74",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu13.md",
+    "duplicate_size_bytes": 2896,
+    "sha256": "705ef9e8b00595f67d2535b5bf6d85fbcc6fbab2ca976734732c19b1ea636b27",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu13.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-libs.md",
+    "duplicate_size_bytes": 2665,
+    "sha256": "60f3e7b1d9c497670196aa92a13d934870118453087102aa162226386022e5eb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-libs.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu12-bindings.md",
+    "duplicate_size_bytes": 2568,
+    "sha256": "0572b80daab0ca9eca63ada508475a7fae770aef56c6669b6aad604bb21e2e08",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu12-bindings.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu12-libs.md",
+    "duplicate_size_bytes": 2584,
+    "sha256": "0722cd2c8671bddab2e73a9fec9c5554b6b1365f4b5ca0a7c97d36fbe31fcdf1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu12-libs.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu13-bindings.md",
+    "duplicate_size_bytes": 2599,
+    "sha256": "f38d20bcff2b63702d81d6406ac868839030ce77b98280ffd5c7df991acfef50",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu13-bindings.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-cu13-libs.md",
+    "duplicate_size_bytes": 2593,
+    "sha256": "2aec3199377aea9206d2fab45bce7e65fa29bf14e382b579d34fc8429c023651",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-cu13-libs.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-lean.md",
+    "duplicate_size_bytes": 2579,
+    "sha256": "2f1997d4148c5a14741228bc40278d4ce2e01ed01e2f50f5b9569a835c368734",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-lean.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-lean-cu12.md",
+    "duplicate_size_bytes": 2498,
+    "sha256": "7cceb39ef300861abec629dfffca261f0061abaf28d99c3aa88957db6eb44bdb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-lean-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-lean-cu13.md",
+    "duplicate_size_bytes": 2499,
+    "sha256": "c8ab036bc56255345f8c480939470aa97a142a4862afaed1e71dd6d722920e84",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-lean-cu13.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx.md",
+    "duplicate_size_bytes": 2674,
+    "sha256": "a0e5fca0ff1b92be3b875bf54234e15de6c1af089dc794a85b0c2d1da8aea747",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx-cu12.md",
+    "duplicate_size_bytes": 2599,
+    "sha256": "b118c49c4214019ce40478557df0b1387a2ac57d73bd3325d6cf7b60af9a7234",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx-cu12.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx-cu13.md",
+    "duplicate_size_bytes": 2609,
+    "sha256": "ae6ef27fcd79a346df5ce9551e93f1b67170eecaba87ce6e09c70f69d2b2ff74",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx-cu13.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx-cu12-bindings.md",
+    "duplicate_size_bytes": 2627,
+    "sha256": "84468b5ff6b91d71fa8ea18f2f18b2dd29b6f866e59544fac9166d4e51ff1e96",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx-cu12-bindings.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx-cu12-libs.md",
+    "duplicate_size_bytes": 2610,
+    "sha256": "a8fdaace4b09835bbecd8776315be9ff4e163648c0eec51ab0b0f80ab2c93fdb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx-cu12-libs.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx-cu13-bindings.md",
+    "duplicate_size_bytes": 2625,
+    "sha256": "c651576eff673694c3d42eadbf705a7f9c79ae6221acc70d9eced588466d9003",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx-cu13-bindings.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-rtx-cu13-libs.md",
+    "duplicate_size_bytes": 2647,
+    "sha256": "e5370de9a5dc45362b7438d01d6b20c9483e51cc41e57e9ccb126897b419864b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-rtx-cu13-libs.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tensorrt-llm.md",
+    "duplicate_size_bytes": 2726,
+    "sha256": "0d719d4aa7e4c548d04bfc7e371ea0396c6047b32b7460d52ca0a603f4aa5260",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tensorrt-llm.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/torch-tensorrt.md",
+    "duplicate_size_bytes": 2665,
+    "sha256": "b9eb3f39b2b122bc2ec3875f060ea34c4468feb5d3d0401c1be5eb508fcf220d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/torch-tensorrt.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/onnx-graphsurgeon.md",
+    "duplicate_size_bytes": 2676,
+    "sha256": "1e91956a48395294ff3a37a3e994d41c17fc58d2c5fab40ff6a3e0b03627c961",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/onnx-graphsurgeon.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/polygraphy.md",
+    "duplicate_size_bytes": 2690,
+    "sha256": "c0281fe2eb59c1b489edf44e36063c5b69c54fde5d08ed11178a67e3472b882d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/polygraphy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/onnxslim.md",
+    "duplicate_size_bytes": 2567,
+    "sha256": "641d57b2c4999c636d532a1d371c1c528b95a4fdc93476175f05f5309c87c074",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/onnxslim.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-modelopt.md",
+    "duplicate_size_bytes": 2657,
+    "sha256": "b12893974da9d4d4d8f96093123694bda09fcac789af31ce5a8ed14346bd0b03",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-modelopt.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/tritonclient.md",
+    "duplicate_size_bytes": 2651,
+    "sha256": "f8b4d2c5c201abf6929713d9c31334c5ac44bac5ffe1746288212247a6f2a661",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/tritonclient.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/pytriton.md",
+    "duplicate_size_bytes": 2472,
+    "sha256": "6a9db25f2c5448ba8e05ab12c335a0e9fe20bfcc370a6c5f300455ac6d452039",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/pytriton.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/triton-model-analyzer.md",
+    "duplicate_size_bytes": 2556,
+    "sha256": "7dfb69937ea56e886142d982aa1e0232955f7a10639bd74c57ea74e1ce4d1e95",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/triton-model-analyzer.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/triton-model-navigator.md",
+    "duplicate_size_bytes": 2579,
+    "sha256": "0e10c017f7a508ae41d68fab09847c0d8ba50deb39bc2a7cd90c5964dcbe0cdc",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/triton-model-navigator.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/prometheus-client.md",
+    "duplicate_size_bytes": 2550,
+    "sha256": "ef407f691a76dd98629ab03623b9704aecd3edec483d9467e11a1516658f23b9",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/prometheus-client.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/grpcio.md",
+    "duplicate_size_bytes": 2403,
+    "sha256": "f3ecb130d96709908227332e36543bd3147ddddb6c5e1a1a4029c07196127316",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/grpcio.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/grpcio-tools.md",
+    "duplicate_size_bytes": 2346,
+    "sha256": "e988a18388a7364f87a38cc2b79305dc01572b120077f54b9708e2e2010abf9a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/grpcio-tools.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/geventhttpclient.md",
+    "duplicate_size_bytes": 2482,
+    "sha256": "8d5a60fd8f0df68af01a72dc40d0a8be1ab37c4a2ba47532125ef2e748f1c398",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/geventhttpclient.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/nvidia-ml-py.md",
+    "duplicate_size_bytes": 2407,
+    "sha256": "22065036502c5674b0223c51c08728f48ff6fffebf5aef4b2c47930dabdf26b3",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/nvidia-ml-py.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/packages/kubernetes.md",
+    "duplicate_size_bytes": 2483,
+    "sha256": "32011eda32138726d05480fdbef790cc73d3ff4bf6fb4da4871c11eec4e8ef37",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/kubernetes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Collect-AIWF-PipInventory.ps1",
+    "duplicate_size_bytes": 2214,
+    "sha256": "3d5a406648c831b7135d4f91b908a43bad452e3605bbace39f93df9ebd405844",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Collect-AIWF-PipInventory.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-RAGOCRPackageSmoke.ps1",
+    "duplicate_size_bytes": 2411,
+    "sha256": "b99bf529f0c99524e74b607486f1514f2b7c67f8044f4745d63cdcc309b6cb76",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-RAGOCRPackageSmoke.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-TrainingToolingPackageSmoke.ps1",
+    "duplicate_size_bytes": 1831,
+    "sha256": "8d15c0565a6a18f1030008448ab5388ff35864f78944d71b90fc65bdb1f11b4e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-TrainingToolingPackageSmoke.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-MediaBuildPackageSmoke.ps1",
+    "duplicate_size_bytes": 2349,
+    "sha256": "c17e51d2af727e2ad19d11795360b926c6fbbca9d2c379428609199435cfcde1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-MediaBuildPackageSmoke.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Find-AIWFRequirementsFiles.ps1",
+    "duplicate_size_bytes": 1820,
+    "sha256": "0e777bae335f2a3c779b4023e46e0aad3a51308d8a9a65114ed19bc428e76c1c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Find-AIWFRequirementsFiles.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Merge-AIWFRequirementsIntoInventory.ps1",
+    "duplicate_size_bytes": 2230,
+    "sha256": "43b74542f9bfb0e44fc5b26e96c08ee0e08a521c1930ca69868921c7678f060e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Merge-AIWFRequirementsIntoInventory.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Collect-AIWFEnvironmentGroundTruth.ps1",
+    "duplicate_size_bytes": 2242,
+    "sha256": "399b9a682602f16a1f27a9562181885168e56a678b789b5972018a44cce9e681",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Collect-AIWFEnvironmentGroundTruth.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-CorePackageSmoke.ps1",
+    "duplicate_size_bytes": 1188,
+    "sha256": "4c47c6d976517184b298c6cbc0c31681a3d6327ef2fe93abb70aa4ce168e3847",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-CorePackageSmoke.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-AllKnownPackageSmoke.ps1",
+    "duplicate_size_bytes": 1321,
+    "sha256": "4252c0f971bf888e6286f18a80ea3ba2a7df0b6c5816c54c782c33bda50d4e9f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-AllKnownPackageSmoke.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-CustomNodePackageSmoke.ps1",
+    "duplicate_size_bytes": 1561,
+    "sha256": "3fcfc9b835a477905018186d6c6b69f47e336846cf5f595a53bb2e9531a1c0b5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-CustomNodePackageSmoke.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Initialize-AIWF-Wheelhouse.ps1",
+    "duplicate_size_bytes": 483,
+    "sha256": "421489bce7376c97fdd01cc2297eb7149154b6e7980f57ab67ceef412924cdb2",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Initialize-AIWF-Wheelhouse.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Build-AIWFWheel.ps1",
+    "duplicate_size_bytes": 733,
+    "sha256": "76d6a9f648e5c78c91f66e829f3553014e8388dba509e3580f3eeb045aedcf47",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Build-AIWFWheel.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Build-AIWFRequirementsWheelhouse.ps1",
+    "duplicate_size_bytes": 704,
+    "sha256": "a277395a3026eafffd396e9739ab46a097f4ad370120b7034ace86d1c9453d63",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Build-AIWFRequirementsWheelhouse.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Install-AIWFLocalWheelhouse.ps1",
+    "duplicate_size_bytes": 356,
+    "sha256": "c82510964a7225afd318e7b21540dcf5d9a078bb47f59e4e356a914d1668538a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Install-AIWFLocalWheelhouse.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWFWheelhouse.ps1",
+    "duplicate_size_bytes": 472,
+    "sha256": "797579c54e05384f4973798e7974def4668e4ec34f103be4f375144c618db90d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWFWheelhouse.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Export-AIWFWheelBuildEnv.ps1",
+    "duplicate_size_bytes": 665,
+    "sha256": "f09cdfc45607840071250a954182fb8949623fbca1bac0b1a908e489aa37fee8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Export-AIWFWheelBuildEnv.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-CppCudaBuildEnvironment.ps1",
+    "duplicate_size_bytes": 1873,
+    "sha256": "a4d0ef4884f09a13a20f35b92ec89084da5b1d413b29e521a0df0c969a44274a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-CppCudaBuildEnvironment.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/New-AIWFWheelhouseManifest.ps1",
+    "duplicate_size_bytes": 1527,
+    "sha256": "2726032fa9315a085270be8029f01bb58adcb1bd32d3ae97243bc7879c013058",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/New-AIWFWheelhouseManifest.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-CuDNNEnvironment.ps1",
+    "duplicate_size_bytes": 3043,
+    "sha256": "3c5397963bfca1897ceff2473258fbbf3e720094e48b716d79553e1203871743",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-CuDNNEnvironment.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Export-AIWF-NvidiaDllLoadReport.ps1",
+    "duplicate_size_bytes": 1009,
+    "sha256": "87c587c4d8824ebc4a19e79c8f8e48353dabfe15d641d2ace74ab7240b57617b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Export-AIWF-NvidiaDllLoadReport.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-TensorRTEnvironment.ps1",
+    "duplicate_size_bytes": 802,
+    "sha256": "fe33d6ce861ec3773a178641a857eeda299a507a3084e3ecfcd14aab60fcee73",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-TensorRTEnvironment.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Export-AIWF-TensorRTSupportBundle.ps1",
+    "duplicate_size_bytes": 921,
+    "sha256": "c613250ca91d61b5665e94863e8a81845fc86f13e119c5c2dbecd733542dc2dc",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Export-AIWF-TensorRTSupportBundle.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Test-AIWF-TritonServingEnvironment.ps1",
+    "duplicate_size_bytes": 1198,
+    "sha256": "4a57945e8540d8a704cb3add2a01bfd5a0fde29394cabde41ff4cb758f561d8b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Test-AIWF-TritonServingEnvironment.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/Export-AIWF-TritonSupportBundle.ps1",
+    "duplicate_size_bytes": 1929,
+    "sha256": "cae72ee3b85755b68e382c3e15dbff73daa744b2613a92811bd1fb212101d81c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/Export-AIWF-TritonSupportBundle.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/scripts/New-AIWF-TritonModelRepoSkeleton.ps1",
+    "duplicate_size_bytes": 1937,
+    "sha256": "4321305ecaafa67eef77d2edc09c74985e5adf83ef5bd72d42f82ed66c1761e9",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/scripts/New-AIWF-TritonModelRepoSkeleton.ps1"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/dependency_clusters.md",
+    "duplicate_size_bytes": 3808,
+    "sha256": "c8bd4d5e62ff3e03371f677f475f3e440c5438f24c9826aead356e54f7345851",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/dependency_clusters.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v0_3_compatibility_notes.md",
+    "duplicate_size_bytes": 1797,
+    "sha256": "8276fb0652649211fb5767449e22588e5480a52d1697af415b60838a863ce54e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v0_3_compatibility_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v0_4_rag_ocr_llm_dependency_notes.md",
+    "duplicate_size_bytes": 1931,
+    "sha256": "f27d9ca71a945bd4d2fe1d907545dbe9f7f4e0970e19850f056e38cb9307a6a0",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v0_4_rag_ocr_llm_dependency_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v0_5_training_data_dev_llm_framework_notes.md",
+    "duplicate_size_bytes": 1879,
+    "sha256": "5679a91499879208afe767c99a171b135e1378ad8fb5753afb0cfd9370eb418c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v0_5_training_data_dev_llm_framework_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v0_6_media_cli_build_tooling_notes.md",
+    "duplicate_size_bytes": 2117,
+    "sha256": "e887c5c18842032fec44bb6e38fabaed3b7d88704d487605e6a3578b0e83db83",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v0_6_media_cli_build_tooling_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v0_7_comfyui_runtime_requirements_notes.md",
+    "duplicate_size_bytes": 1740,
+    "sha256": "8e7c0e9dd795299f4fd738e0186945db450c1c4ea1fb87f1510dbc3d77b7ea8a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v0_7_comfyui_runtime_requirements_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/unresolved_package_queue.md",
+    "duplicate_size_bytes": 461,
+    "sha256": "5c908659f802272e5e4d22afd47fc5eb7d68f69f358bca0b6c0a5fd82295e10f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/unresolved_package_queue.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v0_9_custom_node_training_web_dependency_notes.md",
+    "duplicate_size_bytes": 944,
+    "sha256": "6dd43c0b316f834755c609da2098eb7cd55b72520c9e58b4eaaf9329551026c3",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v0_9_custom_node_training_web_dependency_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/groundingdino_install_decision_tree.md",
+    "duplicate_size_bytes": 894,
+    "sha256": "574a0e2bf2d3e7951b5e5338b1caa69e3262b110fe1abb7a62ac29bcec56787c",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/groundingdino_install_decision_tree.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v1_0_local_wheelhouse_foundation.md",
+    "duplicate_size_bytes": 2489,
+    "sha256": "05139b47c6976f1cc0570709ed27bccfff716b34bf7e151e7a3012706346afc8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v1_0_local_wheelhouse_foundation.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v1_1_native_cuda_wheel_build_notes.md",
+    "duplicate_size_bytes": 3894,
+    "sha256": "7328a00283807d8c249123ab5c791c9b76798e3a2174af7120c192cbebd8cf59",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v1_1_native_cuda_wheel_build_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/wheelhouse_install_policy.md",
+    "duplicate_size_bytes": 906,
+    "sha256": "6b09e2a7c39a1f779d932652b2cd34c227e70e47c8da70174895451a22576ebd",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/wheelhouse_install_policy.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/v1_2_cpp_nvidia_cuda_dependency_notes.md",
+    "duplicate_size_bytes": 2144,
+    "sha256": "983e3592c27a8311d32de72ab68c691c09cd065ed606e3d4f39a7df1c1bc5a51",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/v1_2_cpp_nvidia_cuda_dependency_notes.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/nvidia_cuda_component_wheel_map.md",
+    "duplicate_size_bytes": 1583,
+    "sha256": "3e0af62c02eeaebdd86417b61b36f959401b6f1a415c7068cbfe0f0b9ad9eb8b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/nvidia_cuda_component_wheel_map.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/native_build_failure_signatures.md",
+    "duplicate_size_bytes": 2107,
+    "sha256": "19d567d5035db1425246bada5c7139b5283db36650ea9538cb125ff85ce2f593",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/native_build_failure_signatures.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/cudnn_package_family_map.md",
+    "duplicate_size_bytes": 1766,
+    "sha256": "bdca3599c19afd3189d2ffe23546ec580a2ac64e1c9c97ad35a266065c6384d2",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/cudnn_package_family_map.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/cudnn_failure_signatures.md",
+    "duplicate_size_bytes": 1789,
+    "sha256": "eb689cd0446e245093ba6e01041636be821c8e1d4d3528eb731b737ba1275369",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/cudnn_failure_signatures.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/tensorrt_package_family_map.md",
+    "duplicate_size_bytes": 640,
+    "sha256": "42ae4e12dc93e46bc7e85985228b1213fc1eaa82b8a5ccea15f1017712dfcd45",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/tensorrt_package_family_map.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/tensorrt_failure_signatures.md",
+    "duplicate_size_bytes": 1478,
+    "sha256": "bbf0d999a823f4fc2938bc896a159754d3e6b42e4c71e3a98696f2fef34251a8",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/tensorrt_failure_signatures.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/triton_serving_package_family_map.md",
+    "duplicate_size_bytes": 1472,
+    "sha256": "aea5decb5319cf9bab46647f0c23a4b8e6054b6dcd0f2717eb8223632ee72f02",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/triton_serving_package_family_map.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/maps/triton_failure_signatures.md",
+    "duplicate_size_bytes": 1848,
+    "sha256": "8122781fc0e6ebcbf9b15d6042e024ef9de82857280c230cf7bc258716898eda",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/triton_failure_signatures.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_2_core_stack_summary.md",
+    "duplicate_size_bytes": 916,
+    "sha256": "c8d66d0ca872eeb95ca423c4884f0915796e36cafc7220f64af1508a343276a7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_2_core_stack_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_3_image_restoration_face_segmentation_summary.md",
+    "duplicate_size_bytes": 1398,
+    "sha256": "35e3a2a1eb9c90c665e44647030628490410ede25a54acd586108865ff85e58b",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_3_image_restoration_face_segmentation_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_4_rag_ocr_llm_client_summary.md",
+    "duplicate_size_bytes": 1412,
+    "sha256": "88ffbb9dd86bdee2ee5ad3c27fe89d4cceccedbf22a9eccb6ab0eba74c416012",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_4_rag_ocr_llm_client_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_5_training_data_config_llm_framework_summary.md",
+    "duplicate_size_bytes": 1414,
+    "sha256": "4b42818c6c0b303fc74f6120d6b7a0298a5185d8f28325056ce11f1359628335",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_5_training_data_config_llm_framework_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_6_media_cli_build_tooling_summary.md",
+    "duplicate_size_bytes": 1397,
+    "sha256": "602580a2a9b69a503866d844c59e1e9edb3421338b0f2b99d402492cdfb145f4",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_6_media_cli_build_tooling_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_7_comfyui_runtime_grounding_summary.md",
+    "duplicate_size_bytes": 1194,
+    "sha256": "fe84da6d4a3d3430aaa88f4c8df464f35a29987de641e5c9001a3160a907b0dd",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_7_comfyui_runtime_grounding_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_7_source_manifest.json",
+    "duplicate_size_bytes": 859,
+    "sha256": "3152a802e425efc683f49c040c78759e41fba11e4ee1cdb5e03aa5481d174982",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_7_source_manifest.json"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_8_polish_audit_report.md",
+    "duplicate_size_bytes": 1473,
+    "sha256": "26337db71ad2d4e8dcf660400b3a47e26e8a48aa2578842636c435a0f2d2b2cc",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_8_polish_audit_report.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v0_9_custom_node_training_web_dependency_summary.md",
+    "duplicate_size_bytes": 1101,
+    "sha256": "a92a4b3720fd36b1bdac993ca211a8364aeae831a1e204f2988b991e11b6c577",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v0_9_custom_node_training_web_dependency_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v1_0_local_wheelhouse_foundation_summary.md",
+    "duplicate_size_bytes": 155,
+    "sha256": "bca52be843d2871e7ef311dd71c01b7f00b32bb50430f2d3310ec87fdb69f0f5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v1_0_local_wheelhouse_foundation_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v1_1_native_cuda_wheel_build_summary.md",
+    "duplicate_size_bytes": 185,
+    "sha256": "1cd67239b25fe30b9c9588e35d7011f3f07614626e32e84be99a1e4d92dd52cc",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v1_1_native_cuda_wheel_build_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v1_2_cpp_nvidia_cuda_deep_build_summary.md",
+    "duplicate_size_bytes": 1129,
+    "sha256": "3226d8094e9738a4782cc9ee999e670079262250f661c5f01656bd81fa6f0862",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v1_2_cpp_nvidia_cuda_deep_build_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v1_3_cudnn_backend_frontend_toolkit_summary.md",
+    "duplicate_size_bytes": 1314,
+    "sha256": "6ef6283bdc1ddeaf9e706c5ec1be579e762a8ed588310ee8fa208e5607d08be1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v1_3_cudnn_backend_frontend_toolkit_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v1_4_tensorrt_onnx_inference_stack_summary.md",
+    "duplicate_size_bytes": 813,
+    "sha256": "9f8b0e01349e6a7afe739fdbde032b70919766e50d55337e5683724aa21946bf",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v1_4_tensorrt_onnx_inference_stack_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/research_passes/v1_5_triton_serving_deployment_summary.md",
+    "duplicate_size_bytes": 1035,
+    "sha256": "f360369cf76e4bef3b1fb510222465249820ef132d468da0c81c43bf0249d57e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/research_passes/v1_5_triton_serving_deployment_summary.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/windows_msvc_cuda_toolchain.md",
+    "duplicate_size_bytes": 1282,
+    "sha256": "c1d520b56abda3e0fb55f4da8fa8f067b51fad88baa049d09cc2f764913dda90",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/windows_msvc_cuda_toolchain.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/python_wheel_tags_and_abi.md",
+    "duplicate_size_bytes": 608,
+    "sha256": "ee9558eb4888822ff8a99f382cd177199acf8ff9a11178723b9c43a3b99b4842",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/python_wheel_tags_and_abi.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/cpp_native_build_mental_model.md",
+    "duplicate_size_bytes": 4628,
+    "sha256": "c62a1708173ab6de3a15caade14b53ea8089f4ba51363828b1a1a9bad5f3d4ea",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/cpp_native_build_mental_model.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/nvidia_cuda_windows_deep_reference.md",
+    "duplicate_size_bytes": 4623,
+    "sha256": "9db59f40be5971c0026b20d0423ef353072984b9873e12bb9acf6e78702734c5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/nvidia_cuda_windows_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/pytorch_cpp_cuda_extensions_deep_reference.md",
+    "duplicate_size_bytes": 3888,
+    "sha256": "8ffd66aae1e6acc16f671f28de628b5c9ae72fdba5722656d9a96aaa8b8ca928",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/pytorch_cpp_cuda_extensions_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/wheel_tags_abi_deep_reference.md",
+    "duplicate_size_bytes": 1941,
+    "sha256": "62e24ba82df91bb213ddef2a57d5ef386a1c2cd19fb614a2db0c5f1eab2fbc72",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/wheel_tags_abi_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/cudnn_backend_frontend_deep_reference.md",
+    "duplicate_size_bytes": 3917,
+    "sha256": "26bc930930fba9d481ea76af7d4448cf15059cc3e2e113ddbfe1296032a58266",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/cudnn_backend_frontend_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/cudnn_windows_dll_loading_and_path.md",
+    "duplicate_size_bytes": 2152,
+    "sha256": "7a4cdac52cc8f8239a7f48b9602b8c75d6891ffe579c2a9028d2afe4db1fd756",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/cudnn_windows_dll_loading_and_path.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/cudnn_pytorch_onnxruntime_compatibility.md",
+    "duplicate_size_bytes": 2027,
+    "sha256": "ae0812bfabc8631b9f6c7b485d519abe54af9f3ebd9ba95d3302b7b733e0d5d0",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/cudnn_pytorch_onnxruntime_compatibility.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/tensorrt_inference_stack_deep_reference.md",
+    "duplicate_size_bytes": 2297,
+    "sha256": "a6c3ea13b9156e1903cf979f4cd094f77388549221c551f97d3ca4ad43da4f74",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/tensorrt_inference_stack_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/tensorrt_engine_plan_lifecycle.md",
+    "duplicate_size_bytes": 1279,
+    "sha256": "d7c718a2c32767c59f0906c67f68d5fa4a79c45dee5718983307914d4faeb085",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/tensorrt_engine_plan_lifecycle.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/onnx_graph_surgery_polygraphy_debugging.md",
+    "duplicate_size_bytes": 1016,
+    "sha256": "0e71d68e9ffb3a2724ff9974d9be34de24ad4e26d8b418d3bdbc4de5adfce678",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/onnx_graph_surgery_polygraphy_debugging.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/tensorrt_llm_and_rtx_boundaries.md",
+    "duplicate_size_bytes": 1086,
+    "sha256": "c0381cc5bc6d8be35edf0884184e87de0bf341e75328a73e275fa072839859cd",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/tensorrt_llm_and_rtx_boundaries.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/triton_inference_server_serving_deep_reference.md",
+    "duplicate_size_bytes": 3223,
+    "sha256": "d8a2f570cb4f15a595789a5a853d046ca2483f4447484841bafa371d88ed8737",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/triton_inference_server_serving_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/triton_model_repository_and_config_pbtxt.md",
+    "duplicate_size_bytes": 2065,
+    "sha256": "7857135c0840f595f7e1431ccbebc836d32e0870ac775deedd8412d984a4ec7d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/triton_model_repository_and_config_pbtxt.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/triton_python_backend_and_custom_runtime.md",
+    "duplicate_size_bytes": 1924,
+    "sha256": "504442e3da436fce718f91fc4f311cfdb3ed83523e437c825b675dde4dd99954",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/triton_python_backend_and_custom_runtime.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/toolchains/triton_observability_health_metrics_deep_reference.md",
+    "duplicate_size_bytes": 1836,
+    "sha256": "c035f448365ac68937caa772601bac13b1024827007cec4d1d87c77a0205a49a",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/toolchains/triton_observability_health_metrics_deep_reference.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/wheelhouse/wheel_build_candidates.csv",
+    "duplicate_size_bytes": 940,
+    "sha256": "bfd9203f3b80818bedb603e7a3e7af936acb3b99fb757866d5f6a5a70fe3635e",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/wheelhouse/wheel_build_candidates.csv"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/wheelhouse/README.md",
+    "duplicate_size_bytes": 362,
+    "sha256": "58123fa36d43a380ae9e79f23b166f854ece2a96aaa57f19c0e0fe6618df9e17",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/wheelhouse/README.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/local_wheels/recipe_build_from_git_checkout.md",
+    "duplicate_size_bytes": 302,
+    "sha256": "69da156189e16574c02585cf5cbb7d3266df2342832ba397e985a23269195639",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/local_wheels/recipe_build_from_git_checkout.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/local_wheels/recipe_build_requirements_wheelhouse.md",
+    "duplicate_size_bytes": 224,
+    "sha256": "acfc8bc6f48e009d8f74ed7155c161ff77281e905feaea996c9e663ca2896b13",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/local_wheels/recipe_build_requirements_wheelhouse.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/local_wheels/recipe_torch_cuda_extension.md",
+    "duplicate_size_bytes": 318,
+    "sha256": "e0a01af1d85c1dd81528b108713363c04707a0b82467336f0f10f903e3b5888d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/local_wheels/recipe_torch_cuda_extension.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/native_cuda/BUILD_WINDOWS_CUDA_WHEEL_PLAYBOOK.md",
+    "duplicate_size_bytes": 1678,
+    "sha256": "7222b86c5e7c5b99a5317b449b1f751d0d9e1eb2798ffc7406dd8446ab0f7286",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/native_cuda/BUILD_WINDOWS_CUDA_WHEEL_PLAYBOOK.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/native_cuda/CUDNN_WINDOWS_INSTALL_AND_VERIFY_PLAYBOOK.md",
+    "duplicate_size_bytes": 1735,
+    "sha256": "965e7182489d27bba7fc0d0977c0d15d6cb6bea9247832d14748a0a199e38672",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/native_cuda/CUDNN_WINDOWS_INSTALL_AND_VERIFY_PLAYBOOK.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/native_cuda/TENSORRT_ONNX_BUILD_AND_VALIDATE_PLAYBOOK.md",
+    "duplicate_size_bytes": 1250,
+    "sha256": "dcb8ebb5e9867eacb489c8c50f658f723be90d68b2483cb475f2b6b5f9ecec67",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/native_cuda/TENSORRT_ONNX_BUILD_AND_VALIDATE_PLAYBOOK.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/recipes/serving/TRITON_LOCAL_SERVING_PLAYBOOK.md",
+    "duplicate_size_bytes": 1670,
+    "sha256": "22e8a6139f3541b15723a306ebff6200dc753f5ed3d6321211c02856313a4c14",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/recipes/serving/TRITON_LOCAL_SERVING_PLAYBOOK.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/wheelhouse/manifests/wheelhouse_manifest.example.json",
+    "duplicate_size_bytes": 1298,
+    "sha256": "74b492edcc93f7510299eaf6d5c294b063f1d1df22f8402ed728632681690ee7",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/wheelhouse/manifests/wheelhouse_manifest.example.json"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/wheelhouse/manifests/requirements.lock.example.txt",
+    "duplicate_size_bytes": 219,
+    "sha256": "91508afc0a5ae3e6c22a88d84e3256fc23a35340f97a73b8d52b91095501615d",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/wheelhouse/manifests/requirements.lock.example.txt"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/pyproject/pyproject_setuptools_minimal.toml",
+    "duplicate_size_bytes": 223,
+    "sha256": "d71bef6ee62608556639d9ccf2edeaed688f26b0790c77d9030c0ae8e62f3867",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/pyproject/pyproject_setuptools_minimal.toml"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/pyproject/pyproject_scikit_build_core.toml",
+    "duplicate_size_bytes": 192,
+    "sha256": "2791e2790f7490706c76e02015cb9e610164775b09974784bf1787e2da4eb403",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/pyproject/pyproject_scikit_build_core.toml"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/pyproject/pyproject_maturin.toml",
+    "duplicate_size_bytes": 157,
+    "sha256": "bca2dab6dcfce00fd23d4f03504f548e7dc5925b3b674c98e78662cdbea58be1",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/pyproject/pyproject_maturin.toml"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/native_extension/setup_torch_cuda_extension_example.py",
+    "duplicate_size_bytes": 326,
+    "sha256": "eb458b2aa70b485b600de804964b69a52d5f2f96f392a592f8924aaa0c07f94f",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/native_extension/setup_torch_cuda_extension_example.py"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/github_actions/build_wheels_cibuildwheel.yml",
+    "duplicate_size_bytes": 451,
+    "sha256": "6ce5ac2670324ee8b59c763f7c91efc567f304e1d09fa7425cbf32333fc913ac",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/github_actions/build_wheels_cibuildwheel.yml"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/triton_model_repository/add_sub/config.pbtxt",
+    "duplicate_size_bytes": 293,
+    "sha256": "5a32fdb931366aa124f861c0c3b43e296c7ec4abd77ca36e0c59eedd57cb05d5",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/triton_model_repository/add_sub/config.pbtxt"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/triton_model_repository/tensorrt_plan/config.pbtxt",
+    "duplicate_size_bytes": 259,
+    "sha256": "17dae29d855724d186f7655a507baf6ec33946518568945130f7e52c3f4d3eae",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/triton_model_repository/tensorrt_plan/config.pbtxt"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/triton_model_repository/python_backend/config.pbtxt",
+    "duplicate_size_bytes": 198,
+    "sha256": "5d33a337f25f81245771f77f0f9ac259f860d7da66819c91c2f33b45cd1b8832",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/triton_model_repository/python_backend/config.pbtxt"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/triton_model_repository/python_backend/1/model.py",
+    "duplicate_size_bytes": 454,
+    "sha256": "be06e3e5f7f48b313119619ec42516f22e0ed0878c282ba431a2df9dc89394fb",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/triton_model_repository/python_backend/1/model.py"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/triton_model_repository/tensorrt_plan/1/README_DROP_MODEL_PLAN_HERE.txt",
+    "duplicate_size_bytes": 117,
+    "sha256": "997c26e632ab6919e2eca11c448ce0786e2bc31e9baaacddeb563b8dc2e1c175",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/triton_model_repository/tensorrt_plan/1/README_DROP_MODEL_PLAN_HERE.txt"
+  },
+  {
+    "duplicate_source_archive": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "duplicate_internal_path": "AIWF_Pip_Package_RAG_Starter_v1_5/templates/triton_model_repository/add_sub/1/model.py",
+    "duplicate_size_bytes": 558,
+    "sha256": "e7bad627e93832a73f10f9ab10c576185fbed761d858ebff2e75568b71385ed4",
+    "kept_as": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/templates/triton_model_repository/add_sub/1/model.py"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/FIELD_MANUAL_FORCE_MULTIPLIER_INSERT.md",
+    "duplicate_size_bytes": 3361,
+    "sha256": "5603a979cb1e2dd66d37c2872cb7f5d7fc1d3e7c4bc499a516095d35a39515bf",
+    "kept_as": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/08_editorial/AIWF_FORCE_MULTIPLIER_INSERT.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/rag/RAG_DIRECTORY_ARCHITECTURE.md",
+    "duplicate_size_bytes": 8276,
+    "sha256": "3e47a72ac645c3b0b5e8afc93ec491332f70f1ab85c014613b1123efd9c05180",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/RAG_DIRECTORY_ARCHITECTURE.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/rag/02_python_pip_and_runtime_packages/05_open_questions.md",
+    "duplicate_size_bytes": 51,
+    "sha256": "570b6989ee6168c07d5a415e146a67a6a813b1fff9886c674c7e44a57365af99",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/rag/01_comfyui_nodes_and_workflows/05_open_questions.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/rag/04_agents_rag_local_llm_and_tool_use/00_SOURCE_LEDGER.md",
+    "duplicate_size_bytes": 75,
+    "sha256": "e7aa2f60053f97b0b53e948db2b6ea8b13fcbd394be8b3dd20cd1be83a51fc11",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/rag/01_comfyui_nodes_and_workflows/00_SOURCE_LEDGER.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/rag/04_agents_rag_local_llm_and_tool_use/05_open_questions.md",
+    "duplicate_size_bytes": 51,
+    "sha256": "570b6989ee6168c07d5a415e146a67a6a813b1fff9886c674c7e44a57365af99",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/rag/01_comfyui_nodes_and_workflows/05_open_questions.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/AI_FIELD_GUIDE_AGENT_PLAN.md",
+    "duplicate_size_bytes": 1317,
+    "sha256": "ca6fcbfce84cd45a92410094e541d3d6a35e3c68cb2cb7ca65760ed2086f74b6",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/AI_FIELD_GUIDE_AGENT_PLAN.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_SCOPE_FIREWALL.md",
+    "duplicate_size_bytes": 1588,
+    "sha256": "537b1d70483e8783367b3de6eba646f8d83ca7e2a53a1cc5f88817665110140f",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_SCOPE_FIREWALL.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/SENDOFF_MASTER.md",
+    "duplicate_size_bytes": 2184,
+    "sha256": "6ef19ba2a6b7ce946959689055657b8089e422c4eb4b44f07755a06b34d6ac65",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/SENDOFF_MASTER.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/01_brand_hub_chat.md",
+    "duplicate_size_bytes": 2824,
+    "sha256": "ec9d200528c7ef40b02e4f7236239d2f96e27f1a3a6e4ab75424b2c2ebcf0d67",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/01_brand_hub_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/02_envpack_workstation_validator_chat.md",
+    "duplicate_size_bytes": 3579,
+    "sha256": "3b059883fa625daf5ea89c99ed4b3e6b4589d6dbd46e62f9d7d64ecf4008c467",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/02_envpack_workstation_validator_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/03_model_checker_chat.md",
+    "duplicate_size_bytes": 3403,
+    "sha256": "699f5ca8e299794388a8c1c310f64014e4323aa6c03b8ec88aab5561d0158e69",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/03_model_checker_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/04_field_manual_chat.md",
+    "duplicate_size_bytes": 3919,
+    "sha256": "245edb852371b12bcdbf07ba9b88266e1cf558e60048995922cb756e051bb24b",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/04_field_manual_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/05_knowledge_pack_assistant_chat.md",
+    "duplicate_size_bytes": 3063,
+    "sha256": "294884ed2f11cef611241c8caab466d8139fd6ed1cf65438a2682a24b2bce644",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/05_knowledge_pack_assistant_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/06_workflow_packs_chat.md",
+    "duplicate_size_bytes": 3413,
+    "sha256": "16fe2a5f836cdfebe4200d1737bd7f9a01b3d698b7304fdfaef72c7f5b8b5177",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/06_workflow_packs_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/07_comfyui_nodes_chat.md",
+    "duplicate_size_bytes": 3343,
+    "sha256": "9109e3333cab299aa55bca5f088d80c774651482d310b5b3724fbc6e5498fe86",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/07_comfyui_nodes_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/08_old_photo_restore_chat.md",
+    "duplicate_size_bytes": 3335,
+    "sha256": "555c431ad0edde936d2f7ae467520b5bc6156e362acd9d1e33207dddde944ae1",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/08_old_photo_restore_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/09_qwenvl_vqa_llm_nodes_chat.md",
+    "duplicate_size_bytes": 3483,
+    "sha256": "418a610feaa2f74d4a42f9cc844fb88d549627a6ec2c481cf0285c782fdf1dbe",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/09_qwenvl_vqa_llm_nodes_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/10_aiwf_photos_chat.md",
+    "duplicate_size_bytes": 3119,
+    "sha256": "859d0c215258885a470d9a50df893daf20feee7ab88b57dfcc84c93b58f183e2",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/10_aiwf_photos_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/11_labs_preservation_bridge_chat.md",
+    "duplicate_size_bytes": 3386,
+    "sha256": "5bd53921bb27c6dda989a2f923bbe3b3f59d17b520de75ca33591c895bbd3dfc",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/11_labs_preservation_bridge_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/12_release_packaging_chat.md",
+    "duplicate_size_bytes": 3267,
+    "sha256": "ddbba40dfc47385dd97de8781f05b5891a8f85af6bcd000dba30f5689fcdee50",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/12_release_packaging_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/FIELD_MANUAL_INSERTS/AIWF_force_multiplier_insert.md",
+    "duplicate_size_bytes": 3361,
+    "sha256": "5603a979cb1e2dd66d37c2872cb7f5d7fc1d3e7c4bc499a516095d35a39515bf",
+    "kept_as": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/08_editorial/AIWF_FORCE_MULTIPLIER_INSERT.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/AI_FIELD_GUIDE_AGENT_PLAN.md",
+    "duplicate_size_bytes": 1317,
+    "sha256": "ca6fcbfce84cd45a92410094e541d3d6a35e3c68cb2cb7ca65760ed2086f74b6",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/AI_FIELD_GUIDE_AGENT_PLAN.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/01_brand_hub_chat.md",
+    "duplicate_size_bytes": 2824,
+    "sha256": "ec9d200528c7ef40b02e4f7236239d2f96e27f1a3a6e4ab75424b2c2ebcf0d67",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/01_brand_hub_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/02_envpack_workstation_validator_chat.md",
+    "duplicate_size_bytes": 3579,
+    "sha256": "3b059883fa625daf5ea89c99ed4b3e6b4589d6dbd46e62f9d7d64ecf4008c467",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/02_envpack_workstation_validator_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/03_model_checker_chat.md",
+    "duplicate_size_bytes": 3403,
+    "sha256": "699f5ca8e299794388a8c1c310f64014e4323aa6c03b8ec88aab5561d0158e69",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/03_model_checker_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/04_field_manual_chat.md",
+    "duplicate_size_bytes": 3919,
+    "sha256": "245edb852371b12bcdbf07ba9b88266e1cf558e60048995922cb756e051bb24b",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/04_field_manual_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/05_knowledge_pack_assistant_chat.md",
+    "duplicate_size_bytes": 3063,
+    "sha256": "294884ed2f11cef611241c8caab466d8139fd6ed1cf65438a2682a24b2bce644",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/05_knowledge_pack_assistant_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/06_workflow_packs_chat.md",
+    "duplicate_size_bytes": 3413,
+    "sha256": "16fe2a5f836cdfebe4200d1737bd7f9a01b3d698b7304fdfaef72c7f5b8b5177",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/06_workflow_packs_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/07_comfyui_nodes_chat.md",
+    "duplicate_size_bytes": 3343,
+    "sha256": "9109e3333cab299aa55bca5f088d80c774651482d310b5b3724fbc6e5498fe86",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/07_comfyui_nodes_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/08_old_photo_restore_chat.md",
+    "duplicate_size_bytes": 3335,
+    "sha256": "555c431ad0edde936d2f7ae467520b5bc6156e362acd9d1e33207dddde944ae1",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/08_old_photo_restore_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/09_qwenvl_vqa_llm_nodes_chat.md",
+    "duplicate_size_bytes": 3483,
+    "sha256": "418a610feaa2f74d4a42f9cc844fb88d549627a6ec2c481cf0285c782fdf1dbe",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/09_qwenvl_vqa_llm_nodes_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/10_aiwf_photos_chat.md",
+    "duplicate_size_bytes": 3119,
+    "sha256": "859d0c215258885a470d9a50df893daf20feee7ab88b57dfcc84c93b58f183e2",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/10_aiwf_photos_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/11_labs_preservation_bridge_chat.md",
+    "duplicate_size_bytes": 3386,
+    "sha256": "5bd53921bb27c6dda989a2f923bbe3b3f59d17b520de75ca33591c895bbd3dfc",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/11_labs_preservation_bridge_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/12_release_packaging_chat.md",
+    "duplicate_size_bytes": 3267,
+    "sha256": "ddbba40dfc47385dd97de8781f05b5891a8f85af6bcd000dba30f5689fcdee50",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/12_release_packaging_chat.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/CHAT_SCOPE_FIREWALL.md",
+    "duplicate_size_bytes": 1588,
+    "sha256": "537b1d70483e8783367b3de6eba646f8d83ca7e2a53a1cc5f88817665110140f",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_SCOPE_FIREWALL.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/SENDOFF_MASTER.md",
+    "duplicate_size_bytes": 2184,
+    "sha256": "6ef19ba2a6b7ce946959689055657b8089e422c4eb4b44f07755a06b34d6ac65",
+    "kept_as": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/SENDOFF_MASTER.md"
+  },
+  {
+    "duplicate_source_archive": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "duplicate_internal_path": "AIWF-Project-Chat-Distribution-Roadmap/docs/FORCE_MULTIPLIER_INSERT.md",
+    "duplicate_size_bytes": 3361,
+    "sha256": "5603a979cb1e2dd66d37c2872cb7f5d7fc1d3e7c4bc499a516095d35a39515bf",
+    "kept_as": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/08_editorial/AIWF_FORCE_MULTIPLIER_INSERT.md"
+  },
+  {
+    "duplicate_source_archive": "ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md",
+    "duplicate_internal_path": "ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md",
+    "duplicate_size_bytes": 44882,
+    "sha256": "a97cd9b4e0f5dd9936bb15c45bca958f09f87b53e3d0624ad3d567e44df3a09f",
+    "kept_as": "CONTENT/aiwf_node_research_pass02N_flux_model_control_sampler_mds_v1_4/aiwf_node_research_pass02N_flux_model_control_sampler_mds_v1_4/SOURCE_ComfyUI_Custom_Nodes_2026_Modern_Tier_Field_Report.md"
+  }
+]

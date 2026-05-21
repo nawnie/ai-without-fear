@@ -1,0 +1,17 @@
+method,modality,best_for,consumer_hardware_fit,minimum_data_shape,main_risks,aiwf_default_position
+prompting,text,style/format/light behavior,excellent,examples in prompt,fragile across prompts,start here
+RAG,text/docs,current/private/reference knowledge,excellent,documents + metadata,poor retrieval or stale sources,use before fine-tuning facts
+SFT LoRA,text/chat,behavior/task/style adaptation,good,instruction-response examples,overfit and bad style amplification,first training method
+QLoRA,text/chat,larger LLM adapter training on limited VRAM,good,clean SFT or preference data,quantization sensitivity,default for 7B/13B consumer LLM work
+DPO,text/chat,preference alignment,moderate,prompt/chosen/rejected triples,bad preference labels,after SFT baseline
+ORPO,text/chat,reference-free preference shaping,moderate,chosen/rejected pairs,style over-optimization,advanced option
+KTO,text/chat,desirable/undesirable alignment,moderate,binary good/bad examples,label noise,advanced option when pairs are scarce
+GRPO,text/chat/reasoning,reward-driven reasoning,hard,rewardable prompts,complex eval/reward design,research/advanced only
+Embedding fine-tune,text/RAG,retrieval quality,excellent,query-positive-negative,leakage weak negatives,use for RAG failure
+Reranker fine-tune,text/RAG,better ranking,good,query doc relevance labels,latency/overfit,use for serious RAG
+Image LoRA,image,style/identity/concept,excellent on 12-24GB,image-caption pairs,bad captions overfit,default image training path
+DreamBooth-style,image,identity/object,moderate,image-caption pairs,memorization/identity risk,use with consent
+Video LoRA,video,motion/style/temporal adaptation,constrained,clip-caption-motion metadata,temporal artifacts and VRAM,advanced consumer path
+Voice adaptation,audio,consented voice/TTS style,moderate,audio transcript consent,impersonation misuse,consent-only
+Full fine-tune,text/image,broad behavior/model change,poor on consumer,large clean dataset,compute overfit license issues,avoid unless small model
+Pretraining,all,new foundation model,not consumer,huge corpus,compute/legal/eval impossible,not AIWF local path

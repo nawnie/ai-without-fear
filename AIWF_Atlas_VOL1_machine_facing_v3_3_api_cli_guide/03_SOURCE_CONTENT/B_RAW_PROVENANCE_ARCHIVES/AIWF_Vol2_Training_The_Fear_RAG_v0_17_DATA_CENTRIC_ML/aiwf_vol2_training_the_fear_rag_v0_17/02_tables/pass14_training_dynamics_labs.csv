@@ -1,0 +1,9 @@
+lab,core_question,artifact,success_standard
+LR_sweep,How does LR shape learning?,loss curves and memo,identifies low/stable/high LR regimes
+optimizer_compare,What does AdamW buy over SGD?,metric table,explains speed vs generalization
+batch_accumulation,What is effective batch?,calculation worksheet,separates microbatch and effective batch
+precision_tradeoff,What changes with FP16/BF16/FP32?,VRAM/speed table,connects precision to stability
+checkpointing_tradeoff,What does recomputation cost?,VRAM/sec_per_step table,explains memory-speed tradeoff
+LoRA_checkpoint_select,Is final checkpoint best?,fixed prompt/sample grid,selects best checkpoint by evidence
+failure_triage,What phase failed?,diagnostic tree,recommends phase-specific next action
+release_memo,Can this model ship?,one-page memo,"documents evidence, risks, and limits"

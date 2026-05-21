@@ -1,0 +1,8 @@
+label_problem,symptom,affected_modalities,response
+ambiguous definition,annotators disagree often,all,rewrite label guide and gold examples
+systematic bias,model fails a subgroup/source,all,rebalance/relabel/add subgroup eval
+missing abstain,forced wrong labels,classification/VLM/text,allow unknown/uncertain label
+caption inconsistency,LoRA learns wrong trigger/style,image/video,caption rules and sample audit
+synthetic hallucination,bot invents facts confidently,LLM/RAG,source-grounded review and factual filters
+transcript error,voice/ASR model mislearns text,audio,align transcripts and remove low-quality clips
+preference pair noise,DPO learns arbitrary taste,LLM,judge agreement and pair rationale

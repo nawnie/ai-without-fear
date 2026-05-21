@@ -1,0 +1,445 @@
+00_project_control/FILE_MANIFEST_v0_4.txt
+00_project_control/FILE_MANIFEST_v0_5.txt
+00_project_control/FILE_MANIFEST_v0_6.txt
+00_project_control/RESEARCH_PROTOCOL.md
+01_research_cards/001_training_landscape_overview.md
+01_research_cards/002_llm_bot_training_stack.md
+01_research_cards/003_llamafactory_deep_card.md
+01_research_cards/004_unsloth_deep_card.md
+01_research_cards/005_axolotl_trl_torchtune_card.md
+01_research_cards/006_image_training_stack.md
+01_research_cards/007_simpletuner_card.md
+01_research_cards/008_ai_toolkit_card.md
+01_research_cards/009_onetrainer_fluxgym_legacy_card.md
+01_research_cards/010_video_training_stack.md
+01_research_cards/011_musubi_tuner_card.md
+01_research_cards/012_voice_audio_training_stack.md
+01_research_cards/013_evaluation_and_failure_signatures.md
+01_research_cards/014_pass_02_index.md
+01_research_cards/015_unsloth_deep_dive.md
+01_research_cards/016_llamafactory_deep_dive.md
+01_research_cards/017_axolotl_trl_torchtune_deep_dive.md
+01_research_cards/018_embedding_reranker_training_sentence_transformers_flagembedding.md
+01_research_cards/019_simpletuner_diffusion_deep_dive.md
+01_research_cards/020_ai_toolkit_flux_wan_zimage_deep_dive.md
+01_research_cards/021_onetrainer_kohya_gui_diffusion_context.md
+01_research_cards/022_musubi_tuner_wan_hunyuan_video_deep_dive.md
+01_research_cards/023_ltx_video_training_deep_dive.md
+01_research_cards/024_gpt_sovits_voice_training_deep_dive.md
+01_research_cards/025_dataset_doctor_spec_bridge.md
+01_research_cards/026_training_law_rights_consent_baseline.md
+01_research_cards/027_training_theory_core_laws.md
+01_research_cards/028_pass_03_index.md
+01_research_cards/029_consumer_hardware_vram_math.md
+01_research_cards/030_peft_methods_lora_qlora_dora_ia3_prefix.md
+01_research_cards/031_quantization_training_inference_map.md
+01_research_cards/032_alignment_preference_training_sft_dpo_orpo_kto_grpo.md
+01_research_cards/033_rag_vs_finetune_decision_tree.md
+01_research_cards/034_dataset_design_quality_laws.md
+01_research_cards/035_model_cards_dataset_cards_provenance.md
+01_research_cards/036_evaluation_frameworks_lm_eval_opencompass_ragas_deepeval.md
+01_research_cards/037_image_lora_dataset_captioning_pipeline.md
+01_research_cards/038_video_lora_dataset_motion_pipeline.md
+01_research_cards/039_pass_04_index.md
+01_research_cards/040_torchtune_native_pytorch_recipes.md
+01_research_cards/041_hf_peft_library_adapter_ops.md
+01_research_cards/042_hf_trl_post_training_stack.md
+01_research_cards/043_accelerate_deepspeed_fsdp_memory_backend.md
+01_research_cards/044_autotrain_low_code_training_bridge.md
+01_research_cards/045_vlm_training_qwen_llava_bridge.md
+01_research_cards/046_asr_whisper_wav2vec_training.md
+01_research_cards/047_aiwf_training_runbook_consumer_gpus.md
+01_research_cards/048_training_failure_signatures_oom_overfit_collapse.md
+01_research_cards/049_dataset_provenance_manifest_schema.md
+01_research_cards/050_aiwf_trainer_wrapper_architecture.md
+01_research_cards/051_pass_05_index.md
+01_research_cards/052_llm_dataset_formats_chat_templates.md
+01_research_cards/053_data_cleaning_dedup_pii_dataset_triage.md
+01_research_cards/054_synthetic_instruction_data_distillation_self_instruct.md
+01_research_cards/055_preference_dataset_construction_dpo_orpo_kto_rlaif.md
+01_research_cards/056_image_lora_captioning_tagging_toolchain.md
+01_research_cards/057_video_dataset_preparation_wan_ltx_diffusion_loras.md
+01_research_cards/058_multimodal_vlm_dataset_construction.md
+01_research_cards/059_training_telemetry_experiment_tracking_run_evidence.md
+01_research_cards/060_reproducibility_package_format_aiwf_training_runs.md
+01_research_cards/061_pass_06_index.md
+01_research_cards/062_adapter_method_decision_tree.md
+01_research_cards/063_lora_hyperparameters_target_modules.md
+01_research_cards/064_qlora_memory_recipe_bitsandbytes.md
+01_research_cards/065_dora_rslora_practical_notes.md
+01_research_cards/066_optimizers_schedulers_consumer_training.md
+01_research_cards/067_curriculum_data_mixing_replay.md
+01_research_cards/068_retriever_training_rag_finetuning.md
+01_research_cards/069_adapter_merging_deployment.md
+01_research_cards/070_consumer_gpu_training_presets.md
+01_research_cards/071_diffusion_lora_presets_image_video.md
+01_research_cards/072_evaluation_gates_release_checklist.md
+01_research_cards/073_pass_07_index.md
+01_research_cards/074_rlhf_rlaif_reward_modeling_consumer_limits.md
+01_research_cards/075_dpo_orpo_kto_grpo_selection_rules.md
+01_research_cards/076_distillation_teacher_student_synthetic_data.md
+01_research_cards/077_model_merging_mergekit_task_arithmetic.md
+01_research_cards/078_quantization_export_gguf_gptq_awq_bitsandbytes.md
+01_research_cards/079_eval_harness_private_benchmarks.md
+01_research_cards/080_safety_alignment_red_team_gates.md
+01_research_cards/081_deployment_formats_and_adapter_release.md
+01_research_cards/082_aiwf_training_judge_spec.md
+01_research_cards/083_post_training_failure_modes_reward_hacking_regression.md
+02_tables/adapter_deployment_matrix_pass_06.csv
+02_tables/adapter_method_decision_matrix_pass_06.csv
+02_tables/captioning_tool_matrix_pass_05.csv
+02_tables/consumer_gpu_presets_pass_06.csv
+02_tables/consumer_hardware_capability_matrix.csv
+02_tables/consumer_training_capability_matrix_pass_04.csv
+02_tables/consumer_training_capability_matrix_v0_2.csv
+02_tables/dataset_format_cheatsheet_pass_05.csv
+02_tables/dataset_quality_checklist_pass_03.csv
+02_tables/eval_gate_matrix_pass_07.csv
+02_tables/experiment_tracking_matrix_pass_05.csv
+02_tables/law_governance_tracker_pass_03.csv
+02_tables/legal_risk_matrix_v0_2.csv
+02_tables/optimizer_scheduler_matrix_pass_06.csv
+02_tables/pip_packages_watchlist.csv
+02_tables/post_training_method_matrix_pass_07.csv
+02_tables/quantization_export_matrix_pass_07.csv
+02_tables/rag_retriever_training_matrix_pass_06.csv
+02_tables/training_failure_signature_matrix_pass_04.csv
+02_tables/training_methods_decision_matrix_pass_03.csv
+02_tables/training_research_index.csv
+02_tables/training_tool_matrix_pass_02.csv
+02_tables/training_tool_matrix_pass_04.csv
+02_tables/video_dataset_prep_matrix_pass_05.csv
+03_templates/RAG_CARD_TEMPLATE_training_tool.md
+04_future_passes/NEXT_PASSES.md
+05_specs/AIWF_Dataset_Doctor_v0_1.md
+05_specs/AIWF_Dataset_Doctor_v0_2.md
+05_specs/AIWF_Dataset_Doctor_v0_3.md
+05_specs/AIWF_PostTraining_Run_Pack_v0_1.md
+05_specs/AIWF_RAG_Retriever_Trainer_v0_1.md
+05_specs/AIWF_Training_Judge_v0_1.md
+05_specs/AIWF_Training_Preset_Builder_v0_1.md
+06_sources/source_log_pass_02.md
+06_sources/source_log_pass_03.md
+06_sources/source_log_pass_04.md
+06_sources/source_log_pass_05.md
+06_sources/source_log_pass_06.md
+06_sources/source_log_pass_07.md
+07_theory_law_rules/CONSUMER_TRAINING_RULES_OF_THUMB_PASS_04.md
+07_theory_law_rules/DATASET_CONSTRUCTION_RULES_PASS_05.md
+07_theory_law_rules/LEGAL_RIGHTS_CONSENT_BASELINE.md
+07_theory_law_rules/POST_TRAINING_RULES_PASS_07.md
+07_theory_law_rules/SYNTHETIC_MEDIA_CONSENT_DISCLOSURE_PROVENANCE.md
+07_theory_law_rules/TRAINING_LAW_DEEP_DIVE_US_EU_BASELINE.md
+07_theory_law_rules/TRAINING_METHOD_RULES_PASS_06.md
+07_theory_law_rules/TRAINING_THEORY_CORE_LAWS.md
+CHANGELOG.md
+README.md
+ROADMAP.md
+
+---
+
+## Retained unique material from older internal version files
+
+This section was added during internal version-file consolidation. The newest versioned file was kept and older version files were removed after their unique chunks were appended here.
+
+### Unique retained material from `CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_6.txt`
+
+# File Manifest v0.6
+- `00_project_control/FILE_MANIFEST_v0_4.txt` (3985 bytes)
+- `00_project_control/FILE_MANIFEST_v0_5.txt` (5016 bytes)
+- `00_project_control/RESEARCH_PROTOCOL.md` (1692 bytes)
+- `01_research_cards/001_training_landscape_overview.md` (2285 bytes)
+- `01_research_cards/002_llm_bot_training_stack.md` (2631 bytes)
+- `01_research_cards/003_llamafactory_deep_card.md` (1470 bytes)
+- `01_research_cards/004_unsloth_deep_card.md` (1356 bytes)
+- `01_research_cards/005_axolotl_trl_torchtune_card.md` (1419 bytes)
+- `01_research_cards/006_image_training_stack.md` (1756 bytes)
+- `01_research_cards/007_simpletuner_card.md` (1207 bytes)
+- `01_research_cards/008_ai_toolkit_card.md` (1313 bytes)
+- `01_research_cards/009_onetrainer_fluxgym_legacy_card.md` (1423 bytes)
+- `01_research_cards/010_video_training_stack.md` (1624 bytes)
+- `01_research_cards/011_musubi_tuner_card.md` (1215 bytes)
+- `01_research_cards/012_voice_audio_training_stack.md` (1959 bytes)
+- `01_research_cards/013_evaluation_and_failure_signatures.md` (1572 bytes)
+- `01_research_cards/014_pass_02_index.md` (1335 bytes)
+- `01_research_cards/015_unsloth_deep_dive.md` (4235 bytes)
+- `01_research_cards/016_llamafactory_deep_dive.md` (3418 bytes)
+- `01_research_cards/017_axolotl_trl_torchtune_deep_dive.md` (4290 bytes)
+- `01_research_cards/018_embedding_reranker_training_sentence_transformers_flagembedding.md` (4212 bytes)
+- `01_research_cards/019_simpletuner_diffusion_deep_dive.md` (3267 bytes)
+- `01_research_cards/020_ai_toolkit_flux_wan_zimage_deep_dive.md` (2897 bytes)
+- `01_research_cards/021_onetrainer_kohya_gui_diffusion_context.md` (2942 bytes)
+- `01_research_cards/022_musubi_tuner_wan_hunyuan_video_deep_dive.md` (3221 bytes)
+- `01_research_cards/023_ltx_video_training_deep_dive.md` (2726 bytes)
+- `01_research_cards/024_gpt_sovits_voice_training_deep_dive.md` (3085 bytes)
+- `01_research_cards/025_dataset_doctor_spec_bridge.md` (2480 bytes)
+- `01_research_cards/026_training_law_rights_consent_baseline.md` (4637 bytes)
+- `01_research_cards/027_training_theory_core_laws.md` (4112 bytes)
+- `01_research_cards/028_pass_03_index.md` (2125 bytes)
+- `01_research_cards/029_consumer_hardware_vram_math.md` (5549 bytes)
+- `01_research_cards/030_peft_methods_lora_qlora_dora_ia3_prefix.md` (5574 bytes)
+- `01_research_cards/031_quantization_training_inference_map.md` (4272 bytes)
+- `01_research_cards/032_alignment_preference_training_sft_dpo_orpo_kto_grpo.md` (4822 bytes)
+- `01_research_cards/033_rag_vs_finetune_decision_tree.md` (4133 bytes)
+- `01_research_cards/034_dataset_design_quality_laws.md` (4780 bytes)
+- `01_research_cards/035_model_cards_dataset_cards_provenance.md` (3548 bytes)
+- `01_research_cards/036_evaluation_frameworks_lm_eval_opencompass_ragas_deepeval.md` (3992 bytes)
+- `01_research_cards/037_image_lora_dataset_captioning_pipeline.md` (5244 bytes)
+- `01_research_cards/038_video_lora_dataset_motion_pipeline.md` (3935 bytes)
+- `01_research_cards/039_pass_04_index.md` (2099 bytes)
+- `01_research_cards/040_torchtune_native_pytorch_recipes.md` (2732 bytes)
+- `01_research_cards/041_hf_peft_library_adapter_ops.md` (3033 bytes)
+- `01_research_cards/042_hf_trl_post_training_stack.md` (2876 bytes)
+- `01_research_cards/043_accelerate_deepspeed_fsdp_memory_backend.md` (2451 bytes)
+- `01_research_cards/044_autotrain_low_code_training_bridge.md` (1643 bytes)
+- `01_research_cards/045_vlm_training_qwen_llava_bridge.md` (2619 bytes)
+- `01_research_cards/046_asr_whisper_wav2vec_training.md` (2379 bytes)
+- `01_research_cards/047_aiwf_training_runbook_consumer_gpus.md` (2312 bytes)
+- `01_research_cards/048_training_failure_signatures_oom_overfit_collapse.md` (2785 bytes)
+- `01_research_cards/049_dataset_provenance_manifest_schema.md` (2228 bytes)
+- `01_research_cards/050_aiwf_trainer_wrapper_architecture.md` (2401 bytes)
+- `01_research_cards/051_pass_05_index.md` (2060 bytes)
+- `01_research_cards/052_llm_dataset_formats_chat_templates.md` (6348 bytes)
+- `01_research_cards/053_data_cleaning_dedup_pii_dataset_triage.md` (5426 bytes)
+- `01_research_cards/054_synthetic_instruction_data_distillation_self_instruct.md` (4509 bytes)
+- `01_research_cards/055_preference_dataset_construction_dpo_orpo_kto_rlaif.md` (4342 bytes)
+- `01_research_cards/056_image_lora_captioning_tagging_toolchain.md` (4925 bytes)
+- `01_research_cards/057_video_dataset_preparation_wan_ltx_diffusion_loras.md` (5178 bytes)
+- `01_research_cards/058_multimodal_vlm_dataset_construction.md` (3779 bytes)
+- `01_research_cards/059_training_telemetry_experiment_tracking_run_evidence.md` (3915 bytes)
+- `01_research_cards/060_reproducibility_package_format_aiwf_training_runs.md` (3352 bytes)
+- `01_research_cards/061_pass_06_index.md` (1654 bytes)
+- `01_research_cards/062_adapter_method_decision_tree.md` (4451 bytes)
+- `01_research_cards/063_lora_hyperparameters_target_modules.md` (4234 bytes)
+- `01_research_cards/064_qlora_memory_recipe_bitsandbytes.md` (3022 bytes)
+- `01_research_cards/065_dora_rslora_practical_notes.md` (2180 bytes)
+- `01_research_cards/066_optimizers_schedulers_consumer_training.md` (3448 bytes)
+- `01_research_cards/067_curriculum_data_mixing_replay.md` (3016 bytes)
+- `01_research_cards/068_retriever_training_rag_finetuning.md` (2953 bytes)
+- `01_research_cards/069_adapter_merging_deployment.md` (3082 bytes)
+- `01_research_cards/070_consumer_gpu_training_presets.md` (2720 bytes)
+- `01_research_cards/071_diffusion_lora_presets_image_video.md` (3381 bytes)
+- `01_research_cards/072_evaluation_gates_release_checklist.md` (2369 bytes)
+- `02_tables/adapter_deployment_matrix_pass_06.csv` (574 bytes)
+- `02_tables/adapter_method_decision_matrix_pass_06.csv` (1028 bytes)
+- `02_tables/captioning_tool_matrix_pass_05.csv` (959 bytes)
+- `02_tables/consumer_gpu_presets_pass_06.csv` (896 bytes)
+- `02_tables/consumer_hardware_capability_matrix.csv` (2313 bytes)
+- `02_tables/consumer_training_capability_matrix_pass_04.csv` (844 bytes)
+- `02_tables/consumer_training_capability_matrix_v0_2.csv` (1371 bytes)
+- `02_tables/dataset_format_cheatsheet_pass_05.csv` (1368 bytes)
+- `02_tables/dataset_quality_checklist_pass_03.csv` (1586 bytes)
+- `02_tables/experiment_tracking_matrix_pass_05.csv` (682 bytes)
+- `02_tables/law_governance_tracker_pass_03.csv` (1527 bytes)
+- `02_tables/legal_risk_matrix_v0_2.csv` (1189 bytes)
+- `02_tables/optimizer_scheduler_matrix_pass_06.csv` (833 bytes)
+- `02_tables/pip_packages_watchlist.csv` (1506 bytes)
+- `02_tables/rag_retriever_training_matrix_pass_06.csv` (533 bytes)
+- `02_tables/training_failure_signature_matrix_pass_04.csv` (954 bytes)
+- `02_tables/training_methods_decision_matrix_pass_03.csv` (2130 bytes)
+- `02_tables/training_research_index.csv` (17391 bytes)
+- `02_tables/training_tool_matrix_pass_02.csv` (2984 bytes)
+- `02_tables/training_tool_matrix_pass_04.csv` (1613 bytes)
+- `02_tables/video_dataset_prep_matrix_pass_05.csv` (1097 bytes)
+- `03_templates/RAG_CARD_TEMPLATE_training_tool.md` (374 bytes)
+- `04_future_passes/NEXT_PASSES.md` (927 bytes)
+- `05_specs/AIWF_Dataset_Doctor_v0_1.md` (1229 bytes)
+- `05_specs/AIWF_Dataset_Doctor_v0_2.md` (4045 bytes)
+- `05_specs/AIWF_Dataset_Doctor_v0_3.md` (3547 bytes)
+- `05_specs/AIWF_RAG_Retriever_Trainer_v0_1.md` (1387 bytes)
+- `05_specs/AIWF_Training_Preset_Builder_v0_1.md` (1823 bytes)
+- `06_sources/source_log_pass_02.md` (3770 bytes)
+- `06_sources/source_log_pass_03.md` (3748 bytes)
+- `06_sources/source_log_pass_04.md` (2710 bytes)
+- `06_sources/source_log_pass_05.md` (3932 bytes)
+- `06_sources/source_log_pass_06.md` (2947 bytes)
+- `07_theory_law_rules/CONSUMER_TRAINING_RULES_OF_THUMB_PASS_04.md` (1195 bytes)
+- `07_theory_law_rules/DATASET_CONSTRUCTION_RULES_PASS_05.md` (1914 bytes)
+- `07_theory_law_rules/LEGAL_RIGHTS_CONSENT_BASELINE.md` (4637 bytes)
+- `07_theory_law_rules/SYNTHETIC_MEDIA_CONSENT_DISCLOSURE_PROVENANCE.md` (3961 bytes)
+- `07_theory_law_rules/TRAINING_LAW_DEEP_DIVE_US_EU_BASELINE.md` (4244 bytes)
+- `07_theory_law_rules/TRAINING_METHOD_RULES_PASS_06.md` (861 bytes)
+- `07_theory_law_rules/TRAINING_THEORY_CORE_LAWS.md` (4112 bytes)
+- `CHANGELOG.md` (4702 bytes)
+- `README.md` (3094 bytes)
+- `ROADMAP.md` (5290 bytes)
+
+### Unique retained material from `CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_5.txt`
+
+00_project_control/FILE_MANIFEST_v0_4.txt
+00_project_control/RESEARCH_PROTOCOL.md
+01_research_cards/001_training_landscape_overview.md
+01_research_cards/002_llm_bot_training_stack.md
+01_research_cards/003_llamafactory_deep_card.md
+01_research_cards/004_unsloth_deep_card.md
+01_research_cards/005_axolotl_trl_torchtune_card.md
+01_research_cards/006_image_training_stack.md
+01_research_cards/007_simpletuner_card.md
+01_research_cards/008_ai_toolkit_card.md
+01_research_cards/009_onetrainer_fluxgym_legacy_card.md
+01_research_cards/010_video_training_stack.md
+01_research_cards/011_musubi_tuner_card.md
+01_research_cards/012_voice_audio_training_stack.md
+01_research_cards/013_evaluation_and_failure_signatures.md
+01_research_cards/014_pass_02_index.md
+01_research_cards/015_unsloth_deep_dive.md
+01_research_cards/016_llamafactory_deep_dive.md
+01_research_cards/017_axolotl_trl_torchtune_deep_dive.md
+01_research_cards/018_embedding_reranker_training_sentence_transformers_flagembedding.md
+01_research_cards/019_simpletuner_diffusion_deep_dive.md
+01_research_cards/020_ai_toolkit_flux_wan_zimage_deep_dive.md
+01_research_cards/021_onetrainer_kohya_gui_diffusion_context.md
+01_research_cards/022_musubi_tuner_wan_hunyuan_video_deep_dive.md
+01_research_cards/023_ltx_video_training_deep_dive.md
+01_research_cards/024_gpt_sovits_voice_training_deep_dive.md
+01_research_cards/025_dataset_doctor_spec_bridge.md
+01_research_cards/026_training_law_rights_consent_baseline.md
+01_research_cards/027_training_theory_core_laws.md
+01_research_cards/028_pass_03_index.md
+01_research_cards/029_consumer_hardware_vram_math.md
+01_research_cards/030_peft_methods_lora_qlora_dora_ia3_prefix.md
+01_research_cards/031_quantization_training_inference_map.md
+01_research_cards/032_alignment_preference_training_sft_dpo_orpo_kto_grpo.md
+01_research_cards/033_rag_vs_finetune_decision_tree.md
+01_research_cards/034_dataset_design_quality_laws.md
+01_research_cards/035_model_cards_dataset_cards_provenance.md
+01_research_cards/036_evaluation_frameworks_lm_eval_opencompass_ragas_deepeval.md
+01_research_cards/037_image_lora_dataset_captioning_pipeline.md
+01_research_cards/038_video_lora_dataset_motion_pipeline.md
+01_research_cards/039_pass_04_index.md
+01_research_cards/040_torchtune_native_pytorch_recipes.md
+01_research_cards/041_hf_peft_library_adapter_ops.md
+01_research_cards/042_hf_trl_post_training_stack.md
+01_research_cards/043_accelerate_deepspeed_fsdp_memory_backend.md
+01_research_cards/044_autotrain_low_code_training_bridge.md
+01_research_cards/045_vlm_training_qwen_llava_bridge.md
+01_research_cards/046_asr_whisper_wav2vec_training.md
+01_research_cards/047_aiwf_training_runbook_consumer_gpus.md
+01_research_cards/048_training_failure_signatures_oom_overfit_collapse.md
+01_research_cards/049_dataset_provenance_manifest_schema.md
+01_research_cards/050_aiwf_trainer_wrapper_architecture.md
+01_research_cards/051_pass_05_index.md
+01_research_cards/052_llm_dataset_formats_chat_templates.md
+01_research_cards/053_data_cleaning_dedup_pii_dataset_triage.md
+01_research_cards/054_synthetic_instruction_data_distillation_self_instruct.md
+01_research_cards/055_preference_dataset_construction_dpo_orpo_kto_rlaif.md
+01_research_cards/056_image_lora_captioning_tagging_toolchain.md
+01_research_cards/057_video_dataset_preparation_wan_ltx_diffusion_loras.md
+01_research_cards/058_multimodal_vlm_dataset_construction.md
+01_research_cards/059_training_telemetry_experiment_tracking_run_evidence.md
+01_research_cards/060_reproducibility_package_format_aiwf_training_runs.md
+02_tables/captioning_tool_matrix_pass_05.csv
+02_tables/consumer_hardware_capability_matrix.csv
+02_tables/consumer_training_capability_matrix_pass_04.csv
+02_tables/consumer_training_capability_matrix_v0_2.csv
+02_tables/dataset_format_cheatsheet_pass_05.csv
+02_tables/dataset_quality_checklist_pass_03.csv
+02_tables/experiment_tracking_matrix_pass_05.csv
+02_tables/law_governance_tracker_pass_03.csv
+02_tables/legal_risk_matrix_v0_2.csv
+02_tables/pip_packages_watchlist.csv
+02_tables/training_failure_signature_matrix_pass_04.csv
+02_tables/training_methods_decision_matrix_pass_03.csv
+02_tables/training_research_index.csv
+02_tables/training_tool_matrix_pass_02.csv
+02_tables/training_tool_matrix_pass_04.csv
+02_tables/video_dataset_prep_matrix_pass_05.csv
+03_templates/RAG_CARD_TEMPLATE_training_tool.md
+04_future_passes/NEXT_PASSES.md
+05_specs/AIWF_Dataset_Doctor_v0_1.md
+05_specs/AIWF_Dataset_Doctor_v0_2.md
+05_specs/AIWF_Dataset_Doctor_v0_3.md
+06_sources/source_log_pass_02.md
+06_sources/source_log_pass_03.md
+06_sources/source_log_pass_04.md
+06_sources/source_log_pass_05.md
+07_theory_law_rules/CONSUMER_TRAINING_RULES_OF_THUMB_PASS_04.md
+07_theory_law_rules/DATASET_CONSTRUCTION_RULES_PASS_05.md
+07_theory_law_rules/LEGAL_RIGHTS_CONSENT_BASELINE.md
+07_theory_law_rules/SYNTHETIC_MEDIA_CONSENT_DISCLOSURE_PROVENANCE.md
+07_theory_law_rules/TRAINING_LAW_DEEP_DIVE_US_EU_BASELINE.md
+07_theory_law_rules/TRAINING_THEORY_CORE_LAWS.md
+CHANGELOG.md
+README.md
+ROADMAP.md
+
+### Unique retained material from `CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_4.txt`
+
+00_project_control/RESEARCH_PROTOCOL.md
+01_research_cards/001_training_landscape_overview.md
+01_research_cards/002_llm_bot_training_stack.md
+01_research_cards/003_llamafactory_deep_card.md
+01_research_cards/004_unsloth_deep_card.md
+01_research_cards/005_axolotl_trl_torchtune_card.md
+01_research_cards/006_image_training_stack.md
+01_research_cards/007_simpletuner_card.md
+01_research_cards/008_ai_toolkit_card.md
+01_research_cards/009_onetrainer_fluxgym_legacy_card.md
+01_research_cards/010_video_training_stack.md
+01_research_cards/011_musubi_tuner_card.md
+01_research_cards/012_voice_audio_training_stack.md
+01_research_cards/013_evaluation_and_failure_signatures.md
+01_research_cards/014_pass_02_index.md
+01_research_cards/015_unsloth_deep_dive.md
+01_research_cards/016_llamafactory_deep_dive.md
+01_research_cards/017_axolotl_trl_torchtune_deep_dive.md
+01_research_cards/018_embedding_reranker_training_sentence_transformers_flagembedding.md
+01_research_cards/019_simpletuner_diffusion_deep_dive.md
+01_research_cards/020_ai_toolkit_flux_wan_zimage_deep_dive.md
+01_research_cards/021_onetrainer_kohya_gui_diffusion_context.md
+01_research_cards/022_musubi_tuner_wan_hunyuan_video_deep_dive.md
+01_research_cards/023_ltx_video_training_deep_dive.md
+01_research_cards/024_gpt_sovits_voice_training_deep_dive.md
+01_research_cards/025_dataset_doctor_spec_bridge.md
+01_research_cards/026_training_law_rights_consent_baseline.md
+01_research_cards/027_training_theory_core_laws.md
+01_research_cards/028_pass_03_index.md
+01_research_cards/029_consumer_hardware_vram_math.md
+01_research_cards/030_peft_methods_lora_qlora_dora_ia3_prefix.md
+01_research_cards/031_quantization_training_inference_map.md
+01_research_cards/032_alignment_preference_training_sft_dpo_orpo_kto_grpo.md
+01_research_cards/033_rag_vs_finetune_decision_tree.md
+01_research_cards/034_dataset_design_quality_laws.md
+01_research_cards/035_model_cards_dataset_cards_provenance.md
+01_research_cards/036_evaluation_frameworks_lm_eval_opencompass_ragas_deepeval.md
+01_research_cards/037_image_lora_dataset_captioning_pipeline.md
+01_research_cards/038_video_lora_dataset_motion_pipeline.md
+01_research_cards/039_pass_04_index.md
+01_research_cards/040_torchtune_native_pytorch_recipes.md
+01_research_cards/041_hf_peft_library_adapter_ops.md
+01_research_cards/042_hf_trl_post_training_stack.md
+01_research_cards/043_accelerate_deepspeed_fsdp_memory_backend.md
+01_research_cards/044_autotrain_low_code_training_bridge.md
+01_research_cards/045_vlm_training_qwen_llava_bridge.md
+01_research_cards/046_asr_whisper_wav2vec_training.md
+01_research_cards/047_aiwf_training_runbook_consumer_gpus.md
+01_research_cards/048_training_failure_signatures_oom_overfit_collapse.md
+01_research_cards/049_dataset_provenance_manifest_schema.md
+01_research_cards/050_aiwf_trainer_wrapper_architecture.md
+02_tables/consumer_hardware_capability_matrix.csv
+02_tables/consumer_training_capability_matrix_pass_04.csv
+02_tables/consumer_training_capability_matrix_v0_2.csv
+02_tables/dataset_quality_checklist_pass_03.csv
+02_tables/law_governance_tracker_pass_03.csv
+02_tables/legal_risk_matrix_v0_2.csv
+02_tables/pip_packages_watchlist.csv
+02_tables/training_failure_signature_matrix_pass_04.csv
+02_tables/training_methods_decision_matrix_pass_03.csv
+02_tables/training_research_index.csv
+02_tables/training_tool_matrix_pass_02.csv
+02_tables/training_tool_matrix_pass_04.csv
+03_templates/RAG_CARD_TEMPLATE_training_tool.md
+04_future_passes/NEXT_PASSES.md
+05_specs/AIWF_Dataset_Doctor_v0_1.md
+05_specs/AIWF_Dataset_Doctor_v0_2.md
+06_sources/source_log_pass_02.md
+06_sources/source_log_pass_03.md
+06_sources/source_log_pass_04.md
+07_theory_law_rules/CONSUMER_TRAINING_RULES_OF_THUMB_PASS_04.md
+07_theory_law_rules/LEGAL_RIGHTS_CONSENT_BASELINE.md
+07_theory_law_rules/SYNTHETIC_MEDIA_CONSENT_DISCLOSURE_PROVENANCE.md
+07_theory_law_rules/TRAINING_LAW_DEEP_DIVE_US_EU_BASELINE.md
+07_theory_law_rules/TRAINING_THEORY_CORE_LAWS.md
+CHANGELOG.md
+README.md
+ROADMAP.md

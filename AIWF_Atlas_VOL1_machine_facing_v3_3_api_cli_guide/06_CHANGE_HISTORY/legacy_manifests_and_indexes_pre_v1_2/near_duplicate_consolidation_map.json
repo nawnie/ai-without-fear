@@ -1,0 +1,504 @@
+[
+  {
+    "family": "AIWF-Project-Chat-Distribution-Roadmap",
+    "logical_path": "CHANGELOG.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHANGELOG.md",
+    "removed_sources": [
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/CHANGELOG.md",
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/CHANGELOG.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/CHANGELOG.md",
+        "max_similarity": 0.4915,
+        "unit_jaccard": 0.2727,
+        "token_jaccard": 0.4491,
+        "sequence_ratio": 0.4915
+      },
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/CHANGELOG.md",
+        "max_similarity": 0.4992,
+        "unit_jaccard": 0.2727,
+        "token_jaccard": 0.47,
+        "sequence_ratio": 0.4992
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 2,
+    "final_unique_units_or_rows": 12,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF-Project-Chat-Distribution-Roadmap",
+    "logical_path": "CHAT_HANDOFFS/13_rag_source_ledger_chat.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/13_rag_source_ledger_chat.md",
+    "removed_sources": [
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/13_rag_source_ledger_chat.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/CHAT_HANDOFFS/13_rag_source_ledger_chat.md",
+        "max_similarity": 0.3167,
+        "unit_jaccard": 0.122,
+        "token_jaccard": 0.3167,
+        "sequence_ratio": 0.1042
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 15,
+    "final_unique_units_or_rows": 41,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF-Project-Chat-Distribution-Roadmap",
+    "logical_path": "CROSS_CHAT_CHECKLIST.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/CROSS_CHAT_CHECKLIST.md",
+    "removed_sources": [
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/CROSS_CHAT_CHECKLIST.md",
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/CROSS_CHAT_CHECKLIST.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/CROSS_CHAT_CHECKLIST.md",
+        "max_similarity": 0.6963,
+        "unit_jaccard": 0.5417,
+        "token_jaccard": 0.5658,
+        "sequence_ratio": 0.6963
+      },
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/CROSS_CHAT_CHECKLIST.md",
+        "max_similarity": 0.7542,
+        "unit_jaccard": 0.619,
+        "token_jaccard": 0.6208,
+        "sequence_ratio": 0.7542
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 3,
+    "final_unique_units_or_rows": 24,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF-Project-Chat-Distribution-Roadmap",
+    "logical_path": "MASTER_DISTRIBUTION_ROADMAP.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/MASTER_DISTRIBUTION_ROADMAP.md",
+    "removed_sources": [
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/MASTER_DISTRIBUTION_ROADMAP.md",
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/MASTER_DISTRIBUTION_ROADMAP.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/MASTER_DISTRIBUTION_ROADMAP.md",
+        "max_similarity": 0.8179,
+        "unit_jaccard": 0.7222,
+        "token_jaccard": 0.7302,
+        "sequence_ratio": 0.8179
+      },
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/MASTER_DISTRIBUTION_ROADMAP.md",
+        "max_similarity": 0.8471,
+        "unit_jaccard": 0.7536,
+        "token_jaccard": 0.7642,
+        "sequence_ratio": 0.8471
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 4,
+    "final_unique_units_or_rows": 72,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF-Project-Chat-Distribution-Roadmap",
+    "logical_path": "PROJECT_CHAT_MAP.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/PROJECT_CHAT_MAP.md",
+    "removed_sources": [
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/PROJECT_CHAT_MAP.md",
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/PROJECT_CHAT_MAP.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/PROJECT_CHAT_MAP.md",
+        "max_similarity": 0.7625,
+        "unit_jaccard": 0.6949,
+        "token_jaccard": 0.693,
+        "sequence_ratio": 0.7625
+      },
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/PROJECT_CHAT_MAP.md",
+        "max_similarity": 0.7745,
+        "unit_jaccard": 0.7368,
+        "token_jaccard": 0.7212,
+        "sequence_ratio": 0.7745
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 6,
+    "final_unique_units_or_rows": 61,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF-Project-Chat-Distribution-Roadmap",
+    "logical_path": "README.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory/AIWF-Project-Chat-Distribution-Roadmap/README.md",
+    "removed_sources": [
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/README.md",
+      "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/README.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph/AIWF-Project-Chat-Distribution-Roadmap/README.md",
+        "max_similarity": 0.526,
+        "unit_jaccard": 0.4286,
+        "token_jaccard": 0.4466,
+        "sequence_ratio": 0.526
+      },
+      {
+        "source": "CONTENT/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger/AIWF-Project-Chat-Distribution-Roadmap/README.md",
+        "max_similarity": 0.5437,
+        "unit_jaccard": 0.4444,
+        "token_jaccard": 0.456,
+        "sequence_ratio": 0.5437
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 5,
+    "final_unique_units_or_rows": 30,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "CHANGELOG.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/CHANGELOG.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/CHANGELOG.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/CHANGELOG.md",
+        "max_similarity": 0.8471,
+        "unit_jaccard": 0.7619,
+        "token_jaccard": 0.7442,
+        "sequence_ratio": 0.8471
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 21,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "PACKAGE_INDEX.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/PACKAGE_INDEX.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/PACKAGE_INDEX.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/PACKAGE_INDEX.md",
+        "max_similarity": 0.5257,
+        "unit_jaccard": 0.0,
+        "token_jaccard": 0.5257,
+        "sequence_ratio": 0.0079
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 232,
+    "final_unique_units_or_rows": 234,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "RAG_LOADER_NOTES.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/RAG_LOADER_NOTES.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/RAG_LOADER_NOTES.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/RAG_LOADER_NOTES.md",
+        "max_similarity": 0.9231,
+        "unit_jaccard": 0.9231,
+        "token_jaccard": 0.8056,
+        "sequence_ratio": 0.9021
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 13,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "README.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/README.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/README.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/README.md",
+        "max_similarity": 0.5352,
+        "unit_jaccard": 0.0952,
+        "token_jaccard": 0.4615,
+        "sequence_ratio": 0.5352
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 6,
+    "final_unique_units_or_rows": 21,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "START_HERE.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/START_HERE.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/START_HERE.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/START_HERE.md",
+        "max_similarity": 0.3761,
+        "unit_jaccard": 0.1538,
+        "token_jaccard": 0.3761,
+        "sequence_ratio": 0.2464
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 11,
+    "final_unique_units_or_rows": 26,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "TODO_RESEARCH_QUEUE.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/TODO_RESEARCH_QUEUE.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/TODO_RESEARCH_QUEUE.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/TODO_RESEARCH_QUEUE.md",
+        "max_similarity": 0.0787,
+        "unit_jaccard": 0.0,
+        "token_jaccard": 0.0787,
+        "sequence_ratio": 0.0729
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 2,
+    "final_unique_units_or_rows": 4,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "maps/package_cluster_index.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/maps/package_cluster_index.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/maps/package_cluster_index.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/maps/package_cluster_index.md",
+        "max_similarity": 0.9565,
+        "unit_jaccard": 0.9565,
+        "token_jaccard": 0.8506,
+        "sequence_ratio": 0.9557
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 46,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "package_cards_index.csv",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/package_cards_index.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/package_cards_index.csv"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/package_cards_index.csv",
+        "max_similarity": 0.9192,
+        "unit_jaccard": 0.8583,
+        "token_jaccard": 0.8579,
+        "sequence_ratio": 0.9192
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 246,
+    "method": "csv_unique_row_union"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "package_source_index.csv",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/package_source_index.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/package_source_index.csv"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/package_source_index.csv",
+        "max_similarity": 0.9153,
+        "unit_jaccard": 0.9153,
+        "token_jaccard": 0.8589,
+        "sequence_ratio": 0.9071
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 246,
+    "method": "csv_unique_row_union"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "packages/huggingface_hub.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/huggingface_hub.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/huggingface_hub.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/huggingface_hub.md",
+        "max_similarity": 0.8889,
+        "unit_jaccard": 0.8889,
+        "token_jaccard": 0.7923,
+        "sequence_ratio": 0.8509
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 9,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "packages/llama-cpp-python.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/llama-cpp-python.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/llama-cpp-python.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/llama-cpp-python.md",
+        "max_similarity": 0.9,
+        "unit_jaccard": 0.9,
+        "token_jaccard": 0.7521,
+        "sequence_ratio": 0.8314
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 10,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "packages/ollama.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/ollama.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/ollama.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/ollama.md",
+        "max_similarity": 0.8889,
+        "unit_jaccard": 0.8889,
+        "token_jaccard": 0.7586,
+        "sequence_ratio": 0.8525
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 9,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "packages/safetensors.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/safetensors.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/safetensors.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/safetensors.md",
+        "max_similarity": 0.9,
+        "unit_jaccard": 0.9,
+        "token_jaccard": 0.7054,
+        "sequence_ratio": 0.8314
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 10,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "packages/transformers.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/packages/transformers.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/transformers.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/packages/transformers.md",
+        "max_similarity": 0.9,
+        "unit_jaccard": 0.9,
+        "token_jaccard": 0.8244,
+        "sequence_ratio": 0.7993
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 10,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "pip_package_inventory.csv",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/pip_package_inventory.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/pip_package_inventory.csv"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/pip_package_inventory.csv",
+        "max_similarity": 1.0,
+        "unit_jaccard": 0.8583,
+        "token_jaccard": 0.9059,
+        "sequence_ratio": 1.0
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 0,
+    "final_unique_units_or_rows": 246,
+    "method": "csv_unique_row_union"
+  },
+  {
+    "family": "AIWF_Pip_Package_RAG_Starter",
+    "logical_path": "pip_package_inventory.md",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_9/AIWF_Pip_Package_RAG_Starter_v1_9/pip_package_inventory.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/pip_package_inventory.md"
+    ],
+    "comparison_scores": [
+      {
+        "source": "CONTENT/AIWF_Pip_Package_RAG_Starter_v1_5/AIWF_Pip_Package_RAG_Starter_v1_5/pip_package_inventory.md",
+        "max_similarity": 0.9123,
+        "unit_jaccard": 0.2,
+        "token_jaccard": 0.5745,
+        "sequence_ratio": 0.9123
+      }
+    ],
+    "unique_chunks_or_rows_added_to_canonical": 2,
+    "final_unique_units_or_rows": 5,
+    "method": "canonical_text_plus_unique_chunks_from_removed_versions"
+  }
+]

@@ -1,0 +1,11 @@
+pass_id,source,files,citation_refs,authority,why_added
+PASS_02L,sh570655308/ComfyUI-TopazVideoAI,__init__.py/topaz_video_node.py,turn310file0; turn311file0,schema source,Topaz external-app video upscale/interpolation bridge
+PASS_02L,cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life,__init__.py/nodes.py,turn312file0; turn313file0,mapping + sampled schema,Old-photo scratch/restoration/face enhancement stack
+PASS_02L,smthemex/ComfyUI_InstantIR_Wrapper,__init__.py/InstantIR_node.py,turn316file0; turn317file0,schema source,InstantIR restoration wrapper
+PASS_02L,Jonseed/ComfyUI-Detail-Daemon,__init__.py/detail_daemon_node.py,turn320file0; turn321file0,schema source,Sigma/sampler detail control
+PASS_02L,Fannovel16/ComfyUI-Frame-Interpolation,__init__.py,turn324file0,mapping source,Multi-backend VFI pack
+PASS_02L,kijai/ComfyUI-GIMM-VFI,__init__.py/nodes.py,turn325file0; turn326file0,schema source,Modern GIMM-VFI interpolation
+PASS_02L,kijai/ComfyUI-DynamiCrafterWrapper,__init__.py/nodes.py,turn328file0; turn329file0,schema source,Legacy/alternate I2V model wrapper
+PASS_02L,kijai/ComfyUI-CogVideoXWrapper,__init__.py/nodes.py,turn330file0; turn331file0,mapping + sampled schema,CogVideoX wrapper
+PASS_02L,kijai/ComfyUI-PyramidFlowWrapper,__init__.py/nodes.py,turn332file0; turn333file0,schema source,PyramidFlow video wrapper
+PASS_02L,HM-RunningHub/ComfyUI_RH_FramePack,__init__.py/nodes.py,turn336file0; turn337file0,schema source,RunningHub FramePack wrapper

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Retrieval Routing Matrix">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38bdf8" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="600.0" y="38" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="800" fill="#e5e7eb">Retrieval Routing Matrix</text>
+  <text x="600.0" y="62" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="13" fill="#94a3b8">How a query should move through lanes, cards, sources, and answer templates.</text>
+  <g filter="url(#shadow)">
+<rect x="60" y="150" width="180" height="90" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="150.0" y="178" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">User Query</text>
+<text x="150.0" y="202" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">intent + risk</text>
+<rect x="300" y="150" width="200" height="90" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="400.0" y="178" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">Route Intent</text>
+<text x="400.0" y="202" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">troubleshoot, explain,</text>
+<text x="400.0" y="220" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">build, verify</text>
+<rect x="560" y="90" width="190" height="90" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="655.0" y="118" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">Canonical Lane</text>
+<text x="655.0" y="142" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">current summary</text>
+<rect x="560" y="230" width="190" height="90" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="655.0" y="258" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">Retrieval Card</text>
+<text x="655.0" y="282" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">answer pattern</text>
+<rect x="810" y="90" width="220" height="90" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="920.0" y="118" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">Source Evidence</text>
+<text x="920.0" y="142" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">raw/docs/papers</text>
+<rect x="810" y="230" width="220" height="90" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="920.0" y="258" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">Answer Template</text>
+<text x="920.0" y="282" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">safe structure</text>
+<rect x="460" y="450" width="260" height="95" rx="14" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+<text x="590.0" y="478" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700" fill="#e5e7eb">Final Answer</text>
+<text x="590.0" y="502" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">useful, cited, not made of</text>
+<text x="590.0" y="520" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">fog</text>
+<line x1="240" y1="195.0" x2="300" y2="195.0" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="500" y1="195.0" x2="560" y2="135.0" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="500" y1="195.0" x2="560" y2="275.0" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="750" y1="135.0" x2="810" y2="135.0" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="780.0" y="127.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">verify</text>
+<line x1="750" y1="275.0" x2="810" y2="275.0" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="780.0" y="267.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">shape</text>
+<line x1="1030" y1="135.0" x2="460" y2="497.5" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="745.0" y="308.25" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">ground</text>
+<line x1="1030" y1="275.0" x2="460" y2="497.5" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="745.0" y="378.25" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="12" fill="#94a3b8">format</text>
+  </g>
+  <text x="1182" y="702" text-anchor="end" font-family="Inter,Segoe UI,Arial" font-size="11" fill="#94a3b8">AI Without Fear Knowledge Adapter · visual aid</text>
+</svg>

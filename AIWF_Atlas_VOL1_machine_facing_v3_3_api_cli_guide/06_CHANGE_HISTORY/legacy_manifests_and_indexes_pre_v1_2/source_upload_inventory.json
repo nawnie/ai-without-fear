@@ -1,0 +1,101 @@
+[
+  {
+    "source_file": "AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip",
+    "source_path": "/mnt/data/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 453,
+    "unique_files_kept": 450,
+    "exact_duplicates_skipped": 3,
+    "bytes_seen": 1466410,
+    "sha256_source_file": "6cb3683de41a414f371a0b3021622deb001222f768e47f96bacec2a9507c199b"
+  },
+  {
+    "source_file": "AIWF_RAG_Concept_Additions_v0_1.zip",
+    "source_path": "/mnt/data/AIWF_RAG_Concept_Additions_v0_1.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 8,
+    "unique_files_kept": 8,
+    "exact_duplicates_skipped": 0,
+    "bytes_seen": 15179,
+    "sha256_source_file": "a37102d3197a2ac67664747ae5901f2dd4c8ff6c4992c3e52cef7ff279446ecb"
+  },
+  {
+    "source_file": "AIWF_Pip_Package_RAG_Starter_v1_9.zip",
+    "source_path": "/mnt/data/AIWF_Pip_Package_RAG_Starter_v1_9.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 438,
+    "unique_files_kept": 438,
+    "exact_duplicates_skipped": 0,
+    "bytes_seen": 1587987,
+    "sha256_source_file": "07fb3da5bb1fe1ff886f346d59420308efb28ead99e746935f536df8d938a5c9"
+  },
+  {
+    "source_file": "AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "source_path": "/mnt/data/AIWF_Pip_Package_RAG_Starter_v1_5.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 326,
+    "unique_files_kept": 18,
+    "exact_duplicates_skipped": 308,
+    "bytes_seen": 947399,
+    "sha256_source_file": "cb9e06070e0033b5dec7f1944e5c818abd0c9b92c41fc53d9ebc75b856c37ff0"
+  },
+  {
+    "source_file": "aiwf_node_research_pass02N_flux_model_control_sampler_mds_v1_4.zip",
+    "source_path": "/mnt/data/aiwf_node_research_pass02N_flux_model_control_sampler_mds_v1_4.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 246,
+    "unique_files_kept": 246,
+    "exact_duplicates_skipped": 0,
+    "bytes_seen": 1243529,
+    "sha256_source_file": "913fb54762cd874afee20339c11847990bc70caa999319900a49a4f3377456c4"
+  },
+  {
+    "source_file": "AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "source_path": "/mnt/data/AIWF-Project-Chat-Distribution-Roadmap-v0.6-cfg-denoise-inpaint-theory.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 62,
+    "unique_files_kept": 57,
+    "exact_duplicates_skipped": 5,
+    "bytes_seen": 230678,
+    "sha256_source_file": "e467d4280ce5b63bac05a5e54d704bcbb65d571a74861cab4c6a554b15cbb4d3"
+  },
+  {
+    "source_file": "AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "source_path": "/mnt/data/AIWF-Project-Chat-Distribution-Roadmap-v0.5-comfyui-core-api-subgraph.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 33,
+    "unique_files_kept": 17,
+    "exact_duplicates_skipped": 16,
+    "bytes_seen": 93043,
+    "sha256_source_file": "e893fb36080710370547bc4653a5199859bf14cedd3922d9e3c0176c8c85a8fc"
+  },
+  {
+    "source_file": "AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "source_path": "/mnt/data/AIWF-Project-Chat-Distribution-Roadmap-v0.3-rag-source-ledger.zip",
+    "exists": true,
+    "source_type": "zip",
+    "files_seen": 30,
+    "unique_files_kept": 14,
+    "exact_duplicates_skipped": 16,
+    "bytes_seen": 83425,
+    "sha256_source_file": "4531360a625c0ccc96c4a64eed57ecb2679465a4f33a735b8aa599f01f86ca6a"
+  },
+  {
+    "source_file": "ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md",
+    "source_path": "/mnt/data/ComfyUI Custom Nodes_ 2026 Modern Tier Field Report.md",
+    "exists": true,
+    "source_type": "md",
+    "files_seen": 1,
+    "unique_files_kept": 0,
+    "exact_duplicates_skipped": 1,
+    "bytes_seen": 44882,
+    "sha256_source_file": "a97cd9b4e0f5dd9936bb15c45bca958f09f87b53e3d0624ad3d567e44df3a09f"
+  }
+]

@@ -1,0 +1,5 @@
+{"source_id": "gradio_mount_fastapi_ssr", "url": "https://www.gradio.app/docs/gradio/mount_gradio_app", "status": "official_docs_verified", "notes": "FastAPI mounting and SSR mode source for Gradio integration claims."}
+{"source_id": "gradio_chatinterface", "url": "https://www.gradio.app/docs/gradio/chatinterface", "status": "official_docs_verified", "notes": "ChatInterface is Gradio high-level chatbot UI abstraction."}
+{"source_id": "gradio_blocks", "url": "https://www.gradio.app/docs/gradio/blocks", "status": "official_docs_verified", "notes": "Blocks API behavior and queue/event foundation."}
+{"source_id": "lakefs_dvc_acquisition", "url": "https://dvc.org/blog/dvc-joins-lakefs-your-questions-answered/", "status": "official_project_verified", "notes": "DVC project joined/acquired by lakeFS in 2025."}
+{"source_id": "comfy_workflow_json_schema", "url": "https://docs.comfy.org/specs/workflow_json", "status": "official_docs_verified", "notes": "ComfyUI workflow JSON is defined using JSON Schema."}

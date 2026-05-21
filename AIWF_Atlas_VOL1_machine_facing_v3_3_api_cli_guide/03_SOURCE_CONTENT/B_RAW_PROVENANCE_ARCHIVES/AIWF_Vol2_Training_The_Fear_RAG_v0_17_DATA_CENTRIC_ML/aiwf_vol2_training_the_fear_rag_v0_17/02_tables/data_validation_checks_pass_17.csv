@@ -1,0 +1,7 @@
+check,tabular,llm_text,image_lora,video_lora,audio_voice,rag
+schema valid,columns/types,JSONL roles/messages,image+caption pairs,clip metadata,audio+transcript,doc metadata
+missing data,nulls,empty turns,missing captions,missing fps/frame count,missing transcript,empty chunks
+duplicates,row hash,exact/paraphrase,file/perceptual hash,scene/frame hash,audio fingerprint,chunk hash
+range checks,numeric bounds,token length,resolution bounds,duration/fps bounds,duration/sample rate,chunk length
+sensitive data,PII columns,private content,faces/minors,people/scenes,voice consent,document rights
+split leakage,entity/time,conversation/source,identity/source,scene/source,speaker/session,document/topic

@@ -1,0 +1,14 @@
+flowchart LR
+  profile["Adapter Profile"]
+  contract["Operating Contract"]
+  policy["Retrieval Policy"]
+  lane["Lane Profile"]
+  cards["Retrieval Cards"]
+  sources["Source Content"]
+  answer["Answer Gate"]
+  profile --> contract
+  contract --> policy
+  policy --> lane
+  lane --> cards
+  cards -- "when needed" --> sources
+  sources --> answer

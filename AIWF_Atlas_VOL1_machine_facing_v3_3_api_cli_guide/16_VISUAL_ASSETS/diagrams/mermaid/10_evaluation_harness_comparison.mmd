@@ -1,0 +1,14 @@
+flowchart LR
+  questions["Golden Questions"]
+  norag["Small Model"]
+  rawrag["Raw RAG"]
+  adapter["Adapter RAG"]
+  score["Scoring Rubric"]
+  report["Regression Report"]
+  questions -- "test" --> norag
+  questions -- "test" --> rawrag
+  questions -- "test" --> adapter
+  norag --> score
+  rawrag --> score
+  adapter --> score
+  score --> report

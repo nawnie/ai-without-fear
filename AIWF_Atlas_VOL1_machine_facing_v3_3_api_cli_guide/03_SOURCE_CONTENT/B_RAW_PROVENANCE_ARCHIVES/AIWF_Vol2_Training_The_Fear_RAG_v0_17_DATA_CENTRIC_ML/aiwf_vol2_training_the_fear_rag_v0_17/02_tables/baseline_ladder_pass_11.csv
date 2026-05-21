@@ -1,0 +1,8 @@
+level,baseline,use_case,what_it_proves,next_step_if_it_fails
+0,Random/majority,classification sanity check,minimum floor,check labels/classes
+1,Rules/keyword,simple domain workflows,whether structure is obvious,feature engineering
+2,Classical ML,tabular/text small datasets,whether cheap model is enough,tree/boosting/linear tuning
+3,Embedding nearest neighbor,semantic retrieval/classification,representation strength,reranker or embedding fine-tune
+4,Prompt-only foundation model,LLM/VLM tasks,base model competence,RAG or SFT
+5,RAG-only,knowledge tasks,whether retrieval solves it,retriever tuning or SFT
+6,Adapter/LoRA/SFT,behavior/style/specialized generation,whether training adds value,preference tuning or reject

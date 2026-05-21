@@ -1,0 +1,14 @@
+{
+  "pass": "PASS_02F",
+  "date": "2026-05-19",
+  "archive_scope": "Markdown/CSV/JSON node research only",
+  "new_rows": 53,
+  "pass02_total_rows": 545,
+  "covered_original_rows": 60,
+  "remaining_original_rows": 231,
+  "new_original_rows_covered": 20,
+  "attempted_unresolved": [
+    "ComfyUI Prompt Control",
+    "CLIPSeg time-river path"
+  ]
+}

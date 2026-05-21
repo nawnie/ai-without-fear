@@ -1,0 +1,16 @@
+removed_path,reason
+01_CANONICAL_RESEARCH_LANES/VOL1_ALL_RETRIEVAL_CARDS.jsonl,duplicate global index copy; canonical copy kept in 02_RETRIEVAL_INDEX
+01_CANONICAL_RESEARCH_LANES/VOL1_BALANCED_INDEX.md,duplicate global index copy; canonical copy kept in 02_RETRIEVAL_INDEX
+01_CANONICAL_RESEARCH_LANES/VOL1_RESEARCH_LANE_MANIFEST.csv,duplicate global index copy; canonical copy kept in 02_RETRIEVAL_INDEX
+04_MANIFESTS/machine_facing_file_manifest.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest.json,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest_v0_6.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest_v0_6.json,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest_v0_7.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest_v0_7.json,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest_v0_8.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/machine_facing_file_manifest_v0_8.json,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/file_manifest_after_gradio_vol1_addition.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/file_manifest_after_internal_version_consolidation.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/file_manifest_after_near_consolidation.csv,superseded manifest; replaced by v0.9 manifest and editorial report
+04_MANIFESTS/file_manifest_vol1_project_balanced.csv,superseded manifest; replaced by v0.9 manifest and editorial report

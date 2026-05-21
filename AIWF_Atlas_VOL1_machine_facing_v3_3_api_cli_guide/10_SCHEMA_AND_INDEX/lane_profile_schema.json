@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIWF Atlas Lane Profile",
+  "type": "object",
+  "required": [
+    "lane_id",
+    "title",
+    "adapter_version",
+    "ingestion_priority",
+    "freshness_class",
+    "preferred_files_for_retrieval",
+    "conflict_rule"
+  ],
+  "properties": {
+    "lane_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "adapter_version": {
+      "type": "string"
+    },
+    "ingestion_priority": {
+      "type": "string"
+    },
+    "freshness_class": {
+      "enum": [
+        "stable",
+        "slow_changing",
+        "fast_moving",
+        "volatile",
+        "historical",
+        "unknown"
+      ]
+    },
+    "web_verification_required_for_current_claims": {
+      "type": "boolean"
+    },
+    "default_claim_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_files_for_retrieval": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_layer_hint": {
+      "type": "string"
+    },
+    "do_not_index_by_default": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conflict_rule": {
+      "type": "string"
+    }
+  }
+}

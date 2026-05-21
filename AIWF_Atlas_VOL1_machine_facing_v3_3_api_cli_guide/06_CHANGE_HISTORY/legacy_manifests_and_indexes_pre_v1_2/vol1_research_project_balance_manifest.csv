@@ -1,0 +1,165 @@
+lane_id,lane_title,file_path,doc_role,load_priority
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/README_VOL1.md,README_VOL1,normal
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP01,Source Ledger and Evidence Governance,01_RESEARCH_PROJECTS_VOL1/01_source_ledger_evidence/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/README_VOL1.md,README_VOL1,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP02,"RAG Architecture, Chunking, and Embedding Strategy",01_RESEARCH_PROJECTS_VOL1/02_rag_architecture_chunking_embedding/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/README_VOL1.md,README_VOL1,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP03,"ComfyUI Core API, Workflow JSON, and Subgraph Research",01_RESEARCH_PROJECTS_VOL1/03_comfyui_core_api_subgraph/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/README_VOL1.md,README_VOL1,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP04,ComfyUI Custom Node Ecosystem and Nodepack Evaluation,01_RESEARCH_PROJECTS_VOL1/04_comfyui_custom_node_ecosystem/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/README_VOL1.md,README_VOL1,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP05,Python/Pip Runtime Dependencies and Local AI Environment Support,01_RESEARCH_PROJECTS_VOL1/05_pip_runtime_dependency_knowledge/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/README_VOL1.md,README_VOL1,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP06,"Training, Data-Centric ML, and Volume II Research Spine",01_RESEARCH_PROJECTS_VOL1/06_training_data_centric_ml_vol2/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/README_VOL1.md,README_VOL1,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP07,"CFG, Denoise, Img2Img, and Inpainting Theory",01_RESEARCH_PROJECTS_VOL1/07_cfg_denoise_inpaint_theory/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/README_VOL1.md,README_VOL1,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP08,Compatibility Matrix RAG,01_RESEARCH_PROJECTS_VOL1/08_compatibility_matrix_rag/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/README_VOL1.md,README_VOL1,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP09,Failure Signature Atlas RAG,01_RESEARCH_PROJECTS_VOL1/09_failure_signature_atlas_rag/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/README_VOL1.md,README_VOL1,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP10,Workflow Pattern Library RAG,01_RESEARCH_PROJECTS_VOL1/10_workflow_pattern_library_rag/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/README_VOL1.md,README_VOL1,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP11,Gradio UI Research,01_RESEARCH_PROJECTS_VOL1/11_gradio_ui_research/vol1_lane_manifest.json,vol1_lane_manifest,normal
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/README_VOL1.md,README_VOL1,normal
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP20,Data Engineering for AI,01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/README_VOL1.md,README_VOL1,normal
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP21,"Audio, Speech, and Music AI",01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/README_VOL1.md,README_VOL1,normal
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP22,"Vision-Language, OCR, and Document AI",01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/README_VOL1.md,README_VOL1,normal
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP23,Synthetic Data and Dataset Creation,01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/README_VOL1.md,README_VOL1,normal
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP24,AI Application Architecture,01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/README_VOL1.md,README_VOL1,normal
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/VOL1_SCOPE.md,VOL1_SCOPE,normal
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/CANONICAL_OVERVIEW.md,CANONICAL_OVERVIEW,high
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/CONCEPT_MAP.md,CONCEPT_MAP,normal
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/EMBEDDING_AND_CHUNKING_STRATEGY.md,EMBEDDING_AND_CHUNKING_STRATEGY,high
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/RETRIEVAL_CARDS.jsonl,RETRIEVAL_CARDS,high
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/QA_TEST_PROMPTS.md,QA_TEST_PROMPTS,normal
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/GAP_AUDIT_AND_VOL2_QUEUE.md,GAP_AUDIT_AND_VOL2_QUEUE,normal
+RP25,Hardware Cost and Performance Planning,01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning/SOURCE_COVERAGE.md,SOURCE_COVERAGE,normal

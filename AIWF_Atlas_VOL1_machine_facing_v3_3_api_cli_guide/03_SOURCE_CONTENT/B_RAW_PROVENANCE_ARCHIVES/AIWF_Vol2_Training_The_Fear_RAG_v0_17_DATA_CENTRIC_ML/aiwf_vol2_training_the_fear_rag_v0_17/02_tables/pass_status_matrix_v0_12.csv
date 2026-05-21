@@ -1,0 +1,36 @@
+pass,version,focus,status
+01,v0.1,initial map,complete
+02,v0.2,tool deep cards,complete
+03,v0.3,theory law methods backbone,complete
+04,v0.4,post-training stack,complete
+05,v0.5,dataset-first spine,complete
+06,v0.6,method controls and presets,complete
+07,v0.7,post-training release layer,complete
+08,v0.8,review polish,complete
+09,v0.9,image LoRA family deep dive,complete
+10,v0.10,theory roadmap pivot,complete
+11,v0.11,ML foundations,complete
+12,v0.12,statistical learning and generalization,complete
+13,planned,deep learning internals,queued
+01,done,starter landscape,v0.1
+02,done,deep trainer cards,v0.2
+03,done,theory/law/method backbone,v0.3
+04,done,post-training stack,v0.4
+05,done,dataset-first spine,v0.5
+06,done,method control layer,v0.6
+07,done,release decision/post-training,v0.7
+08,done,review/polish,v0.8
+09,done,image LoRA model-family deep dive,v0.9
+10,done,theory roadmap pivot,v0.10
+11,done,ML foundations/facts/techniques/labs,v0.11
+12,planned,statistical learning/generalization,future
+13,planned,deep learning mechanics,future
+01,v0.1,seed,complete,initial RAG library skeleton
+02,v0.2,research,complete,deep trainer cards and legal/theory baseline
+03,v0.3,research,complete,theory/method/law backbone
+04,v0.4,research,complete,practical training stack expansion
+05,v0.5,research,complete,dataset construction and reproducibility
+06,v0.6,research,complete,adapter methods and consumer presets
+07,v0.7,research,complete,post-training and release decisions
+08,v0.8,polish,complete,"archive review, ingestion guide, editorial scaffolding"
+09,v0.9,research,complete,image LoRA family deep dive and trainer selection

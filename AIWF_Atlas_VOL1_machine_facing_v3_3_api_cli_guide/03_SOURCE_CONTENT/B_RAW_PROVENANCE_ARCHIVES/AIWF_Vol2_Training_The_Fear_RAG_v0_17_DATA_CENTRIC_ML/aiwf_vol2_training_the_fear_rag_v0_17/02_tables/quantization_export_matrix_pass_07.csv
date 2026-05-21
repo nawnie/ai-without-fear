@@ -1,0 +1,8 @@
+format_or_backend,main_use,training_or_inference,consumer_use,watchouts,source_anchor
+bitsandbytes 4-bit NF4,QLoRA and low-memory loading,training and inference,enables adapter training with quantized base,CUDA/backend compatibility and compute dtype matter,https://huggingface.co/docs/transformers/en/quantization/bitsandbytes
+GGUF llama.cpp,local inference/export,inference,CPU/GPU local deployment and Ollama-like packaging,eval after export because quantization changes behavior,https://huggingface.co/docs/hub/en/gguf
+llama.cpp quantize,convert high precision GGUF to lower precision GGUF,inference export,small deployable files,more compression can reduce quality,https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md
+GPTQ,post-training quantized inference,inference,GPU inference stacks,calibration and backend support matter,https://huggingface.co/docs/transformers/en/main_classes/quantization
+AWQ,activation-aware weight quantization,inference,strong 4-bit deployment path,calibration data affects quality,https://arxiv.org/abs/2306.00978
+AutoAWQ,implementation of AWQ,inference,easy AWQ packaging,project/runtime compatibility must be checked,https://github.com/casper-hansen/AutoAWQ
+Quanto,PyTorch quantization backend,training/inference depending mode,cross-modality quantization experiments,feature support varies by model/backend,https://huggingface.co/docs/transformers/en/quantization/quanto

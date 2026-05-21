@@ -1,0 +1,7 @@
+backend,best_for,weakness,aiwf_wrapper_priority,notes
+AI Toolkit,"beginner-to-intermediate diffusion LoRA GUI/CLI, modern image/video families","fast-moving, backend-specific quirks",P0,best fit for one-click beginner wrapper
+SimpleTuner,advanced generalist image/video/audio diffusion training,more complex config surface,P0,best serious backend and documentation spine
+sd-scripts/kohya,SD1.5/SDXL/SD3/FLUX scripts and utilities,"legacy UX, not universal for new families",P1,keep as historical and mature script foundation
+kohya_ss GUI,GUI bridge for SD-family training,not future-proof universal trainer,P1,good for SDXL learners
+musubi-tuner,architecture-specific Qwen/Z-Image/FLUX.2/Wan/Hunyuan training,"under active development, breaking changes likely",P0/P1,specialist backend for advanced families
+OneTrainer,visual training environment,coverage must be checked per family,P2,use as comparison/reference

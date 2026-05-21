@@ -1,0 +1,13 @@
+flowchart LR
+  claim["Claim"]
+  type["Claim Type"]
+  source["Primary / Official"]
+  secondary["Secondary Source"]
+  gate["Answer Gate"]
+  queue["Correction Queue"]
+  claim --> type
+  type -- "best" --> source
+  type -- "fallback" --> secondary
+  source -- "verified" --> gate
+  secondary -- "qualified" --> gate
+  gate -- "if weak" --> queue

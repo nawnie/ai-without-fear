@@ -1,0 +1,21 @@
+domain,url,use
+developers.openai.com,https://developers.openai.com/api/docs/guides/migrate-to-responses,OpenAI Responses API positioning and migration from older Assistants-style patterns.
+developers.openai.com,https://developers.openai.com/api/docs/guides/function-calling,OpenAI function/tool calling model-to-external-system pattern.
+docs.anthropic.com,https://docs.anthropic.com/claude/reference/getting-started-with-the-api,"Claude API overview, Messages API, batches, token counting, models API, and beta file/skills/agents/session APIs."
+docs.anthropic.com,https://docs.anthropic.com/en/docs/get-started,Claude API quickstart and first-call patterns.
+docs.anthropic.com,https://docs.anthropic.com/en/docs/build-with-claude/tool-use,Claude tool-use loop and client/server tool distinction.
+ai.google.dev,https://ai.google.dev/gemini-api/docs/quickstart,Gemini API quickstart and tool-use entry point.
+ai.google.dev,https://ai.google.dev/gemini-api/docs,Gemini generateContent API landing and model API entry point.
+docs.ollama.com,https://docs.ollama.com/cli,"Ollama CLI commands such as run, launch, and model management."
+docs.ollama.com,https://docs.ollama.com/api/introduction,Ollama API stability/versioning and official libraries.
+docs.ollama.com,https://docs.ollama.com/api/openai-compatibility,Ollama OpenAI-compatible API support including /v1/responses constraints.
+github.com,https://github.com/ggml-org/llama.cpp,llama.cpp GGUF requirement and CLI/server local inference tools.
+github.com,https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md,llama.cpp HTTP server / llama-server REST APIs and web UI.
+docs.vllm.ai,https://docs.vllm.ai/en/latest/serving/openai_compatible_server/,vLLM OpenAI-compatible HTTP server.
+docs.vllm.ai,https://docs.vllm.ai/en/stable/cli/,"vLLM CLI commands: chat, complete, serve, bench, collect-env, run-batch."
+huggingface.co,https://huggingface.co/docs/text-generation-inference/index,Hugging Face Text Generation Inference overview.
+huggingface.co,https://huggingface.co/docs/text-generation-inference/basic_tutorials/using_cli,"TGI CLI commands for downloading weights, serving, quantizing, and viewing serving parameters."
+docs.comfy.org,https://docs.comfy.org/development/comfyui-server/comms_routes,"ComfyUI server routes such as /prompt, /upload/image, /view, /system_stats."
+docs.comfy.org,https://docs.comfy.org/specs/workflow_json,ComfyUI workflow JSON specification.
+github.com,https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py,ComfyUI API prompt example using node-id keyed API-format payloads.
+gradio.app,https://www.gradio.app/docs/gradio/mount_gradio_app,Gradio FastAPI mounting and SSR-related deployment surface.

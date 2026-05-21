@@ -1,0 +1,42 @@
+{
+  "pass_id": "PASS_02A",
+  "date": "2026-05-19",
+  "archive_type": "markdown_csv_node_research_only",
+  "source_pack_count": 6,
+  "row_count": 141,
+  "schema_confirmed": 42,
+  "mapping_confirmed": 68,
+  "module_inventory_confirmed": 30,
+  "packs": [
+    {
+      "pack_number": "011",
+      "pack_name": "ComfyUI-GGUF",
+      "rows": 6
+    },
+    {
+      "pack_number": "012",
+      "pack_name": "comfyui_controlnet_aux",
+      "rows": 4
+    },
+    {
+      "pack_number": "013",
+      "pack_name": "ComfyUI_IPAdapter_plus",
+      "rows": 37
+    },
+    {
+      "pack_number": "014",
+      "pack_name": "comfyui-inpaint-nodes",
+      "rows": 13
+    },
+    {
+      "pack_number": "015",
+      "pack_name": "ComfyUI-WanVideoWrapper",
+      "rows": 38
+    },
+    {
+      "pack_number": "016",
+      "pack_name": "ComfyUI-Advanced-ControlNet",
+      "rows": 43
+    }
+  ]
+}

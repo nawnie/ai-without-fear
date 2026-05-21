@@ -1,0 +1,8 @@
+signature,likely_cause,first_action,second_action,do_not_do_first
+NaN_or_INF,"LR too high, precision overflow, bad batch",lower LR and inspect precision/logs,enable clipping or BF16 if supported,do not raise rank/model size
+flat_loss,"LR too low, frozen params, labels wrong, no trainable adapter",verify trainable params and labels,increase LR or inspect data,do not train longer blindly
+loss_spikes,"outlier batch, LR high, accumulation issue",inspect recent batch and LR,clip gradients or lower LR,do not delete random samples without evidence
+train_down_val_up,overfit or leakage/model selection issue,reduce steps or regularize,audit splits and validation,do not pick final checkpoint by default
+good_loss_bad_outputs,wrong validation target or loss mismatch,add task-specific evals/samples,inspect dataset formatting,do not trust loss alone
+OOM_at_backward,activation/gradient memory bottleneck,lower microbatch or enable checkpointing,reduce context/resolution,do not only clear cache
+slow_steps_low_gpu,data loader/CPU/disk bottleneck,profile pipeline,increase workers/cache/preprocess,do not buy GPU first

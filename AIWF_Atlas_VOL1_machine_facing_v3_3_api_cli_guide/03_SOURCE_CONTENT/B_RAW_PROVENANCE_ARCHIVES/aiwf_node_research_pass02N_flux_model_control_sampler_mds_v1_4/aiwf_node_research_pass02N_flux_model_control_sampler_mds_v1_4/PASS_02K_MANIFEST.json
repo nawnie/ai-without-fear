@@ -1,0 +1,31 @@
+{
+  "pass": "02K",
+  "date": "2026-05-19",
+  "mode": "source_register_and_chat_review_consolidation",
+  "archive_policy": "markdown_csv_json_source_consolidation_no_full_project_archive",
+  "base_pass": "02J",
+  "pass02_node_rows_retained": 643,
+  "unique_repo_values": 91,
+  "source_register_rows": 95,
+  "decision_map_rows": 13,
+  "new_files": [
+    "PASS_02K_SOURCE_REGISTER.csv",
+    "PASS_02K_SOURCE_REGISTER.md",
+    "PASS_02K_SOURCE_TO_DECISION_MAP.csv",
+    "PASS_02K_CHAT_REVIEW_SUMMARY.md",
+    "RAG_PROJECT_SOURCE_OVERVIEW_PASS02K.md",
+    "SOURCE_ComfyUI_Custom_Nodes_2026_Modern_Tier_Field_Report.md",
+    "PASS_02K_CHANGELOG.md",
+    "PASS_02K_INDEX.md"
+  ],
+  "file_sha256": {
+    "PASS_02K_SOURCE_REGISTER.csv": "e15e5f81344cf6ab9f8b76a003df8918a7d7a3f7f736fffe000f017124506163",
+    "PASS_02K_SOURCE_REGISTER.md": "e3b5ab0c9d8f830f0db16aa2e254fad0cdaf5a5d6727cba3083c05559dd6245d",
+    "PASS_02K_SOURCE_TO_DECISION_MAP.csv": "211b55f358815a6f8442f208c2e89b29b042d3d23144d2f6800629b63b218735",
+    "PASS_02K_CHAT_REVIEW_SUMMARY.md": "d2763efd5969ea2871e70e84ae97c435eaaff1c10742916ddd7c43f4eaa39573",
+    "RAG_PROJECT_SOURCE_OVERVIEW_PASS02K.md": "1bdfba93c7b6991375622ea71f1edced7d0f60da563306dc51d6b0ed7ee8c816",
+    "SOURCE_ComfyUI_Custom_Nodes_2026_Modern_Tier_Field_Report.md": "a97cd9b4e0f5dd9936bb15c45bca958f09f87b53e3d0624ad3d567e44df3a09f",
+    "PASS_02K_CHANGELOG.md": "e29055cd8cb3eb7d27eb5994cd6ad39321b2ced2bbdf75840936fe9d43cb2d44",
+    "PASS_02K_INDEX.md": "174043550d2d68803fa425f77a4e8941215b821d909f8ef1abe15f12ce6a5f57"
+  }
+}

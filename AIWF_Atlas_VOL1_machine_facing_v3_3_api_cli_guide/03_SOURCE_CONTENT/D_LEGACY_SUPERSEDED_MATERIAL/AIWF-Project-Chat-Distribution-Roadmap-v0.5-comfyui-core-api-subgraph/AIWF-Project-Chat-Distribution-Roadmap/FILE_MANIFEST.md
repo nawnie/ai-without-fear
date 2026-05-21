@@ -1,0 +1,34 @@
+# File Manifest
+
+- `AI_FIELD_GUIDE_AGENT_PLAN.md`
+- `CHANGELOG.md`
+- `CHAT_HANDOFFS/01_brand_hub_chat.md`
+- `CHAT_HANDOFFS/02_envpack_workstation_validator_chat.md`
+- `CHAT_HANDOFFS/03_model_checker_chat.md`
+- `CHAT_HANDOFFS/04_field_manual_chat.md`
+- `CHAT_HANDOFFS/05_knowledge_pack_assistant_chat.md`
+- `CHAT_HANDOFFS/06_workflow_packs_chat.md`
+- `CHAT_HANDOFFS/07_comfyui_nodes_chat.md`
+- `CHAT_HANDOFFS/08_old_photo_restore_chat.md`
+- `CHAT_HANDOFFS/09_qwenvl_vqa_llm_nodes_chat.md`
+- `CHAT_HANDOFFS/10_aiwf_photos_chat.md`
+- `CHAT_HANDOFFS/11_labs_preservation_bridge_chat.md`
+- `CHAT_HANDOFFS/12_release_packaging_chat.md`
+- `CHAT_HANDOFFS/14_comfyui_core_api_schema_chat.md`
+- `CHAT_SCOPE_FIREWALL.md`
+- `CROSS_CHAT_CHECKLIST.md`
+- `FIELD_MANUAL_INSERTS/AIWF_force_multiplier_insert.md`
+- `MASTER_DISTRIBUTION_ROADMAP.md`
+- `PROJECT_CHAT_MAP.md`
+- `README.md`
+- `RESEARCH_PASSES/2026-05-19_pass_05_comfyui_core_api_subgraph_layer.md`
+- `SENDOFF_MASTER.md`
+- `docs/COMFYUI_SCHEMA_CAPTURE_AND_VALIDATION.md`
+- `docs/SOURCE_LEDGER_PASS_03_COMFYUI_CORE_API_SUBGRAPH.md`
+- `rag/01_comfyui_nodes_and_workflows/cards/comfyui_api_partner_nodes_policy.md`
+- `rag/01_comfyui_nodes_and_workflows/cards/comfyui_object_info_schema_capture.md`
+- `rag/01_comfyui_nodes_and_workflows/cards/comfyui_subgraphs_partial_execution.md`
+- `rag/SOURCE_LEDGER.csv`
+- `rag/indexes/2026-05-19_comfyui_core_api_subgraph_index.md`
+- `scripts/capture_comfyui_schema.ps1`
+- `templates/workflow_manifest_template.json`

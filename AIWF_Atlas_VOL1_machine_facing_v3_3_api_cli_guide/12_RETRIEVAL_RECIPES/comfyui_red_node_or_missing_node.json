@@ -1,0 +1,27 @@
+{
+  "query_type": "comfyui_missing_node_or_red_node",
+  "first_lanes": [
+    "09_failure_signature_atlas",
+    "08_compatibility_matrix_atlas",
+    "04_comfyui_custom_node_ecosystem",
+    "03_comfyui_core_api_subgraph"
+  ],
+  "expand_terms": [
+    "red node",
+    "missing class_type",
+    "custom node not installed",
+    "node pack",
+    "workflow json",
+    "class_type"
+  ],
+  "must_return": [
+    "probable missing node pack",
+    "whether node is core or custom",
+    "safe install/check steps",
+    "exact class_type if available"
+  ],
+  "avoid": [
+    "guessing node package from display name only",
+    "rewriting workflow before checking dependency"
+  ]
+}

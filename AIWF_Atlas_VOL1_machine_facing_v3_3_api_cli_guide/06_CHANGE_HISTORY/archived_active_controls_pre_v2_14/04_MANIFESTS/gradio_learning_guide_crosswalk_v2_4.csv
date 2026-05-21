@@ -1,0 +1,20 @@
+source_file,lane_id,machine_use
+Expanded_Gradio_Section_v2.md,11_gradio_ui_research,"Gradio full architecture, Blocks, events, state, custom components, production deployment, security, and integration patterns"
+lakeFS_Versioning_Deep_Dive.md,20_data_engineering_for_ai,"lakeFS branch/commit/merge/time-travel model, reproducible training data, AI data pipeline versioning"
+00_Master_Section_1_Gradio_Topics20-21_Expanded.md,11_gradio_ui_research,Gradio mini-course and production UI learning path
+00_Master_Section_1_Gradio_Topics20-21_Expanded.md,20_data_engineering_for_ai,Data engineering control-plane UI patterns
+00_Master_Section_1_Gradio_Topics20-21_Expanded.md,21_audio_speech_music_ai,Voice agent studio and audio UI patterns
+Expanded_Section2_Topics22-23_v2.md,22_vision_language_ocr_document_ai,"Document AI architecture, VLM extraction, confidence heatmaps, document agents"
+Expanded_Section2_Topics22-23_v2.md,23_synthetic_data_dataset_creation,"Synthetic-data pipeline, curation, risk mitigation, synthetic data studio"
+Expanded_Section3_Topics24-25_v2.md,24_ai_application_architecture,"AI app architecture, agentic RAG, multi-agent orchestration, observability"
+Expanded_Section3_Topics24-25_v2.md,25_hardware_cost_performance_planning,"Cost/performance dashboard patterns, model routing, TCO framing"
+02_Section_3_Topics24-25_Labs_Capstone2.md,24_ai_application_architecture,Lab and capstone scaffold for multi-agent research platform
+02_Section_3_Topics24-25_Labs_Capstone2.md,25_hardware_cost_performance_planning,Cost command center lab and cost-aware routing patterns
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,11_gradio_ui_research,Glossary/index/diagram references for Gradio learning guide
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,20_data_engineering_for_ai,Glossary/index/diagram references for data engineering and lakehouse concepts
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,21_audio_speech_music_ai,Glossary/index/diagram references for voice agents
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,22_vision_language_ocr_document_ai,Glossary/index/diagram references for document AI
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,23_synthetic_data_dataset_creation,Glossary/index/diagram references for synthetic data flywheel
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,24_ai_application_architecture,Glossary/index/diagram references for multi-agent systems
+03_Final_Section_4_Glossary_Index_Capstones_Diagrams.md,25_hardware_cost_performance_planning,Glossary/index/diagram references for cost and hardware planning
+04_Final_Section_Glossary_Index_Capstones_Diagrams.md,11_gradio_ui_research,Expanded glossary/index/capstone/diagram source for Gradio + Topics 20–25 master set

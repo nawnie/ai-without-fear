@@ -1,0 +1,18 @@
+{
+  "archive_name": "AIWF_RAG_Concept_Additions_v0_1",
+  "version": "0.1",
+  "created_day": "2026-05-19",
+  "project": "AI Without Fear",
+  "recommended_project_path": "root/github/ai without fear/rag_archives/concepts/",
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "manifest.json",
+    "aiwf_rag_concept_index.json",
+    "rag_concepts/01_aiwf_compatibility_matrix_rag.md",
+    "rag_concepts/02_aiwf_failure_signature_atlas_rag.md",
+    "rag_concepts/03_aiwf_workflow_pattern_library_rag.md",
+    "rag_concepts/04_aiwf_source_ledger_evidence_rag.md"
+  ],
+  "notes": "Day-only changelog format used; no timestamps included."
+}

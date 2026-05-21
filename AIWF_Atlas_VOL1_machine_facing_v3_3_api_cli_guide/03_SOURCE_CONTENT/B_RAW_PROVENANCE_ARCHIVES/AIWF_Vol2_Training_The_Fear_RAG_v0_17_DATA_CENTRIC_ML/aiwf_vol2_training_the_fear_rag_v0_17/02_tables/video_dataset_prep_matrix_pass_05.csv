@@ -1,0 +1,10 @@
+check,why_it_matters,default_action,fail_condition
+clip_decode,corrupt clips crash preprocessing,open and probe every file,file cannot decode
+fps_consistency,motion timing and frame extraction depend on FPS,normalize or bucket intentionally,random FPS mix without metadata
+frame_count,video memory scales with temporal length,record and bucket by count,outliers too large for hardware
+scene_cuts,hard cuts confuse motion learning,detect and split clips,multiple unrelated scenes in one clip
+caption_motion,motion LoRA needs action words,require subject+action+camera if relevant,caption only describes first frame
+resolution_bucket,spatial memory cost and buckets affect training,record width/height/aspect,resolution unsupported or inconsistent without bucket support
+watermark_logo,model may learn unwanted artifacts,flag for review,repeated unwanted watermark
+paired_reference,IC-LoRA/video-to-video requires pairs,validate target/reference mapping,missing reference for paired mode
+source_leakage,same source in train/eval inflates results,split by source group,near duplicate train/eval clip

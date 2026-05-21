@@ -1,0 +1,2 @@
+report_role,canonical_path,note
+cleanliness_audit_pointer,05_REPORTS/active_cleanliness_audit_current.csv,Canonical active cleanliness audit lives in active_cleanliness_audit_current.csv.

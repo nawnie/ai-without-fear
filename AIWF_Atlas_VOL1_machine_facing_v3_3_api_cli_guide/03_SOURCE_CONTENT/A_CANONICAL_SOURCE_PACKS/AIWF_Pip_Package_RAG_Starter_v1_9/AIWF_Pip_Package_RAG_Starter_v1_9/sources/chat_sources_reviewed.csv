@@ -1,0 +1,44 @@
+url,domain,source_family,chat_context
+https://pytorch.org/get-started/locally/,pytorch.org,pytorch_docs,v0.2 core runtime install selector
+https://github.com/deepinsight/insightface/blob/master/python-package/README.md,github.com,github_repositories,v0.3 InsightFace ONNX Runtime backend guidance
+https://onnxruntime.ai/docs/install/,onnxruntime.ai,onnx_runtime_docs,v0.3 ONNX Runtime install/provider boundary
+https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html,onnxruntime.ai,onnx_runtime_docs,v1.3 ONNX Runtime CUDA/cuDNN compatibility boundary
+https://numpy.org/devdocs/numpy_2_0_migration_guide.html,numpy.org,scientific_python_docs,v0.3 NumPy 2 migration/binary API risk
+https://github.com/facebookresearch/segment-anything,github.com,github_repositories,v0.3 SAM v1 upstream repo
+https://github.com/ollama/ollama-python,github.com,github_repositories,v0.4 Ollama Python client boundary
+https://pypi.org/project/pytesseract/,pypi.org,pypi_package_metadata,v0.4 pytesseract wrapper/runtime boundary
+https://sbert.net/docs/installation.html,sbert.net,huggingface_ecosystem_docs,v0.4 sentence-transformers install/reference
+https://huggingface.co/docs/bitsandbytes/en/installation,huggingface.co,huggingface_ecosystem_docs,v0.5 bitsandbytes install/backend guidance
+https://docs.openwebui.com/,docs.openwebui.com,other_project_docs,v0.5 Open WebUI app/runtime docs
+https://developers.llamaindex.ai/python/framework/getting_started/installation/,developers.llamaindex.ai,other_project_docs,v0.5 LlamaIndex package/integration boundary
+https://docs.langchain.com/,docs.langchain.com,other_project_docs,v0.5 LangChain framework docs
+https://kkroening.github.io/ffmpeg-python/,kkroening.github.io,other_project_docs,v0.6 ffmpeg-python command graph docs
+https://imageio.readthedocs.io/en/v2.10.1/reference/_backends/imageio.plugins.ffmpeg.html,imageio.readthedocs.io,project_documentation,v0.6 imageio ffmpeg backend docs
+https://github.com/dmlc/decord,github.com,github_repositories,v0.6 Decord video loader repo
+https://librosa.org/doc/latest/install.html,librosa.org,other_project_docs,v0.6 librosa install docs
+https://pybind11.readthedocs.io/en/stable/installing.html,pybind11.readthedocs.io,project_documentation,v0.6 pybind11 install/build docs
+https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt,github.com,github_repositories,v0.7 ComfyUI current requirements reference
+https://github.com/comfy-org/ComfyUI,github.com,github_repositories,v0.7 ComfyUI upstream repo/readme
+https://huggingface.co/docs/transformers/en/model_doc/grounding-dino,huggingface.co,huggingface_ecosystem_docs,v0.9 GroundingDINO transformers inference alternative
+https://pypi.org/project/mediapipe/,pypi.org,pypi_package_metadata,v0.9 MediaPipe package metadata
+https://pip.pypa.io/en/stable/cli/pip_wheel/,pip.pypa.io,python_packaging_build_docs,v1.1 pip wheel command reference
+https://docs.pytorch.org/tutorials/advanced/cpp_custom_ops.html,docs.pytorch.org,pytorch_docs,v1.1 PyTorch C++/CUDA custom ops tutorial
+https://docs.pytorch.org/docs/2.12/cpp_extension.html,docs.pytorch.org,pytorch_docs,v1.2 PyTorch cpp_extension reference
+https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/,docs.nvidia.com,nvidia_cuda_inference_docs,v1.2 NVIDIA CUDA Windows installation guide
+https://pypi.nvidia.com/,pypi.nvidia.com,nvidia_cuda_inference_docs,v1.2 NVIDIA PyPI component wheel index
+https://docs.nvidia.com/deeplearning/cudnn/installation/latest/windows.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.3 cuDNN Windows install guide
+https://docs.nvidia.com/deeplearning/cudnn/backend/latest/api/overview.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.3 cuDNN backend overview
+https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/developer/overview.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.3 cuDNN frontend overview
+https://pypi.org/project/nvidia-cudnn-cu12/,pypi.org,pypi_package_metadata,v1.3 nvidia-cudnn-cu12 package metadata
+https://docs.nvidia.com/deeplearning/tensorrt/latest/installing-tensorrt/installing.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.4 TensorRT installation docs
+https://docs.nvidia.com/deeplearning/tensorrt/latest/api/onnx-graphsurgeon-api.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.4 ONNX GraphSurgeon API docs
+https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.5 Triton server user guide
+https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/model_repository.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.5 Triton model repository layout
+https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/client/README.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.5 Triton client docs
+https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/python_backend/README.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.5 Triton Python backend docs
+https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.5 Triton metrics docs
+https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/customization_guide/deploy.html,docs.nvidia.com,nvidia_cuda_inference_docs,v1.5 Triton deployment/security docs
+https://docs.vllm.ai/en/latest/getting_started/quickstart/,docs.vllm.ai,llm_serving_docs,v1.6 vLLM quickstart/OpenAI-compatible server
+https://docs.vllm.ai/en/latest/configuration/engine_args/,docs.vllm.ai,llm_serving_docs,v1.6 vLLM engine args/memory controls
+https://docs.flashinfer.ai/installation.html,docs.flashinfer.ai,other_project_docs,v1.6 FlashInfer install/platform docs
+https://docs.sglang.ai/,docs.sglang.ai,llm_serving_docs,v1.6 SGLang docs

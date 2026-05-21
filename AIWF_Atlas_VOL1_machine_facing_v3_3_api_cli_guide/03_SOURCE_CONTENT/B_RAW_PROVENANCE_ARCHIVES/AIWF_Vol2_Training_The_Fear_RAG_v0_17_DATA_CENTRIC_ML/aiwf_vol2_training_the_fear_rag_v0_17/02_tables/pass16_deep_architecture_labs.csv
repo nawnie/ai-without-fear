@@ -1,0 +1,11 @@
+lab_id,title,level,hardware,goal,deliverable
+P16-L01,Draw the architecture map,concept,none,classify model families by data shape and bias,annotated diagram
+P16-L02,MLP vs logistic regression,foundations,CPU,show baseline vs flexible model,metric table + overfit note
+P16-L03,Tiny CNN receptive field,undergrad,CPU/GPU optional,visualize locality and receptive field,activation/occlusion notes
+P16-L04,Residual vs plain depth,undergrad,GPU helpful,show gradient highways,loss curve comparison
+P16-L05,Patch-token math,undergrad,none,compute ViT token counts and memory implications,token/resolution worksheet
+P16-L06,Embedding nearest-neighbor audit,undergrad,CPU,inspect representation quality,neighbor report + failure cases
+P16-L07,Contrastive pairs design,grad,CPU optional,design positives/negatives and invariances,pair construction memo
+P16-L08,Diffusion objective diagram,grad,none,"map noise, timestep, denoising, conditioning",annotated denoising ladder
+P16-L09,Adapter intervention decision,grad,consumer GPU,choose prompt/RAG/head/LoRA/full tune,decision memo
+P16-L10,Architecture release gate,capstone,consumer GPU,"connect architecture to eval, hardware, and risk",run pack with model card

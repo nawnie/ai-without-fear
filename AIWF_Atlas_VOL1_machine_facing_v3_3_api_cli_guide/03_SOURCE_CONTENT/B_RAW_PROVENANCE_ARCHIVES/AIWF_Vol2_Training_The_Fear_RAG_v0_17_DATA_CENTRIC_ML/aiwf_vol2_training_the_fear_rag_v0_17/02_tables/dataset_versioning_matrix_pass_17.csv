@@ -1,0 +1,6 @@
+method,best_for,strength,weakness,aiwf_recommendation
+folder_copy,tiny local experiments,simple and visible,easy to lose lineage,acceptable only for scratch
+hash_manifest,local AIWF training packs,portable and trainer-agnostic,does not store data by itself,default AIWF baseline
+DVC,small-to-medium ML projects,Git-like workflow for data/models/experiments,extra tooling to learn,recommended for serious projects
+lakeFS/object-versioning,team data lakes,branching/versioning for object data,more infrastructure,advanced/professional tier
+warehouse/feature store lineage,production structured ML,point-in-time training/inference consistency,enterprise complexity,conceptual coverage for Vol.2

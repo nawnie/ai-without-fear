@@ -1,0 +1,12 @@
+flowchart LR
+  source["Source Files"]
+  policy["Machine Policy"]
+  lane["Canonical Lanes"]
+  prompt["Prompt Packs"]
+  trouble["Troubleshooting"]
+  torchie["Torchie"]
+  source -- "informs" --> lane
+  policy -- "controls" --> prompt
+  lane -- "explains" --> trouble
+  prompt -- "optional" --> torchie
+  trouble -- "sparingly" --> torchie

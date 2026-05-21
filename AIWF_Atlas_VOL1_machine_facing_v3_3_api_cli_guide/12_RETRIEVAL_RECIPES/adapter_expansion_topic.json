@@ -1,0 +1,25 @@
+{
+  "query_type": "add_new_research_lane",
+  "first_lanes": [
+    "10_SCHEMA_AND_INDEX",
+    "00_AI_READ_FIRST",
+    "02_atlas_architecture_chunking_embedding",
+    "01_source_ledger_evidence"
+  ],
+  "expand_terms": [
+    "future topic intake",
+    "lane manifest",
+    "Atlas cards",
+    "scope",
+    "gap audit"
+  ],
+  "must_return": [
+    "required files",
+    "metadata contract",
+    "Atlas cards",
+    "source coverage expectations"
+  ],
+  "avoid": [
+    "adding unstructured notes without manifest and lane overview"
+  ]
+}

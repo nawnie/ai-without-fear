@@ -1,0 +1,6 @@
+{
+  "adapter_version": "v1.7_source_hardened",
+  "current_retrieval_card_index": "02_RETRIEVAL_INDEX/VOL1_RETRIEVAL_CARDS_NORMALIZED_v1_7.jsonl",
+  "card_count": 294,
+  "note": "This pointer replaces prior duplicate full-card copies to avoid exact duplicate retrieval noise."
+}

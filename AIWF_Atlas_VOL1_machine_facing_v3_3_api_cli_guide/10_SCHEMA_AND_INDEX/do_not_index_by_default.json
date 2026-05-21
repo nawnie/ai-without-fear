@@ -1,0 +1,58 @@
+{
+  "adapter_version": "v2.10",
+  "purpose": "Prevent Atlas systems from wasting context on archive maintenance/control files unless the user asks about archive provenance.",
+  "do_not_index_by_default_globs": [
+    "04_MANIFESTS/*",
+    "05_REPORTS/*",
+    "06_CHANGE_HISTORY/*",
+    "**/vol1_lane_manifest.json",
+    "**/lane_profile.json",
+    "**/checksums_sha256.txt",
+    "**/*manifest*.csv",
+    "**/*manifest*.json",
+    "**/*consolidation*.csv",
+    "**/*removed*.txt",
+    "**/*REPORT.md",
+    "16_VISUAL_ASSETS/diagrams/svg/*.svg",
+    "16_VISUAL_ASSETS/torchie_callouts/*.svg"
+  ],
+  "index_by_default": [
+    "00_AI_READ_FIRST/00_LOAD_ORDER.md",
+    "00_AI_READ_FIRST/MACHINE_USE_MASTER_INDEX.md",
+    "01_CANONICAL_RESEARCH_LANES/*/CANONICAL_OVERVIEW.md",
+    "01_CANONICAL_RESEARCH_LANES/*/CONCEPT_MAP.md",
+    "01_CANONICAL_RESEARCH_LANES/*/EMBEDDING_AND_CHUNKING_STRATEGY.md",
+    "01_CANONICAL_RESEARCH_LANES/*/RETRIEVAL_CARDS.jsonl",
+    "02_RETRIEVAL_INDEX/VOL1_RETRIEVAL_CARDS_NORMALIZED_v1_2.jsonl",
+    "03_SOURCE_CONTENT/C_USER_EXPANDED_TOPIC_NOTES/**/*",
+    "12_RETRIEVAL_RECIPES/*",
+    "15_ANSWER_TEMPLATES/*",
+    "16_VISUAL_ASSETS/README.md",
+    "16_VISUAL_ASSETS/VISUAL_ASSET_INDEX.md",
+    "16_VISUAL_ASSETS/torchie_callouts/TORCHIE_VISUAL_CALLOUT_SPEC.md"
+  ],
+  "conditional_index": {
+    "03_SOURCE_CONTENT/B_RAW_PROVENANCE_ARCHIVES/**/*": "index when the user asks for source history, older versions, or original evidence",
+    "03_SOURCE_CONTENT/D_LEGACY_SUPERSEDED_MATERIAL/**/*": "index only for provenance/history/conflict resolution",
+    "05_REPORTS/**/*": "index only for archive QA or maintenance questions",
+    "16_VISUAL_ASSETS/diagrams/svg/*.svg": "load only when the user asks for visual assets or diagrams"
+  },
+  "updated_for": "v2.14",
+  "do_not_index_by_default_patterns": [
+    "04_MANIFESTS/*audit*",
+    "04_MANIFESTS/*manifest*",
+    "05_REPORTS/*REPORT*",
+    "05_REPORTS/*audit*",
+    "06_CHANGE_HISTORY/**",
+    "16_VISUAL_ASSETS/**/*.png",
+    "16_VISUAL_ASSETS/**/*.svg"
+  ],
+  "recommended_eval_index_files": [
+    "09_EVALUATION_HARNESS/EVALUATION_RUBRIC.md",
+    "09_EVALUATION_HARNESS/adapter_benchmark_protocol_current.md",
+    "09_EVALUATION_HARNESS/raw_files_vs_atlas_comparison_plan_current.md",
+    "09_EVALUATION_HARNESS/golden_question_sets/adapter_core_golden_questions_current.jsonl",
+    "09_EVALUATION_HARNESS/expected_source_maps/adapter_core_expected_sources_current.jsonl",
+    "09_EVALUATION_HARNESS/lane_eval_sets/"
+  ]
+}

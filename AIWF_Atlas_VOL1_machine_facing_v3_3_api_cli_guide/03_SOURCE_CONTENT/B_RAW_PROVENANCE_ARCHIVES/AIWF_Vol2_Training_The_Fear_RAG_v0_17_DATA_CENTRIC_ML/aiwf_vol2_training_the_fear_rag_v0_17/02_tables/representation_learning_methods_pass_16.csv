@@ -1,0 +1,9 @@
+method,training_signal,what_it_learns,data_requirement,risk,AIWF_teaching_hook
+supervised classification,label prediction,features useful for fixed label set,labeled examples,label bias and narrow transfer,"predict labels, inspect errors"
+autoencoder,reconstruction,compressed representation,unlabeled samples,copies low-level detail without semantics,compress then reconstruct
+VAE,probabilistic reconstruction + regularization,smooth latent structure,unlabeled samples,blurry reconstructions if bottleneck/loss weak,latent map with uncertainty
+contrastive learning,positive/negative pair separation,similarity geometry,many examples/augmentations,bad positives/negatives teach wrong invariance,"same object, different views"
+masked modeling,recover missing pieces,contextual representation,large unlabeled corpus/images,shortcut learning or weak masks,fill in missing puzzle pieces
+denoising diffusion,recover clean signal from noise,generative denoising dynamics,large clean/captioned datasets,caption/objective mismatch,learn the path back from noise
+flow matching,predict transformation velocity,continuous generative path,large datasets + correct objective,family/trainer mismatch,learn the vector field from noise to data
+CLIP-style alignment,match image/text pairs,shared multimodal space,large paired image-text data,web bias/caption noise,which caption belongs to which image

@@ -1,0 +1,9 @@
+lab_id,title,concepts,minimum_tools,evidence_output,ship_skill
+LAB-ML-001,Build the learning contract,task/objective/metric/split,Markdown + spreadsheet,training contract,Can define a trainable problem before training
+LAB-ML-002,Leakage hunt,splits/grouping/duplicates,Python + pandas,leakage report,Can invalidate bad evals
+LAB-ML-003,Baseline ladder,rules/logistic/embedding,scikit-learn + sentence-transformers optional,baseline table,Can prove whether training is needed
+LAB-ML-004,Metric trap,imbalance/precision/recall/PR-AUC,scikit-learn,confusion matrix + metric comparison,Can choose metrics by risk
+LAB-ML-005,Calibration check,probability/reliability/thresholds,scikit-learn,reliability diagram summary,Can separate accuracy from confidence
+LAB-ML-006,Optimizer sandbox,SGD/momentum/AdamW/LR,PyTorch tiny model,learning curves,Can diagnose optimization failures
+LAB-ML-007,Learning curve diagnosis,underfit/overfit/instability,plots or provided curves,diagnosis worksheet,Can choose one next change
+LAB-ML-008,Run pack audit,reproducibility/evidence/model card,files + manifest,AIWF run pack,Can make a run auditable

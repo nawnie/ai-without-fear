@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "taxonomy": [
+    {
+      "tag": "stable",
+      "meaning": "Foundational concept unlikely to change quickly; examples: cosine similarity, tokenization definition, basic RAG concept."
+    },
+    {
+      "tag": "slow_changing",
+      "meaning": "Changes over months/years; examples: architecture patterns, data engineering principles, governance categories."
+    },
+    {
+      "tag": "fast_moving",
+      "meaning": "Changes over weeks/months; examples: ComfyUI node APIs, package status, install commands, model paths."
+    },
+    {
+      "tag": "volatile",
+      "meaning": "May change at any time; examples: best/current model rankings, pricing, hardware availability, API-only/open-weight status."
+    },
+    {
+      "tag": "historical",
+      "meaning": "Preserved for provenance, not current recommendation."
+    }
+  ],
+  "default_by_lane_hint": {
+    "comfyui_custom_node_ecosystem": "fast_moving",
+    "hardware_cost_performance_planning": "volatile",
+    "llm_model_rankings_future_lanes": "volatile",
+    "math_for_ai_practitioners": "stable",
+    "source_ledger_evidence": "slow_changing",
+    "raw_legacy_archives": "historical"
+  }
+}

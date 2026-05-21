@@ -1,0 +1,27 @@
+{
+  "version": "v1.9",
+  "rule_summary": "Changing ComfyUI node sockets requires changing both declared types and Python logic.",
+  "socket_contract_fields": [
+    "INPUT_TYPES",
+    "RETURN_TYPES",
+    "RETURN_NAMES",
+    "FUNCTION"
+  ],
+  "image_to_latent_rules": [
+    "Do not treat IMAGE and LATENT as interchangeable.",
+    "If the original function does pixel/PIL/OpenCV/RGB operations, keep IMAGE or bridge through VAEDecode/VAEEncode.",
+    "If the function operates on latent tensors, operate on latent[\"samples\"] and preserve extra latent keys.",
+    "For published nodes, use node replacement/migration rules when renaming or changing input names/types.",
+    "Prefer workflow-level bridges before custom node mutation for beginner users."
+  ],
+  "source_pins": [
+    "comfyui_properties_input_return_types",
+    "comfyui_images_latents_masks",
+    "comfyui_datatypes",
+    "comfyui_hidden_flexible_inputs",
+    "comfyui_lazy_evaluation",
+    "comfyui_node_replacement",
+    "comfyui_v3_migration",
+    "comfyui_manager_repo"
+  ]
+}

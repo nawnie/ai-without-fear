@@ -1,0 +1,15 @@
+flowchart LR
+  query["Incoming Task"]
+  classify["Router"]
+  small["Small Model"]
+  large["Large Model"]
+  edge["Edge / Local"]
+  cloud["Cloud / GPU"]
+  cost["Cost Monitor"]
+  query --> classify
+  classify -- "simple" --> small
+  classify -- "hard" --> large
+  small --> edge
+  large --> cloud
+  edge --> cost
+  cloud --> cost

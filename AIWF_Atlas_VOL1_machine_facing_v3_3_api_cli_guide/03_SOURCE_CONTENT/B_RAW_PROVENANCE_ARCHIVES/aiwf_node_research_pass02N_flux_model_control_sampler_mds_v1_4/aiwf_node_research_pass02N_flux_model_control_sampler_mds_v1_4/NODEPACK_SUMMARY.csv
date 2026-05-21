@@ -1,0 +1,130 @@
+pack_number,pack_name,repo,row_count,safe_to_generate,local_test_required,notes
+11,ComfyUI-GGUF,city96/ComfyUI-GGUF,,,,
+12,comfyui_controlnet_aux,Fannovel16/comfyui_controlnet_aux,,,,
+13,ComfyUI_IPAdapter_plus,cubiq/ComfyUI_IPAdapter_plus,,,,
+14,comfyui-inpaint-nodes,Acly/comfyui-inpaint-nodes,,,,
+15,ComfyUI-WanVideoWrapper,kijai/ComfyUI-WanVideoWrapper,,,,
+16,ComfyUI-Advanced-ControlNet,Kosinkadink/ComfyUI-Advanced-ControlNet,,,,
+17,ComfyUI-Impact-Subpack,ltdrdata/ComfyUI-Impact-Subpack,,,,
+18,ComfyUI-Inpaint-CropAndStitch,lquesada/ComfyUI-Inpaint-CropAndStitch,,,,
+19,ComfyUI-segment-anything-2,kijai/ComfyUI-segment-anything-2,,,,
+20,comfyui_segment_anything,storyicon/comfyui_segment_anything,,,,
+21,ComfyUI-ReActor,Gourieff/ComfyUI-ReActor,,,,
+22,ComfyUI-LTXVideo,Lightricks/ComfyUI-LTXVideo,,,,
+23,ComfyUI-HunyuanVideoWrapper,kijai/ComfyUI-HunyuanVideoWrapper,,,,
+24,AnimateDiff Evolved,Kosinkadink/ComfyUI-AnimateDiff-Evolved,,,,
+25,ComfyUI-SUPIR,kijai/ComfyUI-SUPIR,,,,
+26,UltimateSDUpscale,ssitu/ComfyUI_UltimateSDUpscale,,,,
+27,ComfyUI-nunchaku,nunchaku-ai/ComfyUI-nunchaku,,,,
+28,x-flux-comfyui,XLabs-AI/x-flux-comfyui,,,,
+29,ComfyUI-Fluxtapoz,logtd/ComfyUI-Fluxtapoz,,,,
+30,ComfyUI-FluxTrainer,kijai/ComfyUI-FluxTrainer,,,,
+31,Efficiency Nodes for ComfyUI Version 2.0+,jags111/efficiency-nodes-comfyui,,,,
+32,WAS Node Suite Revised,ltdrdata/was-node-suite-comfyui,,,,
+33,MTB Nodes,melMass/comfy_mtb,,,,
+34,Comfyroll Studio,Suzie1/ComfyUI_Comfyroll_CustomNodes,,,,
+35,ComfyUI_tinyterraNodes,TinyTerra/ComfyUI_tinyterraNodes,,,,
+36,ComfyUI Browser,talesofai/comfyui-browser,,,,
+37,ComfyUI Workspace Manager - Comfyspace,11cafe/comfyui-workspace-manager,,,,
+38,ComfyUI-Copilot,AIDC-AI/ComfyUI-Copilot,,,,
+39,ComfyUI-Image-Selector,SLAPaper/ComfyUI-Image-Selector,,,,
+40,ImagesGrid,LEv145/images-grid-comfy-plugin,,,,
+41,Save Image with Generation Metadata,giriss/comfy-image-saver,,,,
+42,SD Prompt Reader,receyuki/comfyui-prompt-reader-node,,,,
+43,DynamicPrompts Custom Nodes,adieyal/comfyui-dynamicprompts,,,,
+44,One Button Prompt,AIrjen/OneButtonPrompt,,,,
+45,SDXL Prompt Styler,twri/sdxl_prompt_styler,,,,
+46,comfyui-prompt-composer,florestefano1975/comfyui-prompt-composer,,,,
+47,ComfyUI Prompt Control,asagi4/comfyui-prompt-control,,,,
+49,Quick Connections,niknah/quick-connections,,,,
+50,AIGODLIKE-ComfyUI-Studio,AIGODLIKE/AIGODLIKE-ComfyUI-Studio,,,,
+51,AIGODLIKE-COMFYUI-TRANSLATION,AIGODLIKE/AIGODLIKE-ComfyUI-Translation,,,,
+52,ComfyUI-RMBG,1038lab/ComfyUI-RMBG,,,,
+53,ComfyUI-BiRefNet-Hugo,MoonHugo/ComfyUI-BiRefNet-Hugo,,,,
+54,ComfyUI_BiRefNet_ll,lldacing/ComfyUI_BiRefNet_ll,,,,
+55,ComfyUI-Inspyrenet-Rembg,john-mnz/ComfyUI-Inspyrenet-Rembg,,,,
+56,ComfyUI-BRIA_AI-RMBG,ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG,,,,
+57,CLIPSeg,chaoqun789/ComfyUI-CLIPSeg,,,,
+58,Masquerade Nodes,BadCafeCode/masquerade-nodes-comfyui,,,,
+59,a-person-mask-generator,djbielejeski/a-person-mask-generator,,,,
+60,ComfyUI YoloWorld-EfficientSAM,ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM,,,,
+61,ComfyUI SAM2(Segment Anything 2),neverbiasu/ComfyUI-SAM2,,,,
+62,ComfyUI-ProPainter Nodes,daniabib/ComfyUI_ProPainter_Nodes,,,,
+63,ComfyUI-Video-Matting,Fannovel16/ComfyUI-Video-Matting,,,,
+64,ComfyUI-LayerStyle,chflame163/ComfyUI_LayerStyle,,,,
+65,ComfyUI_LayerStyle_Advance,chflame163/ComfyUI_LayerStyle_Advance,,,,
+66,Comfyui-LayerForge,Azornes/Comfyui-LayerForge,,,,
+67,Canvas Tab,Lerc/canvas_tab,,,,
+68,comfyui-enricos-nodes,erosDiffusion/ComfyUI-enricos-nodes,,,,
+69,ComfyUI AdvancedLivePortrait,PowerHouseMan/ComfyUI-AdvancedLivePortrait,,,,
+70,ComfyUI-LivePortraitKJ,kijai/ComfyUI-LivePortraitKJ,,,,
+71,comfyui-liveportrait,shadowcz007/comfyui-liveportrait,,,,
+72,ComfyUI_InstantID,cubiq/ComfyUI_InstantID,,,,
+73,ComfyUI-InstantID,ZHO-ZHO-ZHO/ComfyUI-InstantID,,,,
+74,comfyui-instantId-faceswap,nosiu/comfyui-instantId-faceswap,,,,
+75,PuLID_ComfyUI,cubiq/PuLID_ComfyUI,,,,
+76,ComfyUI_PuLID_Flux_ll,lldacing/ComfyUI_PuLID_Flux_ll,,,,
+77,ComfyUI-PuLID-Flux-Enhanced,sipie800/ComfyUI-PuLID-Flux-Enhanced,,,,
+78,ComfyUI-IPAdapter-Flux,Shakker-Labs/ComfyUI-IPAdapter-Flux,,,,
+79,ComfyUI PhotoMaker Plus,shiimizu/ComfyUI-PhotoMaker-Plus,,,,
+80,ComfyUI PhotoMaker (ZHO),ZHO-ZHO-ZHO/ComfyUI-PhotoMaker-ZHO,,,,
+81,Face Analysis for ComfyUI,cubiq/ComfyUI_FaceAnalysis,,,,
+82,FUSE Face Enhancer,WASasquatch/face-upscaling-and-seamless-embedding,,,,
+83,DZ-FaceDetailer,nicofdga/DZ-FaceDetailer,,,,
+84,Facerestore CF,mav-rik/facerestore_cf,,,,
+85,ComfyUI-Portrait-Maker,THtianhao/ComfyUI-Portrait-Maker,,,,
+86,ComfyUI-InfiniteYou,bytedance/ComfyUI_InfiniteYou,,,,
+87,ComfyUI-HyperLoRA,bytedance/ComfyUI-HyperLoRA,,,,
+88,comfyui-portrait-master,florestefano1975/comfyui-portrait-master,,,,
+89,comfyui-portrait-master-zh-cn,ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn,,,,
+90,Tiled Diffusion & VAE for ComfyUI,shiimizu/ComfyUI-TiledDiffusion,,,,
+91,Tiled sampling for ComfyUI,BlenderNeko/ComfyUI_TiledKSampler,,,,
+92,ComfyUI-CCSR,kijai/ComfyUI-CCSR,,,,
+93,ComfyUI-APISR,ZHO-ZHO-ZHO/ComfyUI-APISR,,,,
+94,ComfyUI-SeedVR2_VideoUpscaler,stavzszn/ComfyUI-SeedVR2_VideoUpscaler,,,,
+95,ComfyUI InvSR,yuvraj108c/ComfyUI_InvSR,,,,
+96,ComfyUI Neural Network Latent Upscale,Ttl/ComfyUi_NNLatentUpscale,,,,
+97,SD-Latent-Upscaler,city96/SD-Latent-Upscaler,,,,
+98,Latent-Interposer,city96/SD-Latent-Interposer,,,,
+99,ComfyUI Flowty LDSR,flowtyone/ComfyUI-Flowty-LDSR,,,,
+100,AuraSR-ComfyUI,GreenLandisaLie/AuraSR-ComfyUI,,,,
+101,Comfy-Topaz,choey/Comfy-Topaz,,,,
+102,ComfyUI-TopazVideoAI,sh570655308/ComfyUI-TopazVideoAI,,,,
+103,ComfyUI Bringing Old Photos Back to Life,cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life,,,,
+104,ComfyUI_InstantIR_Wrapper,smthemex/ComfyUI_InstantIR_Wrapper,,,,
+105,HandFixer,Xiangyu-CAS/HandFixer,,,,
+106,ComfyUI-Detail-Daemon,Jonseed/ComfyUI-Detail-Daemon,,,,
+107,ComfyUI Frame Interpolation,Fannovel16/ComfyUI-Frame-Interpolation,,,,
+108,ComfyUI-GIMM-VFI,kijai/ComfyUI-GIMM-VFI,,,,
+109,ComfyUI-fastblend,AInseven/ComfyUI-fastblend,,,,
+110,ComfyUI-DynamiCrafterWrapper,kijai/ComfyUI-DynamiCrafterWrapper,,,,
+111,ComfyUI-CogVideoXWrapper,kijai/ComfyUI-CogVideoXWrapper,,,,
+112,ComfyUI-PyramidFlowWrapper,kijai/ComfyUI-PyramidFlowWrapper,,,,
+113,ComfyUI-RH_FramePack,HM-RunningHub/ComfyUI_RH_FramePack,,,,
+114,ComfyUI-WanVideoStartEndFrames,raindrop313/ComfyUI-WanVideoStartEndFrames,,,,
+115,ComfyUI_ControlNeXt-SVD,kijai/ComfyUI-ControlNeXt-SVD,,,,
+990,ComfyUI Core Native Wan 2.2,Comfy-Org/ComfyUI + Comfy-Org/workflow_templates,,,,
+991,ComfyUI-Lightning,shenduldh/ComfyUI-Lightning,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+992,ComfyUI-FluxExt-MZ,MinusZoneAI/ComfyUI-FluxExt-MZ,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+993,ComfyUI-Kolors-MZ,MinusZoneAI/ComfyUI-Kolors-MZ,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+994,ComfyUI-KwaiKolorsWrapper,kijai/ComfyUI-KwaiKolorsWrapper,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+995,ComfyUI-ExtraModels,city96/ComfyUI_ExtraModels,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+996,ComfyUI_DiT,city96/ComfyUI_DiT,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+997,ComfyUI-Scepter,modelscope/scepter,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+998,ComfyUI-ACE_Plus,linhoi/ComfyUI-ACE_Plus,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+999,ICEdit-ComfyUI-official,hayd-zju/ICEdit-ComfyUI-official,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1000,ComfyUI-easycontrol,jax-explorer/ComfyUI-easycontrol,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1001,ControlNet-LLLite-ComfyUI,kohya-ss/ControlNet-LLLite-ComfyUI,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1002,ComfyUI_omost,huchenlei/ComfyUI_omost,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1003,RES4LYF,ClownsharkBatwing/RES4LYF,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1004,ComfyUI-ppm,pamparamm/ComfyUI-ppm,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1005,sd-perturbed-attention,pamparamm/sd-perturbed-attention,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1006,Dynamic Thresholding,mcmonkeyprojects/sd-dynamic-thresholding,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1007,ComfyUI-AutomaticCFG,Extraltodeus/ComfyUI-AutomaticCFG,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1008,Skimmed_CFG,Extraltodeus/Skimmed_CFG,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1009,Euler-Smea-Dyn-Sampler,Koishi-Star/Euler-Smea-Dyn-Sampler,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1010,ComfyUI-ConDelta,envy-ai/ComfyUI-ConDelta,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1011,Advanced Reflux control,kaibioinfo/ComfyUI_AdvancedRefluxControl,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1012,Comfyui_Flux_Style_Adjust,yichengup/Comfyui_Flux_Style_Adjust,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1013,ComfyUI-Flux-Continuum,robertvoy/ComfyUI-Flux-Continuum,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.
+1014,Flux Prompt Generator for ComfyUI,fairy-root/Flux-Prompt-Generator,1.0,0.0,1.0,Pass 02N light coverage; RAG-first unless later dense pass confirms schema.

@@ -1,0 +1,20 @@
+stage,level,topic,must_understand,artifact_or_lab
+0,orientation,what training is,data objective optimizer evaluation,tiny classifier train-val plot
+1,math,linear algebra,vectors matrices tensors rank similarity,embedding similarity worksheet
+1,math,calculus gradients,derivatives gradients chain rule,manual gradient check
+1,math,probability info theory,distributions cross entropy KL,calibration demo
+2,classical ML,linear/logistic models,likelihood loss coefficients,baseline comparison
+2,classical ML,trees ensembles,splits feature importance leakage,tabular benchmark
+2,classical ML,kernels similarity,margin kernels embeddings bridge,SVM decision plot
+3,deep learning,backprop networks,layers activations initialization,MLP from scratch
+3,deep learning,optimization,SGD AdamW LR schedules clipping,LR failure lab
+3,deep learning,regularization,weight decay dropout augmentation,overfit repair lab
+4,representation,embeddings metric learning,contrastive hard negatives retrieval,RAG retriever eval
+5,foundation models,transformers,tokenization attention context KV cache,tokenizer/attention lab
+5,foundation models,diffusion flow,denoising guidance latent space,image LoRA comparison
+5,foundation models,multimodal,vision/audio/video alignment,multimodal eval sheet
+6,post-training,SFT preference RL,DPO ORPO KTO GRPO reward risk,adapter eval
+6,post-training,distill quantize merge,deployment tradeoffs regressions,quantization drift lab
+7,evaluation ops,eval science,metrics calibration OOD red team,release eval gate
+7,governance,privacy law provenance,PII consent model cards,risk register
+7,MLOps,reproducibility monitoring,run packs drift rollback,capstone release memo

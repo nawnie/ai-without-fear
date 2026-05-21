@@ -1,0 +1,5 @@
+# Example only. Generate from a known-good venv.
+# Keep Torch/CUDA index URL explicit in installer scripts rather than silently relying on default PyPI.
+# torch==2.x.x+cuXXX
+# torchvision==0.x.x+cuXXX
+# xformers==0.x.x

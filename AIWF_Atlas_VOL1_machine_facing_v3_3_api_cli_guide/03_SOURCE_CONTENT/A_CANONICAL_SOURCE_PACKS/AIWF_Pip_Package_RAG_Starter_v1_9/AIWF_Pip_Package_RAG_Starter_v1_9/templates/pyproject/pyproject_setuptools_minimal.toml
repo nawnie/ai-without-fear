@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiwf-example-package"
+version = "0.0.1"
+description = "Minimal AIWF wheel example"
+requires-python = ">=3.10"

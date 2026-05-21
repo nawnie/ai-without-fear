@@ -1,0 +1,11 @@
+{
+  "version": "0.7",
+  "recipes": [
+    "comfyui_red_node_or_missing_node.json",
+    "atlas_chunking_strategy.json",
+    "gradio_tool_ui_design.json",
+    "bad_generation_quality.json",
+    "adapter_expansion_topic.json"
+  ],
+  "use": "Select recipe by query intent before running general semantic search."
+}

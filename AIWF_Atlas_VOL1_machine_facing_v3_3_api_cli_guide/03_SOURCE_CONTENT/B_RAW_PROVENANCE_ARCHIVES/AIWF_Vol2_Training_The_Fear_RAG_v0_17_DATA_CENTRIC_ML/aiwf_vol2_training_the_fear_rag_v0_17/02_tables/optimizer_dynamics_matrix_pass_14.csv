@@ -1,0 +1,7 @@
+optimizer,best_use,main_knobs,strength,risk,aiwf_default_stance
+SGD,classical ML/CNN teaching labs,"learning_rate,momentum",simple and interpretable,slower or harder to tune,teach before Adam
+SGD_momentum,vision/classical deep nets,"learning_rate,momentum",damps noisy zig-zag motion,overshoot if LR too high,use for theory labs
+Adam,general adaptive baseline history,"learning_rate,beta1,beta2,epsilon",fast practical convergence,regularization ambiguity,teach as AdamW predecessor
+AdamW,LLM/diffusion fine-tune default baseline,"learning_rate,weight_decay,betas",strong default and decoupled decay,can still overfit and requires tuning,default practical baseline
+8bit_Adam_or_paged_AdamW,memory-limited adapter training,"learning_rate,precision,optimizer_backend",saves optimizer memory,backend compatibility and numerical caveats,use when trainer supports it
+Lion_Sophia_Muon_Schedule_Free,advanced experiments,implementation_specific,may improve speed or memory in some cases,less universal support and benchmark transfer risk,"watchlist, not beginner default"

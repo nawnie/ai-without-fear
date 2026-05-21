@@ -1,0 +1,27 @@
+{
+  "release": "v1.5",
+  "tracked_packages": 211,
+  "full_package_cards": 211,
+  "stub_cards": 0,
+  "focus": "Triton Inference Server serving/deployment diagnostics, model repository layout, Python backend, health/metrics, and client/server boundary support",
+  "added_package_count": 9,
+  "added_packages": [
+    "pytriton",
+    "triton-model-analyzer",
+    "triton-model-navigator",
+    "prometheus-client",
+    "grpcio",
+    "grpcio-tools",
+    "geventhttpclient",
+    "nvidia-ml-py",
+    "kubernetes"
+  ],
+  "updated_packages": [
+    "tritonclient"
+  ],
+  "validation": {
+    "missing_card_paths": [],
+    "duplicate_pip_names": [],
+    "duplicate_package_ids": []
+  }
+}

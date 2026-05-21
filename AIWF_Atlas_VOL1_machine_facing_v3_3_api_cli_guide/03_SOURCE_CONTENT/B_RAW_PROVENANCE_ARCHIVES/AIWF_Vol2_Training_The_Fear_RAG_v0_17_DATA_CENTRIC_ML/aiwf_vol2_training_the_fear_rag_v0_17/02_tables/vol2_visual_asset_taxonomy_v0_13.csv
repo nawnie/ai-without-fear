@@ -1,0 +1,8 @@
+visual_type,purpose,style,example_vol2_figures
+concept diagram,explain invisible process,dark navy cyan vector arrows,data to loss to optimizer to weights
+decision tree,help choose action,branching cyan boxes,RAG vs finetune vs prompt
+ladder,show progression,vertical or horizontal tier ladder,dataset quality ladder
+failure atlas,recognize breakdowns,4 panel warning grid,overfit leakage reward hacking forgetting
+metric chart,teach evidence,clean chart with annotated regions,train vs validation loss
+lab screenshot,prove tool reality,captioned real screenshot,WandB/TensorBoard/lm-eval output
+mascot callout,emotional relief warning,Torchie clip art in margin,"OOM, leakage, overfit warnings"

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIWF Atlas Profile Schema",
+  "type": "object",
+  "required": [
+    "archive_name",
+    "role",
+    "primary_consumers",
+    "load_order",
+    "canonical_layers"
+  ],
+  "properties": {
+    "archive_name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "primary_consumers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "load_order": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canonical_layers": {
+      "type": "object"
+    },
+    "reserved_user_topics": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "current_status": {
+      "type": "string"
+    },
+    "do_not_overclaim": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

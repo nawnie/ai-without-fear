@@ -1,0 +1,9 @@
+leakage_type,example,detection_question,fix
+preprocessing leakage,normalizing before train/test split,Was fit() called on all data?,split first; fit transforms on train only
+target leakage,feature contains future outcome,Would feature exist at inference?,remove or time-shift feature
+duplicate leakage,same image in train and test,Do hashes or embeddings match?,dedup before split and cross-check after split
+group leakage,same user in train and test,Can identity link rows?,group split
+time leakage,future records used to predict past,Is chronology respected?,time split
+metadata leakage,filename reveals label,Can shortcut metadata solve task?,strip or audit metadata
+prompt/eval leakage,training includes benchmark prompts,Have eval items appeared in training?,holdout contamination scan
+human-in-loop leakage,tuning repeatedly against holdout,Was holdout used to choose settings?,use validation set; lock final test

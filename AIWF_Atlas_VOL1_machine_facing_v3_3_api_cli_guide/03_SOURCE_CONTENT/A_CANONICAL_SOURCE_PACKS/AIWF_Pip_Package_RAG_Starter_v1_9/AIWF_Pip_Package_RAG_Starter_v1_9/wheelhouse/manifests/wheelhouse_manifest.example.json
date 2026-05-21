@@ -1,0 +1,37 @@
+{
+  "aiwf_wheelhouse_schema": "1.0",
+  "wheelhouse_name": "cp312-win_amd64-torchX-cuXXX",
+  "created_day": "2026-05-19",
+  "purpose": "AIWF local wheelhouse manifest example. Replace values with real build data.",
+  "environment": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python_version": "3.12.x",
+    "python_tag": "cp312",
+    "torch_version": "2.x.x+cuXXX",
+    "torch_cuda_version": "XX.X",
+    "cuda_toolkit_version": "XX.X",
+    "nvidia_driver_version": "unknown",
+    "gpu": "RTX 4070 Ti Super"
+  },
+  "build_policy": {
+    "prefer_official_wheels": true,
+    "build_source_only_when_needed": true,
+    "test_in_clean_venv_before_aiwf_supported": true,
+    "do_not_redistribute_without_license_review": true
+  },
+  "wheels": [
+    {
+      "pip_name": "example-package",
+      "version": "0.0.0",
+      "source_url": "https://github.com/example/example-package",
+      "source_commit": "replace-me",
+      "wheel_file": "example_package-0.0.0-cp312-cp312-win_amd64.whl",
+      "build_command": "python -m pip wheel . -w wheelhouse/built/current --no-deps",
+      "build_isolation": "default|no-build-isolation",
+      "smoke_test": "python -c \"import example_package; print('ok')\"",
+      "smoke_test_result": "pass|fail|not_run",
+      "notes": "replace-me"
+    }
+  ]
+}

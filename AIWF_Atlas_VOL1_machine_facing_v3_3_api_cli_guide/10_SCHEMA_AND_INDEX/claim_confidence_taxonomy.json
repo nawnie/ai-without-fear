@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "claim_types": [
+    {
+      "type": "sourced_fact",
+      "use": "Fact supported by source material; cite when answering."
+    },
+    {
+      "type": "project_policy",
+      "use": "AIWF-specific operating preference or repo convention; do not present as universal fact."
+    },
+    {
+      "type": "operational_recommendation",
+      "use": "Recommended practice based on sources/project experience; state as recommendation."
+    },
+    {
+      "type": "hypothesis",
+      "use": "Unproven product/research direction; mark as tentative."
+    },
+    {
+      "type": "user_expanded_note",
+      "use": "User-supplied research note; preserve but verify for high-stakes/current claims."
+    },
+    {
+      "type": "historical_record",
+      "use": "Old project version or provenance trail; do not treat as current."
+    },
+    {
+      "type": "current_field",
+      "use": "Planning marker only; not authority."
+    }
+  ],
+  "answer_guidance": "When claims of different types conflict, prefer sourced_fact for external facts, project_policy for AIWF repo behavior, and operational_recommendation for implementation choices. Surface the distinction."
+}

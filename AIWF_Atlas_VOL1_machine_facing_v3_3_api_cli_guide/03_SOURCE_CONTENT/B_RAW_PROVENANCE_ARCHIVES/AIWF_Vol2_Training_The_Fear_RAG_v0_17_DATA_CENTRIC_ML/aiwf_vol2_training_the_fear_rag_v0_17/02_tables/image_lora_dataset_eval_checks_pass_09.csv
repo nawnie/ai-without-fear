@@ -1,0 +1,8 @@
+check,why_it_matters,automatable
+Base model exact family/version recorded,LoRAs are not portable across families by vibes,yes
+Dataset duplicates removed,duplicates cause memorization and step imbalance,yes
+Holdout prompts exist,loss is insufficient for release judgment,yes
+Caption policy matches model family,SDXL caption habits may hurt FLUX/Qwen/Z-Image,partial
+System RAM warning included for FLUX,Flux can fail before training due to quantization/startup RAM,yes
+Consent/provenance manifest present,release risk and future RAG answers depend on it,yes
+Sample grid includes no-LoRA baseline,shows actual adapter value,yes

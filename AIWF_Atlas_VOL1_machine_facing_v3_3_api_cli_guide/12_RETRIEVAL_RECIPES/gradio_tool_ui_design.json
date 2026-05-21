@@ -1,0 +1,29 @@
+{
+  "query_type": "gradio_local_ai_tool_design",
+  "first_lanes": [
+    "11_gradio_ui_research",
+    "10_workflow_pattern_atlas_library",
+    "05_pip_runtime_dependency_knowledge"
+  ],
+  "expand_terms": [
+    "Blocks",
+    "Interface",
+    "ChatInterface",
+    "State",
+    "queue",
+    "tabs",
+    "settings",
+    "logs"
+  ],
+  "must_return": [
+    "Interface vs Blocks decision",
+    "state model",
+    "backend runner boundary",
+    "install/dependency caution"
+  ],
+  "avoid": [
+    "hardcoding secrets",
+    "exposing public share by default",
+    "mixing incompatible heavy dependencies in one venv without plan"
+  ]
+}

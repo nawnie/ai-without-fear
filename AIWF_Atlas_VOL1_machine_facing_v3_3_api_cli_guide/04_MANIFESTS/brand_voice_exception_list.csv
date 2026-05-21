@@ -1,0 +1,9 @@
+path_pattern,reason,brand_handling
+03_SOURCE_CONTENT/**,raw source/provenance evidence,do not rewrite for tone; use lane summaries for AIWF voice
+06_CHANGE_HISTORY/**,historical package/control records,do not rewrite except for integrity cleanup
+04_MANIFESTS/**,audit and machine inventory,factual only; humor off
+05_REPORTS/**,audit reports,factual only; humor off except explanatory prose if non-critical
+checksums_sha256.txt,integrity artifact,no brand language
+**/*source_verification*,source gates and verification,"strict, no humor"
+**/*license*,legal/license claims,"strict, no humor"
+**/*safety*,safety/security gates,"strict, no humor"

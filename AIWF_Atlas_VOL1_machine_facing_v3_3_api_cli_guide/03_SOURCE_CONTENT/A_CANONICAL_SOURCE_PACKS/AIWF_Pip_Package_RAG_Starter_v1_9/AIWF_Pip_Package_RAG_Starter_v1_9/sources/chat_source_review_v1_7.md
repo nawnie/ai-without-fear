@@ -1,0 +1,47 @@
+# Chat Source Review — v1.7
+
+This file captures the high-level sources surfaced across this chat while building the pip-package RAG. It is not the only source list; `source_registry.csv` is the full registry.
+
+- **v0.2 core runtime install selector**: https://pytorch.org/get-started/locally/
+- **v0.3 InsightFace ONNX Runtime backend guidance**: https://github.com/deepinsight/insightface/blob/master/python-package/README.md
+- **v0.3 ONNX Runtime install/provider boundary**: https://onnxruntime.ai/docs/install/
+- **v1.3 ONNX Runtime CUDA/cuDNN compatibility boundary**: https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html
+- **v0.3 NumPy 2 migration/binary API risk**: https://numpy.org/devdocs/numpy_2_0_migration_guide.html
+- **v0.3 SAM v1 upstream repo**: https://github.com/facebookresearch/segment-anything
+- **v0.4 Ollama Python client boundary**: https://github.com/ollama/ollama-python
+- **v0.4 pytesseract wrapper/runtime boundary**: https://pypi.org/project/pytesseract/
+- **v0.4 sentence-transformers install/reference**: https://sbert.net/docs/installation.html
+- **v0.5 bitsandbytes install/backend guidance**: https://huggingface.co/docs/bitsandbytes/en/installation
+- **v0.5 Open WebUI app/runtime docs**: https://docs.openwebui.com/
+- **v0.5 LlamaIndex package/integration boundary**: https://developers.llamaindex.ai/python/framework/getting_started/installation/
+- **v0.5 LangChain framework docs**: https://docs.langchain.com/
+- **v0.6 ffmpeg-python command graph docs**: https://kkroening.github.io/ffmpeg-python/
+- **v0.6 imageio ffmpeg backend docs**: https://imageio.readthedocs.io/en/v2.10.1/reference/_backends/imageio.plugins.ffmpeg.html
+- **v0.6 Decord video loader repo**: https://github.com/dmlc/decord
+- **v0.6 librosa install docs**: https://librosa.org/doc/latest/install.html
+- **v0.6 pybind11 install/build docs**: https://pybind11.readthedocs.io/en/stable/installing.html
+- **v0.7 ComfyUI current requirements reference**: https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt
+- **v0.7 ComfyUI upstream repo/readme**: https://github.com/comfy-org/ComfyUI
+- **v0.9 GroundingDINO transformers inference alternative**: https://huggingface.co/docs/transformers/en/model_doc/grounding-dino
+- **v0.9 MediaPipe package metadata**: https://pypi.org/project/mediapipe/
+- **v1.1 pip wheel command reference**: https://pip.pypa.io/en/stable/cli/pip_wheel/
+- **v1.1 PyTorch C++/CUDA custom ops tutorial**: https://docs.pytorch.org/tutorials/advanced/cpp_custom_ops.html
+- **v1.2 PyTorch cpp_extension reference**: https://docs.pytorch.org/docs/2.12/cpp_extension.html
+- **v1.2 NVIDIA CUDA Windows installation guide**: https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
+- **v1.2 NVIDIA PyPI component wheel index**: https://pypi.nvidia.com/
+- **v1.3 cuDNN Windows install guide**: https://docs.nvidia.com/deeplearning/cudnn/installation/latest/windows.html
+- **v1.3 cuDNN backend overview**: https://docs.nvidia.com/deeplearning/cudnn/backend/latest/api/overview.html
+- **v1.3 cuDNN frontend overview**: https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/developer/overview.html
+- **v1.3 nvidia-cudnn-cu12 package metadata**: https://pypi.org/project/nvidia-cudnn-cu12/
+- **v1.4 TensorRT installation docs**: https://docs.nvidia.com/deeplearning/tensorrt/latest/installing-tensorrt/installing.html
+- **v1.4 ONNX GraphSurgeon API docs**: https://docs.nvidia.com/deeplearning/tensorrt/latest/api/onnx-graphsurgeon-api.html
+- **v1.5 Triton server user guide**: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html
+- **v1.5 Triton model repository layout**: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/model_repository.html
+- **v1.5 Triton client docs**: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/client/README.html
+- **v1.5 Triton Python backend docs**: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/python_backend/README.html
+- **v1.5 Triton metrics docs**: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html
+- **v1.5 Triton deployment/security docs**: https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/customization_guide/deploy.html
+- **v1.6 vLLM quickstart/OpenAI-compatible server**: https://docs.vllm.ai/en/latest/getting_started/quickstart/
+- **v1.6 vLLM engine args/memory controls**: https://docs.vllm.ai/en/latest/configuration/engine_args/
+- **v1.6 FlashInfer install/platform docs**: https://docs.flashinfer.ai/installation.html
+- **v1.6 SGLang docs**: https://docs.sglang.ai/

@@ -1,0 +1,113 @@
+priority,domain,project,repo_or_source,can_train,methods,consumer_hardware_feasibility,research_status,aiwf_decision,source_note
+P0,LLM/Bot,Unsloth,https://github.com/unslothai/unsloth,"LLM SFT, QLoRA/LoRA, RL/GRPO, pretraining slices","4-bit/16-bit/FP8, LoRA/QLoRA, RL",Excellent consumer target; 7B-class adapters are realistic; 14B depends on settings,Current/high-motion,Primary beginner-to-intermediate bot trainer candidate,Official README
+P0,LLM/Bot,LLaMA-Factory,https://github.com/hiyouga/LLaMA-Factory,"LLM/VLM SFT, pretraining, reward modeling, DPO/PPO/KTO/ORPO/SimPO","LoRA, QLoRA, freeze, full, OFT/QOFT, preference tuning",Strong consumer + scalable path; published table estimates 7B 4-bit QLoRA at ~6GB and 14B at ~12GB before workload overhead,Current/high-coverage,Primary GUI/YAML map for Vol. 2,Official README
+P0,LLM/Bot,Axolotl,https://github.com/axolotl-ai-cloud/axolotl,"LLM/VLM/audio-model post-training, SFT, RM/PRM, DPO-family, GRPO","LoRA, QLoRA, full, QAT, GPTQ, DPO/KTO/ORPO/GRPO",Good but more advanced; better as serious YAML pipeline than absolute beginner UI,Current/pro-grade,Use as serious pipeline reference,Official README
+P0,LLM/Bot,Hugging Face TRL,https://github.com/huggingface/trl,"SFT, DPO, GRPO, RewardTrainer, PPO-style post-training",Trainer classes on Transformers/PEFT/Accelerate,Consumer viable for small models/adapters; foundation for many other tools,Current/library,Teach concepts and use under wrappers,Official README
+P0,LLM/Bot,torchtune,https://github.com/meta-pytorch/torchtune,PyTorch-native Llama/Qwen-style fine-tuning recipes,"LoRA, full, distributed recipes",Good for principled PyTorch examples; less GUI beginner friendly,Current/library,Use for clean educational examples,Official README
+P0,Image,SimpleTuner,https://github.com/bghira/SimpleTuner,"SDXL, SD3, Flux, Flux2, Chroma, Sana, Wan, LTX, Hunyuan, audio/video diffusion","PEFT LoRA, LyCORIS, full-rank, ControlNet, quantized training","12GB+ small, 16GB+ medium LoRA, 24GB+ large LoRA; model-specific",Current/huge-scope,Primary advanced diffusion/video trainer reference,Official README
+P0,Image/Video,Ostris AI-Toolkit,https://github.com/ostris/ai-toolkit,"Flux, Flux2, Z-Image, Qwen Image, SDXL, SD1.5, Wan 2.1/2.2, LTX-2",LoRA/adapter fine-tuning via GUI/CLI,Consumer-grade stated goal; heavy models still need compromises/cloud,Current/practical,Primary easy UI/CLI candidate for AIWF wrappers,Official README
+P0,Image,OneTrainer,https://github.com/Nerogar/OneTrainer,"SD 1.5/2.x/3.x/3.5, SDXL, Flux, Flux2, Z-Image, Qwen Image, Hunyuan Video, embeddings","Full, LoRA, embeddings, masked training",Good Windows-friendly GUI candidate; exact feasibility model-dependent,Current/GUI,Important alternative to kohya_ss for modern diffusion,Official README/search result
+P0,Video,musubi-tuner,https://github.com/kohya-ss/musubi-tuner,"HunyuanVideo, Wan2.1/2.2, FramePack, Flux Kontext, Flux2, Qwen-Image, Z-Image","LoRA, LoHa/LoKr, finetune scripts",Video LoRA can be possible but slow; 16GB needs conservative settings/block swap/offload,Current/video-specialist,Primary video LoRA reference,Official README
+P0,Image,kohya_ss / sd-scripts,https://github.com/kohya-ss/sd-scripts,"SD 1.5, SDXL, classic LoRA/DreamBooth/Textual Inversion ecosystem","LoRA, DreamBooth, TI, LyCORIS via ecosystem",Still useful; not the only answer for modern Flux/video,Legacy+active anchor,Document as foundation/history and still-useful trainer,Known ecosystem
+P1,Image,FluxGym,https://github.com/cocktailpeanut/fluxgym,FLUX LoRA with simple Gradio-style UI,LoRA via kohya/sd-scripts style backend,Good beginner UI for older Flux-class workflow; narrower scope,Useful/narrow,Good teaching example for dead-simple UX,Official README
+P1,Image,Hugging Face Diffusers training scripts,https://github.com/huggingface/diffusers/tree/main/examples,"DreamBooth, LoRA, SDXL, Flux scripts, ControlNet examples","DreamBooth LoRA, PEFT, Accelerate",Great canonical implementation; not beginner GUI,Canonical/library,Use as ground-truth API source,Official docs
+P1,Video,DiffSynth-Studio,https://github.com/modelscope/DiffSynth-Studio,Wan/video LoRA scripts and examples,LoRA training scripts,Research target; likely useful for Wan-specific examples,Current/research,Evaluate against musubi/AI-Toolkit,GitHub examples
+P1,Video,LTX-Video-Trainer,https://github.com/Lightricks/LTX-Video-Trainer,LTX Video LoRA and full fine-tuning,"LoRA, full, video-to-video workflows",Model-specific; valuable for LTX ecosystem,Current/model-specific,Dedicated LTX card needed,Official README
+P1,Audio/Voice,GPT-SoVITS,https://github.com/RVC-Boss/GPT-SoVITS,Few-shot TTS and voice conversion,"Few-shot fine-tuning, zero-shot reference, dataset tools",Consumer viable; repo reports fast inference on 4060Ti/4090; training data can start small,Current/WebUI,Voice chapter candidate with consent guardrails,Official README
+P1,Audio/Voice,RVC WebUI,https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI,Retrieval-based voice conversion,"VC model training, feature retrieval index",Consumer viable; small clean datasets can work,Mature/older,Voice conversion reference; ethics warning required,Official README
+P1,Audio/TTS,F5-TTS,https://github.com/SWivid/F5-TTS,"Flow-matching TTS, voice cloning/fine-tune workflows",Zero-shot and fine-tune ecosystem,Consumer/cloud mixed; research exact fine-tune scripts,Current/research,"Needs careful card, license/consent notes",Official repo
+P1,Audio/Singing,so-vits-svc,https://github.com/svc-develop-team/so-vits-svc,Singing voice conversion,SVC training,Older/archive-leaning; useful for history and safety notes,Legacy,Context only unless current forks win,Official README
+P1,RAG,Sentence Transformers,https://github.com/UKPLab/sentence-transformers,"Embedding models, rerankers, classifiers","Contrastive fine-tuning, pair/triplet datasets",Very consumer-friendly compared to LLM training,Current/core,Must include for practical AI bots/RAG,Known ecosystem
+P1,RAG,FlagEmbedding / BGE,https://github.com/FlagOpen/FlagEmbedding,Embeddings and rerankers for retrieval,Embedding/reranker fine-tune,Consumer-friendly for small models; huge ROI for RAG,Current/core,High priority for Vol. 2 bot training,Known ecosystem
+P1,Data,Hugging Face Datasets,https://github.com/huggingface/datasets,"Dataset loading, processing, streaming",Not trainer; data backbone,Easy; CPU/RAM/storage constraints more than VRAM,Current/core,Dataset chapter backbone,Official ecosystem
+P1,Data/Eval,Weights & Biases,https://wandb.ai/,Training tracking/eval dashboards,Not trainer,Optional cloud telemetry,Current/optional,Mention but keep local alternatives,Common tooling
+P1,Data/Eval,TensorBoard,https://www.tensorflow.org/tensorboard,Loss curves and training visualization,Not trainer,Local-friendly,Current/core,Use for training literacy,Common tooling
+P2,Image,EveryDream2,https://github.com/victorchall/EveryDream2trainer,Stable Diffusion full/DreamBooth-style training,"Full fine-tune, concepts",Old but historically important; useful for principles,Legacy,History/foundations only unless refreshed,Known project
+P2,Image,DreamBooth,https://dreambooth.github.io/,Subject personalization concept/method,Full/LoRA implementations vary,Concept still relevant; direct full DB often not beginner target,Foundational,"Teach concept, then route to LoRA scripts",Paper/project
+P2,Image,Textual Inversion,https://textual-inversion.github.io/,Token embedding personalization,Embedding training,Low VRAM but less popular for modern models,Foundational,Concept/history and niche use,Paper/project
+P2,Image,LyCORIS,https://github.com/KohakuBlueleaf/LyCORIS,"LoHa, LoKr, advanced LoRA-family adapters",Adapter methods,Useful as method family across trainers,Current/method,Explain as adapter branch,Known ecosystem
+P2,LLM/Bot,PEFT,https://github.com/huggingface/peft,Parameter-efficient fine-tuning backend,"LoRA, IA3, prompt tuning, etc.",Core dependency; consumer-friendly through adapters,Current/library,Conceptual backbone,Official HF
+P2,LLM/Bot,bitsandbytes,https://github.com/bitsandbytes-foundation/bitsandbytes,Quantized optimizers and 8/4-bit training support,"8-bit optimizers, quantization",Critical for QLoRA on consumer GPUs,Current/dependency,Explain why QLoRA fits,Known ecosystem
+P2,LLM/Bot,Accelerate,https://github.com/huggingface/accelerate,Device/distributed training launcher,Single/multi-GPU launcher,"Core for trainers, not user-facing",Current/dependency,Explain environment layer,Official HF
+P2,LLM/Bot,DeepSpeed,https://github.com/microsoft/DeepSpeed,Distributed/offload training,ZeRO/offload,More advanced; sometimes helps large models at complexity cost,Current/advanced,Advanced chapter only,Official MS
+P2,LLM/Bot,llama.cpp finetune/export path,https://github.com/ggml-org/llama.cpp,GGUF inference; limited training/conversion utilities,Usually inference/export not primary training,"Consumer essential for deployment, less for training",Current/deploy,Teach adapter merge/export flow,Known ecosystem
+P2,Deploy,vLLM,https://github.com/vllm-project/vllm,Serving fine-tuned LLMs/adapters,Inference/LoRA serving,"Deployment, not training",Current/deploy,Use after bot training,Known ecosystem
+P2,Deploy,Ollama,https://github.com/ollama/ollama,Local model running and Modelfile adapters,Inference/model packaging,Deployment target for users,Current/deploy,Teach how training output becomes usable bot,Known ecosystem
+014,Pass 02 Index,project,P0,added,01_research_cards/014_pass_02_index.md,,,,
+015,Unsloth Deep Dive,LLM training,P0,added,01_research_cards/015_unsloth_deep_dive.md,,,,
+016,LLaMA-Factory Deep Dive,LLM/VLM training,P0,added,01_research_cards/016_llamafactory_deep_dive.md,,,,
+017,Axolotl TRL torchtune Deep Dive,LLM training,P0/P1,added,01_research_cards/017_axolotl_trl_torchtune_deep_dive.md,,,,
+018,Embedding and Reranker Training,RAG training,P0,added,01_research_cards/018_embedding_reranker_training_sentence_transformers_flagembedding.md,,,,
+019,SimpleTuner Deep Dive,image/video diffusion,P0,added,01_research_cards/019_simpletuner_diffusion_deep_dive.md,,,,
+020,AI Toolkit Deep Dive,image/video diffusion,P0,added,01_research_cards/020_ai_toolkit_flux_wan_zimage_deep_dive.md,,,,
+021,OneTrainer and GUI Diffusion Context,image diffusion,P1,added,01_research_cards/021_onetrainer_kohya_gui_diffusion_context.md,,,,
+022,musubi-tuner Deep Dive,video diffusion,P0,added,01_research_cards/022_musubi_tuner_wan_hunyuan_video_deep_dive.md,,,,
+023,LTX Video Training Deep Dive,video diffusion,P0/P1,added,01_research_cards/023_ltx_video_training_deep_dive.md,,,,
+024,GPT-SoVITS Deep Dive,voice/audio,P0,added,01_research_cards/024_gpt_sovits_voice_training_deep_dive.md,,,,
+025,Dataset Doctor Spec Bridge,dataset QA,P0,added,01_research_cards/025_dataset_doctor_spec_bridge.md,,,,
+026,Training Law Rights Consent Baseline,law/risk,P0,added,01_research_cards/026_training_law_rights_consent_baseline.md,,,,
+027,Training Theory Core Laws,theory,P0,added,01_research_cards/027_training_theory_core_laws.md,,,,
+028,Pass 03 index,control,01_research_cards/028_pass_03_index.md,draft,Theory/law/method expansion index,,,,
+029,Consumer hardware VRAM math,hardware,01_research_cards/029_consumer_hardware_vram_math.md,draft,Local training tiers and failure signatures,,,,
+030,PEFT methods,theory,01_research_cards/030_peft_methods_lora_qlora_dora_ia3_prefix.md,draft,LoRA QLoRA DoRA IA3 AdaLoRA prompt/prefix,,,,
+031,Quantization map,theory,01_research_cards/031_quantization_training_inference_map.md,draft,Training vs inference vs export,,,,
+032,Alignment/preference training,theory,01_research_cards/032_alignment_preference_training_sft_dpo_orpo_kto_grpo.md,draft,SFT DPO ORPO KTO GRPO RLHF,,,,
+033,RAG vs fine-tune decision tree,decision,01_research_cards/033_rag_vs_finetune_decision_tree.md,draft,Prevent training when RAG/prompt/tooling is better,,,,
+034,Dataset quality laws,dataset,01_research_cards/034_dataset_design_quality_laws.md,draft,Cross-modal dataset doctrine,,,,
+035,Model/dataset cards and provenance,governance,01_research_cards/035_model_cards_dataset_cards_provenance.md,draft,Documentation baseline,,,,
+036,Evaluation frameworks,evaluation,01_research_cards/036_evaluation_frameworks_lm_eval_opencompass_ragas_deepeval.md,draft,lm-eval OpenCompass RAGAS DeepEval,,,,
+037,Image LoRA captioning pipeline,image,01_research_cards/037_image_lora_dataset_captioning_pipeline.md,draft,JoyCaption WD14 Florence-2 dataset prep,,,,
+038,Video LoRA motion pipeline,video,01_research_cards/038_video_lora_dataset_motion_pipeline.md,draft,Clip metadata motion labels temporal eval,,,,
+039,Pass 04 Index,research pass index,01_research_cards/039_pass_04_index.md,,,,,,
+040,torchtune,LLM native PyTorch recipes,01_research_cards/040_torchtune_native_pytorch_recipes.md,,,,,,
+041,HF PEFT,adapter methods,01_research_cards/041_hf_peft_library_adapter_ops.md,,,,,,
+042,HF TRL,SFT/preference/reward training,01_research_cards/042_hf_trl_post_training_stack.md,,,,,,
+043,Accelerate DeepSpeed FSDP,memory backend,01_research_cards/043_accelerate_deepspeed_fsdp_memory_backend.md,,,,,,
+044,AutoTrain,low-code training,01_research_cards/044_autotrain_low_code_training_bridge.md,,,,,,
+045,VLM training,Qwen/LLaVA vision-language,01_research_cards/045_vlm_training_qwen_llava_bridge.md,,,,,,
+046,ASR training,Whisper/Wav2Vec2,01_research_cards/046_asr_whisper_wav2vec_training.md,,,,,,
+047,Consumer GPU runbook,hardware presets,01_research_cards/047_aiwf_training_runbook_consumer_gpus.md,,,,,,
+048,Failure signatures,debug taxonomy,01_research_cards/048_training_failure_signatures_oom_overfit_collapse.md,,,,,,
+049,Dataset provenance manifest,schema,01_research_cards/049_dataset_provenance_manifest_schema.md,,,,,,
+050,AIWF trainer wrapper,architecture spec,01_research_cards/050_aiwf_trainer_wrapper_architecture.md,,,,,,
+051,Pass 05 Index,"dataset construction, captioning, synthetic data, run evidence",01_research_cards/051_pass_05_index.md,pass index,v0.5,,,,
+052,LLM Dataset Formats and Chat Templates,"Alpaca, ShareGPT, messages, preference, chat templates",01_research_cards/052_llm_dataset_formats_chat_templates.md,dataset formatting,v0.5,,,,
+053,Data Cleaning/Dedup/PII/Triage,"deduplication, Presidio, cleanlab, train/eval leakage",01_research_cards/053_data_cleaning_dedup_pii_dataset_triage.md,dataset quality,v0.5,,,,
+054,Synthetic Instruction Data,"Self-Instruct, Evol-Instruct, Distilabel, distillation",01_research_cards/054_synthetic_instruction_data_distillation_self_instruct.md,synthetic data,v0.5,,,,
+055,Preference Dataset Construction,"DPO, ORPO, KTO, RLAIF, chosen/rejected pairs",01_research_cards/055_preference_dataset_construction_dpo_orpo_kto_rlaif.md,preference training,v0.5,,,,
+056,Image Captioning and Tagging Toolchain,"BLIP, Florence-2, WD14, captions, trigger tokens",01_research_cards/056_image_lora_captioning_tagging_toolchain.md,image lora data,v0.5,,,,
+057,Video Dataset Preparation,"Wan, LTX, buckets, frame count, motion captions",01_research_cards/057_video_dataset_preparation_wan_ltx_diffusion_loras.md,video lora data,v0.5,,,,
+058,Multimodal VLM Dataset Construction,"image QA, OCR, screenshot diagnosis, VLM SFT",01_research_cards/058_multimodal_vlm_dataset_construction.md,vlm data,v0.5,,,,
+059,Training Telemetry and Run Evidence,"TensorBoard, W&B, MLflow, logs, metrics",01_research_cards/059_training_telemetry_experiment_tracking_run_evidence.md,experiment tracking,v0.5,,,,
+060,AIWF Reproducibility Run Pack,"run cards, manifests, configs, model cards",01_research_cards/060_reproducibility_package_format_aiwf_training_runs.md,reproducibility,v0.5,,,,
+061,pass_06_index,index,Pass 06 training methods and presets overview,01_research_cards/061_pass_06_index.md,,,,,
+062,adapter_method_decision_tree,method,LoRA/QLoRA/DoRA/rsLoRA/RAG/full fine-tune decision tree,01_research_cards/062_adapter_method_decision_tree.md,,,,,
+063,lora_hyperparameters_target_modules,method,"LoRA ranks, alpha, dropout, target modules, LR, batch and failures",01_research_cards/063_lora_hyperparameters_target_modules.md,,,,,
+064,qlora_memory_recipe_bitsandbytes,method,"QLoRA memory ingredients, bitsandbytes, smoke test protocol",01_research_cards/064_qlora_memory_recipe_bitsandbytes.md,,,,,
+065,dora_rslora_practical_notes,method,DoRA/rsLoRA escalation notes and baseline comparisons,01_research_cards/065_dora_rslora_practical_notes.md,,,,,
+066,optimizers_schedulers_consumer_training,method,"AdamW, 8-bit, paged, Prodigy, Adafactor, Sophia, schedulers",01_research_cards/066_optimizers_schedulers_consumer_training.md,,,,,
+067,curriculum_data_mixing_replay,theory,"Data mixing, curriculum, replay, capability preservation",01_research_cards/067_curriculum_data_mixing_replay.md,,,,,
+068,retriever_training_rag_finetuning,rag,"Embedding/reranker training, hard negatives, BEIR/RAGAS metrics",01_research_cards/068_retriever_training_rag_finetuning.md,,,,,
+069,adapter_merging_deployment,deployment,"Keep, stack, merge, bake, mergekit and adapter registry",01_research_cards/069_adapter_merging_deployment.md,,,,,
+070,consumer_gpu_training_presets,presets,12GB/16GB/24GB field defaults,01_research_cards/070_consumer_gpu_training_presets.md,,,,,
+071,diffusion_lora_presets_image_video,presets,"Image/video LoRA concept types, captions, checkpoint sampling",01_research_cards/071_diffusion_lora_presets_image_video.md,,,,,
+072,evaluation_gates_release_checklist,eval,"Legal, dataset, smoke test, final eval and release packaging gates",01_research_cards/072_evaluation_gates_release_checklist.md,,,,,
+073,Pass 07 index,post-training release gates,index,RAG,v0.7,,,,
+074,RLHF RLAIF reward modeling,LLM post-training,research_card,TRL/OpenAI,v0.7,,,,
+075,DPO ORPO KTO GRPO selection,preference training,research_card,TRL,v0.7,,,,
+076,Distillation synthetic data,teacher-student training,research_card,DistilBERT/Optimum,v0.7,,,,
+077,Model merging mergekit,model merging,research_card,mergekit,v0.7,,,,
+078,Quantization export,deployment,research_card,bitsandbytes/llama.cpp/AWQ,v0.7,,,,
+079,Evaluation harness private benchmarks,evaluation,research_card,lm-eval/OpenAI Evals/HF Evaluate,v0.7,,,,
+080,Safety alignment red-team gates,governance,research_card,NIST/PAI,v0.7,,,,
+081,Deployment and adapter release,release packaging,research_card,PEFT/GGUF/model cards,v0.7,,,,
+082,AIWF Training Judge,AIWF spec bridge,research_card,AIWF,v0.7,,,,
+083,Post-training failure modes,failure signatures,research_card,TRL/evals,v0.7,,,,
+P0,Project Control,Pass 08 Review and Polish,Internal archive review,N/A,"RAG organization, editorial scaffolding, coverage audit",N/A,Complete polish pass,Keep expanding with narrow deep passes; next pass image LoRA depth,Internal review of v0.7 archive
+P0,Image LoRA,SDXL baseline,https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0,image LoRA,LoRA/DreamBooth/fine-tune,Strong on 12GB-24GB,current/mature,Primary beginner image lab,Pass 09
+P0,Image LoRA,FLUX.1,https://github.com/bghira/SimpleTuner/blob/main/documentation/quickstart/FLUX.md,image LoRA/full,LoRA with quant/offload,Possible but RAM-heavy; 16GB requires care,current/high-motion,Advanced quality target,Pass 09
+P0,Image LoRA,FLUX.2 Klein,https://github.com/black-forest-labs/flux2,image generation/editing LoRA target,LoRA via AI Toolkit/musubi-tuner,Promising for 16GB-24GB depending variant,March 2026 frontier,Priority watch/preset candidate,Pass 09
+P0,Image LoRA,Qwen-Image/2512/Edit,https://huggingface.co/Qwen/Qwen-Image-2512,image/edit LoRA,LoRA/fine-tune via AI Toolkit/musubi,Advanced; likely 24GB+ or cloud-first,current/high-motion,"Advanced quality target, not beginner default",Pass 09
+P0,Image LoRA,Z-Image,https://github.com/kohya-ss/musubi-tuner,image LoRA/fine-tune,LoRA/fine-tune,Promising consumer frontier,current/high-motion,Priority experimental preset target,Pass 09
+P0,Trainer,AI Toolkit image trainer,https://github.com/ostris/ai-toolkit,image/video diffusion training,LoRA/finetune GUI/CLI,Strong consumer orientation,current/high-motion,Primary AIWF wrapper candidate,Pass 09
+P0,Trainer,musubi-tuner image/video specialist,https://github.com/kohya-ss/musubi-tuner,Wan/Qwen/Z-Image/FLUX.2/Hunyuan training,LoRA/LoHa/LoKr/fine-tune,Advanced specialist; backend-specific,current/high-motion,Specialist backend for new families,Pass 09

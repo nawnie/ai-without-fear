@@ -1,0 +1,11 @@
+lab,skill,artifact
+messy folder inventory,make data visible,dataset_inventory.csv
+duplicate hunt,dedup and contamination,dedup_report.csv
+split experiment,show leakage inflation,split_comparison.md
+JSONL schema test,validate LLM data,schema_report.md
+caption audit,inspect LoRA labels,caption_quality_report.md
+weak supervision rules,programmatic labels,labeling_functions.py
+active learning loop,efficient human review,review_queue.csv
+dataset card,documentation and governance,dataset_card.md
+drift comparison,monitor changed distributions,drift_report.md
+run pack freeze,reproducible training,aiwf_run_pack.zip

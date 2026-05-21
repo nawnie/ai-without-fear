@@ -1,0 +1,7 @@
+signature,likely_causes,first_fixes,domains
+OOM before first step,model too large; sequence/resolution/frame too high; batch too high,batch 1; lower length/resolution; checkpointing; QLoRA/LoRA; smaller model,"LLM,VLM,image,video,ASR"
+OOM during eval,eval batch or generation max tokens too high,lower eval batch; reduce max_new_tokens; eval less often,"LLM,VLM"
+train loss down but output worse,overfit; template mismatch; LR too high; data too narrow,reduce LR/epochs; add validation; fix template; dedupe,"LLM,VLM"
+identity drift,weak identity consistency; captions weak; no identity strategy,better curated frames/images; consistent trigger; identity eval grid,"image,video"
+temporal noise,too much motion/resolution/frame pressure; weak motion captions,shorter clips; lower resolution; better captions; conservative LR,video
+ASR hallucination on silence,no negative silence/noise examples,add silence/noise negatives; eval on quiet clips,ASR

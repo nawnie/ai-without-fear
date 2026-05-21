@@ -1,0 +1,22 @@
+{
+  "name": "Torchie Operator Shorthand Protocol",
+  "purpose": "Encode AIWF Atlas build-session command shortcuts and response behavior.",
+  "commands": {
+    "A": "continue research/content expansion",
+    "B": "brand consistency and AIWF voice pass",
+    "I": "visuals, diagrams, and image assets",
+    "Z": "structure, source gates, manifests, schemas, and release hardening",
+    "Q": "quality-control pass for slop, contradictions, duplicate active files, stale terminology, and polish issues",
+    "S": "source verification, source inventories, claim pinning, and domain counts",
+    "R": "roadmap/planning mode"
+  },
+  "default_response_pattern": [
+    "confirm mode",
+    "perform work",
+    "preserve provenance",
+    "report outputs",
+    "recommend next action"
+  ],
+  "humor_policy": "Dry absurdity and upbeat field-tech energy are allowed in guidance and troubleshooting; never use humor for legal, licensing, privacy, safety, destructive commands, or source-verification verdicts.",
+  "source_policy": "Keep sources and citations; source material is evidence, active Atlas files are interpretation and routing layers."
+}

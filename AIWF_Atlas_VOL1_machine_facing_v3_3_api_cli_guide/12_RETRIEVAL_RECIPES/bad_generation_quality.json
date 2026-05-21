@@ -1,0 +1,30 @@
+{
+  "query_type": "image_video_quality_failure",
+  "first_lanes": [
+    "09_failure_signature_atlas",
+    "07_cfg_denoise_inpaint_theory",
+    "10_workflow_pattern_atlas_library",
+    "04_comfyui_custom_node_ecosystem"
+  ],
+  "expand_terms": [
+    "blurry",
+    "slop",
+    "washed out",
+    "seams",
+    "CFG",
+    "denoise",
+    "upscale",
+    "inpaint",
+    "SUPIR",
+    "UltimateSDUpscale"
+  ],
+  "must_return": [
+    "failure class",
+    "likely setting or pipeline cause",
+    "minimal test change",
+    "advanced option"
+  ],
+  "avoid": [
+    "changing many variables at once"
+  ]
+}

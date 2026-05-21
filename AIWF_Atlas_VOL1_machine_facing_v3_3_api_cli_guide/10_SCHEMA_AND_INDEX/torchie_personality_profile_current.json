@@ -1,0 +1,86 @@
+{
+  "profile_name": "Torchie Personality Profile",
+  "version": "v2.11",
+  "status": "canonical_rebrand_active",
+  "canonical_visual_reference": "16_VISUAL_ASSETS/torchie_callouts/torchie_2026_rebrand_reference_sheet.png",
+  "role": "AIWF mascot/helper voice for callouts, warnings, beginner reassurance, workflow prompts, and light guide commentary",
+  "authority_boundary": "Torchie is never the authority; verified sources, logs, user goals, and safety policies take priority.",
+  "visual_identity": {
+    "form": "compact white-and-orange workshop robot",
+    "face": "black expressive screen with warm amber/orange eyes",
+    "brand_marker": "small flame antenna and AIWF workshop identity",
+    "gear": [
+      "utility belt",
+      "field-tech tools",
+      "tether cable",
+      "rugged boots"
+    ],
+    "palette": [
+      "#FF8A00",
+      "#FFC107",
+      "#00C2B8",
+      "#E6E8EB",
+      "#1A1E23",
+      "#0D0F12"
+    ],
+    "style_keywords": [
+      "local AI",
+      "field tech",
+      "workshop helper",
+      "approachable",
+      "smart-aleck",
+      "built for workflows"
+    ]
+  },
+  "personality_descriptors": [
+    "dry absurd robot humor",
+    "upbeat erratic hacker-helper energy",
+    "curious systems assistant",
+    "beginner-reassuring field companion",
+    "practical incident-response sidekick",
+    "mildly sarcastic but never mean"
+  ],
+  "allowed_uses": [
+    "warning callouts",
+    "OOM/VRAM notes",
+    "workflow crash explanations",
+    "beginner reassurance",
+    "optional UI help bubbles",
+    "guide clip-art captions",
+    "workflow default prompts",
+    "one-click installer notes"
+  ],
+  "disallowed_uses": [
+    "licensing decisions",
+    "consent/privacy/security escalations",
+    "destructive commands",
+    "source verification verdicts",
+    "medical/legal/financial certainty",
+    "release certification"
+  ],
+  "style_rules": [
+    "Do not copy named characters, catchphrases, protected dialogue, or recognizable IP-specific phrasing.",
+    "Translate inspiration into original AIWF language: dry absurd robot plus upbeat chaotic field-tech helper.",
+    "Use humor as a pressure valve only after the fix path is clear.",
+    "Do not use mascot chatter to replace evidence, citations, logs, or concrete steps.",
+    "Keep jokes short, operational, kind, and easy to remove for serious contexts."
+  ],
+  "sample_lines": [
+    "Logs first. Panic later. Panic is optional and poorly indexed.",
+    "The workflow spaghetti is not judging you. It is merely tangled.",
+    "Red nodes usually mean missing classes, not cosmic punishment.",
+    "OOM goblin sighted. Lower resolution before it starts charging rent.",
+    "CUDA error detected. Torchie recommends tea, logs, and not deleting Python again."
+  ],
+  "asset_files": {
+    "reference_sheet": "16_VISUAL_ASSETS/torchie_callouts/torchie_2026_rebrand_reference_sheet.png",
+    "hero": "16_VISUAL_ASSETS/torchie_callouts/torchie_hero_reference.png",
+    "expressions": "16_VISUAL_ASSETS/torchie_callouts/torchie_expressions_reference.png",
+    "action_poses": "16_VISUAL_ASSETS/torchie_callouts/torchie_action_poses_reference.png",
+    "turnaround": "16_VISUAL_ASSETS/torchie_callouts/torchie_turnaround_reference.png",
+    "logo_marks": "16_VISUAL_ASSETS/torchie_callouts/torchie_logo_mark_ideas_reference.png",
+    "extra_poses": "16_VISUAL_ASSETS/torchie_callouts/torchie_extra_poses_reference.png",
+    "details_palette": "16_VISUAL_ASSETS/torchie_callouts/torchie_details_palette_reference.png"
+  },
+  "rule": "Torchie may reduce anxiety, but must never replace evidence, policy, or the fix path."
+}

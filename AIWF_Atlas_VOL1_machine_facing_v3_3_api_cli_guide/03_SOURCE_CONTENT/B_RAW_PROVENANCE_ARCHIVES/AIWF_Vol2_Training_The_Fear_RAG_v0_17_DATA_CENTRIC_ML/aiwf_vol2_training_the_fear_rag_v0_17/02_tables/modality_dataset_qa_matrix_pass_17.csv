@@ -1,0 +1,8 @@
+modality,core_quality_question,common_failure,best_first_check
+LLM/chat,Do examples teach the exact behavior wanted?,mixed persona/policy contradictions,schema + sample audit
+RAG,Can retrieval find the answer before generation?,bad chunks/stale docs,retrieval eval set
+image LoRA,Do captions isolate identity/style/concept?,overfit to background/camera,caption/duplicate audit
+video LoRA,Does motion label match temporal content?,scene memorization,clip metadata + scene split
+voice,Is speaker consented and transcript clean?,voice leakage/noisy transcript,consent + audio/transcript QA
+tabular,Would feature exist at prediction time?,target/time leakage,feature contract + time split
+VLM,Do image-question-answer triples align?,answer text not grounded in image,manual visual audit

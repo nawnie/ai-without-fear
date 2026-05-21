@@ -1,0 +1,69 @@
+# AIWF Research Atlas
+
+Status: v3.3 research preview. See `KNOWN_GAPS.md`, `LEARNING_PASS_REVIEW.md`, and the Vol. 2 queue files before treating this as a finished corpus.
+
+AIWF Research Atlas is a GitHub-ready research and retrieval corpus for AI Without Fear work. The original Atlas v3.3 folder, Gradio 6 handbook archive, and older drop-in package have been merged into one Atlas tree so downstream tools see them as one evolving knowledge base rather than three separate corpora.
+
+This is not a normal application package. It is a structured research Atlas: policy files, canonical topic lanes, retrieval cards, source archives, visual assets, evaluation material, and Gradio-focused handbook chapters are kept together so an AI system can retrieve grounded context instead of improvising from memory.
+
+## Start Here
+
+- `NOTES_TO_AI.md` - operating intent for AI assistants and RAG systems.
+- `RAG_ATLAS_INDEX.md` - high-level map of the combined Atlas.
+- `INGESTION_GUIDE.md` - recommended indexing order and metadata.
+- `KNOWN_GAPS.md` - known content and publication gaps.
+- `LEARNING_PASS_REVIEW.md` - current review findings and next-pass priorities.
+- `LICENSE.md` - conservative research-preview rights statement.
+- `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/` - the single combined Atlas tree.
+- `metadata/` - generated repository manifests, checksums, and RAG file indexes.
+
+## Combined Atlas Layout
+
+| Layer | Path | Role |
+|---|---|---|
+| AI instructions | `NOTES_TO_AI.md` | Root operating notes for assistants using this repo |
+| Atlas control layer | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/00_AI_READ_FIRST/` | Source policy, confidence gates, citation rules, routing behavior |
+| Retrieval index | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/02_RETRIEVAL_INDEX/` | Compact Atlas cards and lane routing |
+| Canonical lanes | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/01_CANONICAL_RESEARCH_LANES/` | Synthesized domain knowledge by topic |
+| Source evidence | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/03_SOURCE_CONTENT/` | Preserved source packs, raw provenance, and legacy material |
+| Gradio 6 update pack | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/03_SOURCE_CONTENT/A_CANONICAL_SOURCE_PACKS/gradio6_rag_archive_20260521_0838/` | Gradio 6 handbook source pack integrated into the Atlas |
+| Evaluation | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/09_EVALUATION_HARNESS/` | Evaluation prompts, rubrics, and benchmark scaffolding |
+| Visual assets | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/` | Diagrams, visual indexes, and callout guidance |
+| Packaged release history | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/06_CHANGE_HISTORY/packaged_releases/` | Older zip/drop-in release preserved as history |
+
+## Recommended Use
+
+For AI/RAG systems, index the repo in layers:
+
+1. Read `NOTES_TO_AI.md`.
+2. Load Atlas control files from `00_AI_READ_FIRST/`.
+3. Index Atlas retrieval cards and lane indexes.
+4. Index canonical research lanes.
+5. Index the integrated Gradio 6 source pack at section-file granularity when Gradio questions are in scope.
+6. Use source archives only when provenance or exact evidence is needed.
+7. Use manifests, reports, and change history for audit work rather than normal answers.
+
+For human readers, start with `RAG_ATLAS_INDEX.md` and then follow the lane, chapter, or topic path that matches your question.
+
+## Current Scope
+
+This repository is strongest for:
+
+- AIWF retrieval architecture, chunking, source governance, and answer gating.
+- ComfyUI workflow, node ecosystem, datatype, API, and automation patterns.
+- Python/pip/runtime troubleshooting and model-serving context.
+- Gradio 6 app building, production operation, migration, and API integration.
+- Evaluation harnesses, observability, and research-quality checks.
+- AI application architecture, safety, licensing, synthetic data, document AI, audio, and related AI practice lanes.
+
+## Important Limits
+
+- This repository is a research corpus, not proof that all included fast-moving technical claims are current forever.
+- Current model, API, package, hardware, benchmark, license, and compatibility claims should be verified against official sources before being treated as live guidance.
+- Source archives preserve history and provenance. Prefer canonical lanes for normal answers.
+- No included material should be treated as a license grant for third-party tools, models, packages, or assets.
+- This research-preview repository is currently All Rights Reserved unless a later license grants broader reuse rights.
+
+## GitHub Notes
+
+The repository intentionally keeps the main Atlas folder name so existing internal references remain meaningful. The Gradio archive and packaged drop-in are now incorporated inside the Atlas tree as update/history material instead of standing beside it as separate corpora.

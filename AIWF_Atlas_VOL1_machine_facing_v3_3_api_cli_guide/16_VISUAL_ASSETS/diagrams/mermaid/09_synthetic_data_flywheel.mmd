@@ -1,0 +1,13 @@
+flowchart LR
+  prod["Production Failure"]
+  logs["Failure Logs"]
+  generate["Synthetic Generator"]
+  curate["Curation Gates"]
+  train["Train / Tune / Evaluate"]
+  deploy["Deploy If Better"]
+  prod --> logs
+  logs --> generate
+  generate --> curate
+  curate --> train
+  train --> deploy
+  deploy -- "monitor" --> prod

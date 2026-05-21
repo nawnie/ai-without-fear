@@ -1,0 +1,51 @@
+{
+  "version": "v2.8",
+  "answer_modes": {
+    "troubleshooting": {
+      "order": [
+        "symptom",
+        "likely cause",
+        "next check",
+        "fix",
+        "rollback"
+      ],
+      "humor": "light after fix path"
+    },
+    "research": {
+      "order": [
+        "claim",
+        "source status",
+        "confidence",
+        "caveat",
+        "next verification"
+      ],
+      "humor": "minimal"
+    },
+    "workflow_design": {
+      "order": [
+        "goal",
+        "pattern",
+        "components",
+        "failure modes",
+        "implementation path"
+      ],
+      "humor": "light"
+    },
+    "policy_or_safety": {
+      "order": [
+        "rule",
+        "reason",
+        "safe alternative"
+      ],
+      "humor": "off"
+    },
+    "unknown_or_volatile": {
+      "order": [
+        "uncertainty",
+        "what to verify",
+        "temporary label"
+      ],
+      "humor": "light only if not high stakes"
+    }
+  }
+}

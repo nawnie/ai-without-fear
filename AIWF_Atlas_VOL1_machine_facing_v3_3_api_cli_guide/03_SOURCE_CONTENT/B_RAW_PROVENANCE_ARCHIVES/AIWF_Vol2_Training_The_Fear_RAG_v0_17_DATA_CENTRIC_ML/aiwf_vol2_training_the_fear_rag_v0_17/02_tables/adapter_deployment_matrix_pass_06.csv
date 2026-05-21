@@ -1,0 +1,5 @@
+deployment_mode,best_for,pros,risks,required_artifacts
+separate adapter,testing and flexible runtime,"small, swappable, auditable",runtime must support adapter,"base ID, adapter, config"
+stacked adapters,combining domain/style/task,flexible composition,adapter conflict,"all adapters, weights, eval grid"
+merged adapter,simple deployment,one model artifact,less rollback flexibility,"base, adapter, merge config, merged eval"
+model merge,experimental checkpoint blending,no training data required sometimes,unpredictable behavior,"mergekit config, source models, eval"

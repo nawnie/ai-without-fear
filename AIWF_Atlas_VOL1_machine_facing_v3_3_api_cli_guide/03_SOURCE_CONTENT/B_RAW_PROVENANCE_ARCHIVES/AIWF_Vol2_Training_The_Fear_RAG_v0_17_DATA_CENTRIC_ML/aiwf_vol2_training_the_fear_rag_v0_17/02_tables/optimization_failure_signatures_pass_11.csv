@@ -1,0 +1,7 @@
+signature,likely_cause,first_check,first_fix
+loss does not move,"frozen params, wrong LR, broken labels, disconnected loss",verify trainable params and sample batch,run tiny overfit test
+loss NaN/inf,"LR too high, mixed precision instability, bad data",inspect batch/logs/grad norms,"lower LR, clip gradients, clean data"
+train improves val worsens,overfit or distribution mismatch,learning curves and split audit,"early stop, regularize, improve data"
+val too good,leakage/duplicates/test contamination,duplicate/group split audit,resplit and rerun
+outputs collapse/repeat,"objective/data too narrow, LR too high",sample diversity + labels,"lower LR, broaden data, reduce epochs"
+training slow but stable,"LR too low, model too large, IO bottleneck",profile GPU utilization,increase LR cautiously or optimize dataloader

@@ -1,0 +1,14 @@
+source_ref,repo,path,used_for
+turn376file4,MinusZoneAI/ComfyUI-FluxExt-MZ,__init__.py,FluxExt-MZ pack confirmation
+turn376file0; turn376file3,MinusZoneAI/ComfyUI-Kolors-MZ,__init__.py; mz_kolors_legacy.py,Kolors-MZ pack confirmation and legacy coverage
+turn376file5,kijai/ComfyUI-KwaiKolorsWrapper,nodes.py,KwaiKolorsWrapper pack confirmation
+turn376file1; turn376file2,city96/ComfyUI_ExtraModels,utils/offload.py; Gemma/nodes.py,ExtraModels broad model/offload coverage
+turn380file4,kohya-ss/ControlNet-LLLite-ComfyUI,node_control_net_lllite.py,ControlNet-LLLite confirmation
+turn380file1,huchenlei/ComfyUI_omost,omost_nodes.py,Omost regional prompt coverage
+repo_search_only,ClownsharkBatwing/RES4LYF,repository result,RES4LYF repo resolution only; dense needed
+turn380file2; turn380file5; turn380file7; turn380file9; turn380file10; turn380file11,pamparamm/ComfyUI-ppm,nodes_ppm modules,ppm advanced sampler/guidance/latent coverage
+turn380file0; turn380file3; turn380file6; turn380file8,pamparamm/sd-perturbed-attention,PAG/NAG/TPG/PLADIS nodes,perturbed-attention guidance coverage
+turn384file0,Extraltodeus/ComfyUI-AutomaticCFG,__init__.py,AutomaticCFG mapping confirmation
+turn381file0,envy-ai/ComfyUI-ConDelta,nodes.py,ConDelta coverage
+turn382file1,kaibioinfo/ComfyUI_AdvancedRefluxControl,nodes.py,AdvancedReflux coverage
+turn382file0,fairy-root/Flux-Prompt-Generator,flux_prompt_generator.py,Flux prompt generator coverage

@@ -1,0 +1,11 @@
+law_or_fact,plain_english,why_aiwf_cares,primary_files
+No free lunch,No algorithm wins on every possible task,Use task-specific evaluation,"103,109"
+Garbage in garbage out,Bad data creates bad behavior,Dataset Doctor is mandatory,"108,104"
+Leakage creates fake skill,Train/test contamination inflates metrics,Split by generalization unit,"108,109"
+Loss is not behavior,Optimizing metric can miss human goal,Need eval rubrics and release gates,"104,109"
+Bigger is not automatically better,Capacity interacts with data and training regime,Use baselines and validation,106
+Cross-entropy is distribution mismatch,LM loss measures prediction probability not truth,Do not equate low loss with factuality,"102,115"
+Optimization is path dependent,LR schedules seeds precision affect outcome,Log runs and ablate,"105,120"
+Representations transfer imperfectly,Embeddings encode task-shaped similarity,Evaluate retrieval and adapter behavior,111
+Deployment changes the problem,Real use causes drift and new failure modes,Monitoring and rollback,120
+Privacy can leak through models,Weights may memorize sensitive data,PII scan and consent,119

@@ -1,0 +1,336 @@
+[
+  {
+    "group_base": "coverage_dashboard",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_17.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_16.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_15.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_14.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_13.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_12.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_11.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_10.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_9.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_8.md"
+    ],
+    "unique_chunks_or_rows_added": 49,
+    "final_unique_units_or_rows": 52,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_16.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_15.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_14.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_13.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_12.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_11.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_10.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_9.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/COVERAGE_DASHBOARD_v0_8.md",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "file_manifest_current",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control",
+    "extension": ".txt",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_17.txt",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_16.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_15.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_14.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_13.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_12.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_11.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_10.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_9.txt"
+    ],
+    "unique_chunks_or_rows_added": 10,
+    "final_unique_units_or_rows": 11,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_16.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_15.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_14.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_13.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_12.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_11.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_10.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/FILE_MANIFEST_CURRENT_v0_9.txt",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "next_pass_queue",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/NEXT_PASS_QUEUE_v0_17.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/NEXT_PASS_QUEUE_v0_16.md"
+    ],
+    "unique_chunks_or_rows_added": 2,
+    "final_unique_units_or_rows": 4,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/NEXT_PASS_QUEUE_v0_16.md",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "file_manifest",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests",
+    "extension": ".txt",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_7.txt",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_6.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_5.txt",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_4.txt"
+    ],
+    "unique_chunks_or_rows_added": 4,
+    "final_unique_units_or_rows": 5,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_6.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_5.txt",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/00_project_control/archive_manifests/FILE_MANIFEST_v0_4.txt",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "pass_status_matrix",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/pass_status_matrix_v0_12.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/pass_status_matrix_v0_11.csv",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/pass_status_matrix_v0_9.csv"
+    ],
+    "unique_chunks_or_rows_added": 22,
+    "final_unique_units_or_rows": 35,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/pass_status_matrix_v0_11.csv",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/pass_status_matrix_v0_9.csv",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "source_domain_summary",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_domain_summary_v0_17.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_domain_summary_v0_16.csv",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_domain_summary_v0_15.csv"
+    ],
+    "unique_chunks_or_rows_added": 5,
+    "final_unique_units_or_rows": 86,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_domain_summary_v0_16.csv",
+        "unit_jaccard_with_canonical": 0.8077
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_domain_summary_v0_15.csv",
+        "unit_jaccard_with_canonical": 0.8077
+      }
+    ]
+  },
+  {
+    "group_base": "source_topic_summary",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_topic_summary_v0_17.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_topic_summary_v0_16.csv",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_topic_summary_v0_15.csv"
+    ],
+    "unique_chunks_or_rows_added": 0,
+    "final_unique_units_or_rows": 31,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_topic_summary_v0_16.csv",
+        "unit_jaccard_with_canonical": 0.8095
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_topic_summary_v0_15.csv",
+        "unit_jaccard_with_canonical": 0.5
+      }
+    ]
+  },
+  {
+    "group_base": "source_type_priority_summary",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_type_priority_summary_v0_17.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_type_priority_summary_v0_16.csv",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_type_priority_summary_v0_15.csv"
+    ],
+    "unique_chunks_or_rows_added": 21,
+    "final_unique_units_or_rows": 44,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_type_priority_summary_v0_16.csv",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/02_tables/source_type_priority_summary_v0_15.csv",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "next_pass_queue",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_15.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_13.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_12.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_11.md"
+    ],
+    "unique_chunks_or_rows_added": 24,
+    "final_unique_units_or_rows": 32,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_13.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_12.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/04_future_passes/NEXT_PASS_QUEUE_v0_11.md",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "aiwf_dataset_doctor",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/05_specs",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/05_specs/AIWF_Dataset_Doctor_v0_3.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/05_specs/AIWF_Dataset_Doctor_v0_2.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/05_specs/AIWF_Dataset_Doctor_v0_1.md"
+    ],
+    "unique_chunks_or_rows_added": 42,
+    "final_unique_units_or_rows": 61,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/05_specs/AIWF_Dataset_Doctor_v0_2.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/05_specs/AIWF_Dataset_Doctor_v0_1.md",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  },
+  {
+    "group_base": "master_source_register",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources",
+    "extension": ".csv",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_17.csv",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_16.csv",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_15.csv"
+    ],
+    "unique_chunks_or_rows_added": 0,
+    "final_unique_units_or_rows": 325,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_16.csv",
+        "unit_jaccard_with_canonical": 0.9444
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_15.csv",
+        "unit_jaccard_with_canonical": 0.9012
+      }
+    ]
+  },
+  {
+    "group_base": "master_source_register",
+    "directory": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources",
+    "extension": ".md",
+    "canonical_kept": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_17.md",
+    "removed_sources": [
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_16.md",
+      "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_15.md"
+    ],
+    "unique_chunks_or_rows_added": 37,
+    "final_unique_units_or_rows": 40,
+    "scores": [
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_16.md",
+        "unit_jaccard_with_canonical": 0.0
+      },
+      {
+        "source": "CONTENT/AIWF_Vol2_Training_The_Fear_RAG_v0_17_DATA_CENTRIC_ML/aiwf_vol2_training_the_fear_rag_v0_17/06_sources/MASTER_SOURCE_REGISTER_v0_15.md",
+        "unit_jaccard_with_canonical": 0.0
+      }
+    ]
+  }
+]

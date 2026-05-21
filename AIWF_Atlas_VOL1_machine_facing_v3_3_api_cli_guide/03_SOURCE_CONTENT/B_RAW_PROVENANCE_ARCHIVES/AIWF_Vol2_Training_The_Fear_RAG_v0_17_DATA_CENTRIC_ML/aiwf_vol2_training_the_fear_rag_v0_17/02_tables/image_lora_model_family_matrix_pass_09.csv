@@ -1,0 +1,13 @@
+model_family,best_training_role,beginner_fit,16gb_fit,24gb_fit,likely_backend,caption_policy,aiwf_status
+SD 1.5,"legacy baseline, tiny experiments",high,high,high,sd-scripts/kohya/OneTrainer,tags or hybrid,teach history and mechanics
+SDXL,primary beginner image LoRA lab,very high,high,very high,"AI Toolkit, kohya, SimpleTuner, sd-scripts",hybrid/natural captions,default first lab
+SD3/SD3.5 Medium,architecture transition lab,medium,experimental,good,"sd-scripts, SimpleTuner, diffusers",clear natural captions,advanced chapter
+SD3.5 Large,higher-quality transformer image target,low,hard,medium-good,sd-scripts/SimpleTuner/community,natural captions,24GB+ or cloud
+FLUX.1 dev/Krea,quality style/subject LoRA,medium,possible with warnings,good,"SimpleTuner, AI Toolkit, sd-scripts",simple/natural/caption-light tests,advanced but important
+FLUX.2 Klein 4B,new consumer frontier,medium,promising,good,"AI Toolkit, musubi-tuner","natural, validate by variant",priority watch/preset
+FLUX.2 Klein 9B,efficient high quality,low-medium,hard,possible,"AI Toolkit, musubi-tuner","natural, validate by variant",24GB+ candidate
+FLUX.2 dev,large high-capability model,low,not default,hard,AI Toolkit/musubi/cloud,natural/edit-aware,cloud-first
+Qwen-Image / 2512,"realism, text, detail",low,not default,experimental,"AI Toolkit, musubi-tuner",precise semantic/appearance captions,advanced/cloud-first
+Qwen-Image-Edit,editing LoRA experiments,low,not default,experimental,"AI Toolkit, musubi-tuner",edit/instruction-aware captions,advanced
+Z-Image / Turbo/Base,efficient modern LoRA target,medium,promising,good,"AI Toolkit, musubi-tuner",concise natural captions,priority experimental
+HiDream/Lumina/OmniGen/Chroma,watchlist/new families,low,unknown,unknown,AI Toolkit / emerging,family-specific unknown,catalog only until validated

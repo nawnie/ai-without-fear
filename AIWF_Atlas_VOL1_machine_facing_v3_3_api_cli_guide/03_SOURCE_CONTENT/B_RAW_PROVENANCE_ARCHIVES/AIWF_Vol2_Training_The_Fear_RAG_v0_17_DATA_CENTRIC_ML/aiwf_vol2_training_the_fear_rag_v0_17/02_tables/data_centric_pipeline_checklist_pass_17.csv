@@ -1,0 +1,12 @@
+stage,minimum_check,why_it_matters,aiwf_artifact
+task_contract,Define input/output/edge cases before collecting data,Prevents incoherent datasets,task_contract.md
+inventory,List every file/record/source,Makes scope visible,dataset_inventory.csv
+rights_review,Record license/consent/exclusions,Prevents unsafe training/release,rights_and_consent.md
+schema,Validate required fields/types/labels,Catches silent breakage,schema_report.md
+dedup,Exact and near-duplicate scans,Prevents memorization/eval contamination,dedup_report.csv
+split,Use task-correct split strategy,Makes evaluation meaningful,split_manifest.csv
+label_qa,Review definitions/disagreements/noise,Labels are the model target,label_quality_report.md
+pii_sensitive,Flag identifiers/biometric/private content,Reduces privacy and consent risk,sensitive_data_report.md
+eval_holdout,Lock holdout before tuning,Prevents benchmark overfitting,eval_holdout_manifest.csv
+dataset_card,Document composition/intended use/limits,Transfers context to future users,dataset_card.md
+run_pack,Freeze data fingerprint with config,Enables reproduction,aiwf_run_pack.zip

@@ -1,0 +1,7 @@
+risk_area,low_risk_pattern,high_risk_pattern,aiwf_rule,source
+Copyright,Owned/licensed/public-domain/cleared data,Pirated books/images/music/video or unclear scraped datasets,Track provenance; do not claim fair use certainty,https://www.copyright.gov/ai/
+Creative Commons,Attribution tracked and terms followed conservatively,CC material used with no attribution/license notes,Over-comply when in doubt; CC does not solve privacy,https://creativecommons.org/using-cc-licensed-works-for-ai-training-2/
+Voice,Own voice or explicit written consent,Non-consented cloning or deceptive impersonation,Consent gate required,https://www.ftc.gov/news-events/contests/ftc-voice-cloning-challenge
+Face/likeness,Consenting adult private model,Non-consented identity model or minors,Consent and model-card limits required,AIWF policy baseline
+Privacy,Redacted internal docs,Customer/employee/medical/legal records with identifiers,Run redaction/private-data scan before training,AIWF policy baseline
+EU/GPAI transparency,Model card and dataset summary,Public model with no source summary,Publish dataset summary where feasible,https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai

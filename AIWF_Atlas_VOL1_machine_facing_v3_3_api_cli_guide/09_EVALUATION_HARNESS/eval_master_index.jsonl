@@ -1,0 +1,7 @@
+{"asset": "rubric", "path": "09_EVALUATION_HARNESS/EVALUATION_RUBRIC.md", "index_by_default": true}
+{"asset": "benchmark_protocol", "path": "09_EVALUATION_HARNESS/adapter_benchmark_protocol_current.md", "index_by_default": true}
+{"asset": "comparison_plan", "path": "09_EVALUATION_HARNESS/raw_files_vs_atlas_comparison_plan_current.md", "index_by_default": true}
+{"asset": "golden_questions", "path": "09_EVALUATION_HARNESS/golden_question_sets/adapter_core_golden_questions_current.jsonl", "index_by_default": true}
+{"asset": "expected_sources", "path": "09_EVALUATION_HARNESS/expected_source_maps/adapter_core_expected_sources_current.jsonl", "index_by_default": true}
+{"asset": "lane_eval_sets", "path": "09_EVALUATION_HARNESS/lane_eval_sets/", "index_by_default": true}
+{"asset": "lane_quality_audit", "path": "09_EVALUATION_HARNESS/lane_quality_audit_current.csv", "index_by_default": false}

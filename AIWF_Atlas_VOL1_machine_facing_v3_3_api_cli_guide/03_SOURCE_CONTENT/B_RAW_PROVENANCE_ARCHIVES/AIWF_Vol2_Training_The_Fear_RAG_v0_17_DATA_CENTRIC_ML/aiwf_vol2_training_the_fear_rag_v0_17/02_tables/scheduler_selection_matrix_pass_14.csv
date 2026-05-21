@@ -1,0 +1,7 @@
+scheduler,what_it_solves,best_when,risk,validation_check
+constant,simple stable short runs,short LoRA/adapters with known LR,can overtrain late,fixed prompts across checkpoints
+constant_with_warmup,safe simple start,transformer/adapters needing gentle start,too much warmup delays learning,early loss/samples
+linear_decay,controlled end reduction,finite budget SFT,may decay too fast,mid vs final checkpoint
+cosine_decay,smooth decay to low LR,longer runs and common AdamW recipes,late undertraining or weight norm quirks,best checkpoint not final
+cosine_restart,escape/refresh cycles,some vision/classical experiments,can add unnecessary variance,cycle boundary artifacts
+one_cycle,fast supervised training,classical CNN/tabular/deep labs,not standard for most LLM LoRA,LR range test

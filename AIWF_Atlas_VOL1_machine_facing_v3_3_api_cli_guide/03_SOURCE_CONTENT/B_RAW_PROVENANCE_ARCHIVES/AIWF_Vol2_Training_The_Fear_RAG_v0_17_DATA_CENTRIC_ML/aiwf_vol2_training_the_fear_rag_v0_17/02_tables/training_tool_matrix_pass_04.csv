@@ -1,0 +1,10 @@
+tool_or_stack,domain,best_use,consumer_viability,aiwf_position,source
+torchtune,LLM post-training,transparent PyTorch recipes for SFT/LoRA/QLoRA/eval,medium,teaching/reference stack; wrap later,https://github.com/meta-pytorch/torchtune
+PEFT,adapter methods,LoRA/QLoRA/DoRA/AdaLoRA/IA3 support layer,high,core adapter concept layer,https://huggingface.co/docs/peft/index
+TRL,LLM post-training,SFT/DPO/GRPO/reward/PPO trainer stack,medium-high,core methods reference; custom advanced workflows,https://huggingface.co/docs/trl/index
+Accelerate,training backend,distributed/mixed precision/gradient accumulation launcher,medium,memory backend explainer,https://huggingface.co/docs/accelerate/index
+DeepSpeed,training backend,ZeRO/offload/distributed training,medium-low single GPU; high multi-GPU,"advanced backend, not beginner magic",https://huggingface.co/docs/accelerate/usage_guides/deepspeed
+FSDP,training backend,sharded distributed training,low single GPU; high multi-GPU,advanced backend,https://huggingface.co/docs/accelerate/usage_guides/fsdp
+AutoTrain,low-code training,quick LLM/classifier projects,high for supported tasks,beginner bridge/baseline generator,https://huggingface.co/docs/autotrain/en/llm_finetuning
+Qwen/LLaVA VLM fine-tuning,vision-language,screenshot/document/image QA adaptation,medium-low,advanced RAG card; not first beginner workflow,https://huggingface.co/learn/cookbook/en/fine_tuning_vlm_trl
+Whisper/Wav2Vec2 ASR,speech recognition,accent/domain/noise transcription adaptation,medium,safer practical audio training chapter,https://huggingface.co/blog/fine-tune-whisper

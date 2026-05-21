@@ -1,0 +1,11 @@
+pip_name,why_build_or_cache_locally,risk
+xformers,Torch/CUDA extension; often tightly coupled to Torch version and CUDA build,very_high
+bitsandbytes,Quantization kernels/backend support; platform/backend sensitive,very_high
+llama-cpp-python,Native C++ backend; optional CUDA/Metal/OpenBLAS builds; build flags matter,very_high
+insightface,ONNX/face stack; Windows builds can require native components or provider alignment,high
+groundingdino-py,Native/vision extension risk; prefer Transformers path when sufficient,high
+sam2,May compile optional CUDA extension; has Windows caveats,high
+onnxruntime-gpu,Provider compatibility more important than import success,high
+decord,Native video loading package; wheel availability varies by platform/Python,medium
+av,PyAV binds FFmpeg libraries; external codec/library boundary matters,medium
+pycocotools,Historically native build pain on Windows; wheels may solve it per version,medium

@@ -1,0 +1,26 @@
+{
+  "artifact": "AIWF Atlas source maintenance policy",
+  "version": "v3.1",
+  "counts": {
+    "total_url_references": 10973,
+    "unique_urls": 3429,
+    "unique_domains": 242
+  },
+  "domain_count_meaning": "maintenance_priority_not_authority",
+  "primary_files": [
+    "04_MANIFESTS/ATLAS_SOURCE_MASTER_INDEX.md",
+    "04_MANIFESTS/ATLAS_SOURCE_DOMAIN_COUNTS_CURRENT.csv",
+    "04_MANIFESTS/ATLAS_SOURCE_URL_INVENTORY_CURRENT.csv",
+    "04_MANIFESTS/ATLAS_SOURCE_URL_INVENTORY_CURRENT.jsonl"
+  ],
+  "update_priority_order": [
+    "official_docs",
+    "primary_repositories",
+    "peer_reviewed_or_preprint_papers",
+    "standards_bodies",
+    "vendor_docs",
+    "benchmarks",
+    "secondary_analysis",
+    "blogs"
+  ]
+}

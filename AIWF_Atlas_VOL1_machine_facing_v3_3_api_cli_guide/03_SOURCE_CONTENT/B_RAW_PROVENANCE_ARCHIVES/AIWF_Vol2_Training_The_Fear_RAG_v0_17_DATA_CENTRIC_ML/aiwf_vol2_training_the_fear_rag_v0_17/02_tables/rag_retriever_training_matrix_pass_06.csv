@@ -1,0 +1,6 @@
+component,training_data,metric,aiwf_use
+embedding model,query-positive-hard_negative,"Recall@k, MRR",manual/node/workflow retrieval
+reranker,query-document relevance labels,"nDCG, pair accuracy",precision after first retrieval
+hybrid search,lexical+dense query sets,"hit rate, exact match","node IDs, error strings, file names"
+query rewriter,user query to search query pairs,retrieval improvement delta,messy beginner questions
+RAG pipeline,question-context-answer,RAGAS/context precision/answer correctness,full assistant QA

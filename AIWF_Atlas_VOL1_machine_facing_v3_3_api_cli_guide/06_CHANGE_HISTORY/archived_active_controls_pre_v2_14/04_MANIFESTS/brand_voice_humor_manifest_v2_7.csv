@@ -1,0 +1,9 @@
+path,action
+00_AI_READ_FIRST/AIWF_BRAND_VOICE_AND_POSITIONING.md,updated with force-multiplier and humor rules
+00_AI_READ_FIRST/AIWF_HUMOR_AND_STYLE_GUIDE.md,new controlled humor and Torchie-style guidance
+00_AI_READ_FIRST/AIWF_FORCE_MULTIPLIER_POSITIONING.md,new machine-facing force multiplier rules
+00_AI_READ_FIRST/CANONICAL_AIWF_TERMINOLOGY.md,expanded terminology for humor and force multiplier framing
+10_SCHEMA_AND_INDEX/brand_consistency_rules.json,updated machine-readable brand rules to v2.7
+10_SCHEMA_AND_INDEX/aiwf_humor_style_rules_v2_7.json,new machine-readable humor rules
+11_PROMPT_PACKS/AIWF_PROMPT_PACK_BRAND_NOTE.md,new prompt-pack brand note
+03_SOURCE_CONTENT/A_CANONICAL_SOURCE_PACKS/aiwf_brand_voice_force_multiplier_sources/AIWF_force_multiplier_insert.md,preserved source insert

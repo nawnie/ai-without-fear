@@ -1,0 +1,25 @@
+{
+  "archive_name": "AIWF_CS_Knowledge_Data_Archive_v0_1",
+  "deduplication_policy": "Exact SHA256 byte-level file deduplication only. Near-duplicates, older versions, overlapping sections, and same-topic files were preserved.",
+  "source_files_received": 9,
+  "files_seen_inside_sources": 1597,
+  "unique_files_kept": 1248,
+  "exact_duplicate_files_skipped": 349,
+  "path_collisions_renamed": 0,
+  "total_bytes_seen": 5712532,
+  "unique_bytes_kept": 5034477,
+  "unique_file_extensions": {
+    ".md": 936,
+    ".csv": 213,
+    ".ps1": 37,
+    ".json": 26,
+    ".txt": 17,
+    ".py": 7,
+    ".toml": 3,
+    ".pbtxt": 3,
+    ".jsonl": 3,
+    ".yml": 1,
+    ".example": 1,
+    ".yaml": 1
+  }
+}

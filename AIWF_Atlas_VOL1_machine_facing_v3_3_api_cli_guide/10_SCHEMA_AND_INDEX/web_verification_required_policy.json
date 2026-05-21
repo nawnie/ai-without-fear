@@ -1,0 +1,21 @@
+{
+  "version": "v1.9",
+  "purpose": "Ensure future archive passes use web verification for volatile/current claims.",
+  "web_required_for": [
+    "current model availability, rankings, release dates, licenses, benchmark claims",
+    "software API, ComfyUI custom-node, workflow JSON, node class, installation, registry, and migration claims",
+    "hardware specs, cloud pricing, TCO, performance-per-dollar, performance-per-watt claims",
+    "security, safety, governance, academic/publication policy, legal, licensing, and compliance claims",
+    "anything described as latest/current/modern/2026/deprecated/maintained/abandoned/official/state-of-the-art"
+  ],
+  "answer_gate": "If a claim is volatile and not web-verified, qualify it or keep it out of canonical answers.",
+  "source_priority": [
+    "primary official docs",
+    "official repository",
+    "peer-reviewed paper",
+    "official model card",
+    "reputable secondary source",
+    "user notes/raw provenance"
+  ],
+  "override_note": "Temporary previous no-web instructions are not standing policy. Use web unless the user explicitly opts out."
+}

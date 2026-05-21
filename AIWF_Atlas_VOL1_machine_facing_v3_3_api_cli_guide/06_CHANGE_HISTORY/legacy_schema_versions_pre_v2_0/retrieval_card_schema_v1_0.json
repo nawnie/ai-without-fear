@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIWF Retrieval Card Schema v1.0",
+  "type": "object",
+  "required": [
+    "card_id",
+    "lane_id",
+    "topic",
+    "question_patterns",
+    "answer_intent",
+    "canonical_summary",
+    "related_lanes",
+    "risk_level"
+  ],
+  "properties": {
+    "card_id": {
+      "type": "string"
+    },
+    "lane_id": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "question_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "answer_intent": {
+      "type": "string"
+    },
+    "canonical_summary": {
+      "type": "string"
+    },
+    "must_retrieve": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_priority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conflict_notes": {
+      "type": "string"
+    },
+    "related_lanes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "answer_template": {
+      "type": "string"
+    },
+    "risk_level": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "volatile"
+      ]
+    },
+    "freshness_tag": {
+      "enum": [
+        "stable",
+        "slow_changing",
+        "fast_moving",
+        "volatile",
+        "historical"
+      ]
+    },
+    "claim_type": {
+      "enum": [
+        "sourced_fact",
+        "project_policy",
+        "operational_recommendation",
+        "hypothesis",
+        "user_expanded_note",
+        "historical_record",
+        "placeholder"
+      ]
+    },
+    "last_reviewed_version": {
+      "type": "string"
+    }
+  }
+}

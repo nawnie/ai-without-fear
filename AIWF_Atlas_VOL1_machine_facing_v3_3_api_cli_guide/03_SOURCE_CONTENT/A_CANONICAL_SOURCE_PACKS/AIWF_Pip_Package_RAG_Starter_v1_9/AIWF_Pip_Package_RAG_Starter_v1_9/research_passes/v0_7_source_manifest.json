@@ -1,0 +1,34 @@
+{
+  "version": "v0.7",
+  "date_day_only": "2026-05-19",
+  "focus": "ComfyUI runtime requirements grounding and environment collection scripts",
+  "upstream_sources": [
+    "https://github.com/Comfy-Org/ComfyUI/blob/master/requirements.txt",
+    "https://github.com/Comfy-Org/ComfyUI/blob/master/manager_requirements.txt"
+  ],
+  "packages_added": [
+    "comfyui-frontend-package",
+    "comfyui-workflow-templates",
+    "comfyui-embedded-docs",
+    "torchsde",
+    "aiohttp",
+    "yarl",
+    "alembic",
+    "SQLAlchemy",
+    "filelock",
+    "comfy-kitchen",
+    "comfy-aimdo",
+    "simpleeval",
+    "blake3",
+    "spandrel",
+    "pydantic-settings",
+    "PyOpenGL",
+    "glfw",
+    "comfyui_manager"
+  ],
+  "scripts_added": [
+    "Find-AIWFRequirementsFiles.ps1",
+    "Merge-AIWFRequirementsIntoInventory.ps1",
+    "Collect-AIWFEnvironmentGroundTruth.ps1"
+  ]
+}

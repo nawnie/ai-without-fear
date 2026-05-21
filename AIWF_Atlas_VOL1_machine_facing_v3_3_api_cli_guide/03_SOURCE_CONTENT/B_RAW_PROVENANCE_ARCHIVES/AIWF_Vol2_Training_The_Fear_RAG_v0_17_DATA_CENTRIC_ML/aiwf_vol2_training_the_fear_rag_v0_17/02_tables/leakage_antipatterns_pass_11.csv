@@ -1,0 +1,9 @@
+antipattern,why_it_invalidates_results,example,fix
+Duplicate examples across splits,model memorizes test evidence,same image resized in train and test,hash/perceptual hash dedup before split
+Same subject across splits,identity tasks become memorization,same person appears in train and test photos,group split by subject id
+Preprocessing before splitting,test data influences transforms,standard scaler fit on all rows,fit preprocessing inside training pipeline only
+Answer embedded in prompt/input,model copies label,classification label in filename,strip filenames/metadata or audit fields
+Time leakage,future data predicts past,using later status to predict earlier event,time-based split
+Validation overuse,hyperparameters overfit validation,hundreds of runs chosen by val score,reserve final untouched test set
+Synthetic train/test contamination,generated examples repeat source wording,teacher creates train and eval from same prompts,separate seeds/prompts/sources; manual audit
+RAG chunk overlap leakage,eval answer text appears in retrieved source if task tests model memory,quiz answers stored in corpus,define whether task tests retrieval or memory

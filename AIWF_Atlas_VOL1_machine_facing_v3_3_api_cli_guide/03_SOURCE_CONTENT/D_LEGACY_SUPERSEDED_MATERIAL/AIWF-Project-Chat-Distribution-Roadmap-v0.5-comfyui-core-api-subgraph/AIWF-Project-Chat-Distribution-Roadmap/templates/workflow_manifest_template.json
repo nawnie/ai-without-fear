@@ -1,0 +1,77 @@
+{
+  "aiwf_manifest_version": "0.1",
+  "workflow_name": "",
+  "workflow_slug": "",
+  "workflow_type": "image|video|restore|inpaint|upscale|vqa|llm_assisted|router|other",
+  "summary": "",
+  "audience": "beginner|intermediate|advanced|developer",
+  "execution_modes": [
+    "local"
+  ],
+  "tested_with": {
+    "comfyui_version": "unknown",
+    "frontend_version": "unknown",
+    "python_version": "unknown",
+    "torch_version": "unknown",
+    "cuda_version": "unknown",
+    "gpu": "unknown"
+  },
+  "required_core_nodes": [],
+  "required_custom_nodes": [
+    {
+      "name": "",
+      "repo": "",
+      "manager_id": "",
+      "required_class_types": [],
+      "status": "required|optional|fallback",
+      "notes": ""
+    }
+  ],
+  "api_partner_nodes": [
+    {
+      "class_type": "",
+      "provider": "",
+      "requires_login": true,
+      "requires_credits_or_key": true,
+      "local_offline": false,
+      "local_fallback": ""
+    }
+  ],
+  "required_models": [
+    {
+      "name": "",
+      "model_family": "sd15|sdxl|flux|wan|ltx|controlnet|ipadapter|reactor|upscale|sam|grounding|other",
+      "expected_folder": "models/...",
+      "source": "huggingface|civitai|github|manual|other",
+      "license_notes": "",
+      "required": true
+    }
+  ],
+  "input_contract": [],
+  "output_contract": [],
+  "branch_outputs": [
+    {
+      "branch_name": "",
+      "output_node_title": "",
+      "partial_execution_safe": true,
+      "notes": ""
+    }
+  ],
+  "known_failure_modes": [
+    {
+      "symptom": "red node|missing model|wrong socket|oom|bad face|blurry output|api auth failure|other",
+      "likely_cause": "",
+      "user_fix": "",
+      "developer_fix": ""
+    }
+  ],
+  "source_ledger_ids": [],
+  "changelog": [
+    {
+      "date": "2026-05-19",
+      "changes": [
+        "Initial template."
+      ]
+    }
+  ]
+}

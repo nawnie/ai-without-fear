@@ -1,0 +1,33 @@
+{
+  "adapter_version": "v1.2",
+  "bundle_name": "AIWF Atlas Vol. 1 - Recommended Default Ingestion Bundle",
+  "load_sequence": [
+    "00_AI_READ_FIRST/00_LOAD_ORDER.md",
+    "00_AI_READ_FIRST/ADAPTER_OPERATING_CONTRACT.md",
+    "00_AI_READ_FIRST/RETRIEVAL_POLICY.md",
+    "00_AI_READ_FIRST/SOURCE_PRIORITY_AND_CONFLICT_RESOLUTION.md",
+    "04_MANIFESTS/machine_lane_index.json",
+    "02_RETRIEVAL_INDEX/VOL1_RETRIEVAL_CARDS_NORMALIZED_v1_2.jsonl",
+    "01_CANONICAL_RESEARCH_LANES/*/CANONICAL_OVERVIEW.md",
+    "01_CANONICAL_RESEARCH_LANES/*/CONCEPT_MAP.md",
+    "01_CANONICAL_RESEARCH_LANES/*/EMBEDDING_AND_CHUNKING_STRATEGY.md",
+    "01_CANONICAL_RESEARCH_LANES/*/SOURCE_COVERAGE.md",
+    "12_RETRIEVAL_RECIPES/*",
+    "15_ANSWER_TEMPLATES/*",
+    "03_SOURCE_CONTENT/C_USER_EXPANDED_TOPIC_NOTES/**/*"
+  ],
+  "excluded_by_default": [
+    "04_MANIFESTS/*",
+    "05_REPORTS/*",
+    "06_CHANGE_HISTORY/*",
+    "**/vol1_lane_manifest.json",
+    "**/lane_profile.json",
+    "**/checksums_sha256.txt",
+    "**/*manifest*.csv",
+    "**/*manifest*.json",
+    "**/*consolidation*.csv",
+    "**/*removed*.txt",
+    "**/*REPORT.md"
+  ],
+  "note": "Use canonical lanes and normalized Atlas cards first. Use raw/provenance source layers for verification, conflict resolution, or source-history questions."
+}

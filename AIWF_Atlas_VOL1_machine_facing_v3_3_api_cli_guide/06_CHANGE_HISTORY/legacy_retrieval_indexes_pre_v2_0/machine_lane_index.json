@@ -1,0 +1,117 @@
+[
+  {
+    "lane_id": "01_source_ledger_evidence",
+    "path": "01_CANONICAL_RESEARCH_LANES/01_source_ledger_evidence",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "02_rag_architecture_chunking_embedding",
+    "path": "01_CANONICAL_RESEARCH_LANES/02_rag_architecture_chunking_embedding",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "03_comfyui_core_api_subgraph",
+    "path": "01_CANONICAL_RESEARCH_LANES/03_comfyui_core_api_subgraph",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "04_comfyui_custom_node_ecosystem",
+    "path": "01_CANONICAL_RESEARCH_LANES/04_comfyui_custom_node_ecosystem",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "05_pip_runtime_dependency_knowledge",
+    "path": "01_CANONICAL_RESEARCH_LANES/05_pip_runtime_dependency_knowledge",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "06_training_data_centric_ml_vol2",
+    "path": "01_CANONICAL_RESEARCH_LANES/06_training_data_centric_ml_vol2",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "07_cfg_denoise_inpaint_theory",
+    "path": "01_CANONICAL_RESEARCH_LANES/07_cfg_denoise_inpaint_theory",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "08_compatibility_matrix_rag",
+    "path": "01_CANONICAL_RESEARCH_LANES/08_compatibility_matrix_rag",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "09_failure_signature_atlas_rag",
+    "path": "01_CANONICAL_RESEARCH_LANES/09_failure_signature_atlas_rag",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "10_workflow_pattern_library_rag",
+    "path": "01_CANONICAL_RESEARCH_LANES/10_workflow_pattern_library_rag",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "11_gradio_ui_research",
+    "path": "01_CANONICAL_RESEARCH_LANES/11_gradio_ui_research",
+    "status": "canonical_vol1_lane"
+  },
+  {
+    "lane_id": "20_data_engineering_for_ai",
+    "path": "07_PLACEHOLDERS_FOR_NEXT_TOPICS/20_data_engineering_for_ai",
+    "status": "placeholder_user_owned"
+  },
+  {
+    "lane_id": "21_audio_speech_music_ai",
+    "path": "07_PLACEHOLDERS_FOR_NEXT_TOPICS/21_audio_speech_music_ai",
+    "status": "placeholder_user_owned"
+  },
+  {
+    "lane_id": "22_vision_language_ocr_document_ai",
+    "path": "07_PLACEHOLDERS_FOR_NEXT_TOPICS/22_vision_language_ocr_document_ai",
+    "status": "placeholder_user_owned"
+  },
+  {
+    "lane_id": "23_synthetic_data_dataset_creation",
+    "path": "07_PLACEHOLDERS_FOR_NEXT_TOPICS/23_synthetic_data_dataset_creation",
+    "status": "placeholder_user_owned"
+  },
+  {
+    "lane_id": "24_ai_application_architecture",
+    "path": "07_PLACEHOLDERS_FOR_NEXT_TOPICS/24_ai_application_architecture",
+    "status": "placeholder_user_owned"
+  },
+  {
+    "lane_id": "25_hardware_cost_performance_planning",
+    "path": "07_PLACEHOLDERS_FOR_NEXT_TOPICS/25_hardware_cost_performance_planning",
+    "status": "placeholder_user_owned"
+  },
+  {
+    "lane_id": "20_data_engineering_for_ai",
+    "path": "01_CANONICAL_RESEARCH_LANES/20_data_engineering_for_ai",
+    "status": "canonical_vol1_lane_expanded_notes"
+  },
+  {
+    "lane_id": "21_audio_speech_music_ai",
+    "path": "01_CANONICAL_RESEARCH_LANES/21_audio_speech_music_ai",
+    "status": "canonical_vol1_lane_expanded_notes"
+  },
+  {
+    "lane_id": "22_vision_language_ocr_document_ai",
+    "path": "01_CANONICAL_RESEARCH_LANES/22_vision_language_ocr_document_ai",
+    "status": "canonical_vol1_lane_expanded_notes"
+  },
+  {
+    "lane_id": "23_synthetic_data_dataset_creation",
+    "path": "01_CANONICAL_RESEARCH_LANES/23_synthetic_data_dataset_creation",
+    "status": "canonical_vol1_lane_expanded_notes"
+  },
+  {
+    "lane_id": "24_ai_application_architecture",
+    "path": "01_CANONICAL_RESEARCH_LANES/24_ai_application_architecture",
+    "status": "canonical_vol1_lane_expanded_notes"
+  },
+  {
+    "lane_id": "25_hardware_cost_performance_planning",
+    "path": "01_CANONICAL_RESEARCH_LANES/25_hardware_cost_performance_planning",
+    "status": "canonical_vol1_lane_expanded_notes"
+  }
+]

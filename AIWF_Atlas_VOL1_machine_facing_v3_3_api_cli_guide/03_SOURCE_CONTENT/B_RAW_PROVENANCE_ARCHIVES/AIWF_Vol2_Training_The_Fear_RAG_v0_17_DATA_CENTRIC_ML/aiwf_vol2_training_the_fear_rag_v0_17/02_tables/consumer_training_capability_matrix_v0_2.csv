@@ -1,0 +1,15 @@
+task,8GB VRAM,12GB VRAM,16GB VRAM,24GB VRAM,48GB+,notes
+LLM 0.5B-3B QLoRA,Good,Good,Good,Good,Good,Best starter bot training tier.
+LLM 7B QLoRA,Possible tight,Possible,Good,Good,Good,Sequence length and batch size decide.
+LLM 14B QLoRA,Usually tight/no,Possible tight,Possible/tight,Good,Good,Prefer 24GB for sanity.
+LLM 30B QLoRA,No,No/tiny experiments,Very tight/offload,Possible,Good,Cloud often better.
+Embedding fine-tune small model,Possible,Good,Good,Good,Good,Very practical local training domain.
+Reranker fine-tune,Tight,Possible,Good,Good,Good,Pair length and batch size matter.
+SD 1.5 LoRA,Good,Good,Good,Good,Good,Classic consumer training.
+SDXL LoRA,Possible,Good,Good,Good,Good,16GB is comfortable with sane settings.
+Flux-class LoRA,Usually no,Tight/experimental,Possible/tight,Good,Good,System RAM/offload matter.
+Qwen Image / Flux 2-class LoRA,No,No/tight,Tight/experimental,Possible,Good,Verify per tool/version.
+Wan/Hunyuan video LoRA,No/tiny,Experimental,Possible constrained,Better,Good,Frames/resolution dominate.
+LTX video LoRA,No/tiny,Experimental,Possible constrained,Better,Good,IC-LoRA/full training is advanced.
+GPT-SoVITS few-shot voice,Possible per version,Good,Good,Good,Good,Consent and audio quality matter more than raw size.
+Full foundation model training,No,No,No,No/limited small models,Possible,Not consumer default.

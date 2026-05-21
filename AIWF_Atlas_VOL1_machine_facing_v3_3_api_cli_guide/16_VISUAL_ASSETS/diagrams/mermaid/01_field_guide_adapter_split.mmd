@@ -1,0 +1,8 @@
+flowchart LR
+  fg["Field Guide"]
+  repo["GitHub Repo"]
+  adapter["Knowledge Adapter"]
+  assistant["AI Assistant / RAG"]
+  fg -- "companion" --> repo
+  repo -- "ships" --> adapter
+  adapter -- "loads into" --> assistant

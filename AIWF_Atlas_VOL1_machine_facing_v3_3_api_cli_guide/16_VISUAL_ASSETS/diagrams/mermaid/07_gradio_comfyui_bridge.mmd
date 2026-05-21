@@ -1,0 +1,14 @@
+flowchart LR
+  ui["Gradio UI"]
+  mutate["Prompt JSON Mutator"]
+  queue["/prompt Queue"]
+  history["/history + /view"]
+  logs["User Logs"]
+  files["/upload/image"]
+  result["Result Panel"]
+  ui --> mutate
+  mutate --> queue
+  queue --> history
+  history --> result
+  ui -- "uploads" --> files
+  history -- "errors" --> logs

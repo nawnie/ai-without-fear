@@ -1,0 +1,37 @@
+{
+  "adapter_version": "v1.3_source_verification",
+  "purpose": "Preserve sources, distinguish verified/stable facts from volatile claims, and prevent AI assistants from treating fast-moving research snapshots as timeless truth.",
+  "verification_status_values": {
+    "verified": "Direct source checked in this run or previously verified primary/official source exists.",
+    "source_present_unchecked": "A URL/source name exists but was not manually opened in this run.",
+    "needs_source": "Claim lacks a concrete source URL/path and should be sourced before public release.",
+    "conflict_found": "Sources disagree or a claim appears outdated/incorrect.",
+    "volatile_reverify": "Claim may be correct now but should be rechecked before release or use."
+  },
+  "source_priority_order": [
+    "primary_paper",
+    "official_docs",
+    "official_vendor_blog",
+    "code_repository",
+    "model_repository",
+    "security_standard",
+    "package_registry",
+    "community_documentation",
+    "blog_or_secondary_summary",
+    "chat_or_synthesized_note"
+  ],
+  "freshness_policy": {
+    "stable": "Math, foundational papers, long-lived definitions; review annually.",
+    "slow_changing": "Architecture concepts and mature tools; review each major release cycle.",
+    "fast_moving": "APIs, docs, tool behavior, package commands, ComfyUI node names; review before publishing.",
+    "volatile": "Model rankings, SOTA claims, hardware releases, benchmark numbers, costs, availability; verify immediately before use.",
+    "historical": "Preserve for provenance but do not use as current guidance unless explicitly asked."
+  },
+  "ai_usage_rules": [
+    "Prefer verified sources over synthesized lane summaries when answering factual questions.",
+    "Use volatile claims only with date/edition qualifiers unless freshly verified.",
+    "If canonical lane text conflicts with a primary or official source, prefer the primary/official source and flag the conflict.",
+    "Do not remove sources during editorial cleanup; move stale sources to historical/provenance only.",
+    "When a claim lacks a source URL/path, answer cautiously and mark it as an AIWF research note rather than confirmed external fact."
+  ]
+}

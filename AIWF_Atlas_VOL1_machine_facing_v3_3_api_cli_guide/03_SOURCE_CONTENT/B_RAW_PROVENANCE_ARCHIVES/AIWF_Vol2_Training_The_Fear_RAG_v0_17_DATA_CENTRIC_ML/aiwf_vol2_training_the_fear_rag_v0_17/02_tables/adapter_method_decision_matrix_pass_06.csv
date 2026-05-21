@@ -1,0 +1,9 @@
+method,best_for,consumer_fit,main_risk,first_aiwf_action
+RAG/no fine-tune,"changing facts, manuals, source-grounded support",excellent,retriever quality,build eval queries and chunk corpus
+LoRA SFT,"behavior, style, formatting, domain procedure",excellent,wrong target modules or bad data,run baseline small adapter
+QLoRA,larger LLM adapter under VRAM limits,excellent,quantization/optimizer setup issues,smoke test 20-50 steps
+DoRA,higher fidelity adapter when LoRA underfits,good if supported,extra complexity before data is clean,compare against plain LoRA baseline
+rsLoRA,higher-rank adapters,good if supported,rank escalation masking data issues,only after rank need is proven
+DPO/ORPO/KTO,preference alignment,moderate,bad chosen/rejected data,validate preference pairs and rubric
+GRPO/RL,verifiable reward tasks,advanced,reward hacking/instability,only with automatic grader
+Full fine-tune,"small models, heads, cloud/multi-GPU",poor for consumer LLMs,VRAM/cost/catastrophic forgetting,avoid as beginner default

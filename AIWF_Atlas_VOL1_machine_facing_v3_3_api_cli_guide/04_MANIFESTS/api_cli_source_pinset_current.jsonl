@@ -1,0 +1,20 @@
+{"domain": "developers.openai.com", "url": "https://developers.openai.com/api/docs/guides/migrate-to-responses", "use": "OpenAI Responses API positioning and migration from older Assistants-style patterns."}
+{"domain": "developers.openai.com", "url": "https://developers.openai.com/api/docs/guides/function-calling", "use": "OpenAI function/tool calling model-to-external-system pattern."}
+{"domain": "docs.anthropic.com", "url": "https://docs.anthropic.com/claude/reference/getting-started-with-the-api", "use": "Claude API overview, Messages API, batches, token counting, models API, and beta file/skills/agents/session APIs."}
+{"domain": "docs.anthropic.com", "url": "https://docs.anthropic.com/en/docs/get-started", "use": "Claude API quickstart and first-call patterns."}
+{"domain": "docs.anthropic.com", "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use", "use": "Claude tool-use loop and client/server tool distinction."}
+{"domain": "ai.google.dev", "url": "https://ai.google.dev/gemini-api/docs/quickstart", "use": "Gemini API quickstart and tool-use entry point."}
+{"domain": "ai.google.dev", "url": "https://ai.google.dev/gemini-api/docs", "use": "Gemini generateContent API landing and model API entry point."}
+{"domain": "docs.ollama.com", "url": "https://docs.ollama.com/cli", "use": "Ollama CLI commands such as run, launch, and model management."}
+{"domain": "docs.ollama.com", "url": "https://docs.ollama.com/api/introduction", "use": "Ollama API stability/versioning and official libraries."}
+{"domain": "docs.ollama.com", "url": "https://docs.ollama.com/api/openai-compatibility", "use": "Ollama OpenAI-compatible API support including /v1/responses constraints."}
+{"domain": "github.com", "url": "https://github.com/ggml-org/llama.cpp", "use": "llama.cpp GGUF requirement and CLI/server local inference tools."}
+{"domain": "github.com", "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md", "use": "llama.cpp HTTP server / llama-server REST APIs and web UI."}
+{"domain": "docs.vllm.ai", "url": "https://docs.vllm.ai/en/latest/serving/openai_compatible_server/", "use": "vLLM OpenAI-compatible HTTP server."}
+{"domain": "docs.vllm.ai", "url": "https://docs.vllm.ai/en/stable/cli/", "use": "vLLM CLI commands: chat, complete, serve, bench, collect-env, run-batch."}
+{"domain": "huggingface.co", "url": "https://huggingface.co/docs/text-generation-inference/index", "use": "Hugging Face Text Generation Inference overview."}
+{"domain": "huggingface.co", "url": "https://huggingface.co/docs/text-generation-inference/basic_tutorials/using_cli", "use": "TGI CLI commands for downloading weights, serving, quantizing, and viewing serving parameters."}
+{"domain": "docs.comfy.org", "url": "https://docs.comfy.org/development/comfyui-server/comms_routes", "use": "ComfyUI server routes such as /prompt, /upload/image, /view, /system_stats."}
+{"domain": "docs.comfy.org", "url": "https://docs.comfy.org/specs/workflow_json", "use": "ComfyUI workflow JSON specification."}
+{"domain": "github.com", "url": "https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py", "use": "ComfyUI API prompt example using node-id keyed API-format payloads."}
+{"domain": "gradio.app", "url": "https://www.gradio.app/docs/gradio/mount_gradio_app", "use": "Gradio FastAPI mounting and SSR-related deployment surface."}

@@ -1,0 +1,27 @@
+{
+  "schema": "aiwf_humor_style_rules_v2_7",
+  "day": "2026-05-20",
+  "humor_intent": "reduce fear, aid memory, and make technical troubleshooting approachable without lowering accuracy",
+  "style_labels": [
+    "dry field-manual wit",
+    "local-AI survival humor",
+    "gentle absurdity",
+    "Torchie callout voice"
+  ],
+  "allowed": [
+    "OOM and dependency-failure explanations",
+    "beginner reassurance",
+    "lab introductions and callout titles",
+    "non-critical examples",
+    "workflow spaghetti metaphors"
+  ],
+  "not_allowed": [
+    "source verification claims",
+    "license/consent warnings",
+    "dangerous shell commands",
+    "security/privacy warnings",
+    "high-stakes medical/legal/financial advice"
+  ],
+  "copyright_guardrail": "Use broad tonal inspiration only. Do not imitate specific copyrighted prose or named scenes.",
+  "default_rule": "clarity first, source discipline always, humor only when it helps the user move forward"
+}

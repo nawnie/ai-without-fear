@@ -1,0 +1,15 @@
+flowchart LR
+  query["User Query"]
+  route["Route Intent"]
+  lane["Canonical Lane"]
+  card["Retrieval Card"]
+  source["Source Evidence"]
+  template["Answer Template"]
+  final["Final Answer"]
+  query --> route
+  route --> lane
+  route --> card
+  lane -- "verify" --> source
+  card -- "shape" --> template
+  source -- "ground" --> final
+  template -- "format" --> final

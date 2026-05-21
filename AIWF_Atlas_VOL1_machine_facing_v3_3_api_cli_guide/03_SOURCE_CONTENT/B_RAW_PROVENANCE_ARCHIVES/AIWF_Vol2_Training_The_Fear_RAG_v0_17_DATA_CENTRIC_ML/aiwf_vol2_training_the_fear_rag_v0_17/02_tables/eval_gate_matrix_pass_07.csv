@@ -1,0 +1,9 @@
+gate,question,minimum_artifact,hard_fail_example,tooling_candidates
+loadability,Does it load cleanly?,load log and smoke output,tokenizer mismatch breaks generation,Transformers PEFT llama.cpp ComfyUI
+intended_task,Did it improve target use?,hidden task eval summary,target accuracy worse than base,lm-eval OpenAI Evals custom pytest
+regression,Did old behavior survive?,before-after benchmark table,base capability collapse,lm-eval private prompts
+safety,Did risk increase?,red-team prompt report,private data extraction or unsafe compliance,custom red-team packs DeepEval
+rag_grounding,Does it cite/use retrieved context correctly?,RAG eval report,hallucinated citations,RAGAS DeepEval custom eval
+style_control,Can prompt override style?,style matrix,adapter hijacks all outputs,private prompt grid
+export_quality,Does quantized export match acceptable behavior?,FP vs quant eval table,GGUF fails task while FP passes,llama.cpp eval scripts custom harness
+documentation,Can another user reproduce and understand it?,model card dataset card source manifest,unknown base/data/license,AIWF Run Pack Builder
