@@ -2,9 +2,9 @@
     "repository":  "AIWF Research Atlas",
     "status":  "v3.3 research preview",
     "license":  "All Rights Reserved research preview; see LICENSE.md and LICENSE_NOTICE.md",
-    "generated_utc":  "2026-05-21T09:29:03.7724448Z",
-    "total_files":  2108,
-    "total_size_bytes":  42948467,
+    "generated_utc":  "2026-05-21T09:44:43.6067200Z",
+    "total_files":  2109,
+    "total_size_bytes":  42951133,
     "structure":  "single_combined_atlas_tree",
     "corpora":  [
                     {
@@ -14,13 +14,13 @@
                     },
                     {
                         "corpus":  "root_guidance",
-                        "files":  10,
-                        "size_bytes":  26746
+                        "files":  11,
+                        "size_bytes":  28829
                     },
                     {
                         "corpus":  "root_metadata",
                         "files":  4,
-                        "size_bytes":  2061415
+                        "size_bytes":  2061998
                     }
                 ],
     "layers":  [
@@ -121,13 +121,13 @@
                    },
                    {
                        "layer":  "root_guidance",
-                       "files":  8,
-                       "size_bytes":  26168
+                       "files":  9,
+                       "size_bytes":  28229
                    },
                    {
                        "layer":  "root_metadata",
                        "files":  4,
-                       "size_bytes":  2061415
+                       "size_bytes":  2061998
                    },
                    {
                        "layer":  "schema",
@@ -142,7 +142,7 @@
                    {
                        "layer":  "supporting_file",
                        "files":  6,
-                       "size_bytes":  427547
+                       "size_bytes":  427569
                    },
                    {
                        "layer":  "topic_map",
@@ -183,6 +183,7 @@
                                 "INGESTION_GUIDE.md",
                                 "LEARNING_PASS_REVIEW.md",
                                 "LICENSE.md",
+                                "SUPPORT.md",
                                 "AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/00_AI_READ_FIRST/00_LOAD_ORDER.md",
                                 "AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/02_RETRIEVAL_INDEX/CANONICAL_RETRIEVAL_CARDS_CURRENT.jsonl",
                                 "AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/03_SOURCE_CONTENT/A_CANONICAL_SOURCE_PACKS/gradio6_rag_archive_20260521_0838/gradio6_rag_archive/AI_GUIDANCE.md",
