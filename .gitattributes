@@ -7,3 +7,11 @@
 *.jpg binary
 *.jpeg binary
 *.zip binary
+
+# The Atlas is a research corpus, not an application codebase.
+AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/**/*.ps1 linguist-documentation
+AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/**/*.py linguist-documentation
+AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/**/*.mmd linguist-documentation
+AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/**/*.yml linguist-documentation
+AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/**/*.yaml linguist-documentation
+metadata/** linguist-generated

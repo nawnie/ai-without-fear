@@ -2,9 +2,9 @@
     "repository":  "AIWF Research Atlas",
     "status":  "v3.3 research preview",
     "license":  "All Rights Reserved research preview; see LICENSE.md and LICENSE_NOTICE.md",
-    "generated_utc":  "2026-05-21T09:44:43.6067200Z",
+    "generated_utc":  "2026-05-21T09:50:15.5640443Z",
     "total_files":  2109,
-    "total_size_bytes":  42951133,
+    "total_size_bytes":  42952086,
     "structure":  "single_combined_atlas_tree",
     "corpora":  [
                     {
@@ -15,12 +15,12 @@
                     {
                         "corpus":  "root_guidance",
                         "files":  11,
-                        "size_bytes":  28829
+                        "size_bytes":  29334
                     },
                     {
                         "corpus":  "root_metadata",
                         "files":  4,
-                        "size_bytes":  2061998
+                        "size_bytes":  2062446
                     }
                 ],
     "layers":  [
@@ -127,7 +127,7 @@
                    {
                        "layer":  "root_metadata",
                        "files":  4,
-                       "size_bytes":  2061998
+                       "size_bytes":  2062446
                    },
                    {
                        "layer":  "schema",
@@ -142,7 +142,7 @@
                    {
                        "layer":  "supporting_file",
                        "files":  6,
-                       "size_bytes":  427569
+                       "size_bytes":  428074
                    },
                    {
                        "layer":  "topic_map",
