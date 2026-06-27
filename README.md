@@ -4,11 +4,11 @@
   <img src="AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/torchie_callouts/Aiwf%20logo.png" alt="AI Without Fear logo" width="220"/>
 </p>
 
-Status: v3.3 research preview. See `KNOWN_GAPS.md`, `LEARNING_PASS_REVIEW.md`, and the Vol. 2 queue files before treating this as a finished corpus.
+Status: v3.3 research preview. Read `KNOWN_GAPS.md`, `LEARNING_PASS_REVIEW.md`, and the Vol. 2 queue files before treating this as a finished corpus.
 
-AIWF Research Atlas is a GitHub-ready research and retrieval corpus for AI Without Fear work. The original Atlas v3.3 folder, Gradio 6 handbook archive, and older drop-in package have been merged into one Atlas tree so downstream indexing tools can treat them as one evolving knowledge base rather than three separate corpora.
+AIWF Research Atlas is the public research and retrieval corpus for AI Without Fear. It keeps the original Atlas v3.3 folder, Gradio 6 handbook archive, and older drop-in package in one tree so indexing tools can use one source of project context.
 
-This is not a normal application package. It is a structured research Atlas: policy files, canonical topic lanes, retrieval cards, source archives, visual assets, evaluation material, and Gradio-focused handbook chapters are kept together so retrieval workflows can use grounded project context instead of relying on loose notes or memory.
+This repo is a structured corpus, not an application package. It contains policy files, topic lanes, retrieval cards, source archives, visual assets, evaluation material, and Gradio handbook chapters for retrieval workflows that need project-specific context.
 
 ## Start Here
 
@@ -53,8 +53,8 @@ For human readers, start with `RAG_ATLAS_INDEX.md` and then follow the lane, cha
 
 This repository is strongest for:
 
-- AIWF retrieval architecture, chunking, source governance, and answer gating.
-- ComfyUI workflow, node ecosystem, datatype, API, and automation patterns.
+- AIWF retrieval architecture, chunking, source policy, and answer gating.
+- ComfyUI workflow, nodes, datatypes, API behavior, and automation patterns.
 - Python, pip, runtime troubleshooting, and model-serving context.
 - Gradio 6 app building, production operation, migration, and API integration.
 - Evaluation harnesses, observability, and research-quality checks.
@@ -62,15 +62,15 @@ This repository is strongest for:
 
 ## Important Limits
 
-- This repository is a research corpus, not proof that all included fast-moving technical claims are current forever.
-- Current model, API, package, hardware, benchmark, license, and compatibility claims should be verified against official sources before being treated as live guidance.
+- This repository is a research corpus, not live product documentation.
+- Fast-moving claims about models, APIs, packages, hardware, benchmarks, licenses, and compatibility need current source checks before use.
 - Source archives preserve history and provenance. Prefer canonical lanes for normal answers.
 - No included material should be treated as a license grant for third-party tools, models, packages, or assets.
 - This research-preview repository is currently All Rights Reserved unless a later license grants broader reuse rights.
 
 ## GitHub Notes
 
-The repository intentionally keeps the main Atlas folder name so existing internal references remain meaningful. The Gradio archive and packaged drop-in are incorporated inside the Atlas tree as update/history material instead of standing beside it as separate corpora.
+The repository keeps the main Atlas folder name so existing internal references remain meaningful. The Gradio archive and packaged drop-in live inside the Atlas tree as update/history material instead of standing beside it as separate corpora.
 
 ## Support
 
