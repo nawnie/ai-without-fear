@@ -1,10 +1,10 @@
 # AIWF Atlas Vol. 1
 
-Version: v2.13 — adapter evaluation benchmarking pass
+Version: v2.13 - adapter evaluation benchmarking pass
 
-The AIWF Atlas Vol. 1 is the machine-facing domain memory layer for the AI Without Fear ecosystem. It is designed for Atlas systems, local AI assistants, agents, workflow copilots, Gradio apps, and ComfyUI helper layers.
+The AIWF Atlas Vol. 1 is the machine-facing domain memory layer for AI Without Fear work. It supports Atlas systems, local AI assistants, agents, workflow copilots, Gradio apps, and ComfyUI helper layers.
 
-The **AI Without Fear Field Guide** teaches humans. The **Atlas Layer** gives AI systems the structured memory, Atlas cards, source policies, failure patterns, workflow context, and brand-aligned operating rules needed to answer in the AIWF style.
+The **AI Without Fear Field Guide** teaches humans. The **Atlas Layer** gives AI systems structured memory, Atlas cards, source policies, failure patterns, workflow context, and operating rules for AIWF-style answers.
 
 ## Brand principle
 
@@ -12,26 +12,26 @@ The **AI Without Fear Field Guide** teaches humans. The **Atlas Layer** gives AI
 
 ## Force-multiplier framing
 
-AIWF treats AI as leverage, not replacement. The Field Guide teaches humans how to understand and guide AI systems; the Atlas Layer gives AI assistants the structured memory needed to support that process without pretending the machine is the decision-maker.
+AIWF treats AI as a tool, not a replacement. The Field Guide teaches humans how to understand and guide AI systems. The Atlas Layer gives assistants the structured memory needed to support that work without pretending the machine makes the final call.
 
 ## Humor rule
 
-AIWF humor is dry, practical, and lightly absurd: useful for OOM errors, dependency gremlins, workflow spaghetti, and beginner reassurance. It should never weaken source verification, safety, consent, licensing, or privacy warnings.
+AIWF humor is dry and practical. It can help with OOM errors, dependency failures, tangled workflows, and beginner reassurance. It should never weaken source verification, safety, consent, licensing, or privacy warnings.
 
 ## Current active structure
 
-- `00_AI_READ_FIRST/` — operating rules, source rules, brand rules, and AI-facing policies.
-- `01_CANONICAL_RESEARCH_LANES/` — current canonical research lanes.
-- `02_RETRIEVAL_INDEX/` — current retrieval and lane indexes.
-- `03_SOURCE_CONTENT/` — preserved source payloads and provenance.
-- `04_MANIFESTS/` — current active manifests.
-- `05_REPORTS/` — current release and audit reports.
-- `06_CHANGE_HISTORY/` — historical manifests, reports, and prior pass artifacts.
-- `07_EXPANSION_QUEUE/` — the only active location for future-work and roadmap notes.
-- `08_INGESTION_PROTOCOLS/` — import profiles for common RAG/app systems.
-- `09_EVALUATION_HARNESS/` — evaluation scaffolds.
-- `10_SCHEMA_AND_INDEX/` — schemas, source gates, and machine rules.
-- `11_PROMPT_PACKS/` through `15_ANSWER_TEMPLATES/` — assistant operating assets.
+- `00_AI_READ_FIRST/` - operating rules, source rules, brand rules, and AI-facing policies.
+- `01_CANONICAL_RESEARCH_LANES/` - current canonical research lanes.
+- `02_RETRIEVAL_INDEX/` - current retrieval and lane indexes.
+- `03_SOURCE_CONTENT/` - preserved source payloads and provenance.
+- `04_MANIFESTS/` - current active manifests.
+- `05_REPORTS/` - current release and audit reports.
+- `06_CHANGE_HISTORY/` - historical manifests, reports, and prior pass artifacts.
+- `07_EXPANSION_QUEUE/` - the only active location for future-work and roadmap notes.
+- `08_INGESTION_PROTOCOLS/` - import profiles for common RAG/app systems.
+- `09_EVALUATION_HARNESS/` - evaluation scaffolds.
+- `10_SCHEMA_AND_INDEX/` - schemas, source gates, and machine rules.
+- `11_PROMPT_PACKS/` through `15_ANSWER_TEMPLATES/` - assistant operating assets.
 
 ## Current counts
 
@@ -54,45 +54,39 @@ Load `00_AI_READ_FIRST/AIWF_BRAND_VOICE_AND_POSITIONING.md` and `00_AI_READ_FIRS
 
 This pass adds the updated AIWF force-multiplier framing and humor/style rules. It does not change the underlying research claims or source payloads.
 
-
 ## Brand Alignment v2.8
 
 The adapter now includes a stricter active-layer brand map. AIWF voice is practical, source-aware, beginner-safe, systems-minded, and dryly funny only where humor helps the operator keep moving. Raw source files remain archival evidence and should not be rewritten for tone.
 
 ## Workflow Prompt Brand Alignment
 
-The adapter includes brand-aligned default workflow prompts under `11_PROMPT_PACKS/default_workflow_prompts/`. These prompts are designed for AIWF assistants, workflow copilots, Gradio tools, ComfyUI helpers, RAG librarians, source verifiers, and release QA agents.
+The adapter includes brand-aligned default workflow prompts under `11_PROMPT_PACKS/default_workflow_prompts/`. These prompts are for AIWF assistants, workflow copilots, Gradio tools, ComfyUI helpers, RAG librarians, source verifiers, and release QA agents.
 
 Use `00_AI_READ_FIRST/WORKFLOW_PROMPT_AND_MARKDOWN_BRAND_POLICY.md` before editing active workflow-facing Markdown. Raw source content remains provenance and should not be rewritten merely for tone.
 
 ## Visual Assets
 
-This adapter now includes a dedicated `16_VISUAL_ASSETS/` layer with reusable SVG and Mermaid diagrams for core AIWF systems: adapter load order, retrieval routing, source verification, ComfyUI datatype boundaries, Gradio-to-ComfyUI automation, lakeFS versioning, synthetic data flywheels, evaluation harnesses, cost routing, and Torchie callout style guidance.
+This adapter includes a dedicated `16_VISUAL_ASSETS/` layer with reusable SVG and Mermaid diagrams for core AIWF systems: adapter load order, retrieval routing, source verification, ComfyUI datatype boundaries, Gradio-to-ComfyUI automation, lakeFS versioning, synthetic data flywheels, evaluation harnesses, cost routing, and Torchie callout style guidance.
 
 Index the visual asset README and index by default. Do not embed raw SVGs unless the user asks for diagrams or guide visuals.
 
-
-
 ## Torchie 2026 Rebrand
 
-The active Torchie mascot reference is now stored under `16_VISUAL_ASSETS/torchie_callouts/`. Use the 2026 rebrand sheet and derived crops for new AIWF callouts, workflow cards, and guide visuals. Former Torchie art is preserved only as change history.
-
+The active Torchie mascot reference is stored under `16_VISUAL_ASSETS/torchie_callouts/`. Use the 2026 rebrand sheet and derived crops for new AIWF callouts, workflow cards, and guide visuals. Former Torchie art is preserved only as change history.
 
 ## Torchie Active Markdown/PDF Audit
 
 The v2.12 audit confirms there are no PDFs inside the adapter and no active non-provenance Markdown references instructing use of the former Torchie artwork. The current visual identity is the 2026 rebrand sheet in `16_VISUAL_ASSETS/torchie_callouts/`.
 
-
 ## Adapter Evaluation Benchmarking
 
-This version adds a proof-testing lane and evaluation harness assets. The adapter now includes golden questions, expected-source maps, a raw-RAG comparison protocol, and a result schema for testing whether AIWF structured memory improves assistant behavior.
+This version adds a proof-testing lane and evaluation harness assets. The adapter includes golden questions, expected-source maps, a raw-RAG comparison protocol, and a result schema for testing whether AIWF structured memory improves assistant behavior.
 
 Do not claim performance superiority from the archive alone. Use the benchmark protocol and record model/version-specific results.
 
-
 ## v2.14 Evaluation Structure Hardening
 
-The evaluation harness now uses current-only filenames for the benchmark protocol, raw-RAG comparison plan, golden questions, expected source maps, and lane quality audit. Older versioned evaluation/control artifacts were moved into `06_CHANGE_HISTORY/` so active ingestion does not trip over yesterday's toolbox.
+The evaluation harness now uses current-only filenames for the benchmark protocol, raw-RAG comparison plan, golden questions, expected source maps, and lane quality audit. Older versioned evaluation/control artifacts were moved into `06_CHANGE_HISTORY/` so active ingestion does not trip over stale files.
 
 Recommended evaluation entry point: `09_EVALUATION_HARNESS/README.md`.
 
