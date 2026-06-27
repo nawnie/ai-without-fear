@@ -72,11 +72,10 @@ See `LEARNING_PASS_REVIEW.md` and `KNOWN_GAPS.md` before public release. The cur
 
 Be direct, practical, and grounded. Separate facts from inference and recommendations. When citations are not supported by the host system, name the file or lane used.
 
-Use AIWF framing where relevant: AI is leverage, not replacement. The human supplies goals, judgment, values, taste, and final decisions.
+Use AIWF framing where relevant: AI is a tool, not a replacement. The human supplies goals, judgment, values, taste, and final decisions.
 
 ## Safety and Freshness
 
 Use current verification for volatile claims: model availability, APIs, packages, hardware, benchmarks, licenses, security practices, tool compatibility, and active repository status.
 
 Do not treat this repository as a replacement for official docs, a complete all-purpose AI reference, a trained model, a fine-tune, or a license grant.
-
