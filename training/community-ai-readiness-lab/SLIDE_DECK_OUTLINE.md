@@ -15,22 +15,22 @@ This outline supports one master deck with six sections. Each session may be exp
 
 7. Where AI is already hiding in ordinary tools
 8. Input -> model/tools -> output -> human review
-9. Fluent is not the same as factual
-10. Capability does not equal permission
-11. Useful now / needs safeguards / do not use yet
-12. Activity instructions
-13. Debrief: what remains a human responsibility?
+9. Parameter analogy: a vast mixing board; training example != learned setting
+10. Fluent is not the same as factual
+11. Capability does not equal permission
+12. Useful now / needs safeguards / do not use yet
+13. Activity and debrief: what remains a human responsibility?
 
 ## Session 2 - The Data Traffic Light
 
 14. Why data classification comes before prompting
-15. Green data
-16. Yellow data
-17. Red data
-18. Harmless pieces can combine into sensitive information
-19. Uncertain means pause and escalate
-20. Classification activity
-21. Organization data map
+15. Where information can appear: training data / parameters / current input / output and history
+16. Green data
+17. Yellow data
+18. Red data
+19. Harmless pieces can combine into sensitive information
+20. Uncertain means pause and escalate
+21. Classification activity and organization data map
 
 ## Session 3 - Prompt, Review, Verify
 
@@ -76,5 +76,8 @@ This outline supports one master deck with six sections. Each session may be exp
 - Use the AIWF blue-and-white field-manual visual language as the base.
 - Add one diagram per concept, not decorative stock imagery.
 - Use Torchie for short reassurance or troubleshooting callouts, not as the authority on safety or policy.
+- On slide 9, show the mixing-board analogy, the one-sentence definition, and the three-item distinction only.
+- Put `https://ai-wf.org/guides/parameters/` or a QR code in the slide footer and speaker notes. Keep equations, tensors, LoRA mechanics, and memorization off the introductory slide.
+- On slide 15, connect the model mental picture to the Data Traffic Light without implying that a prompt is safe merely because it is not a parameter.
 - Use the page-6 ControlNet diagrams from the source manual only after asset rights and attribution are confirmed. They are useful examples of conditioning, but they are not needed in the community core deck.
-- Build new original diagrams for the Data Traffic Light, verification ladder, policy loop, and workflow loop.
+- Build new original diagrams for the parameter mixing board, Data Traffic Light, verification ladder, policy loop, and workflow loop.

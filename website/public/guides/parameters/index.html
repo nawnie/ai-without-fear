@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#082847" />
+  <meta name="description" content="A plain-language and technical explanation of model parameters, training data, prompts, embeddings, and LoRA adapters." />
+  <meta property="og:title" content="What Is a Model Parameter? | AI Without Fear" />
+  <meta property="og:description" content="Start with the mixing-board analogy, then open the full technical breakdown." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://ai-wf.org/guides/parameters/" />
+  <link rel="canonical" href="https://ai-wf.org/guides/parameters/" />
+  <link rel="icon" href="/assets/cora-firefly.jpg" type="image/jpeg" />
+  <title>What Is a Model Parameter? | AI Without Fear</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#082847;background:#fff;--navy:#082847;--navy2:#173a59;--green:#3f7d32;--greenp:#eaf2e6;--coral:#ef654d;--coralp:#ffd3c7;--paper:#fffaf7;--muted:#4b6075;--line:#dce4e8;--shell:min(1040px,calc(100% - 48px))}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:320px}a{color:inherit}a:focus-visible{outline:3px solid var(--coral);outline-offset:4px}p,li,td,th{line-height:1.65}h1,h2,h3{margin-top:0;text-wrap:balance}.shell{width:var(--shell);margin-inline:auto}.skip{position:fixed;top:12px;left:12px;padding:10px 14px;color:#fff;background:var(--navy);transform:translateY(-160%)}.skip:focus{transform:none}
+    header{border-bottom:1px solid var(--line)}.head{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:24px}.brand{font-weight:800;text-decoration:none}.back{color:var(--green);font-weight:700;text-underline-offset:4px}
+    .hero{padding:clamp(72px,10vw,120px) 0;color:#fff;background:var(--navy)}.hero-grid,.grid,.quick-grid,.session-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:clamp(42px,8vw,96px)}h1{margin-bottom:22px;font-size:clamp(3.2rem,7vw,6.2rem);line-height:.96;letter-spacing:-.065em}.lede{color:rgb(255 255 255/76%);font-size:1.14rem}.analogy{margin:0;padding-top:24px;border-top:1px solid rgb(255 255 255/24%);font:clamp(1.55rem,3vw,2.35rem)/1.34 Georgia,serif}
+    .quick{padding:42px 0;border-bottom:1px solid var(--line);background:var(--paper)}.quick h2{font-size:1.9rem}.quick p{margin:0;color:var(--navy2);font-size:1.08rem}
+    section.content{padding:clamp(68px,9vw,104px) 0;scroll-margin-top:20px}section.content+section.content{border-top:1px solid var(--line)}.label h2{font-size:clamp(2rem,4vw,3.25rem);line-height:1.04;letter-spacing:-.05em}.label p{color:var(--muted)}.prose{max-width:760px}.prose h3{margin:38px 0 10px;font-size:1.35rem}.prose h3:first-child{margin-top:0}.prose p,.prose li{color:var(--navy2)}code{padding:.1em .35em;border-radius:4px;background:var(--greenp)}
+    .equation{margin:28px 0;padding:28px;border:1px solid #cbdac5;background:var(--greenp)}.equation code{display:block;padding:0;background:transparent;font-size:clamp(2.2rem,6vw,4.2rem);font-weight:800}.keys{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.keys p{margin:18px 0 0;padding-top:10px;border-top:1px solid #9ab292;font-size:.92rem}.keys strong{display:block;color:var(--navy)}
+    .steps{padding-left:22px}.steps li{margin-bottom:12px}.table-wrap{overflow-x:auto}.compare{width:100%;margin-top:24px;border-collapse:collapse;font-size:.95rem}.compare th,.compare td{padding:14px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}.compare th{background:var(--paper)}.compare td:first-child{font-weight:800;color:var(--navy)}
+    .callout{margin:28px 0;padding:22px 24px;border-left:5px solid var(--coral);background:#fff0eb}.callout p:last-child{margin-bottom:0}.lora{margin-top:26px;padding:28px;color:#fff;background:var(--navy)}.lora p,.lora li{color:rgb(255 255 255/78%)}.lora code{display:block;margin:20px 0;padding:16px;color:var(--coralp);background:rgb(255 255 255/7%)}.myths{padding:0;list-style:none}.myths li{margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}.myths strong{display:block;color:var(--navy)}
+    .session{padding:clamp(58px,8vw,84px) 0;background:var(--coralp)}.session h2{font-size:clamp(2.2rem,4vw,3.5rem);letter-spacing:-.05em}.sources a{color:var(--green);font-weight:750;text-underline-offset:4px}footer{padding:42px 0;color:#fff;background:var(--navy)}.foot{display:flex;justify-content:space-between;gap:28px}.foot p{margin:0;color:rgb(255 255 255/72%)}.foot a{font-weight:700}
+    @media(max-width:760px){:root{--shell:min(100% - 32px,680px)}.head,.foot{align-items:flex-start;flex-direction:column;padding:16px 0}.hero-grid,.grid,.quick-grid,.session-grid{grid-template-columns:1fr}.keys{grid-template-columns:1fr 1fr}h1{font-size:clamp(3rem,15vw,4.6rem)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to content</a>
+  <header><div class="shell head"><a class="brand" href="/">AI Without Fear</a><a class="back" href="/#parameters">Back to the plain-language version</a></div></header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="page-title"><div class="shell hero-grid">
+      <div><h1 id="page-title">What is a model parameter?</h1><p class="lede">Start with the useful mental picture. Continue into weights, biases, tensors, embeddings, training, memorization, and LoRA only when you need the machine-room version.</p></div>
+      <p class="analogy">Picture a giant mixing board covered in tiny dials. Training shows the model example after example and nudges many dials at once. A parameter is one dial's learned numerical setting. Together, the settings shape how the model responds.</p>
+    </div></section>
+
+    <section class="quick" aria-labelledby="quick-title"><div class="shell quick-grid"><h2 id="quick-title">The one-sentence answer</h2><p>A parameter is a numerical value inside a model that the training process is allowed to adjust, usually as part of larger tensors called weights and biases.</p></div></section>
+
+    <section class="content" aria-labelledby="mechanics-title"><div class="shell grid">
+      <div class="label"><h2 id="mechanics-title">The mechanics</h2><p>The smallest useful equation before the math starts breeding.</p></div>
+      <div class="prose">
+        <h3>A tiny model</h3><p>Consider a model that transforms input <code>x</code> into output <code>y</code>:</p>
+        <div class="equation" aria-label="Equation y equals w times x plus b"><code>y = wx + b</code><div class="keys"><p><strong>x</strong>current input</p><p><strong>w</strong>learned weight</p><p><strong>b</strong>learned bias</p><p><strong>y</strong>computed output</p></div></div>
+        <p>Here, <code>w</code> and <code>b</code> are parameters. Training changes them. The current input and output are not parameters. Large neural networks repeat this idea across enormous collections of connected operations.</p>
+        <h3>What training adjusts</h3><ol class="steps"><li>The model receives a training example.</li><li>It predicts using its current parameter values.</li><li>A loss function measures the error.</li><li>Backpropagation calculates how adjustable values contributed to that error.</li><li>An optimizer nudges many parameters, then the process repeats.</li></ol>
+        <p>One example can influence many parameters, and one parameter can be influenced by many examples. There is no normal one-line-to-one-parameter mapping.</p>
+        <h3>Parameter versus hyperparameter</h3><p>A <strong>parameter</strong> is learned. A <strong>hyperparameter</strong> is chosen by a person or training system, such as learning rate, batch size, training steps, or LoRA rank.</p>
+      </div>
+    </div></section>
+
+    <section class="content" id="data-boundaries" aria-labelledby="boundary-title"><div class="shell grid">
+      <div class="label"><h2 id="boundary-title">Where the information is</h2><p>The bridge from Session 1's model picture to Session 2's Data Traffic Light.</p></div>
+      <div class="prose">
+        <div class="table-wrap"><table class="compare"><thead><tr><th>Layer</th><th>What it is</th><th>What to remember</th></tr></thead><tbody>
+          <tr><td>Training data</td><td>Examples used during pretraining, fine-tuning, or adapter training.</td><td>Examples influence updates. They are not each stored as one parameter.</td></tr>
+          <tr><td>Parameters</td><td>Learned numerical tensors, including weights, biases, and learned embedding tables.</td><td>They shape behavior collectively. A single value usually has no human-readable meaning.</td></tr>
+          <tr><td>Prompt and context</td><td>Text, images, files, retrieved passages, or tool results supplied for the current task.</td><td>This is runtime input. Retention and reuse depend on the exact product, plan, and settings.</td></tr>
+          <tr><td>Current embeddings and activations</td><td>Intermediate numerical representations computed while the model processes this input.</td><td>They are calculations for the run, not newly trained model parameters.</td></tr>
+          <tr><td>Output, logs, and history</td><td>Generated results and records saved by an app, service, connector, or organization.</td><td>Storage, access, deletion, and disclosure are governance questions.</td></tr>
+        </tbody></table></div>
+        <div class="callout"><p><strong>Privacy boundary:</strong> A prompt is not a parameter, but that does not make it safe to upload.</p><p>A service may retain prompts, files, outputs, logs, or connector data. Session 2 still asks whether the information is allowed, which tool is approved, what the exact settings do, and who reviews the result.</p></div>
+        <h3>Where text encoding fits</h3><p>A learned embedding table contains parameters. The vector computed for the words in one current prompt is an activation for that run. Text encoding and parameter overlap in one part of the model, but they are not interchangeable terms.</p>
+        <h3>Can parameters memorize?</h3><p>Parameters are not a readable database of training lines. Models can still sometimes reproduce unusual or repeated training sequences. "Not stored as a row" must not become "impossible to recover" or "automatically private."</p>
+      </div>
+    </div></section>
+
+    <section class="content" aria-labelledby="lora-title"><div class="shell grid">
+      <div class="label"><h2 id="lora-title">How LoRA changes the picture</h2><p>Same kind of learned numbers, much smaller training target.</p></div>
+      <div class="prose"><p>Full fine-tuning changes many or all base-model parameters. Low-Rank Adaptation usually keeps the base weights frozen and trains smaller low-rank matrices that create an update for selected weights.</p>
+        <div class="lora"><h3>Conceptual form</h3><code>effective weight = base weight + scaled LoRA update</code><p>The adapter learns the smaller update. When loaded, the model combines it with the base weight during inference, or the update can sometimes be merged into the base.</p><ul><li>A LoRA contains learned adapter parameters and configuration metadata.</li><li>It is not one training caption per parameter.</li><li>Rank, target modules, scale, data, and training choices affect the result.</li></ul></div>
+        <h3>Why parameter count matters</h3><p>More parameters can increase representational capacity, file size, memory use, and computation. Parameter count is not a direct intelligence score. Architecture, data, objective, training quality, context, tools, and evaluation still matter.</p>
+      </div>
+    </div></section>
+
+    <section class="content" aria-labelledby="mixups-title"><div class="shell grid">
+      <div class="label"><h2 id="mixups-title">Common mix-ups</h2><p>Red node? Missing distinction. Not cosmic punishment.</p></div>
+      <div class="prose"><ul class="myths">
+        <li><strong>"A parameter is a training line."</strong>A training example helps cause many parameter updates. The example and learned values are different.</li>
+        <li><strong>"A parameter is a logic decision."</strong>A parameter is a number. Behavior emerges from many numbers, operations, and the current input.</li>
+        <li><strong>"A settings-panel parameter is a learned parameter."</strong>Interfaces often use the word for inference controls. In ML, learned parameters are the model's adjustable values.</li>
+        <li><strong>"An embedding is always a parameter."</strong>A learned embedding table contains parameters. A current input embedding is normally computed for that run.</li>
+        <li><strong>"No literal rows means no privacy risk."</strong>Memorization, runtime retention, logs, integrations, and product settings remain separate risks.</li>
+      </ul></div>
+    </div></section>
+
+    <section class="session" aria-labelledby="session-title"><div class="shell session-grid"><h2 id="session-title">How the lab uses this</h2><div><p><strong>Session 1:</strong> use the mixing-board analogy and separate a training example, learned setting, and current prompt.</p><p><strong>Session 2:</strong> locate where organizational information enters or remains around a system, then apply the Data Traffic Light.</p><p>The analogy belongs on the presentation. This page is the optional trapdoor for learners who want the technical structure without making everyone wrestle tensors before coffee.</p></div></div></section>
+
+    <section class="content" aria-labelledby="sources-title"><div class="shell grid">
+      <div class="label"><h2 id="sources-title">Technical sources</h2><p>Primary documentation and papers behind the deeper explanation.</p></div>
+      <div class="prose sources"><ul><li><a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.parameter.Parameter.html">PyTorch: Parameter</a></li><li><a href="https://arxiv.org/abs/2106.09685">LoRA: Low-Rank Adaptation of Large Language Models</a></li><li><a href="https://huggingface.co/docs/peft/main/package_reference/lora">Hugging Face PEFT: LoRA reference</a></li><li><a href="https://arxiv.org/abs/2012.07805">Extracting Training Data from Large Language Models</a></li></ul><p>Technical definitions are stable, but product retention, training, account, and privacy behavior can change. Check the exact service, plan, and settings before delivery.</p></div>
+    </div></section>
+  </main>
+
+  <footer><div class="shell foot"><p>AI Without Fear: practical AI education with people and judgment at the center.</p><a href="/">Return to ai-wf.org</a></div></footer>
+</body>
+</html>

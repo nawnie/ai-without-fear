@@ -25,6 +25,33 @@ Keep the room beginner-safe. Never reward jargon for its own sake. A participant
 - never use the facilitator's authority as a substitute for current source verification
 - mark current vendor or product behavior with the date checked
 
+## Layered technical explanations
+
+For technical concepts in Sessions 1 and 2, use this order:
+
+1. give the analogy
+2. state the one-sentence definition
+3. continue the activity
+4. offer the optional technical link
+
+Do not front-load tensors, matrices, gradients, optimizer terminology, or LoRA algebra. The required session module is `PARAMETERS_SESSION_1_2.md`, and the public technical guide is:
+
+`https://ai-wf.org/guides/parameters/`
+
+For **parameter**, use the mixing-board analogy:
+
+> Training nudges many tiny dials. One parameter is one learned numerical setting. Together, the settings shape how the model responds.
+
+Then clarify only the three distinctions needed for the activity:
+
+- a training example is something used to adjust the model
+- a parameter is a learned numerical value inside the model
+- a prompt or upload is information supplied for the current task
+
+Keep the full breakdown behind the link unless the group asks. If learners ask whether this makes prompts private, redirect to Session 2. Runtime retention, plan terms, settings, logs, connectors, authorization, and review remain separate questions.
+
+Tiny robot note: analogy first, tensor basement second.
+
 ## 3. Accessibility
 
 Provide:

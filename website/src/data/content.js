@@ -3,11 +3,15 @@ export const sessions = [
     number: '01',
     title: 'AI Without the Fog Machine',
     detail: 'Build a shared, plain-language understanding of what current AI tools can and cannot do.',
+    resourceHref: '/guides/parameters/',
+    resourceLabel: 'Open the parameter explainer',
   },
   {
     number: '02',
     title: 'The Data Traffic Light',
     detail: 'Sort information into clear categories before deciding what should ever enter an AI tool.',
+    resourceHref: '/guides/parameters/#data-boundaries',
+    resourceLabel: 'See where data and parameters differ',
   },
   {
     number: '03',

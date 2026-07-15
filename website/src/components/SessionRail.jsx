@@ -16,6 +16,11 @@ export default function SessionRail() {
               <div>
                 <h3>{session.title}</h3>
                 <p>{session.detail}</p>
+                {session.resourceHref && (
+                  <a className="text-link session-resource-link" href={session.resourceHref}>
+                    {session.resourceLabel} <span aria-hidden="true">→</span>
+                  </a>
+                )}
               </div>
             </li>
           ))}

@@ -23,6 +23,7 @@ The human supplies the goal, context, values, lived experience, and final decisi
 |---|---|
 | `PILOT_CHARTER.md` | Defines the first 90-day pilot, audience, safeguards, metrics, and partner expectations |
 | `CURRICULUM.md` | Full six-session curriculum with objectives, agenda, activities, and deliverables |
+| `PARAMETERS_SESSION_1_2.md` | Required analogy-first parameter module and optional technical path for Sessions 1 and 2 |
 | `FACILITATOR_GUIDE.md` | Delivery rules, room setup, accessibility, safety, and failure handling |
 | `LEARNER_WORKBOOK.md` | Participant worksheets for every session |
 | `ASSESSMENTS.md` | Pre/post assessment, scenarios, answer key, and scoring rubric |
@@ -44,6 +45,8 @@ The six-session pilot in this pack:
 4. Tool and Vendor Check
 5. The Policy Sprint
 6. One Safe Workflow
+
+Sessions 1 and 2 share the required parameter module in `PARAMETERS_SESSION_1_2.md`. It presents the mixing-board analogy and one-sentence definition in the room, then links to the full technical guide at `https://ai-wf.org/guides/parameters/` for learners who want more depth.
 
 ### Track B - AIWF Builder Electives
 
