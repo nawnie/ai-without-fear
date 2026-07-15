@@ -1,0 +1,17 @@
+{
+  "name": "AI Without Fear",
+  "short_name": "AIWF",
+  "description": "Practical, vendor-neutral AI literacy and governance training for real communities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/nawnie/ai-without-fear/main/AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/torchie_callouts/Aiwf%20logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
