@@ -1,4 +1,4 @@
-import { TORCHIE_ASSET_URL, CONTACT_EMAIL, faqs, GITHUB_URL, resources } from '../data.js';
+import { TORCHIE_ASSET_URL, CONTACT_EMAIL, faqs, GITHUB_URL, resources, TRAINING_SOURCE_URL } from '../data.js';
 import { ButtonLink, Icon, PageHero, PageShell, ResourceLink, SectionHeading, TextLink } from '../components.jsx';
 
 function AboutAside() {
@@ -72,7 +72,7 @@ function ProjectLayers() {
           body="The project keeps human instruction, technical tools, and machine-facing research distinct so each layer can do its job without pretending to be the others."
         />
         <div className="layer-list">
-          <div><span className="layer-list__number">01</span><div><h3>AI Without Fear Field Guide</h3><p>The human-readable technical teaching layer: concepts, workflows, troubleshooting, image generation, video generation, and transferable operating principles.</p><TextLink href="/resources/AI_Without_Fear_Field_Manual_2026.pdf" icon="download" external>Open the Field Manual</TextLink></div></div>
+          <div><span className="layer-list__number">01</span><div><h3>AI Without Fear Field Guide</h3><p>The human-readable technical teaching layer: concepts, workflows, troubleshooting, image generation, video generation, and transferable operating principles.</p><TextLink href={`${TRAINING_SOURCE_URL}/SOURCE_MAP.md`} icon="external" external>Open the Field Guide source map</TextLink></div></div>
           <div><span className="layer-list__number">02</span><div><h3>Community AI Readiness Lab</h3><p>The organization-ready training layer: data classification, human verification, vendor review, policy, incident response, and one safe workflow.</p><TextLink href="/programs/">Explore the program</TextLink></div></div>
           <div><span className="layer-list__number">03</span><div><h3>AIWF Atlas Layer</h3><p>The machine-facing research and retrieval corpus that preserves project terminology, source discipline, failure patterns, evaluation material, and governed context.</p><TextLink href={GITHUB_URL} icon="github" external>Open the repository</TextLink></div></div>
         </div>
