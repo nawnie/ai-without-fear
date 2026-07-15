@@ -691,6 +691,25 @@ section h2 {
   font-size: 0.82rem;
 }
 
+.footer-inner .footer-credit {
+  grid-column: 1 / -1;
+  max-width: none;
+  padding-top: 22px;
+  border-top: 1px solid rgb(255 255 255 / 18%);
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.footer-credit a {
+  color: var(--white);
+  text-underline-offset: 3px;
+}
+
+.footer-credit a:hover,
+.footer-credit a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
 @media (max-width: 1030px) {
   .main-nav {
     display: none;
