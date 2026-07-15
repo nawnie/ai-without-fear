@@ -1,25 +1,25 @@
 {
-  "name": "aiwf-community-site",
+  "name": "ai-without-fear-website",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name ai-wf-org",
-    "check": "node scripts/check-content.mjs"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "vite": "^6.3.5",
-    "wrangler": "^4.25.0"
-  },
-  "engines": {
-    "node": ">=20"
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^10.7.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "vite": "^8.1.4"
   }
 }

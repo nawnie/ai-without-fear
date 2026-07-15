@@ -1,0 +1,26 @@
+import { sessions } from '../data/content.js'
+
+export default function SessionRail() {
+  return (
+    <section className="sessions-section" aria-labelledby="sessions-title">
+      <div className="shell sessions-layout">
+        <div className="section-heading sessions-heading">
+          <h2 id="sessions-title">Six sessions. One practical way forward.</h2>
+          <p>Each session turns a fuzzy AI question into a decision your organization can discuss and use.</p>
+          <p className="format-note">Designed for in-person, online, or hybrid cohorts.</p>
+        </div>
+        <ol className="session-rail">
+          {sessions.map((session) => (
+            <li key={session.number}>
+              <span className="session-number" aria-hidden="true">{session.number}</span>
+              <div>
+                <h3>{session.title}</h3>
+                <p>{session.detail}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )
+}
