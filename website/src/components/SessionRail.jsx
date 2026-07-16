@@ -6,7 +6,7 @@ export default function SessionRail() {
       <div className="shell sessions-layout">
         <div className="section-heading sessions-heading">
           <h2 id="sessions-title">Six sessions. One practical way forward.</h2>
-          <p>Each session turns a fuzzy AI question into a decision your organization can discuss and use.</p>
+          <p>Each session helps people turn a fuzzy AI question into a decision they can discuss, test, and own.</p>
           <p className="format-note">Designed for in-person, online, or hybrid cohorts.</p>
         </div>
         <ol className="session-rail">

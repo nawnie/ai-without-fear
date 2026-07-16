@@ -15,8 +15,8 @@ export default function InterestSection() {
         <div>
           <h2 id="interest-title">Would this help your community?</h2>
           <p>
-            We’re gathering interest before we schedule a cohort. Tell us who you serve, what questions
-            your team has, and what would make participation possible.
+            We’re gathering interest before we schedule a cohort. Tell us who you serve, what your team wants
+            help with, and what responsible AI use should look like in your community.
           </p>
           <a className="button button--coral" href={contactHref}>
             <MailIcon />

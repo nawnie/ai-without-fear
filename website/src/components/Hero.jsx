@@ -10,8 +10,9 @@ export default function Hero() {
               Practical AI skills for the people doing the <em>work.</em>
             </h1>
             <p>
-              A proposed six-session community learning lab designed to help small organizations use AI with
-              care, clear boundaries, and human judgment.
+              A proposed six-session community learning lab designed to help the people inside small
+              organizations expand what they can do with AI while keeping responsibility and human judgment
+              where they belong.
             </p>
             <div className="hero-actions">
               <a className="button button--primary" href={contactHref}>Tell us you’re interested</a>

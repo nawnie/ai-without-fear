@@ -9,9 +9,9 @@ export default function Communities() {
             without a big technology budget.
           </p>
           <p>
-            The lab starts with the decisions people already face: what information should stay private,
-            when a tool needs a closer look, who reviews AI-assisted work, and where a low-risk use might
-            genuinely help.
+            The lab starts with the people already doing the work. Together, they decide what information stays
+            private, who reviews AI-assisted work, and where a low-risk workflow can add capacity without pushing
+            people aside.
           </p>
         </div>
       </div>

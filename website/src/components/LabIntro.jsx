@@ -5,8 +5,9 @@ export default function LabIntro() {
         <div>
           <h2 id="lab-title">What is the lab?</h2>
           <p>
-            AI Without Fear is a proposed learning lab for rural and resource-constrained nonprofits,
-            libraries, workforce partners, community organizations, and adult learners.
+            AI Without Fear is a proposed learning lab that helps people inside rural and resource-constrained
+            nonprofits, libraries, workforce partners, and community organizations find useful AI workflows
+            without handing away the judgment, responsibility, or relationships their work depends on.
           </p>
         </div>
         <div className="community-line" aria-hidden="true">

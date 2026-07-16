@@ -489,15 +489,35 @@ section h2 {
   grid-template-columns: 105px 1fr;
   align-items: center;
   gap: 35px;
-  min-height: 220px;
+  min-height: 260px;
+  padding: clamp(42px, 5vw, 68px) 0;
 }
 
-.principle-inner p {
+.principle-copy {
   max-width: 960px;
+}
+
+.principle-copy h2 {
+  max-width: 920px;
   margin: 0;
   font-family: Georgia, 'Times New Roman', serif;
   font-size: clamp(1.75rem, 3.3vw, 3.2rem);
+  font-weight: 400;
   line-height: 1.18;
+}
+
+.principle-copy p {
+  max-width: 760px;
+  margin: 20px 0 0;
+  color: rgb(255 255 255 / 84%);
+  font-size: clamp(1.04rem, 1.55vw, 1.25rem);
+  line-height: 1.6;
+}
+
+.principle-copy .principle-commitment {
+  max-width: 840px;
+  color: rgb(255 255 255 / 72%);
+  font-size: 1rem;
 }
 
 .people-symbol {
@@ -883,8 +903,12 @@ section h2 {
     padding: 42px 0;
   }
 
-  .principle-inner p {
-    font-size: 1.65rem;
+  .principle-copy h2 {
+    font-size: 1.85rem;
+  }
+
+  .principle-copy .principle-commitment {
+    font-size: 0.98rem;
   }
 
   .people-symbol {

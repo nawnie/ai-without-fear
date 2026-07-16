@@ -35,16 +35,27 @@ export default function Outcomes() {
           </div>
         </div>
       </section>
-      <aside className="principle-band" aria-label="Guiding principle">
+      <section className="principle-band" id="ethics" aria-labelledby="principle-title">
         <div className="shell principle-inner">
           <div className="people-symbol" aria-hidden="true">
             <span />
             <span />
             <span />
           </div>
-          <p>AI can be a force multiplier. It is not a substitute for human judgment.</p>
+          <div className="principle-copy">
+            <h2 id="principle-title">AI is not a replacement for humans. It is a force accelerator.</h2>
+            <p>
+              Knowledge and human judgment decide whether that force becomes a multiplier or a problem that
+              compounds.
+            </p>
+            <p className="principle-commitment">
+              We teach a people-first approach: use AI to help the people already doing the work accomplish more.
+              It should not be a shortcut to cut them out. If AI adds capacity, hold off on new hiring until the
+              work calls for the next role.
+            </p>
+          </div>
         </div>
-      </aside>
+      </section>
     </>
   )
 }

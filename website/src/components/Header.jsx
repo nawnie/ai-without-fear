@@ -11,6 +11,7 @@ export default function Header() {
         <nav className="main-nav" aria-label="Primary navigation">
           <a href="#lab">The lab</a>
           <a href="#outcomes">What you’ll leave with</a>
+          <a href="#ethics">Our ethic</a>
           <a href="#communities">For communities</a>
         </nav>
       </div>

@@ -8,7 +8,7 @@ export default function Footer() {
           <BrandMark light />
           <span>AI Without Fear</span>
         </a>
-        <p>Practical AI education with people, judgment, and community needs at the center.</p>
+        <p>Practical AI education that helps people do more while keeping human judgment at the center.</p>
         <p className="footer-meta">Nonprofit community education initiative.</p>
         <p className="footer-credit">
           Website built by <a href="https://aiembeddedsystems.com/">aiembeddedsystems.com</a>
