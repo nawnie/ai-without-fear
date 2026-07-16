@@ -3,7 +3,23 @@
   <url>
     <loc>https://ai-wf.org/</loc>
   </url>
+  <url><loc>https://ai-wf.org/programs/</loc></url>
+  <url><loc>https://ai-wf.org/programs/session-1/</loc></url>
+  <url><loc>https://ai-wf.org/programs/session-2/</loc></url>
+  <url><loc>https://ai-wf.org/programs/session-3/</loc></url>
+  <url><loc>https://ai-wf.org/programs/session-4/</loc></url>
+  <url><loc>https://ai-wf.org/programs/session-5/</loc></url>
+  <url><loc>https://ai-wf.org/programs/session-6/</loc></url>
+  <url><loc>https://ai-wf.org/guides/</loc></url>
+  <url><loc>https://ai-wf.org/guides/facilitator/</loc></url>
+  <url><loc>https://ai-wf.org/guides/workbook/</loc></url>
+  <url><loc>https://ai-wf.org/guides/safety-kit/</loc></url>
+  <url><loc>https://ai-wf.org/guides/presentation/</loc></url>
+  <url><loc>https://ai-wf.org/guides/sources/</loc></url>
   <url>
     <loc>https://ai-wf.org/guides/parameters/</loc>
   </url>
+  <url><loc>https://ai-wf.org/who-we-serve/</loc></url>
+  <url><loc>https://ai-wf.org/partners/</loc></url>
+  <url><loc>https://ai-wf.org/about/</loc></url>
 </urlset>

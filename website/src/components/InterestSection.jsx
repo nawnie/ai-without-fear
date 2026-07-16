@@ -1,4 +1,4 @@
-import { contactHref } from '../data/content.js'
+import { contactEmail, contactHref } from '../data/content.js'
 
 function MailIcon() {
   return (
@@ -20,9 +20,9 @@ export default function InterestSection() {
           </p>
           <a className="button button--coral" href={contactHref}>
             <MailIcon />
-            Email Shawn about the lab
+            Request information
           </a>
-          <a className="contact-email" href="mailto:shawnohagan2@gmail.com">shawnohagan2@gmail.com</a>
+          <a className="contact-email" href={`mailto:${contactEmail}`}>{contactEmail}</a>
           <p className="commitment-note">A note of interest is not a commitment.</p>
         </div>
         <figure className="cora-mascot">

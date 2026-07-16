@@ -32,11 +32,11 @@ export default function ParameterPrimer() {
           </div>
 
           <a className="text-link parameter-deep-link" href="/guides/parameters/">
-            Read the full technical breakdown <span aria-hidden="true">→</span>
+            Read the technical guide <span aria-hidden="true">→</span>
           </a>
           <p className="parameter-session-note">
-            Sessions 1 and 2 use this analogy first, then offer the technical guide for learners who
-            want to open the machine room.
+            Sessions 1 and 2 start with the analogy. Learners who want the math and model details can
+            continue with the technical guide.
           </p>
         </div>
       </div>

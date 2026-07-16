@@ -55,8 +55,9 @@ export default function Outcomes() {
             </p>
             <p className="principle-commitment">
               We teach a people-first approach: use AI to help the people already doing the work accomplish more.
-              It should not be a shortcut to cut them out. If AI adds capacity, hold off on new hiring until the
-              work calls for the next role.
+              It should not be a shortcut to cut them out. On the right tasks, a team may be able to produce two to
+              ten times more useful work, but that is something to test, not a promise or a head-count target. If AI
+              adds capacity, hold off on new hiring until the work calls for the next role.
             </p>
           </div>
         </div>
