@@ -35,7 +35,12 @@ export default function Outcomes() {
           </div>
         </div>
       </section>
-      <section className="principle-band" id="ethics" aria-labelledby="principle-title">
+      <section
+        className="principle-band"
+        id="ethics"
+        data-principle="people-first"
+        aria-labelledby="principle-title"
+      >
         <div className="shell principle-inner">
           <div className="people-symbol" aria-hidden="true">
             <span />
