@@ -68,3 +68,16 @@ Next pass: add the missing source list if available and review licensing before 
 ## Overall Read
 
 The Atlas knows what it wants to be: a governed research memory layer for AIWF work. The bones are strong. The next real improvement is not more scaffolding; it is a content pass that makes retrieval cards, concept definitions, and thin Gradio sections carry more grounded substance.
+
+## GitReverse Review — 2026-07-29
+
+GitReverse accurately describes this repository as a structured public research
+corpus for local AI, ComfyUI, Gradio, retrieval/RAG planning, and evaluation
+materials. It correctly avoids presenting the corpus as a normal application
+or a live Atlas Core SDK. Its recommendation to keep canonical, historical,
+and review-needed material distinguishable matches the repository's intended
+ingestion discipline.
+
+Next pass: improve grounded content in retrieval cards, definitions, and thin
+Gradio sections before adding further governance scaffolding. Keep the separate
+Atlas Core runtime/SDK and Atlas Reader LoRA research boundaries explicit.
