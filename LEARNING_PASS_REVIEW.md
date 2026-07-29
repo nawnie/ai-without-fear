@@ -6,6 +6,11 @@ This review captures the current project state after merging the original three 
 
 This is not a normal application repo and not yet a finished knowledge base. It is a machine-facing domain-memory layer: a RAG corpus with strong governance scaffolding around a thinner core of synthesized knowledge.
 
+It is not the Atlas Core runtime or SDK. Those now live in the separate
+[`nawnie/atlas-core`](https://github.com/nawnie/atlas-core) product repository.
+The corpus can be a read-only retrieval source for Atlas Core, but it must not
+be represented as the application database, execution layer, or SDK.
+
 The original side-by-side folders have now been folded into the Atlas:
 
 - Atlas v3.3 remains the primary tree.

@@ -2,6 +2,15 @@
 
 This file maps the combined repository for RAG ingestion and human navigation.
 
+## Runtime Boundary
+
+This index maps the public research corpus only. Atlas Core's application
+runtime and official SDK are separate at
+[`nawnie/atlas-core`](https://github.com/nawnie/atlas-core); use its public SDK
+contracts for applications rather than treating corpus files as a database or
+runtime API. Atlas Reader LoRA research is separately maintained at
+[`nawnie/atlas-lora-adapter`](https://github.com/nawnie/atlas-lora-adapter).
+
 ## Combined Atlas
 
 | Area | Path | Description |
@@ -71,4 +80,3 @@ Use lane files for synthesized answers. Use source archives for exact evidence, 
 - `metadata/rag_file_index.jsonl` - line-delimited file index for ingestion pipelines.
 - `metadata/rag_ingestion_manifest.json` - summary of recommended ingestion layers.
 - `metadata/checksums_sha256.txt` - repository-level checksums for integrity checks.
-

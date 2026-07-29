@@ -10,6 +10,19 @@ AIWF Research Atlas is the public research and retrieval corpus for AI Without F
 
 This repo is a structured corpus, not an application package. It contains policy files, topic lanes, retrieval cards, source archives, visual assets, evaluation material, and Gradio handbook chapters for retrieval workflows that need project-specific context.
 
+## Atlas product boundary
+
+This repository is the **AIWF Research Atlas corpus**. The separate Atlas Core
+runtime and official Python SDK are published at
+[`nawnie/atlas-core`](https://github.com/nawnie/atlas-core); they provide
+tenant-scoped Company Memory, deterministic change intelligence,
+approval-gated proposals, Cartographer runtime records, and `AtlasClient`.
+Atlas Core may use this corpus as a read-only knowledge source, but this corpus
+is not its runtime, database, SDK, or a live integration.
+
+The Atlas Reader LoRA research/evaluation work remains separately scoped in
+[`nawnie/atlas-lora-adapter`](https://github.com/nawnie/atlas-lora-adapter).
+
 ## Start Here
 
 - `RAG_ATLAS_INDEX.md` - high-level map of the combined Atlas.
