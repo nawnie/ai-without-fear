@@ -1,93 +1,31 @@
-# AIWF Research Atlas
+# AI Without Fear
 
-<p align="center">
-  <img src="AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/torchie_callouts/Aiwf%20logo.png" alt="AI Without Fear logo" width="220"/>
-</p>
+AI Without Fear is the learning, research, and hands-on experimentation side of AI Embedded Systems.
 
-Status: v3.3 research preview. Read `KNOWN_GAPS.md`, `LEARNING_PASS_REVIEW.md`, and the Vol. 2 queue files before treating this as a finished corpus.
+The goal is simple: take the magic trick apart without taking the wonder out of it.
 
-AIWF Research Atlas is the public research and retrieval corpus for AI Without Fear. It keeps the original Atlas v3.3 folder, Gradio 6 handbook archive, and older drop-in package in one tree so indexing tools can use one source of project context.
+We publish approachable explanations, local-first tools, field guides, and reproducible experiments for people who want to understand what AI is doing—and what it is not doing.
 
-This repo is a structured corpus, not an application package. It contains policy files, topic lanes, retrieval cards, source archives, visual assets, evaluation material, and Gradio handbook chapters for retrieval workflows that need project-specific context.
+## Start here
 
-## Atlas product boundary
+- **Learn:** practical lessons on images, tokens, models, retrieval, safety, and local AI.
+- **Build:** small tools and workflows that run on ordinary consumer hardware.
+- **Check:** source-backed notes, evaluation records, and clearly marked limits.
+- **Apply:** ideas that can grow into private AI and operational systems through [AI Embedded Systems](https://aiembeddedsystems.com/).
 
-This repository is the **AIWF Research Atlas corpus**. The separate Atlas Core
-runtime and official Python SDK are published at
-[`nawnie/atlas-core`](https://github.com/nawnie/atlas-core); they provide
-tenant-scoped Company Memory, deterministic change intelligence,
-approval-gated proposals, Cartographer runtime records, and `AtlasClient`.
-Atlas Core may use this corpus as a read-only knowledge source, but this corpus
-is not its runtime, database, SDK, or a live integration.
+## Public projects
 
-The Atlas Reader LoRA research/evaluation work remains separately scoped in
-[`nawnie/atlas-lora-adapter`](https://github.com/nawnie/atlas-lora-adapter).
+| Project | Role |
+| --- | --- |
+| [AIWF Studio](https://github.com/nawnie/AIWF-Studio) | Local creative AI workspace |
+| [Model Operating Kernel](https://github.com/nawnie/Model-Operating-Kernel) | Local model routing and runtime coordination |
+| [ReTrain](https://github.com/nawnie/ReTrain) | Guided local training workbench |
+| [Cartographer SDK](https://github.com/nawnie/atlas-core) | Supporting context and operational-memory infrastructure |
 
-## Start Here
+## Research standard
 
-- `RAG_ATLAS_INDEX.md` - high-level map of the combined Atlas.
-- `INGESTION_GUIDE.md` - recommended indexing order and metadata.
-- `KNOWN_GAPS.md` - known content and publication gaps.
-- `LEARNING_PASS_REVIEW.md` - current review findings and next-pass priorities.
-- `LICENSE.md` - conservative research-preview rights statement.
-- `NOTES_TO_AI.md` - machine-readable project notes and retrieval boundaries.
-- `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/` - the single combined Atlas tree.
-- `metadata/` - generated repository manifests, checksums, and RAG file indexes.
+AIWF separates a useful demo from a verified claim.
 
-## Combined Atlas Layout
+Fast-moving model, package, hardware, licensing, and compatibility details need current source checks. Local measurements are labeled as local measurements. A roadmap is labeled as a roadmap. A failure is documentation, not a shameful secret.
 
-| Layer | Path | Role |
-|---|---|---|
-| Project notes | `NOTES_TO_AI.md` | Machine-readable project notes, source boundaries, and retrieval context |
-| Atlas control layer | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/00_AI_READ_FIRST/` | Source policy, confidence gates, citation rules, and routing behavior |
-| Retrieval index | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/02_RETRIEVAL_INDEX/` | Compact Atlas cards and lane routing |
-| Canonical lanes | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/01_CANONICAL_RESEARCH_LANES/` | Synthesized domain knowledge by topic |
-| Source evidence | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/03_SOURCE_CONTENT/` | Preserved source packs, raw provenance, and legacy material |
-| Gradio 6 update pack | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/03_SOURCE_CONTENT/A_CANONICAL_SOURCE_PACKS/gradio6_rag_archive_20260521_0838/` | Gradio 6 handbook source pack integrated into the Atlas |
-| Evaluation | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/09_EVALUATION_HARNESS/` | Evaluation prompts, rubrics, and benchmark scaffolding |
-| Visual assets | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/16_VISUAL_ASSETS/` | Diagrams, visual indexes, and callout guidance |
-| Packaged release history | `AIWF_Atlas_VOL1_machine_facing_v3_3_api_cli_guide/06_CHANGE_HISTORY/packaged_releases/` | Older zip/drop-in release preserved as history |
-
-## Recommended Use
-
-For retrieval and indexing workflows, load the repo in layers:
-
-1. Review the project notes and source policy files.
-2. Index the Atlas control files from `00_AI_READ_FIRST/`.
-3. Index the retrieval cards and lane indexes.
-4. Index canonical research lanes.
-5. Index the integrated Gradio 6 source pack at section-file granularity when Gradio questions are in scope.
-6. Use source archives only when provenance or exact evidence is needed.
-7. Use manifests, reports, and change history for audit work rather than normal answers.
-
-For human readers, start with `RAG_ATLAS_INDEX.md` and then follow the lane, chapter, or topic path that matches your question.
-
-## Current Scope
-
-This repository is strongest for:
-
-- AIWF retrieval architecture, chunking, source policy, and answer gating.
-- ComfyUI workflow, nodes, datatypes, API behavior, and automation patterns.
-- Python, pip, runtime troubleshooting, and model-serving context.
-- Gradio 6 app building, production operation, migration, and API integration.
-- Evaluation harnesses, observability, and research-quality checks.
-- AI application architecture, safety, licensing, synthetic data, document AI, audio, and related AI practice lanes.
-
-## Important Limits
-
-- This repository is a research corpus, not live product documentation.
-- Fast-moving claims about models, APIs, packages, hardware, benchmarks, licenses, and compatibility need current source checks before use.
-- Source archives preserve history and provenance. Prefer canonical lanes for normal answers.
-- No included material should be treated as a license grant for third-party tools, models, packages, or assets.
-- This research-preview repository is currently All Rights Reserved unless a later license grants broader reuse rights.
-
-## GitHub Notes
-
-The repository keeps the main Atlas folder name so existing internal references remain meaningful. The Gradio archive and packaged drop-in live inside the Atlas tree as update/history material instead of standing beside it as separate corpora.
-
-## Support
-
-Support AI Without Fear project development, testing, guides, tools, and local AI experiments:
-
-- [Support on Venmo](https://venmo.com/code?user_id=4526061123536861189&created=1779356130)
-- [Support policy and reusable copy](SUPPORT.md)
+Visit the learning site: https://ai-wf.org/
