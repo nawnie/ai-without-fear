@@ -1,0 +1,76 @@
+{
+  "program_id": "aiwf-community-ai-readiness-lab-v0.1",
+  "title": "AI Without Fear Community AI Readiness Lab",
+  "version": "0.1",
+  "status": "pilot",
+  "audience": [
+    "small nonprofits",
+    "public libraries",
+    "community organizations",
+    "workforce partners",
+    "adult learners"
+  ],
+  "delivery": {
+    "sessions": 6,
+    "minutes_per_session": 90,
+    "formats": ["in-person", "hybrid", "online"],
+    "cohort_organizations_target": 10,
+    "participant_target": "20-30"
+  },
+  "principles": [
+    "Master principles, not platforms.",
+    "Tools change. Principles transfer.",
+    "AI is a force multiplier, not a substitute for human judgment.",
+    "Capability does not equal permission.",
+    "Use public, fictional, or sanitized data during training."
+  ],
+  "modules": [
+    {
+      "id": "01",
+      "title": "AI Without the Fog Machine",
+      "outcomes": ["plain-language mental model", "use-risk task map"]
+    },
+    {
+      "id": "02",
+      "title": "The Data Traffic Light",
+      "outcomes": ["green-yellow-red data classification", "approval owner"]
+    },
+    {
+      "id": "03",
+      "title": "Prompt, Review, Verify",
+      "outcomes": ["reusable prompt template", "human verification checklist"]
+    },
+    {
+      "id": "04",
+      "title": "Tool and Vendor Check",
+      "outcomes": ["tool inventory", "completed tool review"]
+    },
+    {
+      "id": "05",
+      "title": "The Policy Sprint",
+      "outcomes": ["one-page interim AI policy", "incident owner"]
+    },
+    {
+      "id": "06",
+      "title": "One Safe Workflow",
+      "outcomes": ["documented low-risk workflow", "30-day action plan"]
+    }
+  ],
+  "completion_outputs": [
+    "interim AI policy",
+    "data classification worksheet",
+    "AI tool inventory",
+    "human review checklist",
+    "one documented low-risk workflow",
+    "30-day action plan",
+    "leadership briefing"
+  ],
+  "source_layers": [
+    "current official sources for volatile claims",
+    "AIWF canonical policy and terminology",
+    "AI Without Fear Field Guide",
+    "archived examples as provenance"
+  ],
+  "reference_application": "AIWF Studio",
+  "license_status": "research-preview; confirm final curriculum and third-party asset rights before public reuse grant"
+}

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#082847">
+    <meta name="description" content="A plain-language and technical explanation of model parameters, training data, prompts, embeddings, and LoRA adapters.">
+    <meta property="og:title" content="What Is a Model Parameter? | AI Without Fear">
+    <meta property="og:description" content="Start with the mixing-board analogy, then read the technical breakdown.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ai-wf.org/guides/parameters/">
+    <link rel="canonical" href="https://ai-wf.org/guides/parameters/">
+    <link rel="icon" href="/assets/cora-firefly.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="/guides/parameters/styles.css">
+    <title>What Is a Model Parameter? | AI Without Fear</title>
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to content</a>
+    <header>
+      <div class="shell head">
+        <a class="brand" href="/">AI Without Fear</a>
+        <nav aria-label="Guide navigation">
+          <a class="back" href="/guides/">All guides</a>
+          <a class="back" href="/programs/">The lab</a>
+          <a class="back" href="mailto:sohagan.dev@aiembeddedsystems.com?subject=Model%20parameter%20guide%20question">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="shell hero-grid">
+          <div>
+            <h1 id="page-title">What is a model parameter?</h1>
+            <p class="lede">Begin with the mental picture, then use the technical details when they help.</p>
+            <p><a class="download-link" href="/downloads/model-parameter-explainer.md" download>Download this guide</a></p>
+          </div>
+          <p class="analogy">Picture a large mixing board covered in small dials. Training shows the model example after example and nudges many dials at once. A parameter is one dial's learned numerical setting. Together, the settings shape how the model responds.</p>
+        </div>
+      </section>
+      <section class="quick" aria-labelledby="quick-title">
+        <div class="shell quick-grid">
+          <h2 id="quick-title">The one-sentence answer</h2>
+          <p>A parameter is a numerical value inside a model that training is allowed to adjust, commonly stored in tensors such as weights and biases.</p>
+        </div>
+      </section>
+      <section class="content" aria-labelledby="mechanics-title">
+        <div class="shell grid">
+          <div class="label">
+            <h2 id="mechanics-title">The mechanics</h2>
+            <p>A small equation shows where learned values appear.</p>
+          </div>
+          <div class="prose">
+            <h3>A tiny model</h3>
+            <p>For <code>y = wx + b</code>, <code>x</code> is the current input, <code>y</code> is the output, and learned <code>w</code> and <code>b</code> are parameters.</p>
+            <div class="equation" aria-label="Equation y equals w times x plus b">
+              <code>y = wx + b</code>
+              <div class="keys">
+                <p><strong>x</strong>input</p><p><strong>w</strong>weight</p><p><strong>b</strong>bias</p><p><strong>y</strong>output</p>
+              </div>
+            </div>
+            <h3>Training loop</h3>
+            <ol class="steps">
+              <li>Receive a training example.</li>
+              <li>Predict with the current parameters.</li>
+              <li>Measure error with a loss function.</li>
+              <li>Use backpropagation to calculate adjustment directions.</li>
+              <li>Let an optimizer nudge many parameters, then repeat.</li>
+            </ol>
+            <p>One example can affect many parameters, and one parameter can be affected by many examples. There is no normal one-line-to-one-parameter mapping.</p>
+            <h3>Parameter versus hyperparameter</h3>
+            <p>A <strong>parameter</strong> is learned. A <strong>hyperparameter</strong> is chosen, such as learning rate, batch size, training steps, or LoRA rank.</p>
+          </div>
+        </div>
+      </section>
+      <section class="content" id="data-boundaries" aria-labelledby="boundary-title">
+        <div class="shell grid">
+          <div class="label">
+            <h2 id="boundary-title">Where the information is</h2>
+            <p>The bridge from Session 1 to Session 2's Data Traffic Light.</p>
+          </div>
+          <div class="prose">
+            <div class="table-wrap">
+              <table class="compare">
+                <thead><tr><th>Layer</th><th>What it is</th><th>Remember</th></tr></thead>
+                <tbody>
+                  <tr><td>Training data</td><td>Examples used in pretraining, fine-tuning, or adapter training.</td><td>Examples influence updates. Each example is not one parameter.</td></tr>
+                  <tr><td>Parameters</td><td>Learned tensors such as weights, biases, and embedding tables.</td><td>They shape behavior collectively; one value rarely has readable meaning.</td></tr>
+                  <tr><td>Prompt and context</td><td>Text, images, files, retrieval, or tool results supplied for this task.</td><td>Runtime input. Retention depends on the product, plan, and settings.</td></tr>
+                  <tr><td>Current activations</td><td>Intermediate representations computed while processing the input.</td><td>Calculations for the run, not newly trained parameters.</td></tr>
+                  <tr><td>Output, logs, history</td><td>Results and records saved by an app, connector, or organization.</td><td>Storage, access, deletion, and disclosure are governance questions.</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="callout">
+              <p><strong>Privacy boundary:</strong> A prompt is not a parameter, but that does not make it safe to upload.</p>
+              <p>Check what is allowed, which tool is approved, what the exact settings retain, and who reviews the result.</p>
+            </div>
+            <h3>Embeddings and text encoding</h3>
+            <p>A learned embedding table contains parameters. The vector computed for one current prompt is an activation for that run. These ideas are related, but they are not interchangeable.</p>
+            <h3>Memorization</h3>
+            <p>Parameters are not a readable database of training lines, yet models can sometimes reproduce unusual or repeated sequences. Not stored as a row does not mean impossible to recover or automatically private.</p>
+          </div>
+        </div>
+      </section>
+      <section class="content" aria-labelledby="lora-title">
+        <div class="shell grid">
+          <div class="label"><h2 id="lora-title">How LoRA changes the picture</h2><p>The same kind of learned numbers, with a smaller training target.</p></div>
+          <div class="prose">
+            <p>Full fine-tuning changes many base-model parameters. Low-Rank Adaptation usually freezes them and trains smaller low-rank matrices for selected weights.</p>
+            <div class="lora">
+              <h3>Conceptual form</h3>
+              <code>effective weight = base weight + scaled LoRA update</code>
+              <p>A LoRA contains learned adapter parameters and configuration metadata, not one training caption per parameter. Rank, targets, scale, data, and training choices matter.</p>
+            </div>
+            <p>More parameters can increase capacity, file size, memory use, and computation. Parameter count is not a direct intelligence score.</p>
+          </div>
+        </div>
+      </section>
+      <section class="content" aria-labelledby="mixups-title">
+        <div class="shell grid">
+          <div class="label"><h2 id="mixups-title">Common mix-ups</h2><p>Four distinctions that prevent common errors.</p></div>
+          <div class="prose">
+            <ul class="myths">
+              <li><strong>A parameter is a training line.</strong>An example helps cause many updates; the example and learned values differ.</li>
+              <li><strong>A parameter is a logic decision.</strong>It is a number. Behavior emerges from many numbers, operations, and the current input.</li>
+              <li><strong>An embedding is always a parameter.</strong>A learned table contains parameters; a current input embedding is computed for that run.</li>
+              <li><strong>No literal rows means no privacy risk.</strong>Memorization, retention, logs, integrations, and settings remain separate risks.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="session" aria-labelledby="session-title">
+        <div class="shell session-grid">
+          <h2 id="session-title">How the lab uses this</h2>
+          <div>
+            <p><strong>Session 1:</strong> separate a training example, learned setting, and current prompt.</p>
+            <p><strong>Session 2:</strong> locate where organizational information enters or remains, then apply the Data Traffic Light.</p>
+            <p>Use the analogy in the presentation. Keep this page available for learners who want the technical detail.</p>
+          </div>
+        </div>
+      </section>
+      <section class="content" aria-labelledby="sources-title">
+        <div class="shell grid">
+          <div class="label"><h2 id="sources-title">Technical sources</h2><p>Primary documentation and research papers.</p></div>
+          <div class="prose sources">
+            <ul>
+              <li><a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.parameter.Parameter.html">PyTorch: Parameter</a></li>
+              <li><a href="https://arxiv.org/abs/2106.09685">LoRA paper</a></li>
+              <li><a href="https://huggingface.co/docs/peft/main/package_reference/lora">Hugging Face PEFT: LoRA</a></li>
+              <li><a href="https://arxiv.org/abs/2012.07805">Extracting Training Data from Large Language Models</a></li>
+            </ul>
+            <p>Product retention, training, account, and privacy behavior can change. Check the exact service, plan, and settings before delivery.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="shell foot">
+        <p>AI Without Fear: practical AI education with people and judgment at the center.</p>
+        <div>
+          <a href="/guides/">Guide library</a>
+          <a href="mailto:sohagan.dev@aiembeddedsystems.com?subject=AI%20Without%20Fear%20information%20request">Request information</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

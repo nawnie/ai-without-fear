@@ -1,0 +1,17 @@
+{
+  "name": "AI Without Fear",
+  "short_name": "AI Without Fear",
+  "description": "Practical community AI education with people, judgment, and community needs at the center.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#082847",
+  "icons": [
+    {
+      "src": "/assets/cora-firefly.jpg",
+      "sizes": "1254x1254",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
