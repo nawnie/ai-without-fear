@@ -13,7 +13,8 @@ export default function SessionPage({ session }) {
         title={session.title}
         body={session.purpose}
       >
-        <a className="button button--primary" href="/guides/workbook/">Open the learner workbook</a>
+        <a className="button button--primary" href={`/downloads/${session.slug}-guide.md`} download>Download this session guide</a>
+        <a className="text-link" href="/guides/workbook/">Open the learner workbook</a>
         <a className="text-link" href="/guides/presentation/">Use the presentation draft</a>
       </PageIntro>
 

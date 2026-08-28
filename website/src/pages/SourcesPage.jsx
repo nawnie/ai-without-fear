@@ -8,7 +8,9 @@ export default function SourcesPage() {
         eyebrow="Sources and further reading"
         title="Check current rules and product behavior before delivery."
         body="The workshop teaches a stable decision process. Vendor settings, account terms, retention, and public guidance can change. These first-party links were checked on July 16, 2026."
-      />
+      >
+        <a className="button button--primary" href="/downloads/sources-and-further-reading.md" download>Download the source list</a>
+      </PageIntro>
       <section className="page-section page-section--paper" aria-labelledby="source-list-title">
         <div className="shell editorial-split">
           <div className="section-label"><p className="page-eyebrow">Primary references</p><h2 id="source-list-title">Open the source, not a summary of it.</h2></div>

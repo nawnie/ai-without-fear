@@ -22,10 +22,15 @@ export default function GuidesPage() {
           </div>
           <div className="guide-directory">
             {guideLibrary.map((guide) => (
-              <a href={guide.href} key={guide.href}>
-                <span><strong>{guide.title}</strong><small>{guide.description}</small></span>
-                <em>{guide.format}</em>
-              </a>
+              <article key={guide.href}>
+                <a className="guide-directory__open" href={guide.href}>
+                  <span><strong>{guide.title}</strong><small>{guide.description}</small></span>
+                  <em>Read online</em>
+                </a>
+                <a className="guide-directory__download" href={guide.downloadHref} download>
+                  Download {guide.downloadLabel ?? 'Markdown'}
+                </a>
+              </article>
             ))}
           </div>
         </div>
@@ -39,11 +44,16 @@ export default function GuidesPage() {
           </div>
           <div className="session-link-list">
             {sessions.map((session) => (
-              <a href={session.resourceHref} key={session.slug}>
-                <span>{session.number}</span>
-                <strong>{session.title}</strong>
-                <small>{session.outcome}</small>
-              </a>
+              <article key={session.slug}>
+                <a className="session-link-list__open" href={session.resourceHref}>
+                  <span>{session.number}</span>
+                  <strong>{session.title}</strong>
+                  <small>{session.outcome}</small>
+                </a>
+                <a className="session-link-list__download" href={`/downloads/${session.slug}-guide.md`} download>
+                  Download Markdown
+                </a>
+              </article>
             ))}
           </div>
         </div>
