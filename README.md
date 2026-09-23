@@ -20,7 +20,7 @@ We publish approachable explanations, local-first tools, field guides, and repro
 | [AIWF Studio](https://github.com/nawnie/AIWF-Studio) | Local creative AI workspace |
 | [Model Operating Kernel](https://github.com/nawnie/Model-Operating-Kernel) | Local model routing and runtime coordination |
 | [ReTrain](https://github.com/nawnie/ReTrain) | Guided local training workbench |
-| [Cartographer SDK](https://github.com/nawnie/atlas-core) | Supporting context and operational-memory infrastructure |
+| [Atlas Core](https://github.com/nawnie/atlas-core) | Provenance, canonical state, approval, and recovery infrastructure |
 
 ## Research standard
 
